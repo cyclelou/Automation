@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Move</string>
+						<key>ActionUID</key>
+						<integer>15481018</integer>
+						<key>Button</key>
+						<integer>0</integer>
+						<key>ClickCount</key>
+						<integer>0</integer>
+						<key>DisplayMatches</key>
+						<false/>
+						<key>DragHorizontalPosition</key>
+						<string>0</string>
+						<key>DragVerticalPosition</key>
+						<string>0</string>
+						<key>Fuzz</key>
+						<integer>15</integer>
+						<key>HorizontalPositionExpression</key>
+						<string>0</string>
+						<key>MacroActionType</key>
+						<string>MouseMoveAndClick</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>MouseDrag</key>
+						<string>None</string>
+						<key>Relative</key>
+						<string>Window</string>
+						<key>RelativeCorner</key>
+						<string>Center</string>
+						<key>RestoreMouseLocation</key>
+						<false/>
+						<key>VerticalPositionExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>527266290.92103302</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>571067217.75889397</real>
+				<key>Name</key>
+				<string>Centre mouse to active app</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>071E35F0-DB30-454C-B93D-9709B4339218</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

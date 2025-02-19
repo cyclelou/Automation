@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484147</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>--------------------------------------------------------------------------------
+# Auth: Christopher Stone
+# dCre: 2016/08/11 22:43
+# dMod: 2016/08/11 22:53 
+# Appl: System Events &amp; Keyboard Maestro Editor
+# Task: Access the Macro Edit History Menu of the Keyboard Maestro Editor.
+# Libs: None
+# Osax: None
+# Tags: @Applescript, @Script, @System_Events, @Keyboard_Maestro, @Editor, @History
+--------------------------------------------------------------------------------
+
+tell application "System Events"
+   tell application process "Keyboard Maestro"
+      tell window "Keyboard Maestro Editor"
+         tell button 1 of group 5
+            perform action "AXShowMenu" -- Open the History Button Menu.
+         end tell
+      end tell
+   end tell
+   
+   key code 125 -- Select the first menu item.
+   
+end tell
+
+--------------------------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>524537292.88509703</real>
+				<key>ModificationDate</key>
+				<real>568498855.56367004</real>
+				<key>Name</key>
+				<string>Go to history</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>4</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4096</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>77C735BA-DA7F-4C7E-ABB4-4F91B377DD4C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

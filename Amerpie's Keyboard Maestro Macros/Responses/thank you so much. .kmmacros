@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>OnceWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>CreationDate</key>
+		<real>524584992.18696302</real>
+		<key>IsActive</key>
+		<false/>
+		<key>KeyCode</key>
+		<integer>13</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>15484410</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>Thank you so much. </string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>524585461.02559799</real>
+				<key>ModificationDate</key>
+				<real>538004502.62795997</real>
+				<key>Name</key>
+				<string>thank you so much. </string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>46</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>1CE840D7-7DFF-4E9E-922C-D2AE3E942D16</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>6656</integer>
+		<key>Name</key>
+		<string>Responses</string>
+		<key>PaletteUnderMouse</key>
+		<false/>
+		<key>Theme</key>
+		<dict>
+			<key>Opacity</key>
+			<integer>100</integer>
+			<key>Size</key>
+			<integer>21</integer>
+			<key>UseDefaultInstead</key>
+			<false/>
+			<key>UseIcon</key>
+			<false/>
+			<key>UseTrigger</key>
+			<true/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>462089DE-55B1-434E-A101-49C389FA55A8</string>
+		<key>UID</key>
+		<string>F25B823D-D8AF-4A16-A64A-8C73CC8AE355</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15489811</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "Finder"
+    set selectedFiles to selection as alias list
+    set destinationFolder to POSIX file "/Users/lou/Library/CloudStorage/GoogleDrive-lou.plummer@gmail.com/My Drive/Inbox"
+    
+    repeat with selectedFile in selectedFiles
+        set fileName to name of selectedFile
+        set destinationPath to (destinationFolder as text) &amp; fileName
+        
+        try
+            move selectedFile to destinationFolder
+            display notification "File '" &amp; fileName &amp; "' moved to Inbox" with title "File Moved"
+        on error errMsg
+            display dialog "An error occurred: " &amp; errMsg buttons {"OK"} default button "OK" with icon stop
+        end try
+    end repeat
+end tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>729046080.62856495</real>
+				<key>ModificationDate</key>
+				<real>729046116.56298697</real>
+				<key>Name</key>
+				<string>Move selected file to Google Drive Inbox</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B7A483B5-C9EF-4467-962C-F8A527D9EF05</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

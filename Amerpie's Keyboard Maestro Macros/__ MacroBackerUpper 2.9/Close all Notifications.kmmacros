@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>725560211.02260804</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16267922</integer>
+						<key>KeyCode</key>
+						<integer>30</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>6912</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>758388998.03553402</real>
+				<key>ModificationDate</key>
+				<real>758389145.73968899</real>
+				<key>Name</key>
+				<string>Close all Notifications</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B4ADCD94-A700-4511-9930-0F6539C8AD64</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ MacroBackerUpper 2.9</string>
+		<key>ToggleMacroUID</key>
+		<string>240B095D-918C-465D-BECE-A76AC22F9D3D</string>
+		<key>UID</key>
+		<string>B9551CF3-538D-440B-8609-FF0E36E310EB</string>
+	</dict>
+</array>
+</plist>

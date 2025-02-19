@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>725560211.02260804</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>ActionUID</key>
+						<integer>15603456</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5pAgAAKwAAAAEA
+						AABhAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzA5
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYS1Cb2xkO1xmMVxm
+						c3dpc3NcZmNoYXJzZXQwIEhlbHZl
+						dGljYTt9CntcY29sb3J0Ymw7XHJl
+						ZDI1NVxncmVlbjI1NVxibHVlMjU1
+						O1xyZWQwXGdyZWVuMFxibHVlMDt9
+						CntcKlxleHBhbmRlZGNvbG9ydGJs
+						OztcY3NzcmdiXGMwXGMwXGMwXGM4
+						NDcwNlxjbmFtZSBjb250cm9sVGV4
+						dENvbG9yO30KXHBhcmRcdHg1NjBc
+						dHgxMTIwXHR4MTY4MFx0eDIyNDBc
+						dHgyODAwXHR4MzM2MFx0eDM5MjBc
+						dHg0NDgwXHR4NTA0MFx0eDU2MDBc
+						dHg2MTYwXHR4NjcyMFxwYXJkaXJu
+						YXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
+						b3IwCgpcZjBcYlxmczI2IFxjZjIg
+						UHVycG9zZQpcZjFcYjAgXAogIFwn
+						OTUgV2hlbiBjYWxsZWQsIHVwZGF0
+						ZXMgdGhlIHRhc2sgbGlzdCB0YWJs
+						ZSBmb3IgdGhlIGxhc3QtY29tcGxl
+						dGVkIHRhc2ssIGFuZCBoaWdobGln
+						aHRzIHRoZSBub3ctb25nb2luZyB0
+						YXNrLiBJbnB1dCBpcyBzaW1wbHkg
+						YSBwaHJhc2UgdGhhdCBleGlzdHMg
+						aW4gdGhlIHRhc2sgbGlzdCB2YXJp
+						YWJsZS59AQAAACMAAAABAAAABwAA
+						AFRYVC5ydGYQAAAAhfhbZbYBAAAA
+						AAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>subs: Update task progress</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Case Statement</string>
+						<key>ActionUID</key>
+						<integer>15603457</integer>
+						<key>CaseEntries</key>
+						<array>
+							<dict>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Get row number of matching data in table</string>
+										<key>ActionUID</key>
+										<integer>15603458</integer>
+										<key>DisplayKind</key>
+										<string>Variable</string>
+										<key>HonourFailureSettings</key>
+										<true/>
+										<key>IncludeStdErr</key>
+										<false/>
+										<key>IncludedVariables</key>
+										<array>
+											<string>9999</string>
+										</array>
+										<key>MacroActionType</key>
+										<string>ExecuteShellScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>Source</key>
+										<string>Nothing</string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>echo "$KMVAR_instance_TheFullList" | grep -n "$KMVAR_instance_TheTask" | cut -d: -f1</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+										<key>Variable</key>
+										<string>instance_theRow</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>If text was found in the table, update that task and next task</string>
+										<key>ActionUID</key>
+										<integer>15603459</integer>
+										<key>CaseEntries</key>
+										<array>
+											<dict>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>Format the current and next cell rows, or reformat if last row</string>
+														<key>ActionUID</key>
+														<integer>15603460</integer>
+														<key>DisplayKind</key>
+														<string>None</string>
+														<key>MacroActionType</key>
+														<string>ExecuteJavaScriptForCustomPrompt</string>
+														<key>NotifyOnFailure</key>
+														<false/>
+														<key>Path</key>
+														<string></string>
+														<key>Text</key>
+														<string>var table = document.getElementById('TheTable');
+
+if (table) {
+
+	var rowNum = window.KeyboardMaestro.GetVariable('instance_theRow');
+
+	if (rowNum &lt; table.rows.length) {
+		var cell1 = table.rows[rowNum - 1].cells[0];
+		var cell2 = table.rows[rowNum - 1].cells[1];
+		var nextCell1 = table.rows[rowNum].cells[0];
+		var nextCell2 = table.rows[rowNum].cells[1];
+
+		cell1.style.backgroundColor = 'white';
+		cell2.style.backgroundColor = 'white';
+		cell1.textContent = '√';
+		cell1.style.color = 'black';
+		cell2.style.color = 'black';
+		nextCell2.style.backgroundColor = 'green';
+		nextCell2.style.color = 'white';
+	} else {
+		table.rows[rowNum - 1].cells[0].style.backgroundColor = 'white';
+		table.rows[rowNum - 1].cells[1].style.backgroundColor = 'white';
+		table.rows[rowNum - 1].cells[0].textContent = '√';
+		table.rows[rowNum - 1].cells[0].style.color = 'black';
+		table.rows[rowNum - 1].cells[1].style.color = 'black';
+	}
+}</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>UseText</key>
+														<true/>
+														<key>WindowID</key>
+														<string>TaskListWindow</string>
+													</dict>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15603461</integer>
+														<key>DisplayKind</key>
+														<string>None</string>
+														<key>MacroActionType</key>
+														<string>ExecuteJavaScriptForCustomPrompt</string>
+														<key>Path</key>
+														<string></string>
+														<key>Text</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>UseText</key>
+														<true/>
+														<key>WindowID</key>
+														<string></string>
+													</dict>
+												</array>
+												<key>ConditionType</key>
+												<string>IsNotEmpty</string>
+												<key>TestValue</key>
+												<string></string>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>Switch</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>instance_theRow</string>
+									</dict>
+								</array>
+								<key>ConditionType</key>
+								<string>IsNot</string>
+								<key>TestValue</key>
+								<string>true</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Switch</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>instance_disableTaskList</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>725560211.02406096</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>726519154.55380297</real>
+				<key>Name</key>
+				<string>subs | 98 Update task progress</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>Subroutine</string>
+						<key>Parameters</key>
+						<array>
+							<string>instance_TheTask</string>
+						</array>
+						<key>ReturnsValue</key>
+						<false/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7E4FA9E9-7C59-40AD-90BF-F2A8B0910C18</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ MacroBackerUpper 2.9</string>
+		<key>ToggleMacroUID</key>
+		<string>240B095D-918C-465D-BECE-A76AC22F9D3D</string>
+		<key>UID</key>
+		<string>B9551CF3-538D-440B-8609-FF0E36E310EB</string>
+	</dict>
+</array>
+</plist>

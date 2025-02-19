@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15483550</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC7tAwAAKwAAAAEA
+						AADlAwAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IEdvIFRvIE1hY3JvIGJ5
+						IE5hbWUgKFNwb3RsaWdodClcClZl
+						cnNpb246IDEuMFwKVXBkYXRlZDog
+						MjAxNi8wOC8xMyAxNTozNCBQRFRc
+						CkJ5OiBEYW4gVGhvbWFzXApcClBV
+						UlBPU0U6DVwKXApUaGlzIG1hY3Jv
+						IHBvcHMgdXAgYSBTcG90bGlnaHQg
+						c2VhcmNoIGFsbG93aW5nIHlvdSB0
+						byBzZWxlY3QgYSBtYWNybywgdGhl
+						biBpdCBjYXVzZSB0aGUgS00gRWRp
+						dG9yIHRvIHN0YXJ0IGVkaXRpbmcg
+						dGhlIHNlbGVjdGVkIG1hY3JvLlwK
+						XApOT1RFUzpcClwKVGhpcyBtYWNy
+						byBtYWtlcyB1c2Ugb2YgdGhlICJN
+						YWNybyBTY3JvbGwgUG9zaXRpb24i
+						IG1hY3JvcyAoaW5jbHVkZWQpIHRv
+						IHNhdmUgYW5kIHJlc3RvcmUgZWFj
+						aCBNYWNybydzIEVkaXRvciBzY3Jv
+						bGwgcG9zaXRpb24uXApcCklmIHlv
+						dSBkb24ndCB3YW50IHRoYXQgZmVh
+						dHVyZSwganVzdCBkaXNhYmxlIHRo
+						ZSB0d28gIkV4ZWN1dGUgTWFjcm8i
+						IGFjdGlvbnMgdGhhdCByZWZlcmVu
+						Y2UgdGhlICJNYWNybyBTY3JvbGwg
+						UG9zaXRpb24iIG1hY3Jvcy4gVGhl
+						eSdyZSB0aGUgTWFnZW50YS1jb2xv
+						cmVkIGFjdGlvbnMuDVwKXApSZXF1
+						aXJlczpcClwKXHVjMFx1OTY3OSAg
+						IlNwb3RsaWdodCBTZWFyY2ggUHJv
+						bXB0IiBtYWNybyAoaW5jbHVkZWQp
+						XApcdWMwXHU5Njc5ICAiTWFjcm8g
+						U2Nyb2xsIFBvc2l0aW9uIiBtYWNy
+						b3MgKGluY2x1ZGVkKVwKXApWRVJT
+						SU9OIEhJU1RPUlk6XAoxLjAgLSBJ
+						bml0aWFsIHZlcnNpb24ufQEAAAAj
+						AAAAAQAAAAcAAABUWFQucnRmEAAA
+						ADfjwFm2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>Go To Macro by Name (Spotlight) v1.0</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Get list of macros into sspData - Abort if error</string>
+						<key>ActionUID</key>
+						<integer>15483551</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Get list of macros into sspData</string>
+								<key>ActionUID</key>
+								<integer>15483552</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScriptForAutomation</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>(function() {
+	'use strict';
+	ObjC.import('AppKit');
+
+	var KMEngine = (function() {
+		var _engineApp;
+
+		return {
+			convertStringToPlist: function(str) {
+				return ObjC.deepUnwrap(
+					$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+						$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));
+			},
+
+			getEngineAppName: function() {
+				return "Keyboard Maestro Engine";
+			},
+
+			getEngineApp: function() {
+				if (!_engineApp)
+					_engineApp = Application(this.getEngineAppName());
+				return _engineApp;
+			},
+
+			getHotKeys: function(asString, getAll) {
+				return this.getEngineApp().gethotkeys({ asstring: asString === true, getall: getAll === true });
+			},
+
+			getHotKeysAsPlist: function(getAll) {
+				return this.convertStringToPlist(this.getHotKeys(true, getAll));
+			},
+
+			getMacros: function(binary) {
+				return this.getEngineApp().getmacros({
+					asstring: !binary
+				});
+			},
+
+			getMacrosAsPlist: function() {
+				return this.convertStringToPlist(this.getMacros(false));
+			},
+
+			setVariable: function(name, value) {
+				this.getEngineApp().setvariable(name, {
+					to: value
+				});
+			},
+		};
+	})();
+
+	function compare(a, b) {
+		return a &lt; b ? -1 : a &gt; b ? 1 : 0;
+	}
+
+	function alphanumCase(a, b) {
+		function chunkify(t) {
+			var tz = new Array();
+			var x = 0,
+				y = -1,
+				n = 0,
+				i, j;
+
+			while (i = (j = t.charAt(x++)).charCodeAt(0)) {
+				var m = (i == 46 || (i &gt;= 48 &amp;&amp; i &lt;= 57));
+				if (m !== n) {
+					tz[++y] = "";
+					n = m;
+				}
+				tz[y] += j;
+			}
+			return tz;
+		}
+
+		var aa = chunkify(a.toLowerCase());
+		var bb = chunkify(b.toLowerCase());
+
+		for (var x = 0; aa[x] &amp;&amp; bb[x]; x++) {
+			if (aa[x] !== bb[x]) {
+				var c = Number(aa[x]),
+					d = Number(bb[x]);
+				if (c == aa[x] &amp;&amp; d == bb[x]) {
+					return c - d;
+				} else return (aa[x] &gt; bb[x]) ? 1 : -1;
+			}
+		}
+		return aa.length - bb.length;
+	}
+
+	function run() {
+		var plist = KMEngine.getMacrosAsPlist();
+		var items = [];
+		plist.forEach(function(group) {
+			if (group.macros) {
+				group.macros.forEach(function(macro) {
+					items.push({
+						macroUUID: macro.uid,
+						macroName: macro.name,
+						groupName: group.name
+					});
+				});
+			}
+		});
+
+		items = items.filter(function(item) {
+			return item.macroName.indexOf("---") &lt; 0 &amp;&amp;
+				!item.macroName.endsWith("[Quick Macro]");
+		}).sort(function(a, b) {
+			var result = alphanumCase(a.macroName, b.macroName);
+			if (result === 0)
+				result = alphanumCase(a.groupName, b.groupName);
+			return result;
+		});
+
+		KMEngine.setVariable("sspData", JSON.stringify(items));
+		return "OK";
+	}
+
+	try {
+		return run();
+	} catch (e) {
+		return "Error: " + e.message;
+	}
+})();</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseModernSyntax</key>
+								<false/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>gtmbnResult</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>Abort if error</string>
+								<key>ActionUID</key>
+								<integer>15483553</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>gtmbnResult</string>
+											<key>VariableConditionType</key>
+											<string>IsNot</string>
+											<key>VariableValue</key>
+											<string>OK</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15483554</integer>
+										<key>DeviceID</key>
+										<string>SOUNDEFFECTS</string>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>PlaySound</string>
+										<key>Path</key>
+										<string>/System/Library/Sounds/Basso.aiff</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Notify error '%Variable%gtmbnResult%'</string>
+										<key>ActionUID</key>
+										<integer>15483555</integer>
+										<key>Buttons</key>
+										<array>
+											<dict>
+												<key>Button</key>
+												<string>OK</string>
+												<key>Cancel</key>
+												<false/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>PromptForUserInput</string>
+										<key>Prompt</key>
+										<string>%Variable%gtmbnResult%</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Title</key>
+										<string>%ExecutingThisMacro%</string>
+										<key>Variables</key>
+										<array/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15483556</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionName</key>
+						<string>Run the Spotlight prompt to select a macro</string>
+						<key>ActionUID</key>
+						<integer>15483557</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15483558</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>title: Go To Macro
+placeholder: Enter the macro name
+dataType: json
+jsonDisplayField: macroName
+jsonReturnField: macroUUID
+jsonAdditionalSearchFields: groupName
+jsonStatusLineFields: groupName
+jsonStatusLineTemplate: Group: $1
+customPromptWidth: 600
+customPickListSize:25
+saveWindowPositionVariableName: DND__gtmbnWindowPosition</string>
+								<key>Variable</key>
+								<string>sspOptions</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15483559</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>0BC9A4AD-D089-4160-B5E5-ECF032644797</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<false/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionUID</key>
+						<integer>15483560</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>9D6443E8-4BCC-4FFC-B5F5-B1BA6B1A4E6F</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionName</key>
+						<string>Go to the selected macro - Abort if error</string>
+						<key>ActionUID</key>
+						<integer>15483561</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15483562</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScriptForAutomation</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>(function() {
+	'use strict';
+
+	var KMEngine = (function() {
+		var _engineApp;
+
+		return {
+			getEngineAppName: function() {
+				return "Keyboard Maestro Engine";
+			},
+
+			getEngineApp: function() {
+				if (!_engineApp)
+					_engineApp = Application(this.getEngineAppName());
+				return _engineApp;
+			},
+
+			getVariable: function(name, required) {
+				var result = this.getEngineApp().getvariable(name);
+				if (!result &amp;&amp; required)
+					throw Error("Variable '" + name + "' is empty");
+				return result;
+			},
+		};
+	})();
+
+	var KMEditor = (function() {
+		var _editorAppName = "Keyboard Maestro";
+		var _editorApp;
+
+		return {
+			editMacro: function(uuidOrUniqueName) {
+				this.getEditorApp().editmacro(uuidOrUniqueName);
+			},
+
+			getEditorApp: function() {
+				return _editorApp ? _editorApp : _editorApp = Application(_editorAppName);
+			},
+
+			getEditorAppName: function() {return _editorAppName;},
+		};
+	})();
+
+	function run() {
+		var macroUUID = KMEngine.getVariable("sspResult", true);
+		KMEditor.editMacro(macroUUID);
+		return "OK";
+	}
+
+	try {
+		return run();
+	} catch (e) {
+		return "Error: " + e.message;
+	}
+})();</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseModernSyntax</key>
+								<false/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>gtmbnResult</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>Abort if error</string>
+								<key>ActionUID</key>
+								<integer>15483563</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>gtmbnResult</string>
+											<key>VariableConditionType</key>
+											<string>IsNot</string>
+											<key>VariableValue</key>
+											<string>OK</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15483564</integer>
+										<key>DeviceID</key>
+										<string>SOUNDEFFECTS</string>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>PlaySound</string>
+										<key>Path</key>
+										<string>/System/Library/Sounds/Basso.aiff</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Notify error '%Variable%gtmbnResult%'</string>
+										<key>ActionUID</key>
+										<integer>15483565</integer>
+										<key>Buttons</key>
+										<array>
+											<dict>
+												<key>Button</key>
+												<string>OK</string>
+												<key>Cancel</key>
+												<false/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>PromptForUserInput</string>
+										<key>Prompt</key>
+										<string>%Variable%gtmbnResult%</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Title</key>
+										<string>%ExecutingThisMacro%</string>
+										<key>Variables</key>
+										<array/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15483566</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionUID</key>
+						<integer>15483567</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>369E2E9D-9F91-4A37-878F-4C537C94735F</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15483568</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15483569</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>gtmbnResult</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15483570</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>sspResult</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15483571</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>sspResultButton</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>492270104.28958201</real>
+				<key>CustomIconData</key>
+				<data>
+				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
+				AG9kc2NtAAABeAAABZxjcHJ0AAAHFAAAADh3dHB0AAAH
+				TAAAABRyWFlaAAAHYAAAABRnWFlaAAAHdAAAABRiWFla
+				AAAHiAAAABRyVFJDAAAHnAAAAA5jaGFkAAAHrAAAACxi
+				VFJDAAAHnAAAAA5nVFJDAAAHnAAAAA5kZXNjAAAAAAAA
+				ABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAU
+				R2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAbWx1YwAAAAAAAAAfAAAADHNrU0sAAAAoAAABhGRh
+				REsAAAAuAAABrGNhRVMAAAAkAAAB2nZpVk4AAAAkAAAB
+				/nB0QlIAAAAmAAACInVrVUEAAAAqAAACSGZyRlUAAAAo
+				AAACcmh1SFUAAAAoAAACmnpoVFcAAAAWAAACwm5iTk8A
+				AAAmAAAC2GNzQ1oAAAAiAAAC/mhlSUwAAAAeAAADIGl0
+				SVQAAAAoAAADPnJvUk8AAAAkAAADZmRlREUAAAAsAAAD
+				imtvS1IAAAAWAAADtnN2U0UAAAAmAAAC2HpoQ04AAAAW
+				AAADzGphSlAAAAAaAAAD4mVsR1IAAAAiAAAD/HB0UE8A
+				AAAmAAAEHm5sTkwAAAAoAAAERGVzRVMAAAAmAAAEHnRo
+				VEgAAAAkAAAEbHRyVFIAAAAiAAAEkGZpRkkAAAAoAAAE
+				smhySFIAAAAoAAAE2nBsUEwAAAAsAAAFAnJ1UlUAAAAi
+				AAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAmAAAFdgBWAWEA
+				ZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBp
+				AGwARwBlAG4AZQByAGUAbAAgAFIARwBCAC0AYgBlAHMA
+				awByAGkAdgBlAGwAcwBlAFAAZQByAGYAaQBsACAAUgBH
+				AEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAAaADsAG4A
+				aAAgAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYAaQBs
+				ACAAUgBHAEIAIABHAGUAbgDpAHIAaQBjAG8EFwQwBDME
+				MAQ7BEwEPQQ4BDkAIAQ/BEAEPgREBDAEOQQ7ACAAUgBH
+				AEIAUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBxAHUA
+				ZQAgAFIAVgBCAMEAbAB0AGEAbADhAG4AbwBzACAAUgBH
+				AEIAIABwAHIAbwBmAGkAbJAadSgAIABSAEcAQgAggnJf
+				aWPPj/AARwBlAG4AZQByAGkAcwBrACAAUgBHAEIALQBw
+				AHIAbwBmAGkAbABPAGIAZQBjAG4A/QAgAFIARwBCACAA
+				cAByAG8AZgBpAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAg
+				BdsF3AXcBdkAUAByAG8AZgBpAGwAbwAgAFIARwBCACAA
+				ZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYAaQBsACAAUgBH
+				AEIAIABnAGUAbgBlAHIAaQBjAEEAbABsAGcAZQBtAGUA
+				aQBuAGUAcwAgAFIARwBCAC0AUAByAG8AZgBpAGzHfLwY
+				ACAAUgBHAEIAINUEuFzTDMd8Zm6QGgAgAFIARwBCACBj
+				z4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDVMKEwpDDr
+				A5MDtQO9A7kDugPMACADwAPBA78DxgOvA7sAIABSAEcA
+				QgBQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6QBy
+				AGkAYwBvAEEAbABnAGUAbQBlAGUAbgAgAFIARwBCAC0A
+				cAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAAUgBH
+				AEIAIA4XDjEOSA4nDkQOGwBHAGUAbgBlAGwAIABSAEcA
+				QgAgAFAAcgBvAGYAaQBsAGkAWQBsAGUAaQBuAGUAbgAg
+				AFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcAZQBuAGUA
+				cgBpAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkAbABV
+				AG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkA
+				bAAgAFIARwBCBB4EMQRJBDgEOQAgBD8EQAQ+BEQEOAQ7
+				BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoGQQAgAFIA
+				RwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABS
+				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
+				AwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAQAACoe
+				h3MABwAAB9gAAComAAA0sgAIAAgACAAIAAEAAQABAAEA
+				AAfYYXBwbAIgAABtbnRyUkdCIFhZWiAH2QACABkACwAa
+				AAthY3NwQVBQTAAAAABhcHBsAAAAAAAAAAAAAAAAAAAA
+				AAAA9tYAAQAAAADTLWFwcGwAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtk
+				ZXNjAAABCAAAAG9kc2NtAAABeAAABZxjcHJ0AAAHFAAA
+				ADh3dHB0AAAHTAAAABRyWFlaAAAHYAAAABRnWFlaAAAH
+				dAAAABRiWFlaAAAHiAAAABRyVFJDAAAHnAAAAA5jaGFk
+				AAAHrAAAACxiVFJDAAAHnAAAAA5nVFJDAAAHnAAAAA5k
+				ZXNjAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAA
+				AAAAAAAAAAAUR2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAfAAAADHNrU0sA
+				AAAoAAABhGRhREsAAAAuAAABrGNhRVMAAAAkAAAB2nZp
+				Vk4AAAAkAAAB/nB0QlIAAAAmAAACInVrVUEAAAAqAAAC
+				SGZyRlUAAAAoAAACcmh1SFUAAAAoAAACmnpoVFcAAAAW
+				AAACwm5iTk8AAAAmAAAC2GNzQ1oAAAAiAAAC/mhlSUwA
+				AAAeAAADIGl0SVQAAAAoAAADPnJvUk8AAAAkAAADZmRl
+				REUAAAAsAAADimtvS1IAAAAWAAADtnN2U0UAAAAmAAAC
+				2HpoQ04AAAAWAAADzGphSlAAAAAaAAAD4mVsR1IAAAAi
+				AAAD/HB0UE8AAAAmAAAEHm5sTkwAAAAoAAAERGVzRVMA
+				AAAmAAAEHnRoVEgAAAAkAAAEbHRyVFIAAAAiAAAEkGZp
+				RkkAAAAoAAAEsmhySFIAAAAoAAAE2nBsUEwAAAAsAAAF
+				AnJ1UlUAAAAiAAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAm
+				AAAFdgBWAWEAZQBvAGIAZQBjAG4A/QAgAFIARwBCACAA
+				cAByAG8AZgBpAGwARwBlAG4AZQByAGUAbAAgAFIARwBC
+				AC0AYgBlAHMAawByAGkAdgBlAGwAcwBlAFAAZQByAGYA
+				aQBsACAAUgBHAEIAIABnAGUAbgDoAHIAaQBjAEMepQB1
+				ACAAaADsAG4AaAAgAFIARwBCACAAQwBoAHUAbgBnAFAA
+				ZQByAGYAaQBsACAAUgBHAEIAIABHAGUAbgDpAHIAaQBj
+				AG8EFwQwBDMEMAQ7BEwEPQQ4BDkAIAQ/BEAEPgREBDAE
+				OQQ7ACAAUgBHAEIAUAByAG8AZgBpAGwAIABnAOkAbgDp
+				AHIAaQBxAHUAZQAgAFIAVgBCAMEAbAB0AGEAbADhAG4A
+				bwBzACAAUgBHAEIAIABwAHIAbwBmAGkAbJAadSgAIABS
+				AEcAQgAggnJfaWPPj/AARwBlAG4AZQByAGkAcwBrACAA
+				UgBHAEIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A/QAg
+				AFIARwBCACAAcAByAG8AZgBpAGwF5AXoBdUF5AXZBdwA
+				IABSAEcAQgAgBdsF3AXcBdkAUAByAG8AZgBpAGwAbwAg
+				AFIARwBCACAAZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYA
+				aQBsACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAEEAbABs
+				AGcAZQBtAGUAaQBuAGUAcwAgAFIARwBCAC0AUAByAG8A
+				ZgBpAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8Zm6QGgAg
+				AFIARwBCACBjz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw
+				7TDVMKEwpDDrA5MDtQO9A7kDugPMACADwAPBA78DxgOv
+				A7sAIABSAEcAQgBQAGUAcgBmAGkAbAAgAFIARwBCACAA
+				ZwBlAG4A6QByAGkAYwBvAEEAbABnAGUAbQBlAGUAbgAg
+				AFIARwBCAC0AcAByAG8AZgBpAGUAbA5CDhsOIw5EDh8O
+				JQ5MACAAUgBHAEIAIA4XDjEOSA4nDkQOGwBHAGUAbgBl
+				AGwAIABSAEcAQgAgAFAAcgBvAGYAaQBsAGkAWQBsAGUA
+				aQBuAGUAbgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABp
+				AEcAZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIA
+				bwBmAGkAbABVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABw
+				AHIAbwBmAGkAbAAgAFIARwBCBB4EMQRJBDgEOQAgBD8E
+				QAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYx
+				BkoGQQAgAFIARwBCACAGJwZEBjkGJwZFAEcAZQBuAGUA
+				cgBpAGMAIABSAEcAQgAgAFAAcgBvAGYAaQBsAGV0ZXh0
+				AAAAAENvcHlyaWdodCAyMDA3IEFwcGxlIEluYy4sIGFs
+				bCByaWdodHMgcmVzZXJ2ZWQuAFhZWiAAAAAAAADzUgAB
+				AAAAARbPWFlaIAAAAAAAAHRNAAA97gAAA9BYWVogAAAA
+				AAAAWnUAAKxzAAAXNFhZWiAAAAAAAAAoGgAAFZ8AALg2
+				Y3VydgAAAAAAAAABAc0AAHNmMzIAAAAAAAEMQgAABd7/
+				//MmAAAHkgAA/ZH///ui///9owAAA9wAAMBsgAAgUDgk
+				Fg0HhEJhULhkNhABgYJgb2h0Vi0KAQWG4STLxbr0UL5d
+				j6YkXk0EAkDfkIJ52JDEHpEHInPZbQhUfLrfbBk4AAYM
+				AAgBYTD5BBYMJY8BAMDgmfb4d7nebwXTBAgNbrrIJfHZ
+				/Rx0Q4qTy+ULuRRgTBdezjfK2iwPEQpQQmHKNPoOB0QC
+				4fdgAeLrBoAdDgwIrH7PABQL4CAAKBAPAAIAwHAC6YrB
+				eiTMSjMLzbT4VkJAIDB4gGaPYopHgWFZLNbXAASDEpfj
+				3fwAXKeCwAazDEAALJ9ZwAEItxj7fcCAwIyjMaTSfCbM
+				6tM7tZ7zUUEAoIDg7Eg1SDAHptYoEFhDlb+fQDAAHA8Q
+				djh5KrO48AAvJbZAA9MLvAB9HuiB+n8f4AAIAwCgAapu
+				G2fxTjSXQ7oIyYPB8D4WkSXwOjSSwBguHx2gAAR+pSBA
+				EogfBzvYZw7jcAAMiQXIABMMBqv+ezGH5AgAH6AUCmuU
+				52HMahHHUOqDAECANA+RhmAsHxzhGE45FqAAHAwiACH6
+				iBrkyGQAHMWglgAGxEEwAAJhkeL/nwiB+AI25mE0cxxG
+				iQx1DWfx8n/KqBgUBQgDyCYMC+PICAGCYGgSEhpNiFhv
+				AAexxAuAB2GSF4AAMEhUnoGxAGuA4OhYCACn0ACVmERp
+				yG8Z5EHSNJ/H2f5dIIBgECgS4IgoK40AGAQFAAd53lgX
+				R/y2fACgCEwUS2dZ1HufZfF0fJ9meZQdEADJDiUPoQBi
+				V48m6bRmkYdQ0VOABfoQDYJlTAsDAAeh7l2XB4nsTYtI
+				Efr/REoAAT0gbkoGG5BAwYwA1MChkEMdAxX+ACSoWDIG
+				lUf56HwXRcHmfZQC4gR+RCkwCAcFIDkMeRtnyWl0GEiw
+				EgEJBJtsXhAY/kKexEgbAoFNecZ9n6LoCAAADwEAAAMA
+				AAABABAAAAEBAAMAAAABABAAAAECAAMAAAAEAAA1bAED
+				AAMAAAABAAUAAAEGAAMAAAABAAIAAAERAAQAAAABAAAx
+				/gESAAMAAAABAAEAAAEVAAMAAAABAAQAAAEWAAMAAAAB
+				ABAAAAEXAAQAAAABAAACswEcAAMAAAABAAEAAAE9AAMA
+				AAABAAIAAAFSAAMAAAABAAEAAAFTAAMAAAAEAAA1dIdz
+				AAcAAAfYAAA1fAAAAAAACAAIAAgACAABAAEAAQABAAAH
+				2GFwcGwCIAAAbW50clJHQiBYWVogB9kAAgAZAAsAGgAL
+				YWNzcEFQUEwAAAAAYXBwbAAAAAAAAAAAAAAAAAAAAAAA
+				APbWAAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZGVz
+				YwAAAQgAAABvZHNjbQAAAXgAAAWcY3BydAAABxQAAAA4
+				d3RwdAAAB0wAAAAUclhZWgAAB2AAAAAUZ1hZWgAAB3QA
+				AAAUYlhZWgAAB4gAAAAUclRSQwAAB5wAAAAOY2hhZAAA
+				B6wAAAAsYlRSQwAAB5wAAAAOZ1RSQwAAB5wAAAAOZGVz
+				YwAAAAAAAAAUR2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAA
+				AAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAG1sdWMAAAAAAAAAHwAAAAxza1NLAAAA
+				KAAAAYRkYURLAAAALgAAAaxjYUVTAAAAJAAAAdp2aVZO
+				AAAAJAAAAf5wdEJSAAAAJgAAAiJ1a1VBAAAAKgAAAkhm
+				ckZVAAAAKAAAAnJodUhVAAAAKAAAApp6aFRXAAAAFgAA
+				AsJuYk5PAAAAJgAAAthjc0NaAAAAIgAAAv5oZUlMAAAA
+				HgAAAyBpdElUAAAAKAAAAz5yb1JPAAAAJAAAA2ZkZURF
+				AAAALAAAA4prb0tSAAAAFgAAA7ZzdlNFAAAAJgAAAth6
+				aENOAAAAFgAAA8xqYUpQAAAAGgAAA+JlbEdSAAAAIgAA
+				A/xwdFBPAAAAJgAABB5ubE5MAAAAKAAABERlc0VTAAAA
+				JgAABB50aFRIAAAAJAAABGx0clRSAAAAIgAABJBmaUZJ
+				AAAAKAAABLJockhSAAAAKAAABNpwbFBMAAAALAAABQJy
+				dVJVAAAAIgAABS5hckVHAAAAJgAABVBlblVTAAAAJgAA
+				BXYAVgFhAGUAbwBiAGUAYwBuAP0AIABSAEcAQgAgAHAA
+				cgBvAGYAaQBsAEcAZQBuAGUAcgBlAGwAIABSAEcAQgAt
+				AGIAZQBzAGsAcgBpAHYAZQBsAHMAZQBQAGUAcgBmAGkA
+				bAAgAFIARwBCACAAZwBlAG4A6AByAGkAYwBDHqUAdQAg
+				AGgA7ABuAGgAIABSAEcAQgAgAEMAaAB1AG4AZwBQAGUA
+				cgBmAGkAbAAgAFIARwBCACAARwBlAG4A6QByAGkAYwBv
+				BBcEMAQzBDAEOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkE
+				OwAgAFIARwBCAFAAcgBvAGYAaQBsACAAZwDpAG4A6QBy
+				AGkAcQB1AGUAIABSAFYAQgDBAGwAdABhAGwA4QBuAG8A
+				cwAgAFIARwBCACAAcAByAG8AZgBpAGyQGnUoACAAUgBH
+				AEIAIIJyX2ljz4/wAEcAZQBuAGUAcgBpAHMAawAgAFIA
+				RwBCAC0AcAByAG8AZgBpAGwATwBiAGUAYwBuAP0AIABS
+				AEcAQgAgAHAAcgBvAGYAaQBsBeQF6AXVBeQF2QXcACAA
+				UgBHAEIAIAXbBdwF3AXZAFAAcgBvAGYAaQBsAG8AIABS
+				AEcAQgAgAGcAZQBuAGUAcgBpAGMAbwBQAHIAbwBmAGkA
+				bAAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBBAGwAbABn
+				AGUAbQBlAGkAbgBlAHMAIABSAEcAQgAtAFAAcgBvAGYA
+				aQBsx3y8GAAgAFIARwBCACDVBLhc0wzHfGZukBoAIABS
+				AEcAQgAgY8+P8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w
+				1TChMKQw6wOTA7UDvQO5A7oDzAAgA8ADwQO/A8YDrwO7
+				ACAAUgBHAEIAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcA
+				ZQBuAOkAcgBpAGMAbwBBAGwAZwBlAG0AZQBlAG4AIABS
+				AEcAQgAtAHAAcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUO
+				TAAgAFIARwBCACAOFw4xDkgOJw5EDhsARwBlAG4AZQBs
+				ACAAUgBHAEIAIABQAHIAbwBmAGkAbABpAFkAbABlAGkA
+				bgBlAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBpAGwAaQBH
+				AGUAbgBlAHIAaQENAGsAaQAgAFIARwBCACAAcAByAG8A
+				ZgBpAGwAVQBuAGkAdwBlAHIAcwBhAGwAbgB5ACAAcABy
+				AG8AZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkAIAQ/BEAE
+				PgREBDgEOwRMACAAUgBHAEIGRQZEBkEAIAYqBjkGMQZK
+				BkEAIABSAEcAQgAgBicGRAY5BicGRQBHAGUAbgBlAHIA
+				aQBjACAAUgBHAEIAIABQAHIAbwBmAGkAbABldGV4dAAA
+				AABDb3B5cmlnaHQgMjAwNyBBcHBsZSBJbmMuLCBhbGwg
+				cmlnaHRzIHJlc2VydmVkLgBYWVogAAAAAAAA81IAAQAA
+				AAEWz1hZWiAAAAAAAAB0TQAAPe4AAAPQWFlaIAAAAAAA
+				AFp1AACscwAAFzRYWVogAAAAAAAAKBoAABWfAAC4NmN1
+				cnYAAAAAAAAAAQHNAABzZjMyAAAAAAABDEIAAAXe///z
+				JgAAB5IAAP2R///7ov///aMAAAPcAADAbA==
+				</data>
+				<key>ModificationDate</key>
+				<real>568498849.25584304</real>
+				<key>Name</key>
+				<string>Go to macro by name (spotlight)</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>28</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>14214463-0013-4E99-8B40-9C7FF1ED68C0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482361</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4aAgAAKwAAAAEA
+						AAASAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IFJldmVhbCBNYWNybyBH
+						cm91cFwKVmVyc2lvbjogMS4wXApV
+						cGRhdGVkOiAyMDE2LzA2LzIxIDE2
+						OjMwIFBEVFwKQnk6IERhbiBUaG9t
+						YXNcClwKUFVSUE9TRTpcClwKUmV2
+						ZWFscyB0aGUgR3JvdXAgZm9yIHRo
+						ZSBjdXJyZW50IE1hY3JvLlwKXApV
+						U0FHRTpcClwKMSkgU2VsZWN0IGEg
+						TWFjcm8gaW4gS2V5Ym9hcmQgTWFl
+						c3Ryby5cCjIpIFRyaWdnZXIgdGhp
+						cyBtYWNyby5cClwKVkVSU0lPTiBI
+						SVNUT1JZOlwKMS4wIC0gSW5pdGlh
+						bCB2ZXJzaW9uLn0BAAAAIwAAAAEA
+						AAAHAAAAVFhULnJ0ZhAAAAA348BZ
+						tgEAAAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Reveal Macro Group v1.0</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Copy UUID of selected Macro to clipboard, cancel if Macro not selected, etc.</string>
+						<key>ActionUID</key>
+						<integer>15482362</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482363</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>Edit</string>
+									<string>Copy as</string>
+									<string>Copy UUID</string>
+								</array>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.stairways.keyboardmaestro.editor</string>
+									<key>Name</key>
+									<string>Keyboard Maestro</string>
+									<key>NewFile</key>
+									<string>/Applications/Keyboard Maestro.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482364</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>.3</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>Cancel if the "Copy as UUID" failed, or the clipboard doesn't contain a UUID</string>
+								<key>ActionUID</key>
+								<integer>15482365</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Text</string>
+											<key>Text</key>
+											<string>%ActionResult%</string>
+											<key>TextConditionType</key>
+											<string>IsNot</string>
+											<key>TextValue</key>
+											<string>OK</string>
+										</dict>
+										<dict>
+											<key>ClipboardConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>ClipboardText</key>
+											<string>(?i)[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}</string>
+											<key>ConditionType</key>
+											<string>Clipboard</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>Any</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15482366</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Notification</string>
+										<key>SoundName</key>
+										<string>Basso</string>
+										<key>Subtitle</key>
+										<string></string>
+										<key>Text</key>
+										<string>You must select a Macro first.</string>
+										<key>Title</key>
+										<string>%ExecutingMacro%</string>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15482367</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482368</integer>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string>/Users/Dan/Documents/Development/JXA/Keyboard Maestro/Work/Reveal Macro Group.scpt</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+
+	function getStringFromClipboard() {
+		var app = Application.currentApplication();
+		app.includeStandardAdditions = true;
+		var s = app.theClipboard();
+		if (s == undefined) {
+			throw Error("No clipboard data");
+		}
+		return s.toString();
+	}
+
+	function convertArrayToPlist(array) {
+		return ObjC.deepUnwrap(
+			$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+				$(array).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));
+	};
+
+	function getAllKMGroupsAndMacrosArray(kme) {
+		var _kme = kme || Application("Keyboard Maestro Engine");
+		var _macros = _kme.getmacros({
+				asstring: true
+			});
+		return convertArrayToPlist(_macros);
+	}
+
+	function getKMMacroAndGroupByMacroUUID(macroUUID, plist) {
+		var _result = undefined;
+		plist.find(function(group) {
+			var macros = group.macros;
+			if (!macros) {
+				return false;
+			}
+			var macro = macros.find(function(m) {
+				return m.uid === macroUUID;
+			});
+			if (macro) {
+				_result = {
+					macro: macro,
+					group: group
+				};
+				return true;
+			}
+			return false;
+		});
+		return _result;
+	}
+
+	function selectMacroGroup(groupName) {
+		var _kmProc = Application("System Events").processes["Keyboard Maestro"];
+		_kmProc.windows[0].groups[0].splitterGroups[0].scrollAreas[0].groups.whose({description: groupName})[0].click();
+	}
+
+	try {
+		var _macroUUID = getStringFromClipboard();
+		if (!_macroUUID) {
+			throw Error("No Macro UUID on the Clipboard");
+		}
+
+		var _plist = getAllKMGroupsAndMacrosArray();
+
+		var _macroAndGroupInfo = getKMMacroAndGroupByMacroUUID(_macroUUID, _plist);
+		if (!_macroAndGroupInfo) {
+			throw Error("You have to select a macro first, not a macro group");
+		}
+
+		selectMacroGroup(_macroAndGroupInfo.group.name);
+	} catch (err) {
+		return "## Error: " + err.message;
+	}
+})()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>488243746.91831601</real>
+				<key>CustomIconData</key>
+				<string>KMEP-Left</string>
+				<key>ModificationDate</key>
+				<real>568498837.14129603</real>
+				<key>Name</key>
+				<string>Reveal macro group</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>4D01742B-6BD4-46A1-99BB-03F22ADC8444</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

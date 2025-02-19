@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>719152176.82849801</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array/>
+				<key>CreationDate</key>
+				<real>719152176.82880199</real>
+				<key>CustomIconData</key>
+				<string>KMEP-HistoryTemplate</string>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>721358382.10148799</real>
+				<key>Name</key>
+				<string>upd | ━━━ UPDATE RELATED ━━━</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>24940CA4-A8DB-441F-B9F0-B9D17EF59CF5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ Quick Web Search 1.6</string>
+		<key>ToggleMacroUID</key>
+		<string>0352452F-F4A3-4849-AB32-007DBD3F2622</string>
+		<key>UID</key>
+		<string>36DE5B40-178B-4949-8E91-8CA5C2C3574B</string>
+	</dict>
+</array>
+</plist>

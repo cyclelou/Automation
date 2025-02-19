@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481030</integer>
+						<key>DisplayKind</key>
+						<string>Clipboard</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>tell application "Safari" to return URL of front document</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481031</integer>
+						<key>DisplayKind</key>
+						<string>Clipboard</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>cd ~/src/clones
+url=$(pbpaste) dest_dir=${url##*/} dest_dir=${dest_dir%.git}; 
+/usr/bin/git clone "$url" "$dest_dir"
+osascript -e 'tell application "Keyboard Maestro Engine" to setvariable "MYPATH" to "'$dest_dir'"'</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481032</integer>
+						<key>DeviceID</key>
+						<string>SOUNDEFFECTS</string>
+						<key>MacroActionType</key>
+						<string>PlaySound</string>
+						<key>Path</key>
+						<string>/System/Library/Sounds/Hero.aiff</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>522962877.89187002</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>561992284.36079395</real>
+				<key>Name</key>
+				<string>Clone repo to ~/src/clones</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>62A33B3A-EB91-42FE-B371-D1B9B459110D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

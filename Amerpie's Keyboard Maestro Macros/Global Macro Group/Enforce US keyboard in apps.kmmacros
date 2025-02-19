@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15485197</integer>
+						<key>KeyboardLayoutID</key>
+						<string>com.apple.keylayout.US</string>
+						<key>KeyboardLayoutName</key>
+						<string>U.S.</string>
+						<key>MacroActionType</key>
+						<string>SetKeyboardLayout</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>490477040.05400699</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>558299271.07904398</real>
+				<key>Name</key>
+				<string>Enforce US keyboard in apps</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.googlecode.iterm2</string>
+							<key>Name</key>
+							<string>iTerm</string>
+							<key>NewFile</key>
+							<string>/Applications/iTerm.app</string>
+						</dict>
+						<key>FireType2</key>
+						<string>Activate</string>
+						<key>MacroTriggerType</key>
+						<string>Application</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.microsoft.VSCode</string>
+							<key>Name</key>
+							<string>Visual Studio Code</string>
+						</dict>
+						<key>FireType2</key>
+						<string>Activate</string>
+						<key>MacroTriggerType</key>
+						<string>Application</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7683F331-E448-47A9-800E-DA6D99A6DB32</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

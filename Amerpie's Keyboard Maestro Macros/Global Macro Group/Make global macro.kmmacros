@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>Select a macro group</string>
+						<key>ActionUID</key>
+						<integer>15481743</integer>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>----------------------------------------------------------------# Auth: Christopher Stone# dCre: 2019/01/25 06:15# dMod: 2019/01/25 07:07# Appl: Keyboard Maestro# Task: Create and Select a New Global Macro in Group "Global Macro Group"#     : then Select the Macro Name Field .# Libs: None# Osax: None# Tags: @Applescript, @Script, @Keyboard_Maestro, @Create, @Select, @New, @Global, @Macro, @Name, @Field----------------------------------------------------------------try		tell application "Keyboard Maestro"		activate				tell macro group "Global Macro Group"			set newMacro to make new macro with properties {name:"New Global Macro"}		end tell				select macro group "Global Macro Group"		select newMacro			end tell		tell application "System Events"		tell application process "Keyboard Maestro"			tell window "Keyboard Maestro Editor"				tell group 1					tell splitter group 1						tell scroll area 3														tell scroll bar 1								if value ≠ 0 then set value to 0							end tell														if exists (first text field whose accessibility description is "Macro Group Name") then								tell (first text field whose accessibility description is "Macro Group Name")									set focused to true								end tell							else								tell (first text field whose accessibility description is "Macro Name")									set focused to true								end tell							end if						end tell					end tell				end tell			end tell		end tell	end tell	on error e number n	set e to e &amp; return &amp; return &amp; "Num: " &amp; n	if n ≠ -128 then		try			tell application (path to frontmost application as text) to set ddButton to button returned of ¬				(display dialog e with title "ERROR!" buttons {"Copy Error Message", "Cancel", "OK"} ¬					default button "OK" giving up after 30)			if ddButton = "Copy Error Message" then set the clipboard to e		end try	end ifend try----------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>570105104.13402998</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>570116565.443537</real>
+				<key>Name</key>
+				<string>Make global macro</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>EE05938C-15CA-469F-96C0-8002F69673F3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

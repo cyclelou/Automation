@@ -1,0 +1,3807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>490033897.97584599</real>
+		<key>CustomIconData</key>
+		<data>
+		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
+		ACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJI
+		UgAAACgAAATacGxQTAAAACwAAAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQ
+		ZW5VUwAAACYAAAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIA
+		bwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIALQBiAGUAcwBrAHIAaQB2
+		AGUAbABzAGUAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMA
+		Qx6lAHUAIABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcAUABlAHIAZgBp
+		AGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgE
+		OQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBu
+		AOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcA
+		QgAgAHAAcgBvAGYAaQBskBp1KAAgAFIARwBCACCCcl9pY8+P8ABHAGUAbgBl
+		AHIAaQBzAGsAIABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAA
+		UgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXc
+		BdwF2QBQAHIAbwBmAGkAbABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8A
+		UAByAG8AZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBl
+		AG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkAbMd8vBgAIABSAEcA
+		QgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Blh072TgCCLAAgAFIARwBC
+		ACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIA
+		RwBCAFAAZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBs
+		AGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQO
+		Hw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUAbAAgAFIARwBC
+		ACAAUAByAG8AZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIA
+		bwBmAGkAaQBsAGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAAcgBv
+		AGYAaQBsAFUAbgBpAHcAZQByAHMAYQBsAG4AeQAgAHAAcgBvAGYAaQBsACAA
+		UgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAgAFIARwBCBkUGRAZB
+		ACAGKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQByAGkA
+		YwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRleHQAAAAAQ29weXJpZ2h0IDIw
+		MDcgQXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAA
+		APNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAABadQAA
+		rHMAABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2Yz
+		MgAAAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGyAACBQ
+		OCQWDQeBgGBgqEwN7wN+wiJROKAABwMEwN/wN6xWPR+JAYAgETBcCAUnhWTj
+		gEAEBBaFAAAvp/v94O5+vtoOh+PtaPV/P5kxqQAEFgIBDcMScmBIBgUYSIAh
+		CNgB/Ph/v51uuesd0z1ZTR/tqQWUFB4Cgc2CgEAk1g4BgQPAiBgeIzKBvoBQ
+		J73sAPZ+v14N98vhUtp9PhBvyauWCASRhsSgYEHwRAcEFgFAMBhAEv6BAbQA
+		CqgB8RcAPmBvJ+vxxNh8PZKOJ9vpKQ6yzEGi0DgpKCYEgovBJ/RsYvl+AAVv
+		zk8SNgGqvIBQptZwAMsEAUAOvIABzPl8spkvd6F2CDcFAxRBkDAcbhbGAAav
+		h9gATYEAA7i6SYu7pgAaoCAIABnAPAZ3v+bJ7nsUBqHyew3KqeaKAKFgDgSS
+		YVgUBYzhKfKIime58AAEJ/tUva/AC1CaoOhR0JGABXMwABoAS7RzMSZSCA0y
+		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
+		AAtkZXNjAAABCAAAAG9kc2NtAAABeAAABZxjcHJ0AAAHFAAAADh3dHB0AAAH
+		TAAAABRyWFlaAAAHYAAAABRnWFlaAAAHdAAAABRiWFlaAAAHiAAAABRyVFJD
+		AAAHnAAAAA5jaGFkAAAHrAAAACxiVFJDAAAHnAAAAA5nVFJDAAAHnAAAAA5k
+		ZXNjAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAUR2Vu
+		ZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+		AAAAAAAAAAAAAAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAfAAAADHNrU0sAAAAo
+		AAABhGRhREsAAAAuAAABrGNhRVMAAAAkAAAB2nZpVk4AAAAkAAAB/nB0QlIA
+		AAAmAAACInVrVUEAAAAqAAACSGZyRlUAAAAoAAACcmh1SFUAAAAoAAACmnpo
+		VFcAAAAWAAACwm5iTk8AAAAmAAAC2GNzQ1oAAAAiAAAC/mhlSUwAAAAeAAAD
+		IGl0SVQAAAAoAAADPnJvUk8AAAAkAAADZmRlREUAAAAsAAADimtvS1IAAAAW
+		AAADtnN2U0UAAAAmAAAC2HpoQ04AAAAWAAADzGphSlAAAAAaAAAD4mVsR1IA
+		AAAiAAAD/HB0UE8AAAAmAAAEHm5sTkwAAAAoAAAERGVzRVMAAAAmAAAEHnRo
+		VEgAAAAkAAAEbHRyVFIAAAAiAAAEkGZpRkkAAAAoAAAEsmhySFIAAAAoAAAE
+		2nBsUEwAAAAsAAAFAnJ1UlUAAAAiAAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAm
+		AAAFdgBWAWEAZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBpAGwA
+		RwBlAG4AZQByAGUAbAAgAFIARwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBl
+		AFAAZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAA
+		aADsAG4AaAAgAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYAaQBsACAAUgBH
+		AEIAIABHAGUAbgDpAHIAaQBjAG8EFwQwBDMEMAQ7BEwEPQQ4BDkAIAQ/BEAE
+		PgREBDAEOQQ7ACAAUgBHAEIAUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBx
+		AHUAZQAgAFIAVgBCAMEAbAB0AGEAbADhAG4AbwBzACAAUgBHAEIAIABwAHIA
+		bwBmAGkAbJAadSgAIABSAEcAQgAggnJfaWPPj/AARwBlAG4AZQByAGkAcwBr
+		ACAAUgBHAEIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A/QAgAFIARwBCACAA
+		cAByAG8AZgBpAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAgBdsF3AXcBdkAUABy
+		AG8AZgBpAGwAbwAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYA
+		aQBsACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAEEAbABsAGcAZQBtAGUAaQBu
+		AGUAcwAgAFIARwBCAC0AUAByAG8AZgBpAGzHfLwYACAAUgBHAEIAINUEuFzT
+		DMd8Zm6QGgAgAFIARwBCACBjz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDV
+		MKEwpDDrA5MDtQO9A7kDugPMACADwAPBA78DxgOvA7sAIABSAEcAQgBQAGUA
+		cgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6QByAGkAYwBvAEEAbABnAGUAbQBl
+		AGUAbgAgAFIARwBCAC0AcAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAA
+		UgBHAEIAIA4XDjEOSA4nDkQOGwBHAGUAbgBlAGwAIABSAEcAQgAgAFAAcgBv
+		AGYAaQBsAGkAWQBsAGUAaQBuAGUAbgAgAFIARwBCAC0AcAByAG8AZgBpAGkA
+		bABpAEcAZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkAbABV
+		AG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAFIARwBCBB4E
+		MQRJBDgEOQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYx
+		BkoGQQAgAFIARwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABSAEcA
+		QgAgAFAAcgBvAGYAaQBsAGV0ZXh0AAAAAENvcHlyaWdodCAyMDA3IEFwcGxl
+		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
+		AAAEbHRyVFIAAAAiAAAEkGZpRkkAAAAoAAAEsmhySFIAAAAoAAAE2nBsUEwA
+		AAAsAAAFAnJ1UlUAAAAiAAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAmAAAFdgBW
+		AWEAZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBpAGwARwBlAG4A
+		ZQByAGUAbAAgAFIARwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBlAFAAZQBy
+		AGYAaQBsACAAUgBHAEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAAaADsAG4A
+		aAAgAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYAaQBsACAAUgBHAEIAIABH
+		AGUAbgDpAHIAaQBjAG8EFwQwBDMEMAQ7BEwEPQQ4BDkAIAQ/BEAEPgREBDAE
+		OQQ7ACAAUgBHAEIAUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBxAHUAZQAg
+		AFIAVgBCAMEAbAB0AGEAbADhAG4AbwBzACAAUgBHAEIAIABwAHIAbwBmAGkA
+		bJAadSgAIABSAEcAQgAggnJfaWPPj/AARwBlAG4AZQByAGkAcwBrACAAUgBH
+		AEIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8A
+		ZgBpAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAgBdsF3AXcBdkAUAByAG8AZgBp
+		AGwAbwAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYAaQBsACAA
+		UgBHAEIAIABnAGUAbgBlAHIAaQBjAEEAbABsAGcAZQBtAGUAaQBuAGUAcwAg
+		AFIARwBCAC0AUAByAG8AZgBpAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8Zm6Q
+		GgAgAFIARwBCACBjz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDVMKEwpDDr
+		A5MDtQO9A7kDugPMACADwAPBA78DxgOvA7sAIABSAEcAQgBQAGUAcgBmAGkA
+		bAAgAFIARwBCACAAZwBlAG4A6QByAGkAYwBvAEEAbABnAGUAbQBlAGUAbgAg
+		AFIARwBCAC0AcAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAAUgBHAEIA
+		IA4XDjEOSA4nDkQOGwBHAGUAbgBlAGwAIABSAEcAQgAgAFAAcgBvAGYAaQBs
+		AGkAWQBsAGUAaQBuAGUAbgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcA
+		ZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkAbABVAG4AaQB3
+		AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkAbAAgAFIARwBCBB4EMQRJBDgE
+		OQAgBD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoGQQAg
+		AFIARwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABSAEcAQgAgAFAA
+		cgBvAGYAaQBsAGV0ZXh0AAAAAENvcHlyaWdodCAyMDA3IEFwcGxlIEluYy4s
+		IGFsbCByaWdodHMgcmVzZXJ2ZWQuAFhZWiAAAAAAAADzUgABAAAAARbPWFla
+		IAAAAAAAAHRNAAA97gAAA9BYWVogAAAAAAAAWnUAAKxzAAAXNFhZWiAAAAAA
+		AAAoGgAAFZ8AALg2Y3VydgAAAAAAAAABAc0AAHNmMzIAAAAAAAEMQgAABd7/
+		//MmAAAHkgAA/ZH///ui///9owAAA9wAAMBs
+		</data>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>12970</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC72BAAAKwAAAAEA
+						AADuBAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNTEz
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYTt9CntcY29sb3J0
+						Ymw7XHJlZDI1NVxncmVlbjI1NVxi
+						bHVlMjU1O30Ke1wqXGV4cGFuZGVk
+						Y29sb3J0Ymw7O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IEtNRkFNIE1hY3JvcyBJ
+						bnN0YWxsZXJcClZlcnNpb246IDEu
+						NFwKVXBkYXRlZDogMjAyMS8xMi8w
+						OSAxNDozNSBQVFwKQnk6IERhbiBU
+						aG9tYXNcClwKUFVSUE9TRTpcClwK
+						SW5zdGFsbHMgdGhlIEtNRkFNIG1h
+						Y3JvcyBhbmQgcmVzb3VyY2VzLlwK
+						XApWRVJTSU9OIEhJU1RPUlk6XApc
+						cGFyZFx0eDU2MFx0eDExMjBcdHgx
+						NjgwXHR4MjI0MFx0eDI4MDBcdHgz
+						MzYwXHR4MzkyMFx0eDQ0ODBcdHg1
+						MDQwXHR4NTYwMFx0eDYxNjBcdHg2
+						NzIwXGxpNTI5XGZpLTUzMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwClxjZjAgMS40IC0gU3dp
+						dGNoZWQgdG8gTG9jYWwvSW5zdGFu
+						Y2UgdmFyaWFibGVzLlwKXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxs
+						aTUyOVxmaS02XHBhcmRpcm5hdHVy
+						YWxccGFydGlnaHRlbmZhY3RvcjAK
+						XGNmMCBGaXhlZCB3aW5kb3cgcG9z
+						aXRpb24gaXNzdWVzIG9uIHNvbWUg
+						bWFjT1MgdmVyc2lvbnMsIGFuZCBz
+						b21lIEtNIHZlcnNpb25zLlwKUmVt
+						b3ZlZCB0aGUgY3VzdG9tIG1hY3Jv
+						IGljb25zIHRvIGRlY3JlYXNlIG1h
+						Y3JvIHNpemUgYW5kIHBvdGVudGlh
+						bGx5IHNwZWVkIHVwIEtNIHByb2Nl
+						c3NpbmcuXApPdGhlciBtaW5vciBi
+						dWcgZml4ZXMuXApccGFyZFx0eDU2
+						MFx0eDExMjBcdHgxNjgwXHR4MjI0
+						MFx0eDI4MDBcdHgzMzYwXHR4Mzky
+						MFx0eDQ0ODBcdHg1MDQwXHR4NTYw
+						MFx0eDYxNjBcdHg2NzIwXHBhcmRp
+						cm5hdHVyYWxccGFydGlnaHRlbmZh
+						Y3RvcjAKXGNmMCAxLjMgLSBVbm9m
+						ZmljaWFsIHBhdGNoZWQgSFRNTCBm
+						aWxlcyB0byBGaXhlZCB3aW5kb3cg
+						cG9zaXRpb24gaXNzdWVzIHdpdGgg
+						S00gMTAuXAoxLjAuMSAtIFdvcmth
+						cm91bmRzIGZvciBZb3NlbWl0ZSBi
+						dWdzLlwKMS4wIC0gSW5pdGlhbCB2
+						ZXJzaW9uLn0BAAAAIwAAAAEAAAAH
+						AAAAVFhULnJ0ZhAAAADjibJhtgEA
+						AAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>KMFAM Macros Installer v1.4</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>12971</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4fBAAAKwAAAAEA
+						AAAXBAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNTEz
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYTt9CntcY29sb3J0
+						Ymw7XHJlZDI1NVxncmVlbjI1NVxi
+						bHVlMjU1O30Ke1wqXGV4cGFuZGVk
+						Y29sb3J0Ymw7O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IENvcHlyaWdodCAoYykgMjAxNiBE
+						YW5pZWwgVGhvbWFzXApcClBlcm1p
+						c3Npb24gdG8gdXNlLCBjb3B5LCBt
+						b2RpZnksIGFuZC9vciBkaXN0cmli
+						dXRlIHRoaXMgc29mdHdhcmUgZm9y
+						IGFueSBwdXJwb3NlIHdpdGggb3Ig
+						d2l0aG91dCBmZWUgaXMgaGVyZWJ5
+						IGdyYW50ZWQsIHByb3ZpZGVkIHRo
+						YXQgdGhlIGFib3ZlIGNvcHlyaWdo
+						dCBub3RpY2UgYW5kIHRoaXMgcGVy
+						bWlzc2lvbiBub3RpY2UgYXBwZWFy
+						IGluIGFsbCBjb3BpZXMuXApcClRI
+						RSBTT0ZUV0FSRSBJUyBQUk9WSURF
+						RCAiQVMgSVMiIEFORCBUSEUgQVVU
+						SE9SIERJU0NMQUlNUyBBTEwgV0FS
+						UkFOVElFUyBXSVRIIFJFR0FSRCBU
+						TyBUSElTIFNPRlRXQVJFIElOQ0xV
+						RElORyBBTEwgSU1QTElFRCBXQVJS
+						QU5USUVTIE9GIE1FUkNIQU5UQUJJ
+						TElUWSBBTkQgRklUTkVTUy4gSU4g
+						Tk8gRVZFTlQgU0hBTEwgVEhFIEFV
+						VEhPUiBCRSBMSUFCTEUgRk9SIEFO
+						WSBTUEVDSUFMLCBESVJFQ1QsIElO
+						RElSRUNULCBPUiBDT05TRVFVRU5U
+						SUFMIERBTUFHRVMgT1IgQU5ZIERB
+						TUFHRVMgV0hBVFNPRVZFUiBSRVNV
+						TFRJTkcgRlJPTSBMT1NTIE9GIFVT
+						RSwgREFUQSBPUiBQUk9GSVRTLCBX
+						SEVUSEVSIElOIEFOIEFDVElPTiBP
+						RiBDT05UUkFDVCwgTkVHTElHRU5D
+						RSBPUiBPVEhFUiBUT1JUSU9VUyBB
+						Q1RJT04sIEFSSVNJTkcgT1VUIE9G
+						IE9SIElOIENPTk5FQ1RJT04gV0lU
+						SCBUSEUgVVNFIE9SIFBFUkZPUk1B
+						TkNFIE9GIFRISVMgU09GVFdBUkUu
+						XAp9AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAAwe6nYbYBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>License Agreement / Disclaimer</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Red</string>
+						<key>ActionUID</key>
+						<integer>12972</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC50AQAAKwAAAAEA
+						AABsAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IFVubGVzcyB5b3UgaGF2ZSBiZWVu
+						IGdpdmVuIHNwZWNpZmljIGluc3Ry
+						dWN0aW9ucyB0byBkbyBzbywgZG8g
+						bm90IG1vZGlmeSB0aGlzIG1hY3Jv
+						IGluIGFueSB3YXkufQEAAAAjAAAA
+						AQAAAAcAAABUWFQucnRmEAAAAEi3
+						+Fm2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>DO NOT CHANGE ANYTHING IN THIS MACRO</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Red</string>
+						<key>ActionName</key>
+						<string>Cancel if the installer is currently running</string>
+						<key>ActionUID</key>
+						<integer>12973</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12974</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Semaphore</string>
+								<key>SemaphoreAction</key>
+								<string>Lock</string>
+								<key>SemaphoreName</key>
+								<string>MacroInstaller</string>
+								<key>TimeOutAbortsMacro</key>
+								<false/>
+								<key>TimeOutPeriod</key>
+								<real>0.01</real>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12975</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Text</string>
+											<key>Text</key>
+											<string>%ActionResult%</string>
+											<key>TextConditionType</key>
+											<string>IsNot</string>
+											<key>TextValue</key>
+											<string>OK</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>12976</integer>
+										<key>Buttons</key>
+										<array>
+											<dict>
+												<key>Button</key>
+												<string>OK</string>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>PromptForUserInput</string>
+										<key>Prompt</key>
+										<string>Only one macro can be installed at a time.</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Title</key>
+										<string>Macro Installer</string>
+										<key>Variables</key>
+										<array/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>12977</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>License Agreement</string>
+						<key>ActionUID</key>
+						<integer>12978</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12979</integer>
+								<key>Floating</key>
+								<true/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>CustomPrompt</string>
+								<key>Text</key>
+								<string>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+	&lt;head&gt;
+		&lt;title&gt;[KMFAM] Favorite Actions and Maxcros - License Agreement&lt;/title&gt;
+		&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+		&lt;style type="text/css"&gt;
+			html,
+			body,
+			.page {
+				height: 100%;
+			}
+
+			body {
+				overflow: hidden;
+				margin: 0;
+				font-family: Tahoma, Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 16px;
+			}
+
+			.page {
+				display: flex;
+				flex-direction: column;
+			}
+
+			header, footer {
+				background: #ececec;
+				color: black;
+			}
+
+			header {
+				flex: 0 0 auto;
+				min-height: 60px;
+				text-align: center;
+			}
+
+			#content {
+				flex: 1 1 auto;
+				position: relative;
+				overflow-y: auto;
+				padding-left: 20px;
+				padding-right: 20px;
+				background: #ececec;
+				font-size: 15px;
+				text-align: justify;
+			}
+
+			footer {
+				flex: 0 0 auto;
+				min-height: 40px;
+				padding-top: 0px;
+				padding-right: 20px;
+			}
+
+			footer button {
+				float: right;
+				margin-left: 5px;
+				width: 100px;
+			}
+
+			.okButton {
+				box-shadow:inset 0px 1px 0px 0px #a4e271;
+				background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+				background-color:#89c403;
+				border-radius:6px;
+				border:1px solid #74b807;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:12px;
+				font-weight:bold;
+				padding:6px 24px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #528009;
+			}
+			.okButton:hover {
+				background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77a809), color-stop(1, #89c403));
+				background:-moz-linear-gradient(top, #77a809 5%, #89c403 100%);
+				background:-webkit-linear-gradient(top, #77a809 5%, #89c403 100%);
+				background:-o-linear-gradient(top, #77a809 5%, #89c403 100%);
+				background:-ms-linear-gradient(top, #77a809 5%, #89c403 100%);
+				background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77a809', endColorstr='#89c403',GradientType=0);
+				background-color:#77a809;
+			}
+			.okButton:active {
+				position:relative;
+				top:1px;
+			}
+
+			.cancelButton {
+				box-shadow:inset 0px 1px 0px 0px #f5978e;
+				background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+				background-color:#f24537;
+				border-radius:6px;
+				border:1px solid #d02718;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:12px;
+				font-weight:bold;
+				padding:6px 24px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #810e05;
+			}
+			.cancelButton:hover {
+				background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537));
+				background:-moz-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+				background:-webkit-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+				background:-o-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+				background:-ms-linear-gradient(top, #c62d1f 5%, #f24537 100%);
+				background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+				filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537',GradientType=0);
+				background-color:#c62d1f;
+			}
+			.cancelButton:active {
+				position:relative;
+				top:1px;
+			}
+		&lt;/style&gt;
+
+		&lt;script type="text/javascript"&gt;
+				function _calculateInt(formula) { return parseInt(window.KeyboardMaestro.Calculate(formula)); }
+				function _getWindowLeft() { return _calculateInt("WINDOW(Left)"); }
+				function _getWindowTop() { return _calculateInt("WINDOW(Top)"); }
+				function _getWindowWidth() { return _calculateInt("WINDOW(Width)"); }
+				function _getWindowHeight() { return _calculateInt("WINDOW(Height)"); }
+				function _getScreenLeft() { return _calculateInt("SCREENVISIBLE(Main, Left)"); }
+				function _getScreenTop() { return _calculateInt("SCREENVISIBLE(Main, Top)"); }
+				function _getScreenWidth() { return _calculateInt("SCREENVISIBLE(Main, Width)"); }
+				function _getScreenHeight() { return _calculateInt("SCREENVISIBLE(Main, Height)"); }
+
+			function KMWindow() {
+				var width = 550;
+				var height = 500;
+				var left = _getScreenLeft() + Math.floor((_getScreenWidth() - width) / 2);
+				var top = Math.floor((_getScreenHeight() - height) / 2) - 100;
+
+				console.log(`Returning: ${left}, ${top}, ${width}, ${height}`);
+				return `${left}, ${top}, ${width}, ${height}`;
+			}
+
+			function submitWindow(result) {
+				window.KeyboardMaestro.Submit(result);
+			}
+
+			function cancelWindow(result) {
+				window.KeyboardMaestro.Cancel(result);
+			}
+		&lt;/script&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+		&lt;div class="page"&gt;
+			&lt;header&gt;
+				&lt;h3 id="header"&gt;[KMFAM] Favorite Acttions and Macros&lt;/h3&gt;
+				&lt;h4&gt;Copyright(c) 2016-2021 Daniel Thomas&lt;/h4&gt;
+			&lt;/header&gt;
+
+			&lt;div id="content"&gt;
+				&lt;div id="license"&gt;
+&lt;p&gt;SHORT VERSION: I'm not responsible for anything that goes wrong. :)&lt;/p&gt;
+&lt;p&gt;LONG VERSION:&lt;/p&gt;
+&lt;p&gt;Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.&lt;/p&gt;
+&lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;footer&gt;
+				&lt;div&gt;
+					&lt;button id="btnOK" type="button" class="okButton" onclick="submitWindow('OK')"&gt;I AGREE&lt;/button&gt;
+					&lt;button type="button" class="cancelButton" onclick="cancelWindow('Cancel')"&gt;Cancel&lt;/button&gt;
+				&lt;/div&gt;
+			&lt;/footer&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+
+&lt;/html&gt;</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>143815</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Variable%HTML Result Button%</string>
+								<key>Variable</key>
+								<string>Local_Result</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>143816</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>HTML Result Button</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>Cancel if the user doesn't agree</string>
+								<key>ActionUID</key>
+								<integer>12980</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>Local_Result</string>
+											<key>VariableConditionType</key>
+											<string>IsNot</string>
+											<key>VariableValue</key>
+											<string>OK</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>12981</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Installer Parameters</string>
+						<key>ActionUID</key>
+						<integer>12982</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12984</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>autoDeleteAndSaveTriggers</string>
+								<key>Variable</key>
+								<string>Local_ExistingMacrosAction</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>149468</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%TriggerValue%</string>
+								<key>Variable</key>
+								<string>Local_InstallerAppPath</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12985</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>KMFAM Installation Files.v1.4</string>
+								<key>Variable</key>
+								<string>Local_InstallerAppName</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12986</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>KMFAM Macro Installer v1.4</string>
+								<key>Variable</key>
+								<string>Local_InstallerTitle</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12987</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>249FF6A7-66B9-4C13-9441-D4BF6A81C45D</string>
+								<key>Variable</key>
+								<string>Local_InstallerAppUUID</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12988</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>Files</string>
+								<key>Variable</key>
+								<string>Local_InstallerInternalFilesFolderPath</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12989</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>KMFAM Resources</string>
+								<key>Variable</key>
+								<string>Local_ResourcesFolderName</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12990</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>[
+  {
+    "existingAction": "replaceFolder", 
+    "subfolderName": "lib"
+  }, 
+  {
+    "existingAction": "createIfMissing", 
+    "subfolderName": "prefs"
+  }
+]</string>
+								<key>Variable</key>
+								<string>Local_ResourcesSubfolders</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionName</key>
+								<string>For old versions that used a Package file for resources</string>
+								<key>ActionUID</key>
+								<integer>12991</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>12992</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string></string>
+										<key>Variable</key>
+										<string>Local_OldResourcesPkgPath_VariableName</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12993</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>DND__kmfamResourcesFolderPath</string>
+								<key>Variable</key>
+								<string>Local_ResourcesFolderPath_VariableName</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12994</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>DND__kmfamWindowPosition
+DND__kmfameWindowPosition
+DND__kmfamsoWindowPosition
+kmengineChooseFileResult
+kmengineChooseFolderResult
+kmengineHTMLResultButton
+kmenginePromptResult
+kmfam__Action Name
+kmfam__Existing Action
+kmfam__Keywords
+kmfam__Update Image Only
+kmfamActionImageFilePath
+kmfamActionKeywords
+kmfamActionName
+kmfamActionNamesPickList
+kmfamActionType
+kmfamAction
+kmfamcResult
+kmfamErrorMessage
+kmfameWindowHeight
+kmfameWindowWidth
+kmfamFavoriteActionDialogIsRunning
+kmfamFrontWin
+kmfamImageDPI
+kmfamImageSize
+kmfamInputText
+kmfamLog
+kmfamMacroNameFocused
+kmfamNewUUID
+kmfamOldClipboardSeed
+kmfamOptions
+kmfamPickListSize
+kmfamPreferencesFolderName
+kmfamPreferencesFolderPath
+kmfamRequest
+kmfamResponse
+kmfamSelect_DontCleanup
+kmfamSelectData
+kmfamSemaphore
+kmfamTask
+kmfamUpdatedUsageData
+kmfamUpdateImageOnly
+kmfamWindowHeightWithoutPickList
+minstInstallationInfo
+minstVerifiedDestResourcesFolderPath</string>
+								<key>Variable</key>
+								<string>Local_OldVariableNamesToBeDeleted</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12995</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Local_DeletedMacroUUIDs</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Purple</string>
+						<key>ActionName</key>
+						<string>Sets Local_IsYosemite to 1 if running under Yosemite, otherwise 0</string>
+						<key>ActionUID</key>
+						<integer>12996</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12997</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>MacroActionType</key>
+								<string>ExecuteAppleScript</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>system attribute "sys2"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>Local_OSVersion</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>12998</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>Local_OSVersion</string>
+											<key>VariableConditionType</key>
+											<string>Is</string>
+											<key>VariableValue</key>
+											<string>10</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>13000</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>0</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>Local_IsYosemite</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>12999</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>1</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>Local_IsYosemite</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Purple</string>
+						<key>ActionName</key>
+						<string>Run the Installation Script</string>
+						<key>ActionUID</key>
+						<integer>13001</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string>/Users/Dan/Documents/Development/Keyboard Maestro/_Projects/Macro Installer/Dev/Macro Installer.scpt</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function(inDesignMode, designModeParams, isDryRun) {
+	// #region ======== COPYRIGHT &amp; NOTES =======================
+	/*
+	Copyright (c) 2016-2021 Daniel Thomas
+
+	Permission to use, copy, modify, and/or distribute this software for any
+	purpose with or without fee is hereby granted, provided that the above
+	copyright notice and this permission notice appear in all copies.
+
+	THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+	WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+	MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+	ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+	WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+	ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+	OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+	*/
+
+	/* =========================================================================
+	NOTES:
+
+	Many of you who take the time to look at this code will be quite surprised
+	by its structure. There will be a lot of "WTF"s being uttered. That's
+	because the vast majority of you have not been exposed to Automated Testing,
+	and also haven't been exposed to the concepts of Dependency Injection (DI)
+	and Inversion of Control (IoC).
+
+	Also, to be honest, there may be one or two of you who actually do understand
+	the above concepts, but think I did a crappy job of implementing them. While
+	you may well be right, to you I say: "Get over it." :)
+
+	This code is structured the way it is, to make it easy to use automated
+	testing against it. If you're interested, Jasmine is the framework used for
+	testing.
+
+	This code supports IoC / DI through the use of a "Container", also commonly
+	known as a type of Factory that includes a cache. I call it a Container
+	because I'm used to that name, having previously used the Unity framework
+	for .NET.
+
+	It also supports IoC / DI through the use of publicly available functions
+	and variables that can be easily replaced by "mocks", which can supply and
+	return specific values for testing.
+
+	Along with being able to use Mocks to force specific conditions, there is
+	the additional problem of the fact that Jasmine (the testing framework)
+	has to run in a Browser context. Which means, among other things, that the
+	features of JXA (JavaScript for Automation) aren't available. But since we
+	can Mock virtually anything in this file, we just Mock the JXA-specific
+	functions.
+	========================================================================= */
+	// #endregion
+
+	'use strict';
+	ObjC.import('Foundation');
+    // ObjC.import('AppKit');
+
+	var __dryRun__ = isDryRun != null ? isDryRun : false;
+	var _isYosemite;
+	var Data;
+
+	const ExistingMacrosActions = {
+		userMustDelete: "userMustDelete",
+		autoDelete: "autoDelete",
+		autoDeleteAndSaveTriggers: "autoDeleteAndSaveTriggers"
+	};
+	function isAutoDelete(action) {
+		return action === ExistingMacrosActions.autoDelete || action === ExistingMacrosActions.autoDeleteAndSaveTriggers;
+	}
+
+	const ExistingFolderActions = {
+		replaceFolder: "replaceFolder",
+		replaceFiles: "replaceFiles",
+		createIfMissing: "createIfMissing"
+	};
+
+	if (!String.prototype.endsWith) {
+		String.prototype.endsWith = function(searchString, position) {
+			var subjectString = this.toString();
+			if (typeof position !== 'number' || !isFinite(position) || Math.floor(position) !== position || position &gt; subjectString.length) {
+				position = subjectString.length;
+			}
+			position -= searchString.length;
+			var lastIndex = subjectString.indexOf(searchString, position);
+			return lastIndex !== -1 &amp;&amp; lastIndex === position;
+		};
+	}
+
+	if (!String.prototype.includes) {
+		String.prototype.includes = function(search, start) {
+			if (typeof start !== 'number') {
+				start = 0;
+			}
+
+			if (start + search.length &gt; this.length) {
+				return false;
+			} else {
+				return this.indexOf(search, start) !== -1;
+			}
+		};
+	}
+
+	if (!String.prototype.startsWith) {
+		String.prototype.startsWith = function(searchString, position) {
+			position = position || 0;
+			return this.substr(position, searchString.length) === searchString;
+		};
+	}
+
+	function dump(obj) {
+		return JSON.stringify(obj, null, 2);
+	}
+
+	function sleep(milliseconds) {
+		var start = new Date().getTime();
+		for (var i = 0; i &lt; 1e7; i++) {
+			if ((new Date().getTime() - start) &gt; milliseconds) {
+				break;
+			}
+		}
+	}
+
+	function ContainerFunc() {
+		this._cache = {};
+		this._applicationCache = {};
+
+		this.clearCaches = function() {
+			this._cache = {};
+			this._applicationCache = {};
+		};
+
+		this.getApplication = function(appName) {
+			if (!this._applicationCache[appName])
+				this._applicationCache[appName] = Application(appName);
+			return this._applicationCache[appName];
+		};
+
+		this.getCurrentApplication = function() {
+            const appName = "currentApplication";
+			if (!this._applicationCache[appName]) {
+                var app = Application.currentApplication();
+                app.includeStandardAdditions = true;
+				this._applicationCache[appName] = app;
+            }
+			return this._applicationCache[appName];
+		};
+
+		this.getExistingMacrosInfoGatherer = function() {
+			if (!this._cache.ExistingMacrosInfoGatherer)
+				this._cache.ExistingMacrosInfoGatherer = new ExistingMacrosInfoGathererFunc();
+			return this._cache.ExistingMacrosInfoGatherer;
+		};
+
+		this.getFileUtils = function() {
+			if (!this._cache.FileUtils)
+				this._cache.FileUtils = new FileUtilsFunc();
+			return this._cache.FileUtils;
+		};
+
+		this.getInstallationExecutor = function() {
+			if (!this._cache.InstallationExecutor)
+				this._cache.InstallationExecutor = new InstallationExecutorFunc(__dryRun__);
+			return this._cache.InstallationExecutor;
+		};
+
+		this.getInstallationLogger = function() {
+			if (!this._cache.InstallationLogger)
+				this._cache.InstallationLogger = new InstallationLoggerFunc(__dryRun__);
+			return this._cache.InstallationLogger;
+		};
+
+		this.getInstallationVerifier = function() {
+			if (!this._cache.InstallationVerifier)
+				this._cache.InstallationVerifier = new InstallationVerifierFunc();
+			return this._cache.InstallationVerifier;
+		};
+
+		this.getInstallationSummaryController = function() {
+			if (!this._cache.InstallationSummaryController)
+				this._cache.InstallationSummaryController = new InstallationSummaryControllerFunc();
+			return this._cache.InstallationSummaryController;
+		};
+
+		this.getInstallationFilesFinder = function() {
+			if (!this._cache.InstallationFilesFinder)
+				this._cache.InstallationFilesFinder = new InstallationFilesFinderFunc();
+			return this._cache.InstallationFilesFinder;
+		};
+
+		this.getKMEditor = function() {
+			if (!this._cache.KMEditor)
+				this._cache.KMEditor = new KMEditorFunc();
+			return this._cache.KMEditor;
+		};
+
+		this.getKMEngine = function() {
+			if (!this._cache.KMEngine)
+				this._cache.KMEngine = new KMEngineFunc();
+			return this._cache.KMEngine;
+		};
+
+		this.getMacroInstaller = function() {
+			if (!this._cache.MacroInstaller)
+				this._cache.MacroInstaller = new MacroInstallerFunc();
+			return this._cache.MacroInstaller;
+		};
+
+		this.getMacrosToInstallInfoGatherer = function() {
+			if (!this._cache.MacrosToInstallInfoGatherer)
+				this._cache.MacrosToInstallInfoGatherer = new MacrosToInstallInfoGathererFunc();
+			return this._cache.MacrosToInstallInfoGatherer;
+		};
+
+		this.getPathNameUtils = function() {
+			if (!this._cache.PathNameUtils)
+				this._cache.PathNameUtils = new PathNameUtilsFunc();
+			return this._cache.PathNameUtils;
+		};
+
+		this.getPlistUtils = function() {
+			if (!this._cache.PlistUtils)
+				this._cache.PlistUtils = PlistUtilsFunc();
+			return this._cache.PlistUtils;
+		};
+
+		this.getResourcesInfoController = function() {
+			if (!this._cache.ResourcesInfoController)
+				this._cache.ResourcesInfoController = new ResourcesInfoControllerFunc();
+			return this._cache.ResourcesInfoController;
+		};
+
+		this.getResourcesInstaller = function() {
+			if (!this._cache.ResourcesInstaller)
+				this._cache.ResourcesInstaller = new ResourcesInstallerFunc(__dryRun__);
+			return this._cache.ResourcesInstaller;
+		};
+
+		this.getResourcesSubfoldersParser = function() {
+			if (!this._cache.ResourcesSubfoldersParser)
+				this._cache.ResourcesSubfoldersParser = new ResourcesSubfoldersParserFunc();
+			return this._cache.ResourcesSubfoldersParser;
+		}
+	}
+	var Container = new ContainerFunc();
+
+	function PathNameUtilsFunc() {
+		this.addTrailingSlash = function(path) {
+			if (!path)
+				return path;
+			return path.endsWith("/") ? path : path + "/";
+		};
+
+		this.appendBeforeFileExtension = function(path, value) {
+			var i = this.indexOfFileExtension(path);
+			return i &gt; 0 ?
+				path.substring(0, i) + value + path.substring(i) :
+				path + value;
+		};
+
+		this.combinePathComponents = function(path1, path2, path3) {
+			if (path1.endsWith("/"))
+				path1 = path1.substring(0, path1.length - 1);
+			if (path2.startsWith("/"))
+				path2 = path2.substring(1);
+			var result = path1 + "/" + path2;
+			if (path3)
+				result = this.combinePathComponents(result, path3);
+			return result;
+		};
+
+		this.expandLeadingPathTilde = function(path) {
+			return path.startsWith("~") ?
+				ObjC.unwrap($(path).stringByExpandingTildeInPath) :
+				path;
+		};
+
+		this.getFileExtension = function(path) {
+			var i = this.indexOfFileExtension(path);
+			return (i &lt;= 0) ? "" : path.substring(i);
+		};
+
+		this.getHomeFolder = function(addTrailingSlash) {
+			var result = this.expandLeadingPathTilde("~");
+			if (addTrailingSlash)
+				result = this.addTrailingSlash(result);
+			return result;
+		};
+
+		this.getLastPathComponent = function(path) {
+			path = this.removeTrailingSlash(path);
+			var i = path.lastIndexOf("/");
+			return i &lt; 0 ? path : path.substring(i + 1);
+		};
+
+		this.getStandardizedPath = function(path, keepTrailingSlash) {
+			var hadTrailingSlash = path.endsWith("/");
+			var result = $(path).stringByStandardizingPath.js;
+			if (keepTrailingSlash &amp;&amp; hadTrailingSlash &amp;&amp; !result.endsWith("/"))
+				result = result + "/";
+			return result;
+		};
+
+		this.indexOfFileExtension = function(path) {
+			var i = path.lastIndexOf(".");
+			return (i &lt;= 0 || path[i - 1] === "/") ? -1 : i;
+		};
+
+		this.removeLastPathComponent = function(path) {
+			path = this.removeTrailingSlash(path);
+			var last = this.getLastPathComponent(path);
+			if (!last)
+				return path;
+			return path.substring(0, path.length - last.length);
+		};
+
+		this.removeTrailingSlash = function(path) {
+			if (path.endsWith("/"))
+				return path.substring(0, path.length - 1);
+			return path;
+		};
+
+		this.replaceFileExtension = function(path, newExt) {
+			if (!newExt) {
+				newExt = "";
+			} else if (!newExt.startsWith(".")) {
+				newExt = "." + newExt;
+			}
+			var i = this.indexOfFileExtension(path);
+			return (i &lt;= 0) ? path + newExt : path.substring(0, i) + newExt;
+		};
+	}
+
+	function FileUtilsFunc() {
+		this.copyFile = function(fromPath, toPath, throwIfFail) {
+			var error;
+			var result = ObjC.unwrap(
+				$.NSFileManager.defaultManager
+				.copyItemAtPathToPathError(
+					$(fromPath).stringByStandardizingPath,
+					$(toPath).stringByStandardizingPath,
+					error
+				)
+			);
+			if (error || (!result &amp;&amp; throwIfFail))
+				throw Error('Could not copy "' + fromPath + '" to "' + toPath + '"');
+			return result;
+		};
+
+		this.createFolder = function(path, createIntermediateDirectories) {
+			var error = $();
+			if (!$.NSFileManager.defaultManager
+				.createDirectoryAtPathWithIntermediateDirectoriesAttributesError(
+					$(path).stringByStandardizingPath,
+					createIntermediateDirectories,
+					$(), error)) {
+				throw Error("Could not create folder '" + path + "'");
+			}
+		};
+
+		this.createFolderIfNeeded = function(path, createIntermediateDirectories) {
+			if (!this.folderExists(path))
+				this.createFolder(path, createIntermediateDirectories);
+		};
+
+		this.fileExists = function(path) {
+			var result = this.getFileOrFolderExists(path);
+			return result.exists &amp;&amp; result.isFile;
+		};
+
+		this.folderExists = function(path) {
+			var result = this.getFileOrFolderExists(path);
+			return result.exists &amp;&amp; !result.isFile;
+		};
+
+		this.getDirectoryContents = function(strPath, includeSubfolders, includeDotFiles) {
+			var method = includeSubfolders ?
+				"subpathsOfDirectoryAtPathError" :
+				"contentsOfDirectoryAtPathError";
+			var error;
+			var contents =
+				ObjC.deepUnwrap(
+					$.NSFileManager.defaultManager[method](
+						$(strPath)
+						.stringByStandardizingPath, error
+					)
+				);
+			if (error)
+				throw Error('Could not get contents of "' + strPath + '"');
+			if (!includeDotFiles) {
+				contents = contents.filter(function(item) {
+					return !item.startsWith(".") &amp;&amp; !item.includes("/.");
+				});
+			}
+			return contents;
+		};
+
+		this.getFileOrFolderExists = function(path) {
+			var isDirectory = Ref();
+			var exists = $.NSFileManager.defaultManager
+				.fileExistsAtPathIsDirectory(path, isDirectory);
+			return {
+				exists: exists,
+				isFile: !isDirectory[0]
+			};
+		};
+
+		this.readTextFile = function(strPath) {
+			var error;
+			var str = ObjC.unwrap(
+				$.NSString.stringWithContentsOfFileEncodingError(
+					$(strPath).stringByStandardizingPath,
+					$.NSUTF8StringEncoding,
+					error
+				)
+			);
+			if (error)
+				throw Error('Could not read file "' + strPath + '"');
+			return str;
+		};
+
+		this.trashFile = function(path, throwIfFail) {
+			return this.trashFileOrFolder(path, true, throwIfFail);
+		};
+
+		this.trashFileOrFolder = function(path, isFile, throwIfFail) {
+			var fileOrFolderText = isFile ? "file" : "folder";
+			if (!path)
+				throw Error("Path is required in trashFileOrFolder");
+			if (isFile === undefined)
+				throw Error("isFile is required in trashFileOrFolder");
+
+			if (!isFile &amp;&amp; path.endsWith("/"))
+				path = path.substring(0, path.length - 1);
+
+			var exists = this.getFileOrFolderExists(path);
+			if (!exists.exists)
+				return false;
+			if (exists.isFile !== isFile) {
+				if (throwIfFail)
+					throw Error("Path to be deleted '" + path + "' is not a " +
+						fileOrFolderText);
+				return false;
+			}
+
+			var fileURL = $.NSURL.fileURLWithPathIsDirectory($(path), !isFile);
+			var error;
+			var result = ObjC.unwrap(
+				$.NSFileManager.defaultManager
+				.trashItemAtURLResultingItemURLError(
+					fileURL,
+					null,
+					error
+				)
+			);
+			if (error || (!result &amp;&amp; throwIfFail))
+				throw Error("Could not trash " + fileOrFolderText + "'" + path + "'");
+			return result;
+		};
+
+		this.trashFolder = function(path, throwIfFail) {
+			return this.trashFileOrFolder(path, false, throwIfFail);
+		};
+
+		this.writeTextFile = function(strContent, strPath) {
+			var error;
+			var str = $.NSString.alloc.initWithUTF8String(strContent);
+			str.writeToFileAtomicallyEncodingError(
+				$(strPath).stringByStandardizingPath,
+				true,
+				$.NSUTF8StringEncoding,
+				null);
+			if (error)
+				throw Error('Could not write file "' + strPath + '"');
+		};
+	}
+
+	var PlistUtilsFunc = (function() {
+		var _currentApp;
+		var _dataNodeToken = "41E4D515-C065-4C24-9859-EA2479C52CC9";
+
+		var _kmObjectType_action = "action";
+		var _kmObjectType_group = "group";
+		var _kmObjectType_macro = "macro";
+
+		function _cleanupXmlAfterDeserialization(xml) {
+			var result = xml.replace(/&lt;real&gt;(-?\d+)(\.0)?&lt;\/real&gt;/g, "&lt;integer&gt;$1&lt;/integer&gt;");
+			var result = result.replace(/(&lt;key&gt;CreationDate&lt;\/key&gt;[\W]*&lt;)(integer&gt;)(\d+)(&lt;\/integer&gt;)/g, "$1real&gt;$3.0&lt;/real&gt;");
+			var result = result.replace(/(&lt;key&gt;TimeOutPeriod&lt;\/key&gt;[\W]*&lt;)(integer)(&gt;\d+&lt;\/)(integer)(&gt;)/g, "$1real$3real$5");
+			var result = result.replace(/(&lt;key&gt;NSSuperScript&lt;\/key&gt;[\W]*&lt;)(real)(&gt;-?\d+&lt;\/)(real)(&gt;)/g, "$1integer$3integer$5");
+			return result;
+		}
+
+		function _deserializeFromXmlString(xml) {
+			var nsError = $();
+			var result = ObjC.deepUnwrap(
+				$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+					$(xml).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, nsError));
+			if (!result)
+				throw Error(_getErrorMessage(nsError, "Could not convert string to plist"));
+			return result;
+		}
+
+		function _deTokenizeXmlDataNodes(xml) {
+			var regex = new RegExp("(&lt;string&gt;[\\W]*" + _dataNodeToken + ")", "g");
+			var result = xml.replace(regex, "&lt;data&gt;");
+
+			regex = new RegExp(_dataNodeToken + "[\\W]*&lt;\\/string&gt;", "g");
+			return result.replace(regex, "&lt;/data&gt;");
+		}
+
+		function _getAppSupportFolderName() {
+			if (!_currentApp) {
+				_currentApp = Application.currentApplication();
+				_currentApp.includeStandardAdditions = true;
+			}
+			return _currentApp.pathTo('application support', { from: 'user domain' });
+		}
+
+		function _findMacro(plist, macroUUID) {
+			var result = null;
+			_iterateMacros(plist, (macro, group) =&gt; {
+				if (macro.UID === macroUUID) {
+					result = {
+						macro: macro,
+						group: group
+					};
+					return false;
+				}
+			});
+			return result;
+		}
+
+		function _getErrorMessage(nsError, message) {
+			try {
+				return message + ". Error: " + ObjC.unwrap(nsError.localizedDescription);
+			} catch (e) {
+				return message;
+			}
+		}
+
+		function _getKMPlistXmlObjectType(xml) {
+			if (xml.indexOf("&lt;key&gt;ToggleMacroUID&lt;/key&gt;") &gt; 0)
+				return _kmObjectType_group;
+			if (xml.indexOf("&lt;key&gt;Triggers&lt;/key&gt;") &gt; 0)
+				return _kmObjectType_macro;
+			return _kmObjectType_action;
+		}
+
+		function _getMacroTriggers(plist) {
+			var result = [];
+			_iterateMacros(plist, (macro, group) =&gt; {
+				if (macro.Triggers &amp;&amp; macro.Triggers.length &gt; 0) {
+					var info = {
+						macroUUID: macro.UID,
+						macroName: macro.Name,
+						macroTriggers: macro.Triggers
+					};
+					if (group) {
+						info.groupUUID = group.UID,
+						info.groupName = group.Name
+					}
+					result.push(info);
+				}
+			});
+			return result;
+		}
+
+		function _getPlistContentType(plist) {
+			var arraySuffix;
+			var item;
+			if (Array.isArray(plist)) {
+				if (plist.length === 0)
+					return "empty";
+				item = plist[0];
+				arraySuffix = "s";
+			} else {
+				if (plist.MacroGroups)
+					return "all";
+				item = plist;
+				arraySuffix = "";
+			}
+
+			if (item.Macros != null || item.ToggleMacroUID != null)
+				return "group" + arraySuffix;
+			if (item.Actions != null)
+				return "macro" + arraySuffix;
+			if (item.MacroActionType != null)
+				return "action" + arraySuffix;
+			throw new Error("Unknown plist item type");
+		}
+
+		function _iterateMacros(plist, callback) {
+
+			function processMacro(macro, group) {
+				return callback(macro, group) !== false;
+			}
+
+			function processMacros(macros, group) {
+				if (!macros)
+					return true;
+				for (let i = 0; i &lt; macros.length; i++) {
+					if (!processMacro(macros[i], group))
+						return false;
+				}
+				return true;
+			}
+
+			function processGroup(group) {
+				return processMacros(group.Macros, group);
+			}
+
+			function processGroups(groups) {
+				for (let i = 0; i &lt; groups.length; i++) {
+					if (!processGroup(groups[i]))
+						return false;
+				}
+				return true;
+			}
+
+			switch (_getPlistContentType(plist)) {
+				case "all":
+					return processGroups(plist.MacroGroups);
+				case "groups":
+					return processGroups(plist);
+				case "group":
+					return processGroup(plist);
+				case "macros":
+					return processMacros(plist);
+				case "macro":
+					return processMacro(plist);
+				default:
+					return null;
+			}
+		}
+
+		function _serializeToXmlString(plist) {
+			var data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(
+				$(plist), $.NSPropertyListXMLFormat_v1_0, 0, null);
+			var nsstring = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);
+			var result = $(nsstring).js;
+			return result;
+		}
+
+		function _tokenizeXmlDataNodes(xml) {
+			return xml.replace(/(&lt;data&gt;)([\W]*)([^&lt;]*)(&lt;\/data&gt;)/g, 
+				"&lt;string&gt;$2" + _dataNodeToken + "$2$3" + _dataNodeToken + "$2&lt;/string&gt;");
+		}
+
+		// #region ======== Stuff for Intellisense ==================
+
+		/**
+		 * A Plist object.
+		 */
+		class Plist {}
+
+		/**
+		 * A macro plist object.
+		 */
+		class Macro {}
+
+		/**
+		 * A group plist object
+		 */
+		class Group {}
+
+		/**
+		 * Callback function
+		 * @param {Macro} macro
+		 * @param {Group} [group]
+		 * @returns {bool} Return false if you want to abort the iteration.
+		 */
+		function CallbackMacroGroup(macro, group) {}
+		// #endregion
+
+		return {
+			KMObjectType_action: _kmObjectType_action,
+			KMObjectType_group: _kmObjectType_group,
+			KMObjectType_macro: _kmObjectType_macro,
+
+			createCancelThisMacroAction: function() {
+				return _deserializeFromXmlString(
+					`&lt;plist version="1.0"&gt;` + 
+					`&lt;dict&gt;` + 
+					`	&lt;key&gt;Action&lt;/key&gt;` + 
+					`	&lt;string&gt;CancelThisMacro&lt;/string&gt;` + 
+					`	&lt;key&gt;ActionColor&lt;/key&gt;` + 
+					`	&lt;string&gt;Red&lt;/string&gt;` + 
+					`	&lt;key&gt;IsDisclosed&lt;/key&gt;` + 
+					`	&lt;false/&gt;` + 
+					`	&lt;key&gt;MacroActionType&lt;/key&gt;` + 
+					`	&lt;string&gt;Cancel&lt;/string&gt;` + 
+					`&lt;/dict&gt;` + 
+					`&lt;/plist&gt;`);
+			},
+
+			createEmptyGroupAction: function(actionName) {
+				var result = _deserializeFromXmlString(
+					"&lt;plist version='1.0'&gt; \n" +
+					"&lt;dict&gt; \n" +
+					"	&lt;key&gt;ActionName&lt;/key&gt; \n" +
+					"	&lt;string&gt;&lt;/string&gt; \n" +
+					"	&lt;key&gt;Actions&lt;/key&gt; \n" +
+					"	&lt;array/&gt; \n" +
+					"	&lt;key&gt;MacroActionType&lt;/key&gt; \n" +
+					"	&lt;string&gt;Group&lt;/string&gt; \n" +
+					"	&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n" +
+					"	&lt;true/&gt; \n" +
+					"&lt;/dict&gt; \n" +
+					"&lt;/plist&gt;");
+				result.ActionName = actionName;
+				return result;
+			},
+
+			createExecuteMacroAction: function(actionName, macroUID) {
+				var result = _deserializeFromXmlString(
+					'&lt;plist version="1.0"&gt; \n' +
+					'&lt;dict&gt; \n' +
+					'	&lt;key&gt;ActionColor&lt;/key&gt; \n' +
+					'	&lt;string&gt;Red&lt;/string&gt; \n' +
+					'	&lt;key&gt;ActionName&lt;/key&gt; \n' +
+					'	&lt;string&gt;&lt;/string&gt; \n' +
+					'	&lt;key&gt;Asynchronously&lt;/key&gt; \n' +
+					'	&lt;false/&gt; \n' +
+					'	&lt;key&gt;MacroActionType&lt;/key&gt; \n' +
+					'	&lt;string&gt;ExecuteMacro&lt;/string&gt; \n' +
+					'	&lt;key&gt;MacroUID&lt;/key&gt; \n' +
+					'	&lt;string&gt;&lt;/string&gt; \n' +
+					'	&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n' +
+					'	&lt;true/&gt; \n' +
+					'	&lt;key&gt;UseParameter&lt;/key&gt; \n' +
+					'	&lt;false/&gt; \n' +
+					'&lt;/dict&gt; \n' +
+					'&lt;/plist&gt;`');
+				result.ActionName = actionName;
+				result.MacroUID = macroUID;
+				return result;
+			},
+
+            createEmptyPlist: function() {
+				return _deserializeFromXmlString(
+					"&lt;plist version='1.0'&gt; \n" +
+					"&lt;array&gt; \n" +
+					"&lt;/array&gt; \n" +
+					"&lt;/plist&gt;");
+            },
+
+			/**
+			 * Reads a text XML file and deserializes it into a plist object
+			 * @param {string} path The path to the XML file
+			 * @returns {Plist} A plist object
+			 */
+			deserializeFromXmlFile: function(path) {
+				return this.deserializeFromXmlString(this.readTextFile(path));
+			},
+
+			/**
+			 * Deserializes an XML string into a plist object
+			 * @param {string} xml The XML string
+			 * @returns {Plist} A plist object
+			 */
+			 deserializeFromXmlString: function(xml) {
+				var result = _tokenizeXmlDataNodes(xml);
+				return _deserializeFromXmlString(result);
+			},
+
+            /**
+             * Deserializes the KM Macros source file into a plist object
+             * @returns {Plist} A plist object
+             */
+			deserializeKMAllMacrosSourceFile: function() {
+				var xml = this.readKMAllMacrosSourceFileAsXml();
+				return this.deserializeFromXmlString(xml);
+			},
+
+			/**
+			 * Find a macro with the specified UUID.
+			 * @param {Plist} plist The plist to search
+			 * @param {string} macroUUID The UUID to find.
+			 * @returns {Object} An object literal containing {macro, group} or null if not found
+			 */
+			findMacro: function(plist, macroUUID) {
+				return _findMacro(plist, macroUUID);
+			},
+
+			getInitialCommentFromMacro: function(macro) {
+				var results = [];
+				if (!macro.Actions || macro.Actions.length === 0)
+					return null;
+
+				var action = macro.Actions[0];
+				if (action.MacroActionType !== "Comment")
+					return null;
+
+				return {
+					name: action.ActionName || action.Title || "",
+					title: action.Title || "",
+					text: action.Text || ""
+				};
+			},
+
+			getKMPlistXmlObjectType: function(xml) {
+				return _getKMPlistXmlObjectType(xml);
+			},
+
+			// File must contain one macro only, or exception is thrown.
+			getMacroFromKMMacrosFile: function(path) {
+				var plist = this.deserializeFromXmlFile(path);
+				if (!plist)
+					throw Error("Could not read file '" + path + "'");
+				if (plist.length === 0)
+					throw Error("No macros were found in '" + path + "'");
+				if (plist.length &gt; 1)
+					throw Error("Multiple macros were found in '" + path + "'");
+				var group = plist[0];
+
+				if (!group.Macros || group.Macros.count === 0)
+					throw Error("No macros were found in '" + path + "'");
+				if (group.Macros.length &gt; 1)
+					throw Error("Multiple macros were found in '" + path + "'");
+				return group.Macros[0];
+			},
+
+			/**
+			 * Returns all the triggers in all the macros in the plist
+			 * @param {Plist} plist The plist object
+			 * @returns {Array} An arrray of object literals containing macroUUID, macroName, macroTriggers, and potentially groupUUID and groupName
+			 */
+			getMacroTriggers: function(plist) {
+				return _getMacroTriggers(plist);
+			},
+
+			/**
+			 * Gets the type of the content contained in the plist.
+			 * @param {Plist} plist A plist object
+			 * @returns {string} "group", "macro", "action", "empty", or "all" which means it was probably loaded from the KM Macros Plist file.
+			 */
+			getPlistContentType: function(plist) {
+				return _getPlistContentType(plist);
+			},
+
+			/**
+			 * Iterates through all the macros, even ones nested in groups, and calls the callback function.
+			 * @param {Plist} plist The plist object. Can be an array of groups, a single group, an array of macros, or a single macro,
+			 * @param {CallbackMacroGroup} callback Callback function to process each macro. If the callback returns false, the iteration is canceled.
+			 * @returns null if plist isn't iterable (i.e. it contains actions, false if the callback return false, otherwise true.
+			 */
+			iterateMacros: function(plist, callback) {
+				_iterateMacros(plist, callback);
+			},
+
+            /**
+             * Reads the KM Macros Source file and returns the XML
+             * @returns {string} The XML string
+             */
+			readKMAllMacrosSourceFileAsXml: function() {
+				var path = _getAppSupportFolderName() + "/Keyboard Maestro/Keyboard Maestro Macros.plist";
+
+				var nsError = $();
+				var fileData = $.NSData.dataWithContentsOfFileOptionsError(
+					$(path).stringByStandardizingPath, 0, nsError);
+				if (!fileData)
+					throw Error(_getErrorMessage(nsError, "Could not read file '" + path + "'"));
+
+				nsError = $();
+				var plistData = $.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+					fileData, $.NSPropertyListImmutable, 0, nsError);
+				if (!plistData)
+					throw Error(_getErrorMessage(nsError, "Could not deserialize file '" + path + "'"));
+
+				nsError = $();
+				var xmlData = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(
+					plistData, $.NSPropertyListXMLFormat_v1_0, 0, nsError);
+				if (!xmlData)
+					throw Error(_getErrorMessage(nsError, "Could not serialize file '" + path + "' to XML"));
+
+				return $($.NSString.alloc.initWithDataEncoding(xmlData, $.NSUTF8StringEncoding)).js;
+			},
+
+			readTextFile: function(path) {
+				var error = $();
+				var str = ObjC.unwrap(
+					$.NSString.stringWithContentsOfFileEncodingError(
+						$(path).stringByStandardizingPath,
+						$.NSUTF8StringEncoding,
+						error
+					)
+				);
+				if (!str)
+					throw Error(_getErrorMessage(error, "Could not read file '" + path + "', or file is empty"));
+				return str;
+			},
+
+			/**
+			 * Serializes a Plist object to XML and writes it to a text file
+			 * @param {Plist} plist The plist object to serialize
+			 * @param {string} path The path to the file to be written to
+			 */
+			serializeToXmlFile: function(plist, path) {
+				var str = this.serializeToXmlString(plist);
+				this.writeTextFile(str, path);
+			},
+
+            /**
+             * Serializes a Plist object to an XML string
+             * @param {Plist} plist 
+             * @returns {string}
+             */
+            serializeToXmlString: function(plist) {
+				var str = _serializeToXmlString(plist);
+				str = _cleanupXmlAfterDeserialization(str);
+				return _deTokenizeXmlDataNodes(str);
+			},
+
+			writeTextFile: function(text, path) {
+				var error = $();
+				var str = $.NSString.alloc.initWithUTF8String(text);
+				var result = str.writeToFileAtomicallyEncodingError(
+					$(path).stringByStandardizingPath,
+					true,
+					$.NSUTF8StringEncoding,
+					null);
+				if (!result)
+					throw Error(_getErrorMessage(error, "Could not write file '" + path + "'"));
+			}
+		};
+	});
+
+	function KMEngineFunc() {
+		this._engineApp = undefined;
+        this._app = undefined;
+
+		this.calculate = function(str) {
+			return this.getEngineApp().calculate(str);
+		};
+
+		this.chooseFile = function(prompt, type) {
+			var script =
+				'&lt;dict&gt; \n' +
+				'		&lt;key&gt;DisplayKind&lt;/key&gt; \n' +
+				'		&lt;string&gt;Variable&lt;/string&gt; \n' +
+				'		&lt;key&gt;IncludeStdErr&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;MacroActionType&lt;/key&gt; \n' +
+				'		&lt;string&gt;ExecuteJavaScriptForAutomation&lt;/string&gt; \n' +
+				'		&lt;key&gt;Path&lt;/key&gt; \n' +
+				'		&lt;string&gt;&lt;/string&gt; \n' +
+				'		&lt;key&gt;Text&lt;/key&gt; \n' +
+				'		&lt;string&gt;(function() { \n' +
+				'	"use strict"; \n' +
+				'	ObjC.import("Foundation"); \n' +
+				'	try { \n' +
+				'		var prompt = "$$prompt$$"; \n' +
+				'		var type = "$$type$$"; \n' +
+				'		var kme = Application("Keyboard Maestro Engine"); \n' +
+				'		kme.includeStandardAdditions = true; \n' +
+				'		kme.activate(); \n' +
+				'		try { \n' +
+				'			var options = {}; \n' +
+				'			if (prompt) options.withPrompt = prompt; \n' +
+				'			if (type) options.ofType = type; \n' +
+				'			return kme.chooseFile(options).toString(); \n' +
+				'		} catch (e) { \n' +
+				'			return ""; \n' +
+				'		} \n' +
+				'	} catch (e1) { \n' +
+				'		return "Error: " + e1; \n' +
+				'	} \n' +
+				'})();&lt;/string&gt; \n' +
+				'		&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;TrimResults&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;TrimResultsNew&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;UseText&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;Variable&lt;/key&gt; \n' +
+				'		&lt;string&gt;kmengineChooseFileResult&lt;/string&gt; \n' +
+				'&lt;/dict&gt;';
+			script = script.replace("$$prompt$$", this._escapeXml(prompt));
+			script = script.replace("$$type$$", this._escapeXml(type));
+			this.setVariable("kmengineChooseFileResult", "Error: Unknown Error");
+			this.doScript(script);
+			var result = this.getVariable("kmengineChooseFileResult");
+			this.setVariable("kmengineChooseFileResult", "%Delete%");
+			if (result.startsWith("Error: "))
+				throw Error(result);
+			return result;
+		};
+
+		this.chooseFolder = function(prompt, defaultLocation) {
+			var script =
+				'&lt;dict&gt; \n' +
+				'		&lt;key&gt;DisplayKind&lt;/key&gt; \n' +
+				'		&lt;string&gt;Variable&lt;/string&gt; \n' +
+				'		&lt;key&gt;IncludeStdErr&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;MacroActionType&lt;/key&gt; \n' +
+				'		&lt;string&gt;ExecuteJavaScriptForAutomation&lt;/string&gt; \n' +
+				'		&lt;key&gt;Path&lt;/key&gt; \n' +
+				'		&lt;string&gt;&lt;/string&gt; \n' +
+				'		&lt;key&gt;Text&lt;/key&gt; \n' +
+				'		&lt;string&gt;(function() { \n' +
+				'	"use strict"; \n' +
+				'	ObjC.import("Foundation"); \n' +
+				'	try { \n' +
+				'		var prompt = "$$prompt$$"; \n' +
+				'		var defaultLocation = "$$defaultLocation$$"; \n' +
+				'		if (defaultLocation &amp;amp;&amp;amp; defaultLocation.indexOf("~") === 0) \n' +
+				'			defaultLocation = ObjC.unwrap($(defaultLocation).stringByExpandingTildeInPath); \n' +
+				'		var kme = Application("Keyboard Maestro Engine"); \n' +
+				'		kme.includeStandardAdditions = true; \n' +
+				'		kme.activate(); \n' +
+				'		try { \n' +
+				'			var options = {}; \n' +
+				'			if (prompt) options.withPrompt = prompt; \n' +
+				'			if (defaultLocation) options.defaultLocation = defaultLocation; \n' +
+				'			return kme.chooseFolder(options).toString(); \n' +
+				'		} catch (e) { \n' +
+				'			return ""; \n' +
+				'		} \n' +
+				'	} catch (e1) { \n' +
+				'		return "Error: " + e1; \n' +
+				'	} \n' +
+				'})();&lt;/string&gt; \n' +
+				'		&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;TrimResults&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;TrimResultsNew&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;UseText&lt;/key&gt; \n' +
+				'		&lt;true/&gt; \n' +
+				'		&lt;key&gt;Variable&lt;/key&gt; \n' +
+				'		&lt;string&gt;kmengineChooseFolderResult&lt;/string&gt; \n' +
+				'&lt;/dict&gt;';
+			script = script.replace("$$prompt$$", this._escapeXml(prompt));
+			script = script.replace("$$defaultLocation$$", defaultLocation &amp;&amp; !_isYosemite ? this._escapeXml(defaultLocation) : "");
+			this.setVariable("kmengineChooseFolderResult", "Error: Unknown Error");
+			this.doScript(script);
+			var result = this.getVariable("kmengineChooseFolderResult");
+			this.setVariable("kmengineChooseFolderResult", "%Delete%");
+			if (result.startsWith("Error: "))
+				throw Error(result);
+			return result;
+		};
+
+		this.convertStringToPlist = function(str) {
+			return ObjC.deepUnwrap(
+				$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+					$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));
+		};
+
+		this.deleteVariable = function(name) {
+			this.setVariable(name, "%Delete%");
+		};
+
+		this.doScript = function(uuidOrUniqueNameOrScript, parameter, timeout) {
+			if (parameter) {
+				if (timeout) {
+					this.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter }, { timeout: timeout });
+				} else {
+					this.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter });
+				}
+			} else {
+				if (timeout) {
+					this.getEngineApp().doScript(uuidOrUniqueNameOrScript, { timeout: timeout });
+				} else {
+					this.getEngineApp().doScript(uuidOrUniqueNameOrScript);
+				}
+			}
+		};
+
+		this._escapeXml = function(str) {
+			if (!str) return "";
+			return str.replace(/[&lt;&gt;&amp;'"]/g, function(c) {
+				switch (c) {
+					case '&lt;':
+						return '&amp;lt;';
+					case '&gt;':
+						return '&amp;gt;';
+					case '&amp;':
+						return '&amp;amp;';
+					case '\'':
+						return '&amp;apos;';
+					case '"':
+						return '&amp;quot;';
+				}
+			});
+		};
+
+		this.executing = function() {
+			return this.getEngineApp().executing();
+		};
+
+		this.getActionsClipboardType = function() {
+			return "com.stairways.keyboardmaestro.actionarray";
+		};
+
+		this.getAllMacrosSourceFileName = function() {
+			return this.getAppSupportFolderName() + "Keyboard Maestro Macros.plist";
+		};
+
+		this.getAllVariableNames = function() {
+			return this.getEngineApp().variables.name();
+		};
+
+        this.getCurrentApp = function() {
+			if (!this._currentApp)
+				this._currentApp = Container.getCurrentApplication();
+			return this._currentApp;
+        }
+
+		this.getEngineAppName = function() {
+			return "Keyboard Maestro Engine";
+		};
+
+		this.getEngineApp = function() {
+			if (!this._engineApp)
+				this._engineApp = Container.getApplication(this.getEngineAppName());
+			return this._engineApp;
+		};
+
+		this.getHotKeys = function(asString, getAll) {
+			return this.getEngineApp().gethotkeys({ asstring: !!asString, getall: !!getAll });
+		};
+
+		this.getHotKeysAsPlist = function(getAll) {
+			return this.convertStringToPlist(this.getHotKeys(true, getAll));
+		};
+
+		this.getMacrosClipboardType = function() {
+			return "com.stairways.keyboardmaestro.macrosarray";
+		};
+
+		this.getMacros = function(binary) {
+			return this.getEngineApp().getmacros({
+				asstring: !binary
+			});
+		};
+
+		this.getMacrosAsPlist = function() {
+			return this.convertStringToPlist(this.getMacros(false));
+		};
+
+		this.getMacrosInfo = function() {
+			var result = {};
+			var plist = this.getMacrosAsPlist(false);
+			plist.forEach(function(group) {
+				if (group.macros) {
+					group.macros.forEach(function(macro) {
+						result[macro.uid] = {
+							macroUID: macro.uid,
+							macroName: macro.name,
+							groupUID: group.uid,
+							groupName: group.name
+						};
+					});
+				}
+			});
+			return result;
+		};
+
+		this.getNamedClipboardInfo = function() {
+			var path = this.getNamedClipboardsSourceFileName();
+			var plist = this.readPlistBinaryFile(path);
+
+			var result = plist.map(function(item) {
+				return { name: item.Name, UID: item.UID };
+			});
+			result = result.sort(function(a, b) {
+				if (a.name &lt; b.name) return -1;
+				if (a.name &gt; b.name) return 1;
+				return 0;
+			});
+			return result;
+		};
+
+		this.getNamedClipboardsSourceFileName = function() {
+			return this.getAppSupportFolderName() +
+				"Keyboard Maestro Clipboards.plist";
+		};
+
+		this.getValueForVariableContainingVariableName = function(nameOfVariableContainingVariableName,
+			nameOfVariableContainingVariableNameIsRequired,
+			valueIsRequired) {
+			var variableName = this.getVariable(nameOfVariableContainingVariableName,
+				nameOfVariableContainingVariableNameIsRequired);
+			if (!variableName)
+				return "";
+			return this.getVariable(variableName, valueIsRequired);
+		};
+
+		this.getVariable = function(name, required) {
+            var result = undefined;
+            if (inDesignMode &amp;&amp; designModeParams)
+                result = designModeParams[name];
+            if (result === undefined) {
+                if (name.match(/^Instance|^Local/)) {
+                    var inst = this.getCurrentApp().systemAttribute("KMINSTANCE");
+                    result = this.getEngineApp().getvariable(name, {instance: inst});
+                } else {
+                    result = this.getEngineApp().getvariable(name);
+                }
+            }
+			if (!result &amp;&amp; required)
+				throw Error("Variable '" + name + "' is empty");
+			return result;
+		};
+
+		this.getVariableAsLines = function(name, required, options) {
+			if (!options)
+				options = {
+					trimLines: true,
+					removeBlankLines: true
+				};
+			var result = this.getVariable(name, required).split(/[\r\n]+/);
+			if (options.trimLines) {
+				result = result.map(function(line) {
+					return line.trim();
+				});
+			}
+			if (options.removeBlankLines) {
+				result = result.filter(function(line) {
+					return line.length &gt; 0;
+				});
+			}
+			if (result.length === 0) {
+				if (required)
+					throw Error("Variable '" + name + "' is empty");
+				return null;
+			}
+			return result;
+		};
+
+		this.playSound = function(file, soundEffect, volume) {
+			var options = {};
+			if (soundEffect !== undefined)
+				options.soundeffect = soundEffect;
+			if (volume !== undefined)
+				options.volume = volume;
+			this.getEngineApp().playSound(file, options);
+		};
+
+		this.processTokens = function(str) {
+			return this.getEngineApp().processTokens(str);
+		};
+
+		this.readPlistBinaryFile = function(path) {
+			var data = $.NSData.dataWithContentsOfFile(path);
+			return ObjC.deepUnwrap(
+				$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+					data, $.NSPropertyListBinaryFormat_v1_0, 0, null));
+		};
+
+		this.reload = function() {
+			this.getEngineApp().reload();
+		};
+
+		this.setVariable = function(name, value) {
+			if (name.match(/^Instance|^Local/)) {
+                if (inDesignMode)
+                    console.log(`setVariable("${name}", "${value}")`)
+                else
+                    this.getEngineApp().setvariable(name, {
+                        to: value,
+                        instance: this.getCurrentApp().systemAttribute("KMINSTANCE")
+                    });
+			} else {
+				this.getEngineApp().setvariable(name, { to: value });
+			}
+		};
+
+		this.showPromptWithOkCancel = function(title, prompt) {
+			var script =
+				'&lt;dict&gt; \n' +
+				'	&lt;key&gt;Actions&lt;/key&gt; \n' +
+				'	&lt;array&gt; \n' +
+				'		&lt;dict&gt; \n' +
+				'			&lt;key&gt;Buttons&lt;/key&gt; \n' +
+				'			&lt;array&gt; \n' +
+				'				&lt;dict&gt; \n' +
+				'					&lt;key&gt;Button&lt;/key&gt; \n' +
+				'					&lt;string&gt;OK&lt;/string&gt; \n' +
+				'				&lt;/dict&gt; \n' +
+				'				&lt;dict&gt; \n' +
+				'					&lt;key&gt;Button&lt;/key&gt; \n' +
+				'					&lt;string&gt;Cancel&lt;/string&gt; \n' +
+				'					&lt;key&gt;Cancel&lt;/key&gt; \n' +
+				'					&lt;false/&gt; \n' +
+				'				&lt;/dict&gt; \n' +
+				'			&lt;/array&gt; \n' +
+				'			&lt;key&gt;MacroActionType&lt;/key&gt; \n' +
+				'			&lt;string&gt;PromptForUserInput&lt;/string&gt; \n' +
+				'			&lt;key&gt;Prompt&lt;/key&gt; \n' +
+				'			&lt;string&gt;$$prompt$$&lt;/string&gt; \n' +
+				'			&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n' +
+				'			&lt;true/&gt; \n' +
+				'			&lt;key&gt;Title&lt;/key&gt; \n' +
+				'			&lt;string&gt;$$title$$&lt;/string&gt; \n' +
+				'			&lt;key&gt;Variables&lt;/key&gt; \n' +
+				'			&lt;array/&gt; \n' +
+				'		&lt;/dict&gt; \n' +
+				'		&lt;dict&gt; \n' +
+				'			&lt;key&gt;MacroActionType&lt;/key&gt; \n' +
+				'			&lt;string&gt;SetVariableToText&lt;/string&gt; \n' +
+				'			&lt;key&gt;Text&lt;/key&gt; \n' +
+				'			&lt;string&gt;%Variable%Result Button%&lt;/string&gt; \n' +
+				'			&lt;key&gt;Variable&lt;/key&gt; \n' +
+				'			&lt;string&gt;kmenginePromptResult&lt;/string&gt; \n' +
+				'		&lt;/dict&gt; \n' +
+				'	&lt;/array&gt; \n' +
+				'	&lt;key&gt;MacroActionType&lt;/key&gt; \n' +
+				'	&lt;string&gt;Group&lt;/string&gt; \n' +
+				'	&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n' +
+				'	&lt;true/&gt; \n' +
+				'&lt;/dict&gt;';
+			script = script.replace("$$title$$", this._escapeXml(title));
+			script = script.replace("$$prompt$$", this._escapeXml(prompt));
+			this.setVariable("kmenginePromptResult", "");
+			this.doScript(script);
+			var result = this.getVariable("kmenginePromptResult");
+			this.setVariable("kmenginePromptResult", "%Delete%");
+			return result === "OK";
+		};
+
+	}
+
+	function KMEditorFunc() {
+		this._editorAppName = "Keyboard Maestro";
+		this._editorApp = null;
+
+		this.deleteMacro = function(uuid) {
+			this.getEditorApp().deletemacro(uuid);
+		}
+
+		this.getEditorApp = function() {
+			if (!this._editorApp)
+				this._editorApp = Container.getApplication(this._editorAppName);
+			return this._editorApp;
+		};
+
+		this.getEditorAppName = function() {
+			return this._editorAppName;
+		};
+
+		this.getMacrosXmlListForUuids = function(uuidList) {
+			var selectionItems = uuidList.map(uuid =&gt; { return { id: {"=": uuid} }; });
+			return this.getEditorApp().macros.whose({ _or: selectionItems}).xml();
+		};
+
+		this.importMacros = function(pathOrPlist) {
+			this.getEditorApp().importmacros(pathOrPlist);
+		};
+	}
+
+	// InstallationVerifier ===================================================
+	function InstallationVerifierFunc() {
+		this._existingMacrosInfoGatherer = Container.getExistingMacrosInfoGatherer();
+
+		this.allMacrosWereImported = function() {
+			var exisingMacrosInfo = this._existingMacrosInfoGatherer.execute();
+			return Data.vars.macrosToInstallInfo.find(m =&gt; exisingMacrosInfo.plists[m.macroUID] == null) == null;
+		};
+
+		this.getResults = function() {
+			var timeout = Date.now() + 5000;
+			while (Date.now() &lt; timeout) {
+				if (this.allMacrosWereImported())
+					return "OK";
+				sleep(0.5);
+			}
+			return "Unable to determine if all macros were successfully imported (timed out)";
+		};
+	}
+
+	// TextFileWriter =========================================================
+	function TextFileWriter(filePath, overwriteExisting) {
+		this._filePath = filePath;
+		this._app = Application.currentApplication();
+		this._app.includeStandardAdditions = true;
+		this._overwriteExisting = overwriteExisting;
+
+		this.writeLine = function(str) {
+			var file = this._app.openForAccess(filePath, { writePermission: true });
+			try {
+				if (this._overwriteExisting) {
+					this._overwriteExisting = false;
+            		this._app.setEof(file, { to: 0 });
+        		}
+				this._app.write(str + "\r\n", { to: file, startingAt: this._app.getEof(file) });
+				try {
+					this._app.closeAccess(file);
+				} finally {
+					file = null;
+				}
+			} catch (e) {
+				if (file) {
+					try {
+						this._app.closeAccess(file);
+					} catch (e) {
+					}
+				}
+				throw e;
+			}
+		};
+	}
+
+	// InstallationLogger =====================================================
+	function InstallationLoggerFunc(dryRun) {
+		this._dryRun = dryRun;
+		this._fileUtils = Container.getFileUtils();
+		this._pathNameUtils = Container.getPathNameUtils();
+		this._textFileWriter = null;
+
+		this.log = function(msg) {
+			try {
+				if (!this._textFileWriter) {
+					var path = this._pathNameUtils.removeTrailingSlash(Data.vars.installerAppPath);
+					if (path.endsWith(".app"))
+						path = this._pathNameUtils.replaceFileExtension(path, ".log");
+					else
+						path = path + ".log";
+					this._textFileWriter = new TextFileWriter(path, true);
+
+					var line;
+					if (this._dryRun) {
+						line = this.formatLine("***************** DRY RUN ***********************");
+					} else {
+						line = this.formatLine("************ BEGIN INSTALLATION *****************");
+					}
+					this._textFileWriter.writeLine(line);
+				}
+				this._textFileWriter.writeLine(this.formatLine(msg));
+			} catch (e) {
+			}
+		};
+
+		this.getTimestamp = function() {
+			var dt = new Date();
+			var month = dt.getMonth() + 1;
+			var day = dt.getDate();
+			var hour = dt.getHours();
+			var min = dt.getMinutes();
+			var sec = dt.getSeconds();
+			return dt.getFullYear().toString() + "." +
+				(month &lt; 10 ? "0" : "") + month + "." +
+				(day &lt; 10 ? "0" : "") + day + " " +
+				(hour &lt; 10 ? "0" : "") + hour + ":" +
+				(min &lt; 10 ? "0" : "") + min + ":" +
+				(sec &lt; 10 ? "0" : "") + sec;
+		};
+
+		this.formatLine = function(str) {
+			return this.getTimestamp() + " " + str;
+		};
+	}
+
+	// ResourcesInstaller =====================================================
+	function ResourcesInstallerFunc(dryRun) {
+		this._dryRun = dryRun;
+		this._pathNameUtils = Container.getPathNameUtils();
+		this._fileUtils = Container.getFileUtils();
+		this._kmEngine = Container.getKMEngine();
+		this._logger = Container.getInstallationLogger();
+
+		this.installFolder = function(sourceFolderPath, destFolderPath) {
+			if (!this._fileUtils.folderExists(destFolderPath)) {
+				if (this._dryRun) {
+					this._logger.log("Would create folder: " + destFolderPath);
+				} else {
+					this._logger.log("Creating folder: " + destFolderPath);
+					this._fileUtils.createFolder(destFolderPath, true);
+				}
+			} else {
+				this._logger.log("Folder already exists (that's OK): " + destFolderPath);
+			}
+		};
+
+		this.installFile = function(sourceFilePath, destFilePath) {
+			if (this._fileUtils.fileExists(destFilePath)) {
+				if (this._dryRun) {
+					this._logger.log("Would trash existing file: " + destFilePath);
+				} else {
+					this._logger.log("Trashing existing file: " + destFilePath);
+					this._fileUtils.trashFile(destFilePath);
+				}
+			}
+			if (this._dryRun) {
+				this._logger.log("Would copy resource to file: " + destFilePath);
+			} else {
+				this._logger.log("Copying resource to file: " + destFilePath);
+				this._fileUtils.copyFile(sourceFilePath, destFilePath, true);
+			}
+		};
+
+		this.processPath = function(sourcePath, destPath) {
+			var sourcePathExists = this._fileUtils.getFileOrFolderExists(sourcePath);
+			if (!sourcePathExists.exists)
+				throw Error("Logic error: sourcePath does not exist: '" + sourcePath + "'");
+			if (sourcePathExists.isFile) {
+				this.installFile(sourcePath, destPath);
+			} else {
+				this.installFolder(sourcePath, destPath);
+			}
+		};
+
+		this.installSubfolderContents = function(sourceBasePath, destBasePath, existingAction) {
+			sourceBasePath = this._pathNameUtils.addTrailingSlash(sourceBasePath);
+			destBasePath = this._pathNameUtils.addTrailingSlash(destBasePath);
+
+			if (this._fileUtils.folderExists(destBasePath)) {
+				switch (existingAction) {
+					case ExistingFolderActions.replaceFolder:
+						this._logger.log(`Trashing existing dest folder "destBasePath"`);
+						this._fileUtils.trashFolder(destBasePath);
+						break;
+					case ExistingFolderActions.createIfMissing:
+						this._logger.log(`Dest folder "destBasePath" exists, stop processing this folder`);
+						return;
+					case ExistingFolderActions.replaceFiles:
+						// fall-through - we'll handle this below
+						break;
+					default:
+						throw new Error(`Unexpected subfolder existingAction: "existingAction"`);
+				}
+			}
+
+			this._logger.log(`Creating dest folder "destBasePath" if needed`);
+			this._fileUtils.createFolderIfNeeded(destBasePath);
+			var paths = this._fileUtils.getDirectoryContents(sourceBasePath, true, false);
+
+			paths.forEach(function(path) {
+				var sourcePath = sourceBasePath + path;
+				var destPath = destBasePath + path;
+				this.processPath(sourcePath, destPath);
+			}, this);
+		};
+
+		this.verifyDestResourcesFolderPath = function() {
+			var verifiedDestResourcesFolderPath = Data.vars.minstVerifiedDestResourcesFolderPath;
+			if (!verifiedDestResourcesFolderPath || verifiedDestResourcesFolderPath != Data.vars.destResourcesFolderPath)
+				throw Error("Logic Error: DestResourcesFolderPath is not verified.\n\nDestPath: '" + Data.vars.destResourcesFolderPath + "'\n\nVerified: '" + verifiedDestResourcesFolderPath + "'");
+		};
+
+		this.execute = function() {
+			this.verifyDestResourcesFolderPath();
+			if (this._dryRun) {
+				this._logger.log("Would create folder (if needed): " + Data.vars.destResourcesFolderPath);
+			} else {
+				this._logger.log("Creating folder (if needed): " + Data.vars.destResourcesFolderPath);
+				this._fileUtils.createFolderIfNeeded(Data.vars.destResourcesFolderPath, true);
+			}
+
+			Data.params.minstResourcesSubfolders.forEach(subfolder =&gt; {
+				var sourcePath = Data.vars.installerAppFilesPath + subfolder.subfolderName;
+				var destPath = Data.vars.destResourcesFolderPath + subfolder.subfolderName;
+				this.installSubfolderContents(sourcePath, destPath, subfolder.existingAction);
+			}, this);
+
+			if (!this._dryRun)
+				this._kmEngine.setVariable(Data.params.minstResourcesFolderPath_VariableName, Data.vars.destResourcesFolderPath);
+			return true;
+		};
+	}
+
+	// InstallationExecutor ===================================================
+	function InstallationExecutorFunc(dryRun) {
+		this._dryRun = dryRun;
+		this._plistUtils = Container.getPlistUtils();
+		this._pathNameUtils = Container.getPathNameUtils();
+		this._fileUtils = Container.getFileUtils();
+		this._kmEngine = Container.getKMEngine();
+		this._kmEditor = Container.getKMEditor();
+		this._resourcesInstaller = Container.getResourcesInstaller();
+		this._logger = Container.getInstallationLogger();
+
+		var macrosFilePath;
+		var updatedMacrosFilePath;
+		var macrosToImportFilePath;
+
+		this.importTriggersIntoMacrosFile = function() {
+			this._logger.log(`Importing Existing Triggers (if any)`);
+			var plist = this._plistUtils.deserializeFromXmlFile(macrosFilePath);
+			var modified = false;
+			this._plistUtils.iterateMacros(plist, (macro, group) =&gt; {
+				var existingPlist = Data.vars.existingMacrosInfo.plists[macro.UID];
+				if (existingPlist &amp;&amp; existingPlist.Triggers &amp;&amp; existingPlist.Triggers.length &gt; 0) {
+					macro.Triggers = existingPlist.Triggers;
+					modified = true;
+					this._logger.log(`Macro "${macro.Name}" imported triggers from existing macro: ${JSON.stringify(macro.Triggers, null, 2)}`);
+				}
+			});
+
+			if (modified) {
+				if (this._dryRun)
+					this._logger.log(`Would save updated .kmmacros file to "${updatedMacrosFilePath}"`);
+				else {
+					this._plistUtils.serializeToXmlFile(plist, updatedMacrosFilePath);
+					macrosToImportFilePath = updatedMacrosFilePath;
+				}
+			}
+		}
+
+		this.deleteExistingMacros = function() {
+			this._logger.log(`Deleting Existing Macros (if any)`);
+			Data.vars.macrosToInstallInfo.forEach(macroInfo =&gt; {
+				if (this._dryRun)
+					this._logger.log(`Would delete existing macro "${macroInfo.macroName}" (macroInfo.macroUID)`)
+				else {
+					this._kmEditor.deleteMacro(macroInfo.macroUID);
+					this._logger.log(`Deleted existing macro "${macroInfo.macroName}" (macroInfo.macroUID)`)
+				}
+			});
+		}
+
+		this.importMacros = function() {
+			this._logger.log((this._dryRun ? "Would ask" : "Asking") + " KM Editor to import these macros:");
+			Data.vars.macrosToInstallInfo.forEach(function(macroInfo) {
+				this._logger.log("    " + macroInfo.macroName + "  [" + macroInfo.groupName + "]");
+			}, this);
+
+			if (!this._dryRun) {
+				this._logger.log(`Importing from file "${macrosToImportFilePath}"`);
+				this._kmEditor.importMacros(macrosToImportFilePath);
+			}
+		};
+
+		this.execute = function() {
+			if (Data.vars.destResourcesFolderPath) {
+				if (!this._resourcesInstaller.execute())
+					return false;
+			}
+
+			macrosFilePath = Data.vars.installerAppFilesPath + "macros.kmmacros";
+			updatedMacrosFilePath = this._pathNameUtils.replaceFileExtension(macrosFilePath, ".temp.kmmacros");
+			macrosToImportFilePath = macrosFilePath;
+
+			this._logger.log(`Data.params.minstExistingMacrosAction: ${Data.params.minstExistingMacrosAction}`);
+			if (Data.params.minstExistingMacrosAction == ExistingMacrosActions.autoDeleteAndSaveTriggers)
+				this.importTriggersIntoMacrosFile();
+			if (isAutoDelete(Data.params.minstExistingMacrosAction))
+				this.deleteExistingMacros();
+			this.importMacros(macrosToImportFilePath);
+			return true;
+		};
+	}
+
+	// ExistingMacrosInfoGatherer =============================================
+	function ExistingMacrosInfoGathererFunc() {
+		this._plistUtils = Container.getPlistUtils();
+
+		this.execute = function() {
+			var plistUtils = this._plistUtils;
+			var plist = plistUtils.deserializeKMAllMacrosSourceFile();
+			var result = {
+				macros: [],
+				plists: {}
+			};
+
+			function findAndAdd(macroUID) {
+				var foundMacroInfo = plistUtils.findMacro(plist, macroUID);
+				if (foundMacroInfo) {
+					result.macros.push({
+						macroUID: foundMacroInfo.macro.UID,
+						macroName: foundMacroInfo.macro.Name,
+						groupUID: foundMacroInfo.group.UID,
+						groupName: foundMacroInfo.group.Name,
+						hasTriggers: foundMacroInfo.macro.Triggers &amp;&amp; foundMacroInfo.macro.Triggers.length &gt; 0
+					});
+					result.plists[foundMacroInfo.macro.UID] = foundMacroInfo.macro;
+				}
+			}
+
+			Data.vars.macrosToInstallInfo.forEach(function(macroInstallInfo) {
+				findAndAdd(macroInstallInfo.macroUID);
+			});
+
+			if (Data.params.minstDeletedMacroUUIDs) {
+				Data.params.minstDeletedMacroUUIDs.forEach(function(deletedMacroUID) {
+					findAndAdd(deletedMacroUID);
+				});
+			}
+
+			return result;
+		};
+	}
+
+	// InstallationSummaryController ==========================================
+	function InstallationSummaryControllerFunc() {
+		this._kmEngine = Container.getKMEngine();
+		this._existingMacrosInfoGatherer = Container.getExistingMacrosInfoGatherer();
+		this._logger = Container.getInstallationLogger();
+
+		this.log = function(msg) {
+			msg = msg.split("\n").join("\n\t\t");
+			this._logger.log(`InstallationSummaryController: ${msg}`);
+		}
+
+		this.showInstallationSummaryPrompt = function() {
+			this._kmEngine.setVariable("kmengineHTMLResultButton", "");
+			var htmlFilePath = Data.vars.installerAppFilesPath + "Installation Summary Prompt.html";
+
+			var action =
+				"&lt;dict&gt; \n" +
+				"	&lt;key&gt;Actions&lt;/key&gt; \n" +
+				"	&lt;array&gt; \n" +
+				"		&lt;dict&gt; \n" +
+				"			&lt;key&gt;MacroActionType&lt;/key&gt; \n" +
+				"			&lt;string&gt;CustomPrompt&lt;/string&gt; \n" +
+				"			&lt;key&gt;Path&lt;/key&gt; \n" +
+				"			&lt;string&gt;" + htmlFilePath + "&lt;/string&gt; \n" +
+				"			&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n" +
+				"			&lt;true/&gt; \n" +
+				"			&lt;key&gt;UseText&lt;/key&gt; \n" +
+				"			&lt;false/&gt; \n" +
+				"		&lt;/dict&gt; \n" +
+				"		&lt;dict&gt; \n" +
+				"			&lt;key&gt;MacroActionType&lt;/key&gt; \n" +
+				"			&lt;string&gt;SetVariableToText&lt;/string&gt; \n" +
+				"			&lt;key&gt;Text&lt;/key&gt; \n" +
+				"			&lt;string&gt;%Variable%HTML Result Button%&lt;/string&gt; \n" +
+				"			&lt;key&gt;Variable&lt;/key&gt; \n" +
+				"			&lt;string&gt;kmengineHTMLResultButton&lt;/string&gt; \n" +
+				"		&lt;/dict&gt; \n" +
+				"	&lt;/array&gt; \n" +
+				"	&lt;key&gt;MacroActionType&lt;/key&gt; \n" +
+				"	&lt;string&gt;Group&lt;/string&gt; \n" +
+				"	&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt; \n" +
+				"	&lt;true/&gt; \n" +
+				"&lt;/dict&gt;";
+
+			var info = {
+				installerTitle: Data.params.minstInstallerTitle,
+				destResourcesFolderPath: Data.vars.destResourcesFolderPath,
+				macrosToInstallInfo: Data.vars.macrosToInstallInfo,
+				existingMacrosInfo: Data.vars.existingMacrosInfo.macros,
+				existingMacrosAction: Data.params.minstExistingMacrosAction
+			};
+
+			// this.log(`Calling Installation Sumary Prompt, info=\n${JSON.stringify(info, null, 2)}`);
+			this._kmEngine.setVariable("minstInstallationInfo", JSON.stringify(info));
+			this._kmEngine.setVariable("kmengineHTMLResultButton", "");
+			this._kmEngine.doScript(action, null, 60 * 20);
+			var result = {
+				button: this._kmEngine.getVariable("kmengineHTMLResultButton"),
+				verifiedDestResourcesFolderPath: this._kmEngine.getVariable("minstVerifiedDestResourcesFolderPath")
+			};
+			this._kmEngine.deleteVariable("kmengineHTMLResultButton");
+			this._kmEngine.deleteVariable("minstVerifiedDestResourcesFolderPath");
+			this.log(`Installation Sumary Prompt returned\n${JSON.stringify(result, null, 2)}}`);
+			return result;
+		};
+
+		this.execute = function() {
+			while (true) {
+				Data.vars.existingMacrosInfo = this._existingMacrosInfoGatherer.execute();
+				// this.log(`existingMacrosInfoGatherer.execute() returned\n${JSON.stringify(Data.vars.existingMacrosInfo, null, 2)}`)
+				var promptResult = this.showInstallationSummaryPrompt();
+				switch (promptResult.button) {
+					case "Resources":
+						this.log(`Calling resourcesController.execute()`);
+						var resourcesController = Container.getResourcesInfoController(true);
+						resourcesController.execute(); // we don't care if it was canceled or not
+						break;
+					case "Refresh":
+						// Continue the loop
+						this.log(`Continuing the loop for "Refresh"`);
+
+						break;
+					case "OK":
+						// This "if" may no longer be needed?
+						var existingMacrosPresent = Data.vars.existingMacrosInfo &amp;&amp; Data.vars.existingMacrosInfo.length &gt; 0;
+						if (!existingMacrosPresent || isAutoDelete(Data.params.minstExistingMacrosAction)) {
+							Data.vars.minstVerifiedDestResourcesFolderPath = promptResult.verifiedDestResourcesFolderPath;
+							this.log(`Returing true`)
+							return true;
+						}
+						break;
+					default:
+						return false;
+				}
+			}
+		};
+	}
+
+	// MacrosToInstallInfoGathererFunc ========================================
+	function MacrosToInstallInfoGathererFunc() {
+		this._fileUtils = Container.getFileUtils();
+		this._plistUtils = Container.getPlistUtils();
+
+		this.execute = function() {
+			var macrosToInstallFilePath = Data.vars.installerAppFilesPath + "macros.kmmacros";
+			if (!this._fileUtils.fileExists(macrosToInstallFilePath))
+				throw Error("File not found: '" + macrosToInstallFilePath + "'");
+
+			var plist = this._plistUtils.deserializeFromXmlFile(macrosToInstallFilePath);
+			if (!plist)
+				throw Error("Could not read file '" + macrosToInstallFilePath + "'");
+
+			var result = [];
+			plist.forEach(function(group) {
+				group.Macros.forEach(function(macro) {
+					result.push({
+						macroName: macro.Name,
+						macroUID: macro.UID,
+						groupName: group.Name,
+						groupUID: group.UID
+					});
+				});
+			});
+
+			if (result.length === 0)
+				throw Error("No macros found to install in file '" + macrosToInstallFilePath + "'");
+			result.sort((a, b) =&gt; {
+				if (a.groupName &lt; b.groupName) return -1;
+				if (a.groupName &gt; b.groupName) return 1;
+				if (a.macroName &lt; b.macroName) return -1;
+				if (a.macroName &gt; b.macroName) return 1;
+				return 0;
+			})
+			Data.vars.macrosToInstallInfo = result;
+			return true;
+		};
+	}
+
+	// ResourcesInfoController ================================================
+	function ResourcesInfoControllerFunc() {
+		this._pathNameUtils = Container.getPathNameUtils();
+		this._fileUtils = Container.getFileUtils();
+		this._kmEngine = Container.getKMEngine();
+		this._logger = Container.getInstallationLogger();
+
+		this.checkParams = function() {
+			if (!Data.params.minstResourcesFolderName)
+				return false;
+
+			if (!Data.params.minstResourcesSubfolders)
+				throw Error("Variable 'minstResourcesSubfolders' is empty");
+			if (!Data.params.minstResourcesFolderPath_VariableName)
+				throw Error("Variable 'minstResourcesFolderPath_VariableName' is empty");
+			return true;
+		};
+
+		this.getRawDestResourcesFolderPath = function() {
+			this._logger.log("Enter getRawDestResourcesFolderPath");
+			var defaultPath = "~/Documents";
+			if (Data.vars.destResourcesFolderPath) {
+				this._logger.log(`Data.vars.destResourcesFolderPath: ${Data.vars.destResourcesFolderPath}`);
+				var path = Data.vars.destResourcesFolderPath;
+				if (!this._fileUtils.folderExists(path)) {
+					this._logger.log(`Folder does not exist: ${path}`);
+
+					path = this._pathNameUtils.removeLastPathComponent(path);
+					this._logger.log(`Trying: ${path}`);
+					if (!this._fileUtils.folderExists(path)) {
+						this._logger.log(`Path ${path} does not exist, using default ${defaultPath}`);
+						path = defaultPath;
+					}
+				}
+				defaultPath = path;
+				this._logger.log(`Set defaultPath to: ${defaultPath}`);
+			} else if (Data.params.minstResourcesFolderPath) {
+				this._logger.log(`Returning Data.params.minstResourcesFolderPath: ${Data.params.minstResourcesFolderPath}`);
+				return Data.params.minstResourcesFolderPath;
+			} else if (Data.params.minstOldResourcesPkgPath) {
+				this._logger.log(`Returning Data.params.minstOldResourcesPkgPath: ${Data.params.minstOldResourcesPkgPath}`);
+				return this._pathNameUtils.removeLastPathComponent(Data.params.minstOldResourcesPkgPath);
+			}
+			var resourcesFolderName = this._pathNameUtils.removeTrailingSlash(Data.params.minstResourcesFolderName);
+			this._logger.log(`Prompting with defaultPath: ${defaultPath}`);
+
+			return this._kmEngine.chooseFolder("Where should the Resources folder '" + resourcesFolderName + "' be created?", defaultPath);
+		};
+
+		this.getDestResourcesFolderPath = function() {
+			var result = this.getRawDestResourcesFolderPath();
+			if (!result)
+				return null;
+
+			if (this._pathNameUtils.getLastPathComponent(result).toLowerCase() ===
+				this._pathNameUtils.removeTrailingSlash(Data.params.minstResourcesFolderName.toLowerCase())) {
+				result = this._pathNameUtils.removeLastPathComponent(result);
+			}
+			result = this._pathNameUtils.combinePathComponents(result, Data.params.minstResourcesFolderName);
+			return this._pathNameUtils.addTrailingSlash(result);
+		};
+
+		this.execute = function() {
+			if (!this.checkParams()) {
+				return true;
+			}
+
+			var result = this.getDestResourcesFolderPath();
+			if (!result)
+				return false;
+			Data.vars.destResourcesFolderPath = result;
+			return true;
+		};
+	}
+
+	// InstallationFilesFinder =====================================================
+	function InstallationFilesFinderFunc() {
+		this._pathNameUtils = Container.getPathNameUtils();
+		this._fileUtils = Container.getFileUtils();
+		this._kmEngine = Container.getKMEngine();
+		this._isApp = Data.params.minstInstallerAppName.endsWith(".app");
+
+		this.getInstallerAppUUID = function(configFilePath) {
+			if (!this._fileUtils.fileExists(configFilePath))
+				return null;
+
+			var config;
+			try {
+				var configFile = this._fileUtils.readTextFile(configFilePath);
+				config = JSON.parse(configFile);
+			} catch (e) {
+				return null;
+			}
+			return config.installerAppUUID;
+		};
+
+		this.validateInstallerAppPath = function(appPath) {
+			var configFilePath = this._pathNameUtils.combinePathComponents(appPath, Data.params.minstInstallerInternalFilesFolderPath, "config.json");
+			this._pathNameUtils.getLastPathComponent
+			var configFilePath = this._pathNameUtils.combinePathComponents(appPath, Data.params.minstInstallerInternalFilesFolderPath, "config.json");
+			console.log(`configFilePath: ${configFilePath}`);
+			var uuid = this.getInstallerAppUUID(configFilePath);
+			if (uuid === Data.params.minstInstallerAppUUID)
+				return "";
+
+			if (this._isApp)
+				return "This is not the right file."
+
+			var result = [];
+			result.push(`You selected "${appPath}".`);
+			result.push(`This folder doesn't contain the installation files.\n`);
+			result.push(`The folder we're looking for is most likely named\n"${Data.params.minstInstallerAppName}".`);
+			return result.join("\n");
+		};
+
+		this.chooseFileOrFolder = function() {
+			if (this._isApp) {
+				return this._kmEngine.chooseFile("Please locate the file '" + Data.params.minstInstallerAppName + "'", "com.apple.application");
+			} else {
+				return this._kmEngine.chooseFolder("Please locate the folder '" + Data.params.minstInstallerAppName + "'");
+			}
+		};
+
+		this.chooseInstallerAppPath = function() {
+			while (true) {
+				var path = this.chooseFileOrFolder(Data.params.minstInstallerAppName);
+				if (!path)
+					return "";
+				path = this._pathNameUtils.addTrailingSlash(path);
+				if (Data.params.minstInstallerInternalFilesFolderPath &amp;&amp; this._pathNameUtils.getLastPathComponent(path).toLowerCase() === Data.params.minstInstallerInternalFilesFolderPath.toLowerCase())
+					path = this.pathUtils.removeLastPathComponent((path));
+				var errorMessage = this.validateInstallerAppPath(path);
+				if (!errorMessage)
+					return path;
+
+				if (!this._kmEngine.showPromptWithOkCancel(Data.params.minstInstallerTitle, errorMessage + "\n\nPress OK to choose a different folder, or Cancel to quit.", true))
+					return "";
+			}
+		};
+
+		this.execute = function() {
+			var installerAppPath = Data.params.minstInstallerAppPath;
+			if (installerAppPath &amp;&amp; this.validateInstallerAppPath(installerAppPath)!= "")
+				installerAppPath = "";
+			if (!installerAppPath)
+				installerAppPath = this.chooseInstallerAppPath();
+			if (!installerAppPath)
+				return false;
+
+			Data.vars.installerAppPath = this._pathNameUtils.addTrailingSlash(installerAppPath);
+			Data.vars.installerAppFilesPath =
+				this._pathNameUtils.addTrailingSlash(this._pathNameUtils.combinePathComponents(
+					Data.vars.installerAppPath, Data.params.minstInstallerInternalFilesFolderPath));
+			return true;
+		};
+	}
+
+	// ResourcesSubfoldersParserFunc ==========================================
+	function ResourcesSubfoldersParserFunc() {
+        this.execute = function(jsonString) {
+            function formatError(msg) {
+                var error = new Error(`Invalid format for parameter "Local_ResourcesSubfolders": ${msg.message}`);
+                error._isFormatError = true;
+                return error;
+            }
+
+            if (!jsonString)
+                return null;
+            var json;try {
+                json = JSON.parse(jsonString);
+            } catch (error) {
+                throw new Error(`Could not parse JSON string in parameter "Local_ResourcesSubfolders".\nError message: ${error.message}`);
+            }
+    
+            try {
+                if (!Array.isArray(json))
+                    throw formatError("Must be an array.")
+                json.forEach(subfolder =&gt; {
+                    if (!subfolder.subfolderName)
+                        throw formatError(`Missing or empty "subfolderName" property`);
+                    if (!subfolder.existingAction)
+                        throw formatError('Missing or empty "existingAction" property')
+                    if (!ExistingFolderActions[subfolder.existingAction]) {
+                        var actions = `"` + Object.keys(ExistingFolderActions).join(`", "`) + `"`;
+                        throw formatError(`Invalid existingAction value "${ExistingFolderActions}. Must be one of ${actions}"`);
+                    }
+                });
+
+                return json;
+            } catch (error) {
+                if (error.isFormatError)
+                    throw error;
+                throw formatError("Exception: ${error.message}");
+            }
+        }
+    }
+
+
+	// ========================================================================
+
+	function InitializeData() {
+		var kmEngine = Container.getKMEngine();
+		_isYosemite = kmEngine.getVariable("Local_IsYosemite", true) === "1";
+		var pathNameUtils = Container.getPathNameUtils();
+		var resourcesSubfoldersParser = Container.getResourcesSubfoldersParser();
+		Data = {
+			params: {
+				// required
+				minstInstallerAppName: kmEngine.getVariable("Local_InstallerAppName", true),
+				minstInstallerAppUUID: kmEngine.getVariable("Local_InstallerAppUUID", true),
+				minstInstallerInternalFilesFolderPath: pathNameUtils.addTrailingSlash(kmEngine.getVariable("Local_InstallerInternalFilesFolderPath", true)),
+				minstInstallerTitle: kmEngine.getVariable("Local_InstallerTitle", true),
+				minstExistingMacrosAction: kmEngine.getVariable("Local_ExistingMacrosAction", true),
+				minstResourcesSubfolders: resourcesSubfoldersParser.execute(kmEngine.getVariable("Local_ResourcesSubfolders", true)),
+
+				// optional
+				minstDeletedMacroUUIDs: kmEngine.getVariableAsLines("Local_DeletedMacroUUIDs"),
+				minstInstallerAppPath: pathNameUtils.addTrailingSlash(kmEngine.getVariable("Local_InstallerAppPath")),
+				minstOldResourcesPkgPath: pathNameUtils.addTrailingSlash(kmEngine.getValueForVariableContainingVariableName("Local_OldResourcesPkgPath_VariableName")),
+				minstResourcesFolderName: pathNameUtils.addTrailingSlash(kmEngine.getVariable("Local_ResourcesFolderName")),
+				minstResourcesFolderPath_VariableName: kmEngine.getVariable("Local_ResourcesFolderPath_VariableName"),
+				minstResourcesFolderPath: pathNameUtils.addTrailingSlash(kmEngine.getValueForVariableContainingVariableName("Local_ResourcesFolderPath_VariableName"))
+			},
+			vars: {
+				installerAppPath: "",
+				installerAppFilesPath: "",
+				destResourcesFolderPath: "",
+				macrosToInstallInfo: [],
+				existingMacrosInfo: []
+			}
+		};
+
+		if (!ExistingMacrosActions[Data.params.minstExistingMacrosAction]) {
+			var actions = `"` + Object.keys(ExistingMacrosActions).join(`", "`) + `"`;
+			throw new Error(`Invalid Local_ExistingMacrosAction: "${Data.params.minstExistingMacrosAction}".\nMust be one of ${actions}`);
+		}
+	}
+
+	function MacroInstallerFunc() {
+		InitializeData();
+
+		this.execute = function() {
+			if (!Container.getInstallationFilesFinder().execute())
+				return "Canceled";
+
+			if (!Container.getResourcesInfoController().execute())
+				return "Canceled";
+
+			if (!Container.getMacrosToInstallInfoGatherer().execute())
+				return "Canceled";
+
+			if (!Container.getInstallationSummaryController().execute())
+				return "Canceled";
+
+			if (!Container.getInstallationExecutor().execute())
+				return "Canceled";
+
+			return Container.getInstallationVerifier().getResults();
+		};
+	}
+
+	// ========================================================================
+
+	try {
+		return Container.getMacroInstaller().execute();
+	} catch (e) {
+		return "Error: " + e.message + "\nDetails: " + e.name + " on line " + e.line;
+	}
+})(false);</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Local_Result</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report the Results</string>
+						<key>ActionUID</key>
+						<integer>13002</integer>
+						<key>CaseEntries</key>
+						<array>
+							<dict>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionColor</key>
+										<string>Green</string>
+										<key>ActionName</key>
+										<string>Installation was successful</string>
+										<key>ActionUID</key>
+										<integer>13003</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>13004</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToCalculation</string>
+												<key>Text</key>
+												<string>0</string>
+												<key>UseFormat</key>
+												<false/>
+												<key>Variable</key>
+												<string>Local_Canceled</string>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Tell the user that the Installation was successful.</string>
+												<key>ActionUID</key>
+												<integer>13005</integer>
+												<key>Conditions</key>
+												<dict>
+													<key>ConditionList</key>
+													<array>
+														<dict>
+															<key>ConditionType</key>
+															<string>Variable</string>
+															<key>Variable</key>
+															<string>Local_ResourcesFolderName</string>
+															<key>VariableConditionType</key>
+															<string>IsNotEmpty</string>
+															<key>VariableValue</key>
+															<string>value</string>
+														</dict>
+													</array>
+													<key>ConditionListMatch</key>
+													<string>All</string>
+												</dict>
+												<key>ElseActions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>Prompt: All Macro(s) were successfully installed.</string>
+														<key>ActionUID</key>
+														<integer>13007</integer>
+														<key>Buttons</key>
+														<array>
+															<dict>
+																<key>Button</key>
+																<string>OK</string>
+															</dict>
+														</array>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>PromptForUserInput</string>
+														<key>Prompt</key>
+														<string>All Macro(s) were successfully installed.</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>Title</key>
+														<string>%Variable%Local_InstallerTitle%</string>
+														<key>Variables</key>
+														<array/>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>IfThenElse</string>
+												<key>ThenActions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>Prompt: All Macro(s) and Resources were successfully installed.</string>
+														<key>ActionUID</key>
+														<integer>13006</integer>
+														<key>Buttons</key>
+														<array>
+															<dict>
+																<key>Button</key>
+																<string>OK</string>
+															</dict>
+														</array>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>PromptForUserInput</string>
+														<key>Prompt</key>
+														<string>All Macro(s) and Resources were successfully installed.</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>Title</key>
+														<string>%Variable%Local_InstallerTitle%</string>
+														<key>Variables</key>
+														<array/>
+													</dict>
+												</array>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Group</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>ConditionType</key>
+								<string>Is</string>
+								<key>TestValue</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionColor</key>
+										<string>Orange</string>
+										<key>ActionName</key>
+										<string>Installation was canceled</string>
+										<key>ActionUID</key>
+										<integer>13008</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>13009</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToCalculation</string>
+												<key>Text</key>
+												<string>1</string>
+												<key>UseFormat</key>
+												<false/>
+												<key>Variable</key>
+												<string>Local_Canceled</string>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Prompt: Installation was canceled.</string>
+												<key>ActionUID</key>
+												<integer>13010</integer>
+												<key>Buttons</key>
+												<array>
+													<dict>
+														<key>Button</key>
+														<string>OK</string>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>PromptForUserInput</string>
+												<key>Prompt</key>
+												<string>Installation was canceled.</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+												<key>Title</key>
+												<string>%Variable%Local_InstallerTitle%</string>
+												<key>Variables</key>
+												<array/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Group</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>ConditionType</key>
+								<string>Is</string>
+								<key>TestValue</key>
+								<string>Canceled</string>
+							</dict>
+							<dict>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionColor</key>
+										<string>Red</string>
+										<key>ActionName</key>
+										<string>Installation failed</string>
+										<key>ActionUID</key>
+										<integer>13011</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>13012</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToCalculation</string>
+												<key>Text</key>
+												<string>1</string>
+												<key>UseFormat</key>
+												<false/>
+												<key>Variable</key>
+												<string>Local_Canceled</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>13013</integer>
+												<key>DeviceID</key>
+												<string>SOUNDEFFECTS</string>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>PlaySound</string>
+												<key>Path</key>
+												<string>/System/Library/Sounds/Basso.aiff</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Prompt: An error has occurred</string>
+												<key>ActionUID</key>
+												<integer>13014</integer>
+												<key>Buttons</key>
+												<array>
+													<dict>
+														<key>Button</key>
+														<string>OK</string>
+														<key>Cancel</key>
+														<false/>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>PromptForUserInput</string>
+												<key>Prompt</key>
+												<string>An error has occurred: %Variable%Local_Result%</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+												<key>Title</key>
+												<string>%Variable%Local_InstallerTitle%</string>
+												<key>Variables</key>
+												<array/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Group</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>ConditionType</key>
+								<string>Otherwise</string>
+								<key>TestValue</key>
+								<string>OK</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Switch</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>Local_Result</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>154337</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>154338</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>Local_Canceled</string>
+											<key>VariableConditionType</key>
+											<string>IsNot</string>
+											<key>VariableValue</key>
+											<string>1</string>
+										</dict>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>Local_OldVariableNamesToBeDeleted</string>
+											<key>VariableConditionType</key>
+											<string>IsNotEmpty</string>
+											<key>VariableValue</key>
+											<string>value</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Process Local_OldVariableNamesToBeDeleted</string>
+										<key>ActionUID</key>
+										<integer>154339</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>154340</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>%Delete%</string>
+												<key>Variable</key>
+												<string>%Variable%Local_OldVariableNameToBeDeleted%</string>
+											</dict>
+										</array>
+										<key>Collections</key>
+										<dict>
+											<key>CollectionList</key>
+											<array>
+												<dict>
+													<key>CollectionType</key>
+													<string>LinesIn</string>
+													<key>IncludeBlankLines</key>
+													<false/>
+													<key>Source</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>Local_OldVariableNamesToBeDeleted</string>
+												</dict>
+											</array>
+										</dict>
+										<key>MacroActionType</key>
+										<string>For</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Variable</key>
+										<string>Local_OldVariableNameToBeDeleted</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>494358924.90923798</real>
+				<key>ModificationDate</key>
+				<real>660799438.64500296</real>
+				<key>Name</key>
+				<string>KMFAM Macros Installer v1.4</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>229C6994-0C1B-45BB-9834-BFD81D4E85E9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>KMFAM Favorite Actions and Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>Theme</key>
+		<dict>
+			<key>Size</key>
+			<integer>24</integer>
+			<key>Theme</key>
+			<string>Signpost</string>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>16F86C18-C6D0-4D01-9907-E071AD9D0FCC</string>
+		<key>UID</key>
+		<string>9DD52D23-6B8D-4DA4-A8F5-216700D42946</string>
+	</dict>
+</array>
+</plist>

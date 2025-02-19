@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481029</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ClipboardHistorySwitcher</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>529245189.00793499</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>556659376.82709205</real>
+				<key>Name</key>
+				<string>Clipboard history switcher</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>8A7BF03B-B3A9-4CA8-8E5E-7325908F533A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

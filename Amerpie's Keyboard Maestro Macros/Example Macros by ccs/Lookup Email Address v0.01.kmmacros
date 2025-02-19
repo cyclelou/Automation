@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>477887256.80178601</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>A Macro by Christopher Stone &lt;scriptmeister@thestoneforge.com&gt;</string>
+						<key>ActionUID</key>
+						<integer>55418</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5LAgAAKwAAAAEA
+						AABDAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzU4
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYTt9CntcY29sb3J0
+						Ymw7XHJlZDI1NVxncmVlbjI1NVxi
+						bHVlMjU1O30Ke1wqXGV4cGFuZGVk
+						Y29sb3J0Ymw7O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IEF1dGhvcmVkIGJ5IENocmlzdG9w
+						aGVyIFN0b25lIDxzY3JpcHRtZWlz
+						dGVyQHRoZXN0b25lZm9yZ2UuY29t
+						PlwKMjAxNS8wNy8yMCAwMDowMQk6
+						IENyZWF0ZWRcCjIwMTYvMDIvMTkg
+						MTc6MjYJOiBNb2RpZmllZFwKXApc
+						Jzk1XCc5NVwnOTVcJzk1IFNhdGlt
+						YWdlLm9zYXggTVVTVCBiZSBJTlNU
+						QUxMRUQhIFwnOTVcJzk1XCc5NVwn
+						OTVcCmh0dHA6Ly93d3cuc2F0aW1h
+						Z2UuZnIvc29mdHdhcmUvZW4vZG93
+						bmxvYWRzL2Rvd25sb2Fkc19jb21w
+						YW5pb25fb3NheGVuLmh0bWx9AQAA
+						ACMAAAABAAAABwAAAFRYVC5ydGYQ
+						AAAAhl1RZbYBAAAAAAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Lookup Email Address v0.01</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>55419</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%TriggerValue%</string>
+						<key>Variable</key>
+						<string>lookupString</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>55420</integer>
+						<key>DisplayKind</key>
+						<string>Pasting</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>---------------------------------------------------------------------# REQUIRES SATIMAGE.OSAX { http://tinyurl.com/dc3soh }---------------------------------------------------------------------set emailAddresFile to alias ((path to documents folder as text) &amp; "Address Book:Email_Address_List.txt")tell application "Keyboard Maestro Engine"	set lookupString to getvariable "lookupString"end tellset lookupString to change "^(.+)@" into "\\1" in lookupString with regexp without case sensitiveset {ch1, ch2} to (characters of lookupString)set lookupString to "^" &amp; ch1 &amp; ".+ \\b" &amp; ch2 &amp; ".+?	+(\\w+.+@.+)$"try	set foundString to find text lookupString in emailAddresFile using "\\1" with regexp and string result without case sensitive	return foundStringon error	return "NOT FOUND!"end try---------------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>459061285.50323999</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>489316957.10922599</real>
+				<key>Name</key>
+				<string>Lookup Email Address v0.01</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Match</string>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>\b\w\w@</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>E865B568-6A79-4E5B-AC48-EA8F5C431D5B</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Example Macros by ccs</string>
+		<key>ToggleMacroUID</key>
+		<string>308A41F3-41B8-482F-8642-CC66C50307A8</string>
+		<key>UID</key>
+		<string>A4DF4902-83C6-413A-9ED1-57CFA63B379C</string>
+	</dict>
+</array>
+</plist>

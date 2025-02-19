@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>725560211.02260804</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>ActionUID</key>
+						<integer>15603199</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4iAgAAKwAAAAEA
+						AAAaAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzA5
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYS1Cb2xkO1xmMVxm
+						c3dpc3NcZmNoYXJzZXQwIEhlbHZl
+						dGljYTt9CntcY29sb3J0Ymw7XHJl
+						ZDI1NVxncmVlbjI1NVxibHVlMjU1
+						O1xyZWQwXGdyZWVuMFxibHVlMDt9
+						CntcKlxleHBhbmRlZGNvbG9ydGJs
+						OztcY3NzcmdiXGMwXGMwXGMwXGM4
+						NDcwNlxjbmFtZSBjb250cm9sVGV4
+						dENvbG9yO30KXHBhcmRcdHg1NjBc
+						dHgxMTIwXHR4MTY4MFx0eDIyNDBc
+						dHgyODAwXHR4MzM2MFx0eDM5MjBc
+						dHg0NDgwXHR4NTA0MFx0eDU2MDBc
+						dHg2MTYwXHR4NjcyMFxwYXJkaXJu
+						YXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
+						b3IwCgpcZjBcYlxmczI2IFxjZjIg
+						UHVycG9zZQpcZjFcYjAgXAogIFwn
+						OTUgVGhlIGZpcnN0IGJhY2t1cCBo
+						YXMgbm8gYW5hbHlzaXMgb3IgZGV0
+						YWlsZWQgcmVwb3J0OyB0aGlzIHJv
+						dXRpbmUgaGFuZGxlcyB0aGUgc2lt
+						cGxpZmllZCB0YXNrIGxpc3QufQEA
+						AAAjAAAAAQAAAAcAAABUWFQucnRm
+						EAAAADGlRmW2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>subs: First backup only</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Nov 2023: Added "enabled/disabled" to database, so warn/explain</string>
+						<key>ActionUID</key>
+						<integer>15603200</integer>
+						<key>CaseEntries</key>
+						<array>
+							<dict>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15603201</integer>
+										<key>MacroActionType</key>
+										<string>Notification</string>
+										<key>SoundName</key>
+										<string></string>
+										<key>Subtitle</key>
+										<string></string>
+										<key>Text</key>
+										<string>This was a full (no hard links) backup, and no analysis was done. Things will return to normal with the next backup.</string>
+										<key>Title</key>
+										<string>Post-upgrade backup completed</string>
+									</dict>
+								</array>
+								<key>ConditionType</key>
+								<string>Is</string>
+								<key>TestValue</key>
+								<string>TRUE</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Switch</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>instance_EnabledUpgradeRun</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>If this is the first backup…</string>
+						<key>ActionUID</key>
+						<integer>15603202</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Calc size of the backup</string>
+								<key>ActionUID</key>
+								<integer>15603203</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>du -sh "$KMVAR_rg_MBU_BackupLoc" | cut -c 1-5</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<false/>
+								<key>TrimResultsNew</key>
+								<false/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>instance_BackupSize</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseRegEx</string>
+								<key>ActionName</key>
+								<string>Make the size "human readable"</string>
+								<key>ActionUID</key>
+								<integer>15603204</integer>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string>$1B</string>
+								<key>Search</key>
+								<string>(K|M|G)</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_BackupSize</string>
+								<key>Which</key>
+								<string>All</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>TrimWhitespace</string>
+								<key>ActionUID</key>
+								<integer>15603205</integer>
+								<key>MacroActionType</key>
+								<string>Filter</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_BackupSize</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Remove existing alias (which shouldn't be there, but good to test)</string>
+								<key>ActionUID</key>
+								<integer>15603206</integer>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>if [[ -e "$KMVAR_rg_MBU_BackupLoc"/__latest ]]; then rm "$KMVAR_rg_MBU_BackupLoc"/__latest;fi</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Create the new alias via AppleScript</string>
+								<key>ActionUID</key>
+								<integer>15603207</integer>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteAppleScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Text</key>
+								<string>set apscDone1 to falseset loopCount1 to 0repeat until apscDone1 is true or loopCount1 is 15	try				--if application "Keyboard Maestro Engine" is not running then tell application "Keyboard Maestro Engine" to launch				try			set kmInst to system attribute "KMINSTANCE"			tell application "Keyboard Maestro Engine"				set theLocation to getvariable "rg_MBU_BackupLoc"				set theFolderToAlias to getvariable "instance_TheLatestFolderName" instance kmInst			end tell						set myPath to theLocation &amp; "/" &amp; theFolderToAlias						tell application "Finder"				make new alias at POSIX file theLocation to POSIX file myPath				set name of result to "__latest"			end tell		end try				set apscDone1 to true	on error		set apscDone1 to false		set loopCount1 to loopCount1 + 1	end tryend repeat</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>725560211.02621603</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>724877604.17992198</real>
+				<key>Name</key>
+				<string>subs | 02 First backup only</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>32242E23-A010-4EE6-B891-CF0E6201DEAE</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ MacroBackerUpper 2.9</string>
+		<key>ToggleMacroUID</key>
+		<string>240B095D-918C-465D-BECE-A76AC22F9D3D</string>
+		<key>UID</key>
+		<string>B9551CF3-538D-440B-8609-FF0E36E310EB</string>
+	</dict>
+</array>
+</plist>

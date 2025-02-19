@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>509610467.10374999</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>PercentEncodeForURL</string>
+						<key>ActionUID</key>
+						<integer>25</integer>
+						<key>Destination</key>
+						<string>Variable</string>
+						<key>DestinationVariable</key>
+						<string>Parameter</string>
+						<key>MacroActionType</key>
+						<string>Filter</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>26</integer>
+						<key>IsDefaultApplication</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>OpenURL</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>URL</key>
+						<string>https://translate.google.com/?hl=en&amp;tab=TT#view=home&amp;op=translate&amp;sl=auto&amp;tl=en&amp;text=%Variable%Parameter%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>568086033.10108602</real>
+				<key>ModificationDate</key>
+				<real>572775732.24363995</real>
+				<key>Name</key>
+				<string>Translate</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>ClipboardFilter</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>73429B62-A2A2-4FD5-A079-5211CD313BAA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Clipboard Filters</string>
+		<key>Theme</key>
+		<dict>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>F33D816E-63C4-4874-AAF9-9ECE69AD0AEE</string>
+		<key>UID</key>
+		<string>52710DBC-9117-4AAC-B910-59C016C4BDEA</string>
+	</dict>
+</array>
+</plist>

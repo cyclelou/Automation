@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15606018</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>ExecuteOrEdit</key>
+						<string>Execute</string>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShortcut</string>
+						<key>Shortcut</key>
+						<string>ChatGPT 1.2.5</string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>732995015.274436</real>
+				<key>ModificationDate</key>
+				<real>732995136.27892303</real>
+				<key>Name</key>
+				<string>Ask AI</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>0</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F4706EFB-2247-4C66-94D8-ADD9E330CB0E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

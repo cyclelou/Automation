@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482687</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4UAgAAKwAAAAEA
+						AAAMAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IFRvbSBGbG9lcmVuIDxlY2RsdGZA
+						bWFjLmNvbT4sIGh0dHA6Ly9kZmxl
+						Y3QubmV0IFwKXApXaGF0IHRoZSBt
+						YWNybyBkb2VzOiBDb252ZXJ0cyB0
+						aW1lc3RhbXBzIG9mIHZhcmlvdXMg
+						dHlwZXMgYW5kIGVuY29kaW5ncyB0
+						byBhIGh1bWFuLXJlYWRhYmxlIGZv
+						cm1hdC5cClwKU2VsZWN0IGEgdGlt
+						ZXN0YW1wIGFuZCBsYXVuY2ggdGhl
+						IG1hY3JvLiBJZiBub3RoaW5nIGlz
+						IHNlbGVjdGVkIHRoZSBjbGlwYm9h
+						cmQgY29udGVudCB3aWxsIGJlIHJl
+						YWQuIH0BAAAAIwAAAAEAAAAHAAAA
+						VFhULnJ0ZhAAAAA348BZtgEAAAAA
+						AAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Ver 1.2.2 (8623mo)</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15482688</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<false/>
+						<key>TimeOutPeriod</key>
+						<real>1</real>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482689</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%ActionResult%</string>
+						<key>Variable</key>
+						<string>tsrCopyActionResult</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482690</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Text</string>
+									<key>Text</key>
+									<string>%ActionResult%</string>
+									<key>TextConditionType</key>
+									<string>IsNot</string>
+									<key>TextValue</key>
+									<string>OK</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>DisplayBriefly</string>
+								<key>ActionUID</key>
+								<integer>15482691</integer>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>Text</key>
+								<string>Nothing selected. Clipboard is used as input.</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482692</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%CurrentClipboard%</string>
+						<key>Variable</key>
+						<string>tsrInput</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482693</integer>
+						<key>DisplayKind</key>
+						<string>Large</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteSwift</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>import Foundation
+
+#if swift(&gt;=3.0)
+
+let fromCB = ProcessInfo.processInfo.environment["KMVAR_tsrInput"]!
+
+let formatter = DateFormatter()
+formatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
+var base = "10"
+
+func processTimestamp() {
+	
+	let unixDate = Date(timeIntervalSince1970: date!)
+	let cocoaDate = Date(timeIntervalSinceReferenceDate: date!)
+	let unixDiff = unixDate.timeIntervalSince(Date())
+	let cocoaDiff = cocoaDate.timeIntervalSince(Date())
+	
+	if unixDiff &gt; 0 {
+		print("Time stamp is in the future! \nUnix Time (Base-\(base)): \(formatter.string(from: unixDate as Date)) \nCocoa Time (Base-\(base)): \(formatter.string(from: cocoaDate as Date))")
+	} else if cocoaDiff &gt; 0 {
+		print("\(formatter.string(from: unixDate as Date)) (Unix Time, Base-\(base))")
+	} else if cocoaDiff &lt; -3.15576E+08 {
+		print("Time stamp is more than 10 years old! \nUnix Time (Base-\(base)): \(formatter.string(from: unixDate as Date)) \nCocoa Time (Base-\(base)): \(formatter.string(from: cocoaDate as Date))")
+	} else {
+		print("\(formatter.string(from: cocoaDate as Date)) (Cocoa Time, Base-\(base))")
+	}
+	
+}
+
+
+var date: Double? = Double(fromCB)
+
+if date != nil &amp;&amp; date! &lt; 9.99E+11 &amp;&amp; date! &gt; 9.99E+7 {
+	processTimestamp()
+} else if let convDate: Int = Int(fromCB, radix: 2) {
+	date = Double(convDate)
+	base = "2"
+	processTimestamp()
+} else if let convDate: Int = Int(fromCB, radix: 16), fromCB.characters.count &gt; 6 {
+	date = Double(convDate)
+	base = "16"
+	processTimestamp()
+} else if let convDate: Int = Int(fromCB, radix: 36) {
+	date = Double(convDate)
+	base = "36"
+	processTimestamp()
+} else {
+	print("Not a valid timestamp!")
+}
+
+#else
+
+import Foundation
+
+let fromCB = NSProcessInfo.processInfo().environment["KMVAR_tsrInput"]!
+
+let formatter = NSDateFormatter()
+formatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
+var base = "10"
+
+func processTimestamp() {
+	
+	let unixDate = NSDate(timeIntervalSince1970: date!)
+	let cocoaDate = NSDate(timeIntervalSinceReferenceDate: date!)
+	let unixDiff = unixDate.timeIntervalSinceDate(NSDate())
+	let cocoaDiff = cocoaDate.timeIntervalSinceDate(NSDate())
+	
+	if unixDiff &gt; 0 {
+		print("Time stamp is in the future! \nUnix Time (Base-\(base)): \(formatter.stringFromDate(unixDate)) \nCocoa Time (Base-\(base)): \(formatter.stringFromDate(cocoaDate))")
+	} else if cocoaDiff &gt; 0 {
+		print("\(formatter.stringFromDate(unixDate)) (Unix Time, Base-\(base))")
+	} else if cocoaDiff &lt; -3.15576E+08 {
+		print("Time stamp is more than 10 years old! \nUnix Time (Base-\(base)): \(formatter.stringFromDate(unixDate)) \nCocoa Time (Base-\(base)): \(formatter.stringFromDate(cocoaDate))")
+	} else {
+		print("\(formatter.stringFromDate(cocoaDate)) (Cocoa Time, Base-\(base))")
+	}
+	
+}
+
+
+var date: Double? = Double(fromCB)
+
+if date != nil &amp;&amp; date &lt; 9.99E+11 &amp;&amp; date &gt; 9.99E+7 {
+	processTimestamp()
+} else if let convDate: Int = Int(fromCB, radix: 2) {
+	date = Double(convDate)
+	base = "2"
+	processTimestamp()
+} else if let convDate: Int = Int(fromCB, radix: 16) {
+	date = Double(convDate)
+	base = "16"
+	processTimestamp()
+} else if let convDate: Int = Int(fromCB, radix: 36) {
+	date = Double(convDate)
+	base = "36"
+	processTimestamp()
+} else {
+	print("Not a valid timestamp!")
+}
+
+#endif
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482694</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>tsrCopyActionResult</string>
+									<key>VariableConditionType</key>
+									<string>Is</string>
+									<key>VariableValue</key>
+									<string>OK</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482695</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>DeletePastClipboard</string>
+								<key>PastExpression</key>
+								<string>0</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>467937244.13465202</real>
+				<key>CustomIconData</key>
+				<data>
+				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
+				IuFUE+OIUCFVEW99e0ESUuRgBSqyJiGIGAM6EAEJb2Ic
+				AeAud2E8E6OIAeARa6Ie1O26Dih5gYIWZuIUEyE2uWA1
+				UxgiQ7B9kSJ0uKP6HyHunYAAAGPIAWAUllCxnDcbgliF
+				gpnFnO/ZQxnRnWMZnVnZneLTndnhnmK9nlnpnuKnntnx
+				n2KRn1n5n+KBaZB/oBoIJ9n9oLoRmiJGICAAAA8BAAAD
+				AAAAAQBAAAABAQADAAAAAQBAAAABAgADAAAABAAAEXYB
+				AwADAAAAAQAFAAABBgADAAAAAQACAAABEQAEAAAAAQAA
+				AAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAA
+				AQBAAAABFwAEAAAAAQAAELMBHAADAAAAAQABAAABPQAD
+				AAAAAQACAAABUgADAAAAAQABAAABUwADAAAABAAAEX6H
+				cwAHAAAH2AAAEYYAACFaAAgACAAIAAgAAQABAAEAAQAA
+				B9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIAGQALABoA
+				C2Fjc3BBUFBMAAAAAGFwcGwAAAAAAAAAAAAAAAAAAAAA
+				AAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC2Rl
+				c2MAAAEIAAAAb2RzY20AAAF4AAAFnGNwcnQAAAcUAAAA
+				OHd0cHQAAAdMAAAAFHJYWVoAAAdgAAAAFGdYWVoAAAd0
+				AAAAFGJYWVoAAAeIAAAAFHJUUkMAAAecAAAADmNoYWQA
+				AAesAAAALGJUUkMAAAecAAAADmdUUkMAAAecAAAADmRl
+				c2MAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAA
+				AAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tTSwAA
+				ACgAAAGEZGFESwAAAC4AAAGsY2FFUwAAACQAAAHadmlW
+				TgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoAAAJI
+				ZnJGVQAAACgAAAJyaHVIVQAAACgAAAKaemhUVwAAABYA
+				AALCbmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJTAAA
+				AB4AAAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANmZGVE
+				RQAAACwAAAOKa29LUgAAABYAAAO2c3ZTRQAAACYAAALY
+				emhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAAACIA
+				AAP8cHRQTwAAACYAAAQebmxOTAAAACgAAAREZXNFUwAA
+				ACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQZmlG
+				SQAAACgAAASyaHJIUgAAACgAAATacGxQTAAAACwAAAUC
+				cnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAAACYA
+				AAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABw
+				AHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIA
+				LQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABlAHIAZgBp
+				AGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUA
+				IABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcAUABl
+				AHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMA
+				bwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5
+				BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkA
+				cgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEAbgBv
+				AHMAIABSAEcAQgAgAHAAcgBvAGYAaQBskBp1KAAgAFIA
+				RwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABS
+				AEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAA
+				UgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAg
+				AFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABvACAA
+				UgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8AZgBp
+				AGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBsAGwA
+				ZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBm
+				AGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAaACAA
+				UgBHAEIAIGPPj/Blh072TgCCLAAgAFIARwBCACAw1zDt
+				MNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68D
+				uwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIAIABn
+				AGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAA
+				UgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQOHw4l
+				DkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUA
+				bAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwAZQBp
+				AG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBsAGkA
+				RwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAAcgBv
+				AGYAaQBsAFUAbgBpAHcAZQByAHMAYQBsAG4AeQAgAHAA
+				cgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAEPwRA
+				BD4ERAQ4BDsETAAgAFIARwBCBkUGRAZBACAGKgY5BjEG
+				SgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQBy
+				AGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRleHQA
+				AAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxs
+				IHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNSAAEA
+				AAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAA
+				AABadQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAAuDZj
+				dXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF3v//
+				8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGyAHeBHdEQV
+				EACEQmFQuGQ2HQ+IRGJROKRE8Rc8QOCQaKx2PR+QSGLR
+				iNQaDyKUSmVSuMRmByaVzGRP6aAB8Pd7gB7vh8R4ET8A
+				AkEgoAAIBAGFy2SxyZU2OuhyuMAIxGosAKNSKgAPt+Pw
+				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
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tTSwAAACgA
+				AAGEZGFESwAAAC4AAAGsY2FFUwAAACQAAAHadmlWTgAA
+				ACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoAAAJIZnJG
+				VQAAACgAAAJyaHVIVQAAACgAAAKaemhUVwAAABYAAALC
+				bmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJTAAAAB4A
+				AAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANmZGVERQAA
+				ACwAAAOKa29LUgAAABYAAAO2c3ZTRQAAACYAAALYemhD
+				TgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAAACIAAAP8
+				cHRQTwAAACYAAAQebmxOTAAAACgAAAREZXNFUwAAACYA
+				AAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQZmlGSQAA
+				ACgAAASyaHJIUgAAACgAAATacGxQTAAAACwAAAUCcnVS
+				VQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAAACYAAAV2
+				AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIA
+				bwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBHAEIALQBi
+				AGUAcwBrAHIAaQB2AGUAbABzAGUAUABlAHIAZgBpAGwA
+				IABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6lAHUAIABo
+				AOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcAUABlAHIA
+				ZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQX
+				BDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsA
+				IABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBp
+				AHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMA
+				IABSAEcAQgAgAHAAcgBvAGYAaQBskBp1KAAgAFIARwBC
+				ACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsAIABSAEcA
+				QgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBH
+				AEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF3AAgAFIA
+				RwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABvACAAUgBH
+				AEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8AZgBpAGwA
+				IABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBl
+				AG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIAbwBmAGkA
+				bMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAaACAAUgBH
+				AEIAIGPPj/Blh072TgCCLAAgAFIARwBCACAw1zDtMNUw
+				oTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPGA68DuwAg
+				AFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIAIABnAGUA
+				bgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBuACAAUgBH
+				AEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQOHw4lDkwA
+				IABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBuAGUAbAAg
+				AFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwAZQBpAG4A
+				ZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBsAGkARwBl
+				AG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAAcgBvAGYA
+				aQBsAFUAbgBpAHcAZQByAHMAYQBsAG4AeQAgAHAAcgBv
+				AGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4E
+				RAQ4BDsETAAgAFIARwBCBkUGRAZBACAGKgY5BjEGSgZB
+				ACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4AZQByAGkA
+				YwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRleHQAAAAA
+				Q29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJp
+				Z2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNSAAEAAAAB
+				Fs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAAAAAAAABa
+				dQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2
+				AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF3v//8yYA
+				AAeSAAD9kf//+6L///2jAAAD3AAAwGyALuBLsiQUiACE
+				QmFQuGQ2HQ+GryJLyBwSDRCMRmNQyJxSBwaDxuRQhUKZ
+				RABGI5JAAHA4HgAYDIYgBGoxGABexOKkAfj4iHWgABzO
+				ZzgBxuRygA8Ho9gBjsNfgAIhUNgAOBcIABks5pgAFAYA
+				gBmM+ulIolAADsej4AC4WCsAR2Kj4ejwiXUeAAikonAB
+				vtlpAB1PB8ABEoM+gAmlApAABAIBgBSKZUABcrNWgBaL
+				legAMhgLgB/gEBABS6cANFns6PQK6XYhEIhgBCIpHABo
+				MeorJcr4ALZZLAACUSiQAPh9v4ANttNoAMJgVEIhMKgA
+				Xi0UAAbjgdgBNp5Q8d6vLWrvXkQlEolgA8n5BgBqs1hg
+				BfMNl8MQhyjOh2AACgAfgAAMBgIgAHQahgABFJSAAJAm
+				CSrA6D4AE6ThOAAZRkmQ8ohw6IhyxBBoKAoAB9nyfIAH
+				uex7AAfp/QCDYNg6hZtm4bgABGEQRAAbhtmyAB2nceAA
+				BoGgav8AoCLinSPoujBrGoro4jmOiFn3K4AEAQT3h8Hj
+				upGuUmoKW5almABPFAk4KAs0I4DeNwAHKchyAAdZ0qKN
+				Q2TgShKkuuJdlxEssRchBG0MADQAtJaJIqGgZhiIgiiM
+				I8iBqG8/0CK4si+2hBD8AA4jaNTlnCopFkQ94fiC2Y9j
+				4PgAEwShJgANA2jiAA3jYNNFvKFIUBMIgkCSJIACCIQi
+				tEfp9gAGocB6AAhh8HEiBtaZZlwXgAAQAVliuLVOQyY4
+				ACyKq0BuHwjAAPY8DrXiKh+noiDIMYxTqdshnieB3gAQ
+				JCEMABVFITyhHUeTNFmV4AGcZhkgALwxDKABhmEYmHC0
+				Ka0iBYg8DsOV3TEIh8Hwe4AGCYBggBNdFBgF4XgA1ZnA
+				AEARBHlMHgBFZ6uWbZugAFmfgAbxuOcBYHwKDTQY+gSQ
+				JHpunaUiyC6fqaNI6gIAAA8BAAADAAAAAQAQAAABAQAD
+				AAAAAQAQAAABAgADAAAABAAALYQBAwADAAAAAQAFAAAB
+				BgADAAAAAQACAAABEQAEAAAAAQAAKfwBEgADAAAAAQAB
+				AAABFQADAAAAAQAEAAABFgADAAAAAQAQAAABFwAEAAAA
+				AQAAAs0BHAADAAAAAQABAAABPQADAAAAAQACAAABUgAD
+				AAAAAQABAAABUwADAAAABAAALYyHcwAHAAAH2AAALZQA
+				AAAAAAgACAAIAAgAAQABAAEAAQAAB9hhcHBsAiAAAG1u
+				dHJSR0IgWFlaIAfZAAIAGQALABoAC2Fjc3BBUFBMAAAA
+				AGFwcGwAAAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMt
+				YXBwbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAC2Rlc2MAAAEIAAAAb2Rz
+				Y20AAAF4AAAFnGNwcnQAAAcUAAAAOHd0cHQAAAdMAAAA
+				FHJYWVoAAAdgAAAAFGdYWVoAAAd0AAAAFGJYWVoAAAeI
+				AAAAFHJUUkMAAAecAAAADmNoYWQAAAesAAAALGJUUkMA
+				AAecAAAADmdUUkMAAAecAAAADmRlc2MAAAAAAAAAFEdl
+				bmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAAABRHZW5l
+				cmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABt
+				bHVjAAAAAAAAAB8AAAAMc2tTSwAAACgAAAGEZGFESwAA
+				AC4AAAGsY2FFUwAAACQAAAHadmlWTgAAACQAAAH+cHRC
+				UgAAACYAAAIidWtVQQAAACoAAAJIZnJGVQAAACgAAAJy
+				aHVIVQAAACgAAAKaemhUVwAAABYAAALCbmJOTwAAACYA
+				AALYY3NDWgAAACIAAAL+aGVJTAAAAB4AAAMgaXRJVAAA
+				ACgAAAM+cm9STwAAACQAAANmZGVERQAAACwAAAOKa29L
+				UgAAABYAAAO2c3ZTRQAAACYAAALYemhDTgAAABYAAAPM
+				amFKUAAAABoAAAPiZWxHUgAAACIAAAP8cHRQTwAAACYA
+				AAQebmxOTAAAACgAAAREZXNFUwAAACYAAAQedGhUSAAA
+				ACQAAARsdHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJI
+				UgAAACgAAATacGxQTAAAACwAAAUCcnVSVQAAACIAAAUu
+				YXJFRwAAACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8A
+				YgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABH
+				AGUAbgBlAHIAZQBsACAAUgBHAEIALQBiAGUAcwBrAHIA
+				aQB2AGUAbABzAGUAUABlAHIAZgBpAGwAIABSAEcAQgAg
+				AGcAZQBuAOgAcgBpAGMAQx6lAHUAIABoAOwAbgBoACAA
+				UgBHAEIAIABDAGgAdQBuAGcAUABlAHIAZgBpAGwAIABS
+				AEcAQgAgAEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsE
+				TAQ9BDgEOQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQ
+				AHIAbwBmAGkAbAAgAGcA6QBuAOkAcgBpAHEAdQBlACAA
+				UgBWAEIAwQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAg
+				AHAAcgBvAGYAaQBskBp1KAAgAFIARwBCACCCcl9pY8+P
+				8ABHAGUAbgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBv
+				AGYAaQBsAE8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIA
+				bwBmAGkAbAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXc
+				BdwF2QBQAHIAbwBmAGkAbABvACAAUgBHAEIAIABnAGUA
+				bgBlAHIAaQBjAG8AUAByAG8AZgBpAGwAIABSAEcAQgAg
+				AGcAZQBuAGUAcgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4A
+				ZQBzACAAUgBHAEIALQBQAHIAbwBmAGkAbMd8vBgAIABS
+				AEcAQgAg1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Bl
+				h072TgCCLAAgAFIARwBCACAw1zDtMNUwoTCkMOsDkwO1
+				A70DuQO6A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAA
+				ZQByAGYAaQBsACAAUgBHAEIAIABnAGUAbgDpAHIAaQBj
+				AG8AQQBsAGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIA
+				bwBmAGkAZQBsDkIOGw4jDkQOHw4lDkwAIABSAEcAQgAg
+				DhcOMQ5IDicORA4bAEcAZQBuAGUAbAAgAFIARwBCACAA
+				UAByAG8AZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBH
+				AEIALQBwAHIAbwBmAGkAaQBsAGkARwBlAG4AZQByAGkB
+				DQBrAGkAIABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBp
+				AHcAZQByAHMAYQBsAG4AeQAgAHAAcgBvAGYAaQBsACAA
+				UgBHAEIEHgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAg
+				AFIARwBCBkUGRAZBACAGKgY5BjEGSgZBACAAUgBHAEIA
+				IAYnBkQGOQYnBkUARwBlAG4AZQByAGkAYwAgAFIARwBC
+				ACAAUAByAG8AZgBpAGwAZXRleHQAAAAAQ29weXJpZ2h0
+				IDIwMDcgQXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNl
+				cnZlZC4AWFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAA
+				AAAAdE0AAD3uAAAD0FhZWiAAAAAAAABadQAArHMAABc0
+				WFlaIAAAAAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEB
+				zQAAc2YzMgAAAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//
+				+6L///2jAAAD3AAAwGw=
+				</data>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568495803.32214296</real>
+				<key>Name</key>
+				<string>Timestamp reader</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>CACA6528-1DB5-4F63-A479-F6647EE997E0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

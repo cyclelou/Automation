@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484204</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToCalculation</string>
+						<key>Text</key>
+						<string>CLIPBOARDSEED()</string>
+						<key>UseFormat</key>
+						<false/>
+						<key>Variable</key>
+						<string>LocalCBSeedBefore</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484205</integer>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Edit</string>
+							<string>Copy as</string>
+							<string>Copy as Image</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.stairways.keyboardmaestro.editor</string>
+							<key>Name</key>
+							<string>Keyboard Maestro</string>
+							<key>NewFile</key>
+							<string>/Applications/Keyboard Maestro.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484206</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Calculation</string>
+									<key>Text</key>
+									<string>CLIPBOARDSEED() ≠ LocalCBSeedBefore</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>PauseUntil</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484207</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>D546FDF6-D071-4F5C-818D-17FD9EE69A96</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<false/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484208</integer>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>1</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>532532419.50005299</real>
+				<key>ModificationDate</key>
+				<real>532623543.44932097</real>
+				<key>Name</key>
+				<string>Copy as Image</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>34</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2304</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>8C558E1E-B37D-40C8-BBA5-9ECF9B9632FD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

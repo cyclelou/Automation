@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481828</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>ObjC.import('stdlib')
+ObjC.import('CoreGraphics');
+
+// Move mouse cursor to specified position
+function moveMouse(x, y) {
+  var pos = $.CGPointMake(x, y);
+  var event = $.CGEventCreateMouseEvent(null, $.kCGEventMouseMoved, pos, $.kCGMouseButtonLeft);
+  $.CGEventPost($.kCGHIDEventTap, event);
+}
+
+
+// Run script
+function run() {
+  var app = Application.currentApplication();
+  app.includeStandardAdditions = true;
+
+  var win = app.windows[0],
+    bounds = win.properties().bounds;
+
+  // Calculate centre of window
+  var x = Math.trunc(bounds.x + (bounds.width / 2)),
+    y = Math.trunc(bounds.y + (bounds.height / 2));
+
+  console.log('centre = ' + x + 'x' + y);
+  moveMouse(x, y);
+}</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>493489385.52605897</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568495774.11163604</real>
+				<key>Name</key>
+				<string>Move cursor to active window</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>BBBB9902-1C9E-47EB-B741-F46D72E02F4C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

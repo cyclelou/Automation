@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481197</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>----------------------------------------------------------------# Auth: Christopher Stone# Mod:  Gabe Glick# dCre: 2018/03/14 00:00# dMod: 2018/03/14 18:50# Appl: Keyboard Maestro, Keyboard Maestro Engine, System Events# Task: Export a single selected macro to a given export folder.# Libs: None# Osax: None# Tags: @Applescript, @Script, @Keyboard_Maestro, @Keyboard_Maestro_Engine, @System_Events, @Export, @Selected, @Macro# Vers: 1.00----------------------------------------------------------------set exportFolder to (path to downloads folder as text)# Ensure that exported macros folder exists.try	alias exportFolderon error	set shCMD to "mkdir -p " &amp; quoted form of (POSIX path of exportFolder)	do shell script shCMDend tryset exportedMacroName to getMacroName() of memoveFocusToMacroList() of mecopyMacro() of medelay 0.2set exportedMacroPath to exportFolder &amp; exportedMacroNameif itemExists(exportedMacroPath) then error "Oops!  A macro with that name already exists in the export folder..."writeUTF8(get the clipboard, exportedMacroPath) of meset theMacroFile to alias exportedMacroPath#Comment or un-comment out the tell block for your preferred launchertell application "Alfred 3"	browse theMacroFileend tell--tell application "LaunchBar"--	open theMacroFile--end tell------------------------------------------------------------------» HANDLERS----------------------------------------------------------------on copyMacro()	set copyAction to text 2 thru -2 of "&lt;dict&gt;	&lt;key&gt;MacroActionType&lt;/key&gt;	&lt;string&gt;SelectMenuItem&lt;/string&gt;	&lt;key&gt;Menu&lt;/key&gt;	&lt;array&gt;		&lt;string&gt;Edit&lt;/string&gt;		&lt;string&gt;Copy as&lt;/string&gt;		&lt;string&gt;Copy as XML&lt;/string&gt;	&lt;/array&gt;	&lt;key&gt;TargetApplication&lt;/key&gt;	&lt;dict&gt;		&lt;key&gt;BundleIdentifier&lt;/key&gt;		&lt;string&gt;com.stairways.keyboardmaestro.editor&lt;/string&gt;		&lt;key&gt;Name&lt;/key&gt;		&lt;string&gt;Keyboard Maestro&lt;/string&gt;		&lt;key&gt;NewFile&lt;/key&gt;		&lt;string&gt;/Applications/Utilities/Utilities_Chris/System_Add_Ons/Keyboard_Maestro/Keyboard Maestro.app&lt;/string&gt;	&lt;/dict&gt;	&lt;key&gt;TargetingType&lt;/key&gt;	&lt;string&gt;Specific&lt;/string&gt;&lt;/dict&gt;"	tell application "Keyboard Maestro Engine"		do script copyAction	end tellend copyMacro----------------------------------------------------------------on getMacroName()	tell application "Keyboard Maestro"		set selectedMacrosList to selected macros		if length of selectedMacrosList ≠ 1 then error "Error -- To many or too few macros selected!"		set macroName to name of (item 1 of selectedMacrosList)	end tell		set macroName to macroName &amp; ".kmmacros"		return macroNameend getMacroName----------------------------------------------------------------on itemExists(pathStr)	try				if pathStr is "~" or pathStr is "~/" then						set pathStr to (POSIX path of (path to home folder as text))					else if pathStr starts with "~/" then						set pathStr to (POSIX path of (path to home folder as text)) &amp; text 3 thru -1 of pathStr					end if				if pathStr starts with "/" then						alias POSIX file pathStr					else						alias pathStr					end if				return true			on error				return false			end tryend itemExists----------------------------------------------------------------on moveFocusToMacroList()	tell application "System Events"		tell application process "Keyboard Maestro"			tell window "Keyboard Maestro Editor"				tell scroll area 2 of splitter group 1 of group 1					set focused to true				end tell			end tell		end tell	end tellend moveFocusToMacroList----------------------------------------------------------------on writeUTF8(_text, targetFilePath)	try		if targetFilePath starts with "~/" then			set targetFilePath to POSIX path of (path to home folder as text) &amp; text 3 thru -1 of targetFilePath		end if		set fRef to open for access targetFilePath with write permission		set eof of fRef to 0		write _text to fRef as «class utf8»		close access fRef	on error e number n		try			close access fRef		on error e number n			error "Error in writeUTF8() handler of library: gen.lib" &amp; return &amp; return &amp; e		end try	end tryend writeUTF8----------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481198</integer>
+						<key>MacroActionType</key>
+						<string>DeletePastClipboard</string>
+						<key>PastExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>542697714.70164001</real>
+				<key>ModificationDate</key>
+				<real>542714280.70968795</real>
+				<key>Name</key>
+				<string>Export Macro Sub-Routine</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>EC4D99F0-B418-4680-896D-75F68A82D669</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Macro Notes</string>
+						<key>ActionUID</key>
+						<integer>15481329</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5EAQAAKwAAAAEA
+						AAA8AQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IC0gQWN0aXZhdGUgTWFjcm9zIGdy
+						b3VwIHNlY3Rpb24gYWZ0ZXIgc3dp
+						dGNoaW5nfQEAAAAjAAAAAQAAAAcA
+						AABUWFQucnRmEAAAAJsIJ1q2AQAA
+						AAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>TODO</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481330</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>----------------------------------------------------------------# Auth: Christopher Stone# dCre: 2017/12/02 03:42# dMod: 2017/12/02 03:47# Appl: Keyboard Maestro# Task: Go to Macro Group Associated with the frontmost app.#     : Present pick-list if more than one group is found.# Libs: None# Osax: None# Tags: @Applescript, @Script, @Keyboard_Maestro, @Group, @Associated, @Frontmost, @App, @Pick-List----------------------------------------------------------------# Faster than using System Events----------------------------------------------------------------set AppleScript's text item delimiters to {".app:", ":"}set frontApp to (path to frontmost application as text)set frontApp to text item -2 of frontApp----------------------------------------------------------------tell application "Keyboard Maestro"	activate		set macroGroup to name of macro groups whose name contains frontApp		if length of macroGroup is 1 then				select macro group (item 1 of macroGroup)			else				# Presents a pick-list if more than one group is found.		set theChoice to choose from list macroGroup with title "Macro Group List" with prompt "Pick a Group to Select" default items {item 1 of macroGroup} without empty selection allowed				if theChoice is not false then			set theChoice to item 1 of theChoice			select macro group theChoice		end if			end if	end tell----------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Focus on macros group</string>
+						<key>ActionUID</key>
+						<integer>15481331</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>-------------------------------------------------------------------------------------------# Auth: Christopher Stone# dCre: 2015/07/25 03:06# dMod: 2015/07/25 03:14# Appl: Keyboard Maestro &amp; System Events# Task: Set Focus to Macro List# Libs: None# Osax: None# Tags: @Applescript, @Script, @System_Events, @Keyboard_Maestro, @Focus, @Macro_List-------------------------------------------------------------------------------------------try		tell application "System Events"		tell application process "Keyboard Maestro"			tell window "Keyboard Maestro Editor"				tell scroll area 2 of splitter group 1 of group 1					set focused to true				end tell			end tell		end tell	end tell	on error e number n	set e to e &amp; return &amp; return &amp; "Num: " &amp; n	if n ≠ -128 then		try			tell application (path to frontmost application as text) to set ddButton to button returned of ¬				(display dialog e with title "ERROR!" buttons {"Copy Error Message", "Cancel", "OK"} ¬					default button "OK" giving up after 30)			if ddButton = "Copy Error Message" then set the clipboard to e		end try	end ifend try-------------------------------------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>500855135.75469601</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>556647070.24148595</real>
+				<key>Name</key>
+				<string>Go to KM group of current app from picklist</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E45151EA-6A4A-486E-B9CE-2BC28B7453AA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482268</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5YBAAAKwAAAAEA
+						AABQBAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IENSRUFURSBCWToJCUBEYW5UaG9t
+						YXMgKG9uIHRoZSBLTSBmb3J1bSlc
+						CkNSRUFURUQgT046CTIwMTYvMDYv
+						MDYgMTY6NDUgUFNUXApWRVJTSU9O
+						OgkJMS4wXApcClBVUlBPU0U6IEVh
+						c2lseSByZW51bWJlciBNYWNybyBw
+						cmVmaXggbnVtYmVycy5cClwKVVNB
+						R0U6XApcCjEpIFNlbGVjdCB0d28g
+						b3IgbW9yZSBtYWNyb3MgdGhhdCBh
+						bHJlYWR5IGhhdmUgcHJlZml4IG51
+						bWJlcnMuXAoyKSBMYXVuY2ggdGhp
+						cyBtYWNyby5cCjMpIEVudGVyIHRo
+						ZSBzdGFydGluZyBwcmVmaXggbnVt
+						YmVyIGFuZCB0aGUgaW5jcmVtZW50
+						LlwKNCkgQ2xpY2sgIk9LIiwgYW5k
+						IHRoaXMgbWFjcm8gd2lsbCByZW51
+						bWJlciB0aGUgc2VsZWN0ZWQgbWFj
+						cm9zLlwKXApOT1RFOiBZb3UgY2Fu
+						IGFsd2F5cyAiVW5kbyIgdGhlIHJl
+						bmFtZXMsIGlmIHlvdSBuZWVkIHRv
+						LlwKXApERVRBSUxTOlwKXApLTSBh
+						bGxvd3MgeW91IHRvIHVzZSAyLWRp
+						Z2l0IHByZWZpeGVzIGZvbGxvd2Vk
+						IGJ5ICIpIiB0byBzcGVjaWZ5IHRo
+						ZSBvcmRlciBNYWNybyBuYW1lcyBz
+						aG91bGQgYXBwZWFyIGluIGEgUGFs
+						ZXR0ZSBvciB0aGUgU3RhdHVzIE1l
+						bnUuIExpa2UgdGhpczpcClwKMDEp
+						TWFjcm8gT25lXAowMilNYWNybyBU
+						d29cCjAzTWFjcm8gVGhyZWVcClwK
+						S00gZG9lc24ndCBzaG93IHRoZXNl
+						IHByZWZpeGVzIGluIGEgUGFsZXR0
+						ZSBvciB0aGUgU3RhdHVzIE1lbnUu
+						XApcCldoZW4geW91IHdhbnQgdG8g
+						cHV0IHNvbWV0aGluZyBiZXR3ZWVu
+						IDAxIGFuZCAwMiwgeW91IGhhdmUg
+						dG8gcmVudW1iZXIgMDIgYW5kIGV2
+						ZXJ5dGhpbmcgYWZ0ZXIgaXQuIFRo
+						aXMgbWFjcm8gZG9lcyB0aGUgcmVu
+						dW1iZXJpbmcgZm9yIHlvdS59AQAA
+						ACMAAAABAAAABwAAAFRYVC5ydGYQ
+						AAAAN+PAWbYBAAAAAAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Renumber Macro Prefix Numbers v1.0</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Get the selected macros into rmfpMacrosText, or cancel if error</string>
+						<key>ActionUID</key>
+						<integer>15482269</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>Copy</string>
+								<key>ActionUID</key>
+								<integer>15482270</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>CutCopyPaste</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Gets the macros on the clipboard into rmfpMacroNamesAndUUIDs</string>
+								<key>ActionUID</key>
+								<integer>15482271</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteAppleScript</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>use framework "Foundation"
+
+try
+	return parseClipboard()
+on error errMsg number errNum
+	return "**ERROR: " &amp; errMsg
+end try
+
+on parseClipboard()
+	set _list to GetKMMacroNamesAndUUIDsFromClipboard()
+	if _list = {} then return ""
+	
+	set _list to ConvertListOfRecordsToListOfStrings(_list, tab)
+	set _list to GetSortedListOfStrings(_list)
+	return ConvertListToMultiLineString(_list)
+end parseClipboard
+
+
+--============== LIBRARY HANDLERS ======================================--
+
+(*************************************************
+ConvertListOfRecordsToListOfStrings
+
+PURPOSE:	Convert a list of records with multiple fields
+				to a list of strings. Uses the supplied delimiter
+				to delimit the fields in eacn string.
+
+PARAMETERS:
+
+	theList:			The list of records to convert.
+	fieldDelimiter:	How to delimit each field in the record.
+						Tab is a common choice.
+	
+RETURNS:	A list of strings.
+
+Updated:		2016/06/06 09:27 PDT
+**************************************************)
+on ConvertListOfRecordsToListOfStrings(theList, fieldDelimiter)
+	set TIDS to AppleScript's text item delimiters
+	set AppleScript's text item delimiters to fieldDelimiter
+	try
+		set _list to {}
+		repeat with _record in theList
+			set _line to _record as text
+			copy _line to end of _list
+		end repeat
+		
+		set AppleScript's text item delimiters to TIDS
+		
+		return _list
+	on error errMsg number errNum
+		set AppleScript's text item delimiters to TIDS
+		error errMsg number errNum
+	end try
+end ConvertListOfRecordsToListOfStrings
+
+
+(****************************************
+ConvertListToMultiLineString
+
+PURPOSE:	Convert a list to a multi-line string.
+
+PARAMETERS:
+
+	theList:	The list of strings to convert.
+	
+RETURNS:	A string containing the converted list.
+
+Updated:		2016/06/06 09:29 PDT
+******************************************)
+on ConvertListToMultiLineString(theList)
+	set TIDS to AppleScript's text item delimiters
+	try
+		set AppleScript's text item delimiters to linefeed
+		set _result to theList as text
+		set AppleScript's text item delimiters to TIDS
+		return _result
+	on error errMsg number errNum
+		set AppleScript's text item delimiters to TIDS
+		error errMsg number errNum
+	end try
+end ConvertListToMultiLineString
+
+(****************************************************************
+GetKMMacroListFromClipboard
+
+PURPOSE:	Gets a Keyboard Maestro Macro Array from the clipboard,  as a list.
+	
+RETURNS:	The Macro list, or an empty list.
+
+Updated:		2016/06/06 11:23 PDT
+*****************************************************************)
+on GetKMMacroListFromClipboard()
+	set _generalPasteboard to current application's NSPasteboard's generalPasteboard()
+	
+	try
+		if (_generalPasteboard's canReadItemWithDataConformingToTypes:{"com.stairways.keyboardmaestro.macrosarray"}) as boolean then
+			set _clipping to _generalPasteboard's stringForType:"com.stairways.keyboardmaestro.macrosarray"
+		else
+			return {}
+		end if
+		
+		set _data to _clipping's dataUsingEncoding:(current application's NSUTF8StringEncoding)
+		
+		set {_object, _error} to current application's NSPropertyListSerialization's propertyListWithData:_data options:0 format:(missing value) |error|:(reference)
+		if _object is missing value then return {}
+		
+		return _object as list
+	on error
+		return {}
+	end try
+end GetKMMacroListFromClipboard
+
+
+(*****************************************************
+GetKMMacroNamesAndUUIDsFromClipboard
+
+PURPOSE:	Retrieves the list of Keyboard Maestro macros and
+				their UUIDs from KMMacros data on the clipboard,
+				if present.
+	
+RETURNS:	Returns a list of records that contain each macro
+				name and UUID from the clipboard, or an empty list
+				if none found.
+
+Updated:		2016/06/06 14:02 PDT
+******************************************************)
+on GetKMMacroNamesAndUUIDsFromClipboard()
+	set _clipboardMacroList to GetKMMacroListFromClipboard()
+	if _clipboardMacroList = {} then return {}
+	
+	set _list to {}
+	repeat with _macro in _clipboardMacroList
+		set end of _list to {|name| of _macro, UID of _macro}
+	end repeat
+	
+	return _list
+end GetKMMacroNamesAndUUIDsFromClipboard
+
+
+(***************************************************************************
+GetSortedListOfStrings
+
+PURPOSE:	Sorts a list of strings.
+
+PARAMETERS:
+
+	theList:	A list of strings.
+	
+RETURNS:	The sorted list.
+
+Updated:		2016/06/05 15:19 PDT
+***************************************************************************)
+on GetSortedListOfStrings(theList)
+	set _objcArray to current application's NSArray's arrayWithArray:theList
+	set _sortedItems to _objcArray's sortedArrayUsingSelector:"localizedStandardCompare:"
+	return (_sortedItems as list)
+end GetSortedListOfStrings
+</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>rmfpMacroNamesAndUUIDs</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Cancel if error occurred</string>
+								<key>ActionUID</key>
+								<integer>15482272</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>rmfpMacrosText</string>
+											<key>VariableConditionType</key>
+											<string>Matches</string>
+											<key>VariableValue</key>
+											<string>^\*\*ERROR</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Display the Error</string>
+										<key>ActionUID</key>
+										<integer>15482273</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Notification</string>
+										<key>SoundName</key>
+										<string></string>
+										<key>Subtitle</key>
+										<string></string>
+										<key>Text</key>
+										<string>%Variable%rmfpMacrosText%</string>
+										<key>Title</key>
+										<string>%ExecutingMacro%</string>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15482274</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Cancel if nothing selected</string>
+								<key>ActionUID</key>
+								<integer>15482275</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>rmfpMacroNamesAndUUIDs</string>
+											<key>VariableConditionType</key>
+											<string>IsEmpty</string>
+											<key>VariableValue</key>
+											<string>^\*\*ERROR</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Notification ‘You must select 2 or more macros.'</string>
+										<key>ActionUID</key>
+										<integer>15482276</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Notification</string>
+										<key>SoundName</key>
+										<string></string>
+										<key>Subtitle</key>
+										<string></string>
+										<key>Text</key>
+										<string>You must select 2 or more macros.</string>
+										<key>Title</key>
+										<string>%ExecutingMacro%</string>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15482277</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Yellow</string>
+								<key>ActionName</key>
+								<string>Validate the selectioned macros and gather various variables</string>
+								<key>ActionUID</key>
+								<integer>15482278</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Set Variable ‘rmfpMacroCount’ To 0</string>
+										<key>ActionUID</key>
+										<integer>15482279</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>0</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>rmfpMacroCount</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Set Variable ‘rmfpLowestNumber’ To 100</string>
+										<key>ActionUID</key>
+										<integer>15482280</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>100</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>rmfpLowestNumber</string>
+									</dict>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15482281</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string></string>
+										<key>Variable</key>
+										<string>rmfpMacroNames</string>
+									</dict>
+									<dict>
+										<key>ActionColor</key>
+										<string>Green</string>
+										<key>ActionName</key>
+										<string>Get rmfpMacroCount, rmfpLowestNumber, rmfpMacroNames, Validate and Cancel if needed</string>
+										<key>ActionUID</key>
+										<integer>15482282</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionName</key>
+												<string>Increment rmfpMacroCount</string>
+												<key>ActionUID</key>
+												<integer>15482283</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToCalculation</string>
+												<key>Text</key>
+												<string>rmfpMacroCount + 1</string>
+												<key>UseFormat</key>
+												<false/>
+												<key>Variable</key>
+												<string>rmfpMacroCount</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Search ‘rmfpLine’ returning rmfpMacroNumber, rmfpMacroName</string>
+												<key>ActionUID</key>
+												<integer>15482284</integer>
+												<key>Captures</key>
+												<array>
+													<string>rmfpMacroName</string>
+													<string>rmfpMacroNumber</string>
+													<string></string>
+													<string></string>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SearchRegEx</string>
+												<key>Search</key>
+												<string>(\d\d)(\))([^\t]*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>rmfpLine</string>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Cancel if not already numbered</string>
+												<key>ActionUID</key>
+												<integer>15482285</integer>
+												<key>Conditions</key>
+												<dict>
+													<key>ConditionList</key>
+													<array>
+														<dict>
+															<key>ConditionType</key>
+															<string>Variable</string>
+															<key>Variable</key>
+															<string>rmfpMacroNumber</string>
+															<key>VariableConditionType</key>
+															<string>IsEmpty</string>
+															<key>VariableValue</key>
+															<string>^\d\d\)</string>
+														</dict>
+													</array>
+													<key>ConditionListMatch</key>
+													<string>All</string>
+												</dict>
+												<key>ElseActionListDisclosed</key>
+												<false/>
+												<key>ElseActions</key>
+												<array/>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>IfThenElse</string>
+												<key>ThenActions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The selected macros must already have a number</string>
+														<key>ActionUID</key>
+														<integer>15482286</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>Notification</string>
+														<key>SoundName</key>
+														<string></string>
+														<key>Subtitle</key>
+														<string></string>
+														<key>Text</key>
+														<string>The selected macros must already have a number, like:
+10)Some Macro</string>
+														<key>Title</key>
+														<string>%ExecutingMacro%</string>
+													</dict>
+													<dict>
+														<key>Action</key>
+														<string>CancelThisMacro</string>
+														<key>ActionUID</key>
+														<integer>15482287</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>Cancel</string>
+													</dict>
+												</array>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Set Variable ‘rmfpLowestNumber’ To FLOOR(rmfpLowestNumber, rmfpNumber)</string>
+												<key>ActionUID</key>
+												<integer>15482288</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToCalculation</string>
+												<key>Text</key>
+												<string>MIN(rmfpLowestNumber, rmfpMacroNumber)</string>
+												<key>UseFormat</key>
+												<false/>
+												<key>Variable</key>
+												<string>rmfpLowestNumber</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15482289</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>%Variable%rmfpMacroNames%%Variable%rmfpMacroName%
+</string>
+												<key>Variable</key>
+												<string>rmfpMacroNames</string>
+											</dict>
+										</array>
+										<key>Collections</key>
+										<dict>
+											<key>CollectionList</key>
+											<array>
+												<dict>
+													<key>CollectionType</key>
+													<string>LinesIn</string>
+													<key>IncludeBlankLines</key>
+													<false/>
+													<key>Source</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>rmfpMacroNamesAndUUIDs</string>
+												</dict>
+											</array>
+										</dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>For</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Variable</key>
+										<string>rmfpLine</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Cancel if less than 2 macros selected</string>
+										<key>ActionUID</key>
+										<integer>15482290</integer>
+										<key>Conditions</key>
+										<dict>
+											<key>ConditionList</key>
+											<array>
+												<dict>
+													<key>ConditionType</key>
+													<string>Calculation</string>
+													<key>Text</key>
+													<string>rmfpMacroCount &lt; 2</string>
+												</dict>
+											</array>
+											<key>ConditionListMatch</key>
+											<string>All</string>
+										</dict>
+										<key>ElseActionListDisclosed</key>
+										<false/>
+										<key>ElseActions</key>
+										<array/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>IfThenElse</string>
+										<key>ThenActions</key>
+										<array>
+											<dict>
+												<key>ActionName</key>
+												<string>Notification ‘You must select 2 or more macros.'</string>
+												<key>ActionUID</key>
+												<integer>15482291</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Notification</string>
+												<key>SoundName</key>
+												<string></string>
+												<key>Subtitle</key>
+												<string></string>
+												<key>Text</key>
+												<string>You must select 2 or more macros.</string>
+												<key>Title</key>
+												<string>%ExecutingMacro%</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>CancelThisMacro</string>
+												<key>ActionUID</key>
+												<integer>15482292</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Cancel</string>
+											</dict>
+										</array>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Set Variable ‘rmfp__Starting Number’ To rmfpLowestNumber + 1</string>
+								<key>ActionUID</key>
+								<integer>15482293</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>Text</key>
+								<string>rmfpLowestNumber + 1</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>rmfp__Starting Number</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionName</key>
+						<string>Prompt for and validate 'rmfp__Starting Number' and 'rmfp__Increment'</string>
+						<key>ActionUID</key>
+						<integer>15482294</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482295</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string></string>
+								<key>Variable</key>
+								<string>rmfpErrorMessage</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Yellow</string>
+								<key>ActionName</key>
+								<string>Setup rmfpDialogList, shortening it if needed so the dialog doesn't get too long</string>
+								<key>ActionUID</key>
+								<integer>15482296</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Calculation</string>
+											<key>Text</key>
+											<string>rmfpMacroCount &gt; 10</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15482307</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>%Variable%rmfpMacroNames%</string>
+										<key>Variable</key>
+										<string>rmfpDialogList</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Set Variable ‘rmfpNumberOfLastTopLine’ To 4</string>
+										<key>ActionUID</key>
+										<integer>15482297</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>4</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>rmfpNumberOfLastTopLine</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Set Variable ‘rmfpNumberOfFirstBottomLine’ To 3</string>
+										<key>ActionUID</key>
+										<integer>15482298</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>rmfpMacroCount - 3</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>rmfpNumberOfFirstBottomLine</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Set Variable ‘rmfpLineNumber’ To 1</string>
+										<key>ActionUID</key>
+										<integer>15482299</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>1</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>rmfpLineNumber</string>
+									</dict>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15482300</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string></string>
+										<key>Variable</key>
+										<string>rmfpDialogList</string>
+									</dict>
+									<dict>
+										<key>ActionColor</key>
+										<string>Aqua</string>
+										<key>ActionUID</key>
+										<integer>15482301</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionName</key>
+												<string>Add lines if the count is right</string>
+												<key>ActionUID</key>
+												<integer>15482302</integer>
+												<key>Conditions</key>
+												<dict>
+													<key>ConditionList</key>
+													<array>
+														<dict>
+															<key>ConditionType</key>
+															<string>Calculation</string>
+															<key>Text</key>
+															<string>rmfpLineNumber &lt;= rmfpNumberOfLastTopLine</string>
+														</dict>
+														<dict>
+															<key>ConditionType</key>
+															<string>Calculation</string>
+															<key>Text</key>
+															<string>rmfpLineNumber &gt;= rmfpNumberOfFirstBottomLine</string>
+														</dict>
+													</array>
+													<key>ConditionListMatch</key>
+													<string>Any</string>
+												</dict>
+												<key>ElseActionListDisclosed</key>
+												<false/>
+												<key>ElseActions</key>
+												<array/>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>IfThenElse</string>
+												<key>ThenActions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15482303</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>%Variable%rmfpDialogList%%Variable%rmfpLine%
+</string>
+														<key>Variable</key>
+														<string>rmfpDialogList</string>
+													</dict>
+												</array>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Add "..." line if at the right spot</string>
+												<key>ActionUID</key>
+												<integer>15482304</integer>
+												<key>Conditions</key>
+												<dict>
+													<key>ConditionList</key>
+													<array>
+														<dict>
+															<key>ConditionType</key>
+															<string>Calculation</string>
+															<key>Text</key>
+															<string>rmfpLineNumber = rmfpNumberOfLastTopLine</string>
+														</dict>
+													</array>
+													<key>ConditionListMatch</key>
+													<string>All</string>
+												</dict>
+												<key>ElseActionListDisclosed</key>
+												<false/>
+												<key>ElseActions</key>
+												<array/>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>IfThenElse</string>
+												<key>ThenActions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15482305</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>%Variable% rmfpDialogList%...
+</string>
+														<key>Variable</key>
+														<string>rmfpDialogList</string>
+													</dict>
+												</array>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Increment rmfpLineNumber</string>
+												<key>ActionUID</key>
+												<integer>15482306</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToCalculation</string>
+												<key>Text</key>
+												<string>rmfpLineNumber + 1</string>
+												<key>UseFormat</key>
+												<false/>
+												<key>Variable</key>
+												<string>rmfpLineNumber</string>
+											</dict>
+										</array>
+										<key>Collections</key>
+										<dict>
+											<key>CollectionList</key>
+											<array>
+												<dict>
+													<key>CollectionType</key>
+													<string>LinesIn</string>
+													<key>IncludeBlankLines</key>
+													<false/>
+													<key>Source</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>rmfpMacroNames</string>
+												</dict>
+											</array>
+										</dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>For</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Variable</key>
+										<string>rmfpLine</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Aqua</string>
+								<key>ActionName</key>
+								<string>Prompt, Validate, Repeat if invalid values</string>
+								<key>ActionUID</key>
+								<integer>15482308</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15482309</integer>
+										<key>Buttons</key>
+										<array>
+											<dict>
+												<key>Button</key>
+												<string>OK</string>
+											</dict>
+											<dict>
+												<key>Button</key>
+												<string>Cancel</string>
+												<key>Cancel</key>
+												<true/>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>PromptForUserInput</string>
+										<key>Prompt</key>
+										<string>Renumber these macros:
+
+%Variable%rmfpDialogList%
+%Variable%rmfpErrorMessage%</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>Title</key>
+										<string>%ExecutingMacro%</string>
+										<key>Variables</key>
+										<array>
+											<dict>
+												<key>Default</key>
+												<string>%Variable%rmfp__Starting Number%</string>
+												<key>Variable</key>
+												<string>rmfp__Starting Number</string>
+											</dict>
+											<dict>
+												<key>Default</key>
+												<string>1</string>
+												<key>Variable</key>
+												<string>rmfp__Increment</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>ActionColor</key>
+										<string>Yellow</string>
+										<key>ActionName</key>
+										<string>Validate Values - Numeric, won't exceed 99</string>
+										<key>ActionUID</key>
+										<integer>15482310</integer>
+										<key>Conditions</key>
+										<dict>
+											<key>ConditionList</key>
+											<array>
+												<dict>
+													<key>ConditionType</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>rmfp__Starting Number</string>
+													<key>VariableConditionType</key>
+													<string>DoesNotMatch</string>
+													<key>VariableValue</key>
+													<string>\d\d?</string>
+												</dict>
+												<dict>
+													<key>ConditionType</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>rmfp__Increment</string>
+													<key>VariableConditionType</key>
+													<string>DoesNotMatch</string>
+													<key>VariableValue</key>
+													<string>\d\d?</string>
+												</dict>
+											</array>
+											<key>ConditionListMatch</key>
+											<string>Any</string>
+										</dict>
+										<key>ElseActions</key>
+										<array>
+											<dict>
+												<key>ActionColor</key>
+												<string>Magenta</string>
+												<key>ActionName</key>
+												<string>Don't exceed 99, reset rmfpErrorMessage if OK</string>
+												<key>ActionUID</key>
+												<integer>15482312</integer>
+												<key>Conditions</key>
+												<dict>
+													<key>ConditionList</key>
+													<array>
+														<dict>
+															<key>ConditionType</key>
+															<string>Calculation</string>
+															<key>Text</key>
+															<string>rmfp__Starting Number + ((rmfpMacroCount - 1) * rmfp__Increment) &gt; 99</string>
+														</dict>
+													</array>
+													<key>ConditionListMatch</key>
+													<string>All</string>
+												</dict>
+												<key>ElseActions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15482314</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string></string>
+														<key>Variable</key>
+														<string>rmfpErrorMessage</string>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>IfThenElse</string>
+												<key>ThenActions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15482313</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>** This will cause the prefix numbers to exceed 99, and they have to be less than 100, or they won't be hidden by Keyboard Maestro. **</string>
+														<key>Variable</key>
+														<string>rmfpErrorMessage</string>
+													</dict>
+												</array>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>IfThenElse</string>
+										<key>ThenActions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15482311</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>** Both values have to be numeric, and no more than 2 digits. **</string>
+												<key>Variable</key>
+												<string>rmfpErrorMessage</string>
+											</dict>
+										</array>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>rmfpErrorMessage</string>
+											<key>VariableConditionType</key>
+											<string>IsEmpty</string>
+											<key>VariableValue</key>
+											<string>value</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>Until</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Do the renumbering</string>
+						<key>ActionUID</key>
+						<integer>15482315</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Set Variable ‘rmfpNumber’ To rmfp__Starting Number</string>
+								<key>ActionUID</key>
+								<integer>15482316</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToCalculation</string>
+								<key>Text</key>
+								<string>rmfp__Starting Number</string>
+								<key>UseFormat</key>
+								<false/>
+								<key>Variable</key>
+								<string>rmfpNewPrefixNumber</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Yellow</string>
+								<key>ActionName</key>
+								<string>Renumber each macro</string>
+								<key>ActionUID</key>
+								<integer>15482317</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>Action</key>
+										<string>IgnoreCaseRegEx</string>
+										<key>ActionName</key>
+										<string>Search ‘rmfpLine’ returning rmfpNumber, rmfpMacroName, rmfpMacroUUID</string>
+										<key>ActionUID</key>
+										<integer>15482318</integer>
+										<key>Captures</key>
+										<array>
+											<string></string>
+											<string>rmfpMacroNumber</string>
+											<string></string>
+											<string>rmfpMacroName</string>
+											<string>rmfpMacroUUID</string>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SearchRegEx</string>
+										<key>Search</key>
+										<string>(\d\d)(\))([^\t]*)\t(.*)</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>rmfpLine</string>
+									</dict>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15482319</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>%Variable%rmfpMacroNumber%)%Variable%rmfpMacroName%</string>
+										<key>Variable</key>
+										<string>rmfpMacroNameAndNumber</string>
+									</dict>
+									<dict>
+										<key>ActionColor</key>
+										<string>Green</string>
+										<key>ActionName</key>
+										<string>Start editing this macro, cancel if we're not sure we're on the right macro</string>
+										<key>ActionUID</key>
+										<integer>15482320</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionName</key>
+												<string>Start editing macro rmfpMacroUUID</string>
+												<key>ActionUID</key>
+												<integer>15482321</integer>
+												<key>DisplayKind</key>
+												<string>None</string>
+												<key>HonourFailureSettings</key>
+												<true/>
+												<key>IncludeStdErr</key>
+												<true/>
+												<key>IncludedVariables</key>
+												<array>
+													<string>9999</string>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>ExecuteAppleScript</string>
+												<key>NotifyOnFailure</key>
+												<false/>
+												<key>Path</key>
+												<string></string>
+												<key>StopOnFailure</key>
+												<false/>
+												<key>Text</key>
+												<string>tell application "Keyboard Maestro Engine"	set _uuid to getvariable "rmfpMacroUUID"end telltell application "Keyboard Maestro"	editMacro _uuidend tell</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+												<key>TrimResults</key>
+												<true/>
+												<key>TrimResultsNew</key>
+												<true/>
+												<key>UseText</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15482322</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Pause</string>
+												<key>Time</key>
+												<string>.2</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>Copy</string>
+												<key>ActionUID</key>
+												<integer>15482323</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>CutCopyPaste</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15482324</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>%CurrentClipboard%</string>
+												<key>Variable</key>
+												<string>rmfpEditingMacroName</string>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>Cancel if we're not on the right macro</string>
+												<key>ActionUID</key>
+												<integer>15482325</integer>
+												<key>Conditions</key>
+												<dict>
+													<key>ConditionList</key>
+													<array>
+														<dict>
+															<key>ConditionType</key>
+															<string>Variable</string>
+															<key>Variable</key>
+															<string>rmfpEditingMacroName</string>
+															<key>VariableConditionType</key>
+															<string>IsNot</string>
+															<key>VariableValue</key>
+															<string>%Variable%rmfpMacroNameAndNumber%</string>
+														</dict>
+													</array>
+													<key>ConditionListMatch</key>
+													<string>All</string>
+												</dict>
+												<key>ElseActionListDisclosed</key>
+												<false/>
+												<key>ElseActions</key>
+												<array/>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>IfThenElse</string>
+												<key>ThenActions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15482326</integer>
+														<key>Buttons</key>
+														<array>
+															<dict>
+																<key>Button</key>
+																<string>OK</string>
+																<key>Cancel</key>
+																<true/>
+															</dict>
+														</array>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>PromptForUserInput</string>
+														<key>Prompt</key>
+														<string>Expected Macro Name to be "%Variable%rmfpMacroNameAndNumber%",
+Found "%Variable%rmfpEditingMacroName%" instead.</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>Title</key>
+														<string>%ExecutingMacro%</string>
+														<key>Variables</key>
+														<array/>
+													</dict>
+												</array>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>Group</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Pad with leading 0, if needed</string>
+										<key>ActionUID</key>
+										<integer>15482327</integer>
+										<key>Conditions</key>
+										<dict>
+											<key>ConditionList</key>
+											<array>
+												<dict>
+													<key>ConditionType</key>
+													<string>Calculation</string>
+													<key>Text</key>
+													<string>rmfpNewPrefixNumber &lt; 10</string>
+												</dict>
+											</array>
+											<key>ConditionListMatch</key>
+											<string>All</string>
+										</dict>
+										<key>ElseActionListDisclosed</key>
+										<false/>
+										<key>ElseActions</key>
+										<array/>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>IfThenElse</string>
+										<key>ThenActions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15482328</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>0%Variable%rmfpNewPrefixNumber%</string>
+												<key>Variable</key>
+												<string>rmfpNewPrefixNumber</string>
+											</dict>
+										</array>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>ByPasting</string>
+										<key>ActionName</key>
+										<string>Paste in renumbered macro name</string>
+										<key>ActionUID</key>
+										<integer>15482329</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>InsertText</string>
+										<key>Text</key>
+										<string>%Variable%rmfpNewPrefixNumber%)%Variable%rmfpMacroName%</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Increment rmfpNewPrefixNumber</string>
+										<key>ActionUID</key>
+										<integer>15482330</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>rmfpNewPrefixNumber + rmfp__Increment</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>rmfpNewPrefixNumber</string>
+									</dict>
+								</array>
+								<key>Collections</key>
+								<dict>
+									<key>CollectionList</key>
+									<array>
+										<dict>
+											<key>CollectionType</key>
+											<string>LinesIn</string>
+											<key>IncludeBlankLines</key>
+											<false/>
+											<key>Source</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>rmfpMacroNamesAndUUIDs</string>
+										</dict>
+									</array>
+								</dict>
+								<key>MacroActionType</key>
+								<string>For</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Variable</key>
+								<string>rmfpLine</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482331</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string>Renumbering is done.</string>
+								<key>Title</key>
+								<string>%ExecutingMacro%</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Type the Return Keystroke to get the last change "posted"</string>
+								<key>ActionUID</key>
+								<integer>15482332</integer>
+								<key>KeyCode</key>
+								<integer>36</integer>
+								<key>MacroActionType</key>
+								<string>SimulateKeystroke</string>
+								<key>Modifiers</key>
+								<integer>0</integer>
+								<key>ReleaseAll</key>
+								<false/>
+								<key>TargetApplication</key>
+								<dict/>
+								<key>TargetingType</key>
+								<string>Front</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Red</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15482333</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482334</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpDialogList</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482335</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpEditingMacroName</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482336</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpErrorMessage</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482337</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpLine</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482338</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpLineNumber</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482339</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpLowestNumber</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482340</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacroCount</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482341</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacroNameAndNumber</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482342</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacroName</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482343</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacroNames</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482344</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacroNamesAndUUIDs</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482345</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacroNumber</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482346</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacrosText</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482347</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpMacroUUID</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482348</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpNewPrefixNumber</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482349</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpNumberOfFirstBottomLine</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482350</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfpNumberOfLastTopLine</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482351</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfp__Increment</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482352</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>rmfp__Starting Number</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>486927790.24070001</real>
+				<key>CustomIconData</key>
+				<data>
+				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
+				AAAAAQBAAAABFwAEAAAAAQAAEugBHAADAAAAAQABAAAB
+				PQADAAAAAQACAAABUgADAAAAAQABAAABUwADAAAABAAA
+				E7KHcwAHAAAH2AAAE7oAACKiAAgACAAIAAgAAQABAAEA
+				AQAAB9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIAGQAL
+				ABoAC2Fjc3BBUFBMAAAAAGFwcGwAAAAAAAAAAAAAAAAA
+				AAAAAAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				C2Rlc2MAAAEIAAAAb2RzY20AAAF4AAAFnGNwcnQAAAcU
+				AAAAOHd0cHQAAAdMAAAAFHJYWVoAAAdgAAAAFGdYWVoA
+				AAd0AAAAFGJYWVoAAAeIAAAAFHJUUkMAAAecAAAADmNo
+				YWQAAAesAAAALGJUUkMAAAecAAAADmdUUkMAAAecAAAA
+				DmRlc2MAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUA
+				AAAAAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tT
+				SwAAACgAAAGEZGFESwAAAC4AAAGsY2FFUwAAACQAAAHa
+				dmlWTgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoA
+				AAJIZnJGVQAAACgAAAJyaHVIVQAAACgAAAKaemhUVwAA
+				ABYAAALCbmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJ
+				TAAAAB4AAAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANm
+				ZGVERQAAACwAAAOKa29LUgAAABYAAAO2c3ZTRQAAACYA
+				AALYemhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAA
+				ACIAAAP8cHRQTwAAACYAAAQebmxOTAAAACgAAAREZXNF
+				UwAAACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQ
+				ZmlGSQAAACgAAASyaHJIUgAAACgAAATacGxQTAAAACwA
+				AAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAA
+				ACYAAAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIA
+				IABwAHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBH
+				AEIALQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABlAHIA
+				ZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6l
+				AHUAIABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcA
+				UABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBp
+				AGMAbwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQE
+				MAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBu
+				AOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEA
+				bgBvAHMAIABSAEcAQgAgAHAAcgBvAGYAaQBskBp1KAAg
+				AFIARwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsA
+				IABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9
+				ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF
+				3AAgAFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABv
+				ACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8A
+				ZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBs
+				AGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIA
+				bwBmAGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAa
+				ACAAUgBHAEIAIGPPj/Blh072TgCCLAAgAFIARwBCACAw
+				1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPG
+				A68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIA
+				IABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBu
+				ACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQO
+				Hw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBu
+				AGUAbAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwA
+				ZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBs
+				AGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAA
+				cgBvAGYAaQBsAFUAbgBpAHcAZQByAHMAYQBsAG4AeQAg
+				AHAAcgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAE
+				PwRABD4ERAQ4BDsETAAgAFIARwBCBkUGRAZBACAGKgY5
+				BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4A
+				ZQByAGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRl
+				eHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwg
+				YWxsIHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNS
+				AAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAA
+				AAAAAABadQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAA
+				uDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF
+				3v//8yYAAAeSAAD9kf//+6L///2jAAAD3AAAwGyAACBQ
+				OCQWDQeEQmFQuGQ2HQ+IRGJROKRWLReMRmNRuOR2PR+Q
+				SGRSOSSWTSeKAGBAN/wJ+yiYR8DQIGmcGhNPhgCAUQJ1
+				5u43N5+PpjTGjRcwAsIpwkgADGN/v6Wrd/vhSqF8PIuU
+				euQ4AlIFA5DlIBAk7vt8y8CP6BL2qq9QP56FKEAIBgQE
+				hIOiQZAwKBgQAEAgIBPd4u5zO5xtxoPp7vR212HBS7CS
+				wA9CjkAgUrP16PyBAKVy0AW58K5SP96lOCBkUDEliwmG
+				NCA0NiMYAEDguBYIAP9+PkAPp3udxthdKhGNxiLVJRDf
+				XgHAIIv6Xvx8PR/O+IBa7CkfAgFmUagMEF0Hvt/BR/Pm
+				2AABSqCATSMB/PdXKYAPYphYSBcI4ajGQBYH2AgFAQfJ
+				5Hcfp4nGbJlACloAgcEAUhqA4GgiAYEgI0RolMRIznAZ
+				ReE0ggDgUAIHh2KYHDeFYfgTFwJgEDp+NAfB1m+fhpGE
+				VJ5EgbhmnwXCCB+vA9iOBIGDsBh9H8BzgrYfMJAAZp/n
+				0U7AgIGQQH+AgTvkABhgAfBWlQAR9CwHAyD8YwFhEGQa
+				nwd51nqbBWEiLp2m6aBYIICgTBmKYUisOZQgKBwJAUfR
+				0G2b5jEkOoXAKAp8AELBAAqWITB+AogHQb58HmdhxH6b
+				AIg0AQRP8AwJn+ewCS0PR2iqbRknwWQsgCBZeBaf4CiG
+				94AHKAJ+moYB/nuQZrgAfhVDIAAFmQFinBughiP2VJYA
+				gBw6BuMxDG6AgGAmAxzGMWZRG2XBPi+hgVCqOJbAsGgi
+				iSfh6Hgf5lkkO4UhYHJ1iEJo+AiSxymye5ylaPx5CMdx
+				yn8awGgqAQQioQoHlwDoXAMExuF+fZhFMPJ3CCAqaBaA
+				ACjEfDfnWbVnlm0AAHmgYAjFaZlBVloaIIop8FWWAEgK
+				M4WiuOpngMBgIAmaxVkYIp6nScRkIYFIpjcWYJhiIgmH
+				2eZ2n8Z5LD4FIThwdgiCMNwHEiXxMHoPRnlqe5FoQIY0
+				gYTIdC8BgzHCZx8m2UY2neFaLgEL1pmSFAAAJoCBmSAB
+				8lcWMzCnpoIA+AIBgMBR8nidVnIWvILBOGAxECZB/gUC
+				YIHqcRsG8apRkKGCBHyfIIg2AgVncch+GmqNnxQBbqCw
+				Q4Kl8DQYgEGBnFaepWFySB5CrxYtAABRkhPyPJoEZbhl
+				cWnNIoAgEdgFoqjaV4DA8Foen6fZ9gAcBak0NZ2GqY4l
+				iEAIAYAICYMwlAQDSA8CgBAMseAOD8B4JR/grHKNce43
+				BaCEHgEweI6B+jZcWFgAACRkglfCQQZgAB9iuFu+gh4C
+				wKAZBaCYJgYROAFAuCQGz9iXjsGcLsUQ4xgCrDGQI4BC
+				ARA1ASFcKwhgLCoH8AEtg/YpG/AASocwyR/DBFkIgdIV
+				x7DyH6OlxYVAAAIGSCNn6YxnPlF05Y1hCwIghBUEsEgS
+				wxCeH4AYBwFjsD2ABD4XgkxzjJFsHU357SGAFAQisDoM
+				ADhPiub8BYEABAXBYEsBobwMgnASBwdAzR+jLFYIEcoR
+				XFhRAAAcZIIY1kDGg+UXpw44kGAmCYGAWAQhIC8JwfI/
+				wDALH2vsfA6RjiyDuO8bAyjnkLOiAQA4AgFD7HwP4eRD
+				ANArAMEgI4fQKi0AWAsAoAxhiWHeHZxYTpVytZ+QQab5
+				RfS0IIBIEwMQuAeCOFyXw/ZoD7HeOkdo5xhCqDAPUcsG
+				CGkqAIEIMwGRQAaBMAoHAsBDDhCKZAfg3yEOhACBQKAi
+				wMjYAaBhV45hmD2hSRYAU6pWSuAK+IAE7x9CuniPoKYD
+				wQgpCeB4JQYxUS/kYPkdg5RzDnF0KEJ4+h4DppSQ4u0q
+				wlB+A2NgC4KADggGiKoeYixmCtHXOgg4EgPAHBkEoQIG
+				hjACARKsZopB3CGcXJIBAygPuRBmQQahwxWi/AKAELoI
+				goBqGjR0D8JjCRXHaOMaQ+BzDYF4YJ0BBR/mkN8godo4
+				h1DTGUJcE4QgDh0BiFsCYfwAj3AKPUZAnR1BjHKNUeYv
+				FzPxByF4DIlAIArAEDoeA4R8DsF6Igc4MiMFNAOMCEwB
+				QfkEawPYR4zQHgREmCAJwaxvPdAeSsAjkQBmiQkaSycR
+				jSRWAAdZyJ8QADjFwKMMw8xxDQFGDMLkTwQA6AeE8BIB
+				q1j5HeP8doBQFAAAkP0BA/AAjxHKPYd4zhSjrDGOgao9
+				xXkYAwfAIYNmWiGH0QIeoxThhoHmfEbwEgXA/EWAoDgK
+				AiITAES27yxLvXhN6QMfw+B6jxHaM0XQah9DxHYNAwcq
+				wOA0AaF8DQLwFhVAQA8AgHC0FyHgOAfIx2rjyE0PQdY+
+				68kiNEQJYhCjBkzJUmOIzOSGG+OscLMZD8fgGeM/fNJk
+				s4ZxzlnPOmdc7Z3zxnnPWe8+EdICAAAPAQAAAwAAAAEA
+				IAAAAQEAAwAAAAEAIAAAAQIAAwAAAAQAACNcAQMAAwAA
+				AAEABQAAAQYAAwAAAAEAAgAAAREABAAAAAEAABuSARIA
+				AwAAAAEAAQAAARUAAwAAAAEABAAAARYAAwAAAAEAIAAA
+				ARcABAAAAAEAAAcPARwAAwAAAAEAAQAAAT0AAwAAAAEA
+				AgAAAVIAAwAAAAEAAQAAAVMAAwAAAAQAACNkh3MABwAA
+				B9gAACNsAAAtmAAIAAgACAAIAAEAAQABAAEAAAfYYXBw
+				bAIgAABtbnRyUkdCIFhZWiAH2QACABkACwAaAAthY3Nw
+				QVBQTAAAAABhcHBsAAAAAAAAAAAAAAAAAAAAAAAA9tYA
+				AQAAAADTLWFwcGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtkZXNjAAAB
+				CAAAAG9kc2NtAAABeAAABZxjcHJ0AAAHFAAAADh3dHB0
+				AAAHTAAAABRyWFlaAAAHYAAAABRnWFlaAAAHdAAAABRi
+				WFlaAAAHiAAAABRyVFJDAAAHnAAAAA5jaGFkAAAHrAAA
+				ACxiVFJDAAAHnAAAAA5nVFJDAAAHnAAAAA5kZXNjAAAA
+				AAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAA
+				AAAUR2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAbWx1YwAAAAAAAAAfAAAADHNrU0sAAAAoAAAB
+				hGRhREsAAAAuAAABrGNhRVMAAAAkAAAB2nZpVk4AAAAk
+				AAAB/nB0QlIAAAAmAAACInVrVUEAAAAqAAACSGZyRlUA
+				AAAoAAACcmh1SFUAAAAoAAACmnpoVFcAAAAWAAACwm5i
+				Tk8AAAAmAAAC2GNzQ1oAAAAiAAAC/mhlSUwAAAAeAAAD
+				IGl0SVQAAAAoAAADPnJvUk8AAAAkAAADZmRlREUAAAAs
+				AAADimtvS1IAAAAWAAADtnN2U0UAAAAmAAAC2HpoQ04A
+				AAAWAAADzGphSlAAAAAaAAAD4mVsR1IAAAAiAAAD/HB0
+				UE8AAAAmAAAEHm5sTkwAAAAoAAAERGVzRVMAAAAmAAAE
+				HnRoVEgAAAAkAAAEbHRyVFIAAAAiAAAEkGZpRkkAAAAo
+				AAAEsmhySFIAAAAoAAAE2nBsUEwAAAAsAAAFAnJ1UlUA
+				AAAiAAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAmAAAFdgBW
+				AWEAZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8A
+				ZgBpAGwARwBlAG4AZQByAGUAbAAgAFIARwBCAC0AYgBl
+				AHMAawByAGkAdgBlAGwAcwBlAFAAZQByAGYAaQBsACAA
+				UgBHAEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAAaADs
+				AG4AaAAgAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYA
+				aQBsACAAUgBHAEIAIABHAGUAbgDpAHIAaQBjAG8EFwQw
+				BDMEMAQ7BEwEPQQ4BDkAIAQ/BEAEPgREBDAEOQQ7ACAA
+				UgBHAEIAUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBx
+				AHUAZQAgAFIAVgBCAMEAbAB0AGEAbADhAG4AbwBzACAA
+				UgBHAEIAIABwAHIAbwBmAGkAbJAadSgAIABSAEcAQgAg
+				gnJfaWPPj/AARwBlAG4AZQByAGkAcwBrACAAUgBHAEIA
+				LQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A/QAgAFIARwBC
+				ACAAcAByAG8AZgBpAGwF5AXoBdUF5AXZBdwAIABSAEcA
+				QgAgBdsF3AXcBdkAUAByAG8AZgBpAGwAbwAgAFIARwBC
+				ACAAZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYAaQBsACAA
+				UgBHAEIAIABnAGUAbgBlAHIAaQBjAEEAbABsAGcAZQBt
+				AGUAaQBuAGUAcwAgAFIARwBCAC0AUAByAG8AZgBpAGzH
+				fLwYACAAUgBHAEIAINUEuFzTDMd8Zm6QGgAgAFIARwBC
+				ACBjz4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDVMKEw
+				pDDrA5MDtQO9A7kDugPMACADwAPBA78DxgOvA7sAIABS
+				AEcAQgBQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A
+				6QByAGkAYwBvAEEAbABnAGUAbQBlAGUAbgAgAFIARwBC
+				AC0AcAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAA
+				UgBHAEIAIA4XDjEOSA4nDkQOGwBHAGUAbgBlAGwAIABS
+				AEcAQgAgAFAAcgBvAGYAaQBsAGkAWQBsAGUAaQBuAGUA
+				bgAgAFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcAZQBu
+				AGUAcgBpAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkA
+				bABVAG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBm
+				AGkAbAAgAFIARwBCBB4EMQRJBDgEOQAgBD8EQAQ+BEQE
+				OAQ7BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoGQQAg
+				AFIARwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMA
+				IABSAEcAQgAgAFAAcgBvAGYAaQBsAGV0ZXh0AAAAAENv
+				cHlyaWdodCAyMDA3IEFwcGxlIEluYy4sIGFsbCByaWdo
+				dHMgcmVzZXJ2ZWQuAFhZWiAAAAAAAADzUgABAAAAARbP
+				WFlaIAAAAAAAAHRNAAA97gAAA9BYWVogAAAAAAAAWnUA
+				AKxzAAAXNFhZWiAAAAAAAAAoGgAAFZ8AALg2Y3VydgAA
+				AAAAAAABAc0AAHNmMzIAAAAAAAEMQgAABd7///MmAAAH
+				kgAA/ZH///ui///9owAAA9wAAMBsgAAgUDgkFg0HhEJh
+				ULhkNh0PiERiUThwMAICCoVAYEEDffj6ZcUkUHA4BAIM
+				N4JCCxCr9AQoPL5dojfkCfAKCIUDgBAACAb1d7qcMjgU
+				8nolAgGIBQAgLRAufYDGrefr7cSHAz4GonKJqRYREQrH
+				8mAgDebnbzOZ6nRxff77ej1FQ8BJTBgUAYXbLGe61dzn
+				frcJQDBKVHgCBBlaD7fKsDYAAYqBQAfwMUgyGybDpJMS
+				CZyZPA0ooBGhrRzKbq2T51GA7YQwBQSAoZejufrmEIzA
+				5FUZwd47B4AAIiBHCCTpyjMLwABS9C3CEygDgbNz/BwS
+				CDtazIT4EAoIBowNyScjlYisQwWCTAezWYD6UYJBYDBx
+				cSgSaaqO7vIEMLIAASYAKJ6FJLgAeoPpqAB8AIA6VBGJ
+				gxlE+gKhSbJUEYHp+nueZ0B0LQIEQF4lgULJ2nEfZxlW
+				PR1h+hgowAYAJOEFJQAAewPAGBoIAoEQljKWR9n2fp/H
+				EXJPCsuB4G+A75giA4GAACi7gGDogDQCZNmkWh6kmhgn
+				AAA5gxmAQTFQBQCB8DYnDSVclHicpeFIKx/Hye52SgAI
+				KCKOYNF4XxJnSJh6nafZwiUQIMmaeh0xShgkTCXLgn6D
+				xdhQGJPgoIwxESfp3HIdAAH0e56gCjYBnaaBhEoDoUmu
+				DYMBQCIfn0eR/HKAoHn8EBiEsc8wIWBrhBKAoAH+BJ3w
+				ccwEJ0HCTAFYqBAE4SeH0eB1Gofh5ncbIJBCBAegKBQB
+				AkdpuHwYR+Hyfx3qJd133heN5XmhSAgADwEAAAMAAAAB
+				ABAAAAEBAAMAAAABABAAAAECAAMAAAAEAAAuUgEDAAMA
+				AAABAAUAAAEGAAMAAAABAAIAAAERAAQAAAABAAArRAES
+				AAMAAAABAAEAAAEVAAMAAAABAAQAAAEWAAMAAAABABAA
+				AAEXAAQAAAABAAACVAEcAAMAAAABAAEAAAE9AAMAAAAB
+				AAIAAAFSAAMAAAABAAEAAAFTAAMAAAAEAAAuWodzAAcA
+				AAfYAAAuYgAAAAAACAAIAAgACAABAAEAAQABAAAH2GFw
+				cGwCIAAAbW50clJHQiBYWVogB9kAAgAZAAsAGgALYWNz
+				cEFQUEwAAAAAYXBwbAAAAAAAAAAAAAAAAAAAAAAAAPbW
+				AAEAAAAA0y1hcHBsAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALZGVzYwAA
+				AQgAAABvZHNjbQAAAXgAAAWcY3BydAAABxQAAAA4d3Rw
+				dAAAB0wAAAAUclhZWgAAB2AAAAAUZ1hZWgAAB3QAAAAU
+				YlhZWgAAB4gAAAAUclRSQwAAB5wAAAAOY2hhZAAAB6wA
+				AAAsYlRSQwAAB5wAAAAOZ1RSQwAAB5wAAAAOZGVzYwAA
+				AAAAAAAUR2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAA
+				AAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAG1sdWMAAAAAAAAAHwAAAAxza1NLAAAAKAAA
+				AYRkYURLAAAALgAAAaxjYUVTAAAAJAAAAdp2aVZOAAAA
+				JAAAAf5wdEJSAAAAJgAAAiJ1a1VBAAAAKgAAAkhmckZV
+				AAAAKAAAAnJodUhVAAAAKAAAApp6aFRXAAAAFgAAAsJu
+				Yk5PAAAAJgAAAthjc0NaAAAAIgAAAv5oZUlMAAAAHgAA
+				AyBpdElUAAAAKAAAAz5yb1JPAAAAJAAAA2ZkZURFAAAA
+				LAAAA4prb0tSAAAAFgAAA7ZzdlNFAAAAJgAAAth6aENO
+				AAAAFgAAA8xqYUpQAAAAGgAAA+JlbEdSAAAAIgAAA/xw
+				dFBPAAAAJgAABB5ubE5MAAAAKAAABERlc0VTAAAAJgAA
+				BB50aFRIAAAAJAAABGx0clRSAAAAIgAABJBmaUZJAAAA
+				KAAABLJockhSAAAAKAAABNpwbFBMAAAALAAABQJydVJV
+				AAAAIgAABS5hckVHAAAAJgAABVBlblVTAAAAJgAABXYA
+				VgFhAGUAbwBiAGUAYwBuAP0AIABSAEcAQgAgAHAAcgBv
+				AGYAaQBsAEcAZQBuAGUAcgBlAGwAIABSAEcAQgAtAGIA
+				ZQBzAGsAcgBpAHYAZQBsAHMAZQBQAGUAcgBmAGkAbAAg
+				AFIARwBCACAAZwBlAG4A6AByAGkAYwBDHqUAdQAgAGgA
+				7ABuAGgAIABSAEcAQgAgAEMAaAB1AG4AZwBQAGUAcgBm
+				AGkAbAAgAFIARwBCACAARwBlAG4A6QByAGkAYwBvBBcE
+				MAQzBDAEOwRMBD0EOAQ5ACAEPwRABD4ERAQwBDkEOwAg
+				AFIARwBCAFAAcgBvAGYAaQBsACAAZwDpAG4A6QByAGkA
+				cQB1AGUAIABSAFYAQgDBAGwAdABhAGwA4QBuAG8AcwAg
+				AFIARwBCACAAcAByAG8AZgBpAGyQGnUoACAAUgBHAEIA
+				IIJyX2ljz4/wAEcAZQBuAGUAcgBpAHMAawAgAFIARwBC
+				AC0AcAByAG8AZgBpAGwATwBiAGUAYwBuAP0AIABSAEcA
+				QgAgAHAAcgBvAGYAaQBsBeQF6AXVBeQF2QXcACAAUgBH
+				AEIAIAXbBdwF3AXZAFAAcgBvAGYAaQBsAG8AIABSAEcA
+				QgAgAGcAZQBuAGUAcgBpAGMAbwBQAHIAbwBmAGkAbAAg
+				AFIARwBCACAAZwBlAG4AZQByAGkAYwBBAGwAbABnAGUA
+				bQBlAGkAbgBlAHMAIABSAEcAQgAtAFAAcgBvAGYAaQBs
+				x3y8GAAgAFIARwBCACDVBLhc0wzHfGZukBoAIABSAEcA
+				QgAgY8+P8GWHTvZOAIIsACAAUgBHAEIAIDDXMO0w1TCh
+				MKQw6wOTA7UDvQO5A7oDzAAgA8ADwQO/A8YDrwO7ACAA
+				UgBHAEIAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBu
+				AOkAcgBpAGMAbwBBAGwAZwBlAG0AZQBlAG4AIABSAEcA
+				QgAtAHAAcgBvAGYAaQBlAGwOQg4bDiMORA4fDiUOTAAg
+				AFIARwBCACAOFw4xDkgOJw5EDhsARwBlAG4AZQBsACAA
+				UgBHAEIAIABQAHIAbwBmAGkAbABpAFkAbABlAGkAbgBl
+				AG4AIABSAEcAQgAtAHAAcgBvAGYAaQBpAGwAaQBHAGUA
+				bgBlAHIAaQENAGsAaQAgAFIARwBCACAAcAByAG8AZgBp
+				AGwAVQBuAGkAdwBlAHIAcwBhAGwAbgB5ACAAcAByAG8A
+				ZgBpAGwAIABSAEcAQgQeBDEESQQ4BDkAIAQ/BEAEPgRE
+				BDgEOwRMACAAUgBHAEIGRQZEBkEAIAYqBjkGMQZKBkEA
+				IABSAEcAQgAgBicGRAY5BicGRQBHAGUAbgBlAHIAaQBj
+				ACAAUgBHAEIAIABQAHIAbwBmAGkAbABldGV4dAAAAABD
+				b3B5cmlnaHQgMjAwNyBBcHBsZSBJbmMuLCBhbGwgcmln
+				aHRzIHJlc2VydmVkLgBYWVogAAAAAAAA81IAAQAAAAEW
+				z1hZWiAAAAAAAAB0TQAAPe4AAAPQWFlaIAAAAAAAAFp1
+				AACscwAAFzRYWVogAAAAAAAAKBoAABWfAAC4NmN1cnYA
+				AAAAAAAAAQHNAABzZjMyAAAAAAABDEIAAAXe///zJgAA
+				B5IAAP2R///7ov///aMAAAPcAADAbA==
+				</data>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568498832.55536604</real>
+				<key>Name</key>
+				<string>Renumber macro prefix numbers</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>F0A0F7BE-FDDC-4A08-A0FD-0A70F3C312CA</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

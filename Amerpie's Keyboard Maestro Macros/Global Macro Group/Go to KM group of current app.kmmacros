@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Macro Notes</string>
+						<key>ActionUID</key>
+						<integer>15481325</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6fAwAAKwAAAAEA
+						AACXAwAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNTYx
+						XGNvY29hc3VicnRmMTAwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30Ke1wqXGV4cGFu
+						ZGVkY29sb3J0Ymw7O30KXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+						YXJkaXJuYXR1cmFsXHBhcnRpZ2h0
+						ZW5mYWN0b3IwCgpcZjBcZnMyNCBc
+						Y2YwIEF1dGhvcmVkIGJ5IENocmlz
+						dG9waGVyIFN0b25lIDxzY3JpcHRt
+						ZWlzdGVyQHRoZXN0b25lZm9yZ2Uu
+						Y29tPlwKTW9kaWZpZWQgYnkgR2Fi
+						ZSBHbGlja1wKMjAxNi8xMS8xNC8g
+						NDoyNiA6IENyZWF0ZWRcCjIwMTcv
+						MTIvMDYvIDg6MDkgOiBNb2RpZmll
+						ZFwKXCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XApUYWdzOiBAY2NzLCBAQ2hy
+						aXN0b3BoZXIsIEBTdG9uZSwgQEtl
+						eWJvYXJkX01hZXN0cm9fRWRpdG9y
+						fQEAAAAjAAAAAQAAAAcAAABUWFQu
+						cnRmEAAAADgpJ1q2AQAAAAAAAAAA
+						AAA=
+						</data>
+						<key>Title</key>
+						<string>Go-To Front-App's Group in Keyboard Maestro v1.2</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481326</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>--------------------------------------------------------------------------------# Auth: Christopher Stone# Mod: Gabe Glick# dCre: 2016/11/14 16:15# dMod: 2017/12/06 08:09# Appl: Keyboard Maestro Editor# Task: Select the first group whose name matches the name of the front application, and create it if it doesn't exist.# Libs: None# Osax: None# Tags: @Applescript, @Script, @System_Events, @Select, @Group, @Front, @Application--------------------------------------------------------------------------------try		set AppleScript's text item delimiters to {".app/", "/"}	set frontAppPath to POSIX path of (path to frontmost application as text)	set frontApp to text item -2 of frontAppPath		tell application "Keyboard Maestro"		activate		if (exists of macro group frontApp) = false then			set newGroup to make new macro group with properties {name:frontApp}			select newGroup		else			select macro group frontApp		end if	end tell	on error e number n	set e to e &amp; return &amp; return &amp; "Num: " &amp; n	if n ≠ -128 then		try			tell application (path to frontmost application as text) to set ddButton to button returned of ¬				(display dialog e with title "ERROR!" buttons {"Copy Error Message", "Cancel", "OK"} ¬					default button "OK" giving up after 30)			if ddButton = "Copy Error Message" then set the clipboard to e		end try	end ifend try--------------------------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481327</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.stairways.keyboardmaestro.editor</string>
+										<key>Name</key>
+										<string>Keyboard Maestro</string>
+										<key>NewFile</key>
+										<string>/Applications/Keyboard Maestro.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>PauseUntil</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481328</integer>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>View</string>
+							<string>Select Macros Column</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.stairways.keyboardmaestro.editor</string>
+							<key>Name</key>
+							<string>Keyboard Maestro</string>
+							<key>NewFile</key>
+							<string>/Applications/Keyboard Maestro.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>500855135.75469601</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>556569814.89685905</real>
+				<key>Name</key>
+				<string>Go to KM group of current app</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>4E49E5C2-A980-49E1-93CC-965D3A8E0406</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

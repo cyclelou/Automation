@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>1</integer>
+						<key>Default</key>
+						<string></string>
+						<key>MacroActionType</key>
+						<string>Search</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Search the web with Google</string>
+						<key>URL</key>
+						<string>http://www.google.com/search?q=%Search%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>721485507.84634495</real>
+				<key>ModificationDate</key>
+				<real>722123513.087448</real>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>5</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4608</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>2FF85B1C-BADB-416C-BE63-E205E3A32338</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

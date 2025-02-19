@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15971683</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>ExecuteOrEdit</key>
+						<string>Execute</string>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteShortcut</string>
+						<key>Shortcut</key>
+						<string>Restart Nord</string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>745087862.44714499</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>745101933.85226095</real>
+				<key>Name</key>
+				<string>Recoonect VPN</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>ExecuteType</key>
+						<string>While</string>
+						<key>MacroTriggerType</key>
+						<string>Time</string>
+						<key>RepeatTime</key>
+						<integer>3600</integer>
+						<key>TimeFinishHour</key>
+						<integer>21</integer>
+						<key>TimeFinishMinutes</key>
+						<integer>30</integer>
+						<key>TimeHour</key>
+						<integer>4</integer>
+						<key>TimeMinutes</key>
+						<integer>0</integer>
+						<key>WhichDays</key>
+						<integer>127</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>65DC349F-D1A2-4E84-B1C7-D89F2D44EFF1</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

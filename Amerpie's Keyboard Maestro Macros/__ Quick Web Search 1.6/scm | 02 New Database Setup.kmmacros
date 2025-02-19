@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>719152176.82849801</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>ActionUID</key>
+						<integer>15439691</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC7iAQAAKwAAAAEA
+						AADaAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzA5
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYS1Cb2xkO1xmMVxm
+						c3dpc3NcZmNoYXJzZXQwIEhlbHZl
+						dGljYTt9CntcY29sb3J0Ymw7XHJl
+						ZDI1NVxncmVlbjI1NVxibHVlMjU1
+						O1xyZWQwXGdyZWVuMFxibHVlMDt9
+						CntcKlxleHBhbmRlZGNvbG9ydGJs
+						OztcY3NzcmdiXGMwXGMwXGMwXGM4
+						NDcwNlxjbmFtZSBjb250cm9sVGV4
+						dENvbG9yO30KXHBhcmRcdHg1NjBc
+						dHgxMTIwXHR4MTY4MFx0eDIyNDBc
+						dHgyODAwXHR4MzM2MFx0eDM5MjBc
+						dHg0NDgwXHR4NTA0MFx0eDU2MDBc
+						dHg2MTYwXHR4NjcyMFxwYXJkaXJu
+						YXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
+						b3IwCgpcZjBcYlxmczI2IFxjZjIg
+						UHVycG9zZQpcZjFcYjAgXAogIFwn
+						OTUgQ3JlYXRlcyBhbmQgcG9wdWxh
+						dGVzIHRoZSBkYXRhYmFzZS59AQAA
+						ACMAAAABAAAABwAAAFRYVC5ydGYQ
+						AAAALpkgZbYBAAAAAAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>New Database Setup</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Create the database</string>
+						<key>ActionUID</key>
+						<integer>15439692</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Green</string>
+								<key>ActionName</key>
+								<string>Predefined list of shortcuts and URLs</string>
+								<key>ActionUID</key>
+								<integer>15439693</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>A•apple.com•https://www.apple.com/us/search/{SEARCH}?src=globalnav
+B•Bing•https://www.bing.com/search?q={SEARCH}
+D•DuckDuckGo•https://duckduckgo.com/?q={SEARCH}
+E•eBay•https://www.ebay.com/sch/{SEARCH}
+G•Google•https://www.google.com/search?q={SEARCH}
+KF•Keyboard Maestro Forum•https://forum.keyboardmaestro.com/search?q={SEARCH}
+KW•Keyboard Maestro Wiki•https://wiki.keyboardmaestro.com/Home_Page?do=search&amp;id={SEARCH}
+M•Macworld•https://www.macworld.com/search?q={SEARCH}
+MIT•Macintouch•https://www.macintouch.com/?s={SEARCH}
+MR•MacRumors•https://www.macrumors.com/search/?s={SEARCH}
+OSM•OpenStreetMap•https://www.openstreetmap.org/search?query={SEARCH}
+ROB•Robservatory - Rob's blog•https://robservatory.com/search/?q={SEARCH}
+S•Six Colors•https://sixcolors.com/?s={SEARCH}
+W•Wikipedia•https://en.wikipedia.org/wiki/{SEARCH}
+Y•YouTube•https://www.youtube.com/results?search_query={SEARCH}
+Z•Amazon•https://www.amazon.com/s?k={SEARCH}&amp;sprefix={SEARCH}
+ZR•Amazon with Rob's referrer code•https://www.amazon.com/s?k={SEARCH}&amp;sprefix={SEARCH}&amp;tag=therobse-20</string>
+								<key>Variable</key>
+								<string>localStandardFullShortcuts</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Green</string>
+								<key>ActionName</key>
+								<string>Predefined list of shortcuts and URLs</string>
+								<key>ActionUID</key>
+								<integer>15439694</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>Apple•Apple App Stores via DuckDuckGo•https://duckduckgo.com/?q=site%3Aapps.apple.com/us/app+{SEARCH}
+Apple•Apple Developer•https://developer.apple.com/search/?q={SEARCH}
+Apple•Apple Discussions•https://discussions.apple.com/search?q={SEARCH}
+Apple•Apple iPad Apps•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?free=0&amp;genreIndex=1&amp;media=software&amp;restrict=true&amp;softwareTerm={SEARCH}&amp;submit=seeAllLockups&amp;entity=iPadSoftware
+Apple•Apple iPhone Apps•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?free=0&amp;genreIndex=1&amp;media=software&amp;restrict=true&amp;softwareTerm={SEARCH}&amp;submit=seeAllLockups&amp;entity=software
+Apple•Apple Maps•https://maps.apple.com/?q={SEARCH}
+Apple•Apple Movies by Keyword•itms://search4.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?closedCaption=0&amp;flavor=0&amp;genreIndex=1&amp;media=movie&amp;ratingIndex=1&amp;restrict=false&amp;submit=seeAllLockups&amp;entity=movie&amp;descriptionTerm={SEARCH}
+Apple•Apple Movies by Title•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?closedCaption=0&amp;flavor=0&amp;genreIndex=1&amp;media=movie&amp;ratingIndex=1&amp;restrict=false&amp;submit=seeAllLockups&amp;entity=movie&amp;movieTerm={SEARCH}
+Apple•Apple Music by Artist•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?genreIndex=1&amp;media=music&amp;restrict=true&amp;submit=seeAllLockups&amp;entity=album&amp;allArtistNames={SEARCH}
+Apple•Apple Music Video by Artist•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?genreIndex=1&amp;media=music&amp;restrict=true&amp;submit=seeAllLockups&amp;entity=musicVideo&amp;allArtistNames={SEARCH}
+Apple•Apple Newsroom•https://www.apple.com/newsroom/search?q={SEARCH}
+Apple•Apple Podcasts•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?entity=podcast&amp;genreIndex=1&amp;media=podcast&amp;podcastMediaTypeTerm=0&amp;restrict=true&amp;submit=seeAllLockups&amp;descriptionTerm={SEARCH}
+Apple•Apple TV Shows by Keyword•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?entity=tvSeason&amp;flavor=0&amp;media=tvShow&amp;restrict=true&amp;submit=seeAllLockups&amp;descriptionTerm={SEARCH}
+Apple•Apple TV Shows by Title•itms://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/advancedSearch?entity=tvSeason&amp;flavor=0&amp;media=tvShow&amp;restrict=true&amp;submit=seeAllLockups&amp;showAndSeasonTerm={SEARCH}
+Financial•eTrade stock chart•https://www.etrade.wallst.com/v1/stocks/charts/charts.asp?symbol={SEARCH}
+Financial•Google Finance - A stock on NASDAQ•https://www.google.com/finance/quote/{SEARCH}:NASDAQ
+Financial•Google Finance - A stock on NYSE•https://www.google.com/finance/quote/{SEARCH}:NYSE
+Financial•Yahoo Finance•https://finance.yahoo.com/lookup?s={SEARCH}
+Games•Gamespot•http://www.gamespot.com/search/?q={SEARCH}&amp;indices%5B%5D=article&amp;indices%5B%5D=review&amp;indices%5B%5D=game
+Games•Kerbal Space Program•http://wiki.kerbalspaceprogram.com/index.php?search={SEARCH}
+Games•Steam Store•https://store.steampowered.com/search?term={SEARCH}
+Images•Bing Images•https://www.bing.com/images/search?q={SEARCH}&amp;go=Search&amp;qs=n&amp;form=QBILPG&amp;pq={SEARCH}&amp;sc=8-4&amp;sp=-1&amp;sk=
+Images•Duck Duck Go Images•https://duckduckgo.com/?ia=images&amp;iax=images&amp;q={SEARCH}
+Images•Ecosia Images•https://www.ecosia.org/images?q={SEARCH}
+Images•Flickr•https://www.flickr.com/search/?q={SEARCH}
+Images•Giphy•https://giphy.com/search/{SEARCH}
+Images•Google Images•https://www.google.com/search?site=&amp;tbm=isch&amp;source=hp&amp;biw=1275&amp;bih=1130&amp;q={SEARCH}&amp;oq={SEARCH}
+Images•Yahoo Images•https://images.search.yahoo.com/search/images?p={SEARCH}
+Internet Info and Tools•Down for Everyone or Just Me•https://downforeveryoneorjustme.com/{SEARCH}
+Internet Info and Tools•Who Is lookup•https://who.is/whois/{SEARCH}
+Mac and Mac Apps•Cheetah 3D Forum•https://www.cheetah3d.com/forum/index.php?search/32226/&amp;q={SEARCH}&amp;o=date
+Mac and Mac Apps•macOS Unix commands 'man' pages•x-man-page://{SEARCH}
+Mac and Mac Apps•MacUpdate•https://www.macupdate.com/find/mac/context={SEARCH}
+Mac and Mac Apps•Many Tricks blog [Rob's work]•https://manytricks.com/blog/?s={SEARCH}
+Mac and Mac Apps•Many Tricks faq [Rob's work]•https://manytricks.com/osticket/kb/faq.php?a=search&amp;q={SEARCH}
+Mac and Mac Apps•Tidbits•https://tidbits.com/?s={SEARCH}
+Maps•Bing Maps•https://bing.com/maps/default.aspx?where1={SEARCH}
+Maps•Google Maps•https://www.google.com/maps/place/{SEARCH}
+Miscellaneous•Amazon Books•https://www.amazon.com/s?i=books&amp;k={SEARCH}
+Miscellaneous•Google Exact Match•http://www.google.com/search?q=%22{SEARCH}%22
+Miscellaneous•Google Groups•https://groups.google.com/groups?q={SEARCH}
+Miscellaneous•Makerbot Thingiverse•https://www.thingiverse.com/search?q={SEARCH}
+Miscellaneous•Prehensileblog•https://prehensileblog.wordpress.com/?s={SEARCH}
+Movies•Amazon DVDs•https://www.amazon.com/s?i=dvd&amp;k={SEARCH}
+Movies•IMDB•https://www.imdb.com/find?q={SEARCH}&amp;ref_=nv_sr_sm
+Movies•Rotten Tomatoes•https://www.rottentomatoes.com/search?search={SEARCH}
+Music•All Music•https://www.allmusic.com/search/all/{SEARCH}
+Music•Amazon Music•https://www.amazon.com/s?i=music&amp;k={SEARCH}
+Music•last.fm•https://www.last.fm/search?q={SEARCH}
+Other Search Engines•Dogpile•http://www.dogpile.com/search/web?q={SEARCH}
+Other Search Engines•Ecosia•https://www.ecosia.org/search?q={SEARCH}
+Other Search Engines•Start Page•http://startpage.com/do/search?language=english&amp;query={SEARCH}
+Other Search Engines•Yahoo•https://search.yahoo.com/search?p={SEARCH}
+Shopping•DealNews•https://www.dealnews.com/?search={SEARCH}&amp;sort=featured
+Shopping•Slickdeals•https://slickdeals.net/newsearch.php?q={SEARCH}&amp;searcharea=deals&amp;searchin=first
+Social •Reddit•https://www.reddit.com/search/?q={SEARCH}
+Social •Twitter•https://twitter.com/search?q={SEARCH}
+Technical•CSS Tricks•https://css-tricks.com/search-results/?q={SEARCH}
+Technical•Github•https://github.com/search?q={SEARCH}
+Technical•php.net•https://www.php.net/{SEARCH}
+Technical•Slashdot•https://slashdot.org/index2.pl?fhfilter={SEARCH}
+Technical•Stack Exchange•http://stackexchange.com/search?q={SEARCH}
+Technical•Stack Overflow•https://stackoverflow.com/search?q={SEARCH}
+Technical•TinyURL Creator•https://tinyurl.com/create.php?url={SEARCH}
+Technical•vim Wiki•http://vim.wikia.com/wiki/Special:Search?search={SEARCH}&amp;fulltext=Search
+Technical•Wolfram Alpha•https://www.wolframalpha.com/input/?i={SEARCH}
+Technical•WordPress Plugins•https://wordpress.org/plugins/search.php?q={SEARCH}
+Translators•Bing Translator - Any to English•https://www.bing.com/translator/?from=si&amp;to=en&amp;text={SEARCH}
+Translators•European Union Terminology - Any to any•http://iate.europa.eu/SearchByQuery.do?method=search&amp;valid=Search+&amp;sourceLanguage=s&amp;targetLanguages=s&amp;domain=0&amp;typeOfSearch=s&amp;request=&amp;query={SEARCH}
+Translators•European Union Terminology - English to any•http://iate.europa.eu/SearchByQuery.do?method=search&amp;valid=Search+&amp;sourceLanguage=en&amp;targetLanguages=s&amp;domain=0&amp;typeOfSearch=s&amp;request=&amp;query={SEARCH}
+Translators•Google Translate - Any to English•https://translate.google.com/#auto/en/{SEARCH}
+Translators•Leo - English to German•https://dict.leo.org/englisch-deutsch/{SEARCH}&amp;searchLoc=0&amp;resultOrder=expert&amp;multiwordShowSingle=off
+Translators•Linguee - English to German•http://www.linguee.com/english-german/search?source=auto&amp;query={SEARCH}
+Videos•Duck Duck Go Videos•https://duckduckgo.com/?ia=videos&amp;iax=videos&amp;q={SEARCH}
+Videos•Google Videos•https://www.google.com/search?tbm=vid&amp;q={SEARCH}
+Videos•TED Talks•https://www.ted.com/search?q={SEARCH}
+Videos•Yahoo Video•https://video.search.yahoo.com/search/video?p={SEARCH}
+Words•Acronym Finder•https://acronymfinder.com/~/search/af.aspx?Acronym={SEARCH}
+Words•macOS Dictionary•dict://{SEARCH}
+Words•Merriam-Webster Dictionary•https://www.merriam-webster.com/dictionary/{SEARCH}
+Words•Merriam-Webster Thesaurus•https://www.merriam-webster.com/thesaurus/{SEARCH}
+Words•Urban Dictionary•http://www.urbandictionary.com/define.php?term={SEARCH}
+Words•Wiktionary•http://en.wiktionary.org/?search={SEARCH}
+
+</string>
+								<key>Variable</key>
+								<string>localOptionalShortcuts</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseRegEx</string>
+								<key>ActionName</key>
+								<string>Search/Replace: regex</string>
+								<key>ActionUID</key>
+								<integer>15439695</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string>insert into %Variable%instance_QWS_tablename% ("category", "source", "status", "state", "shortcut", "descrip", "url", "restoreval") values ("","DEFAULT","ACTIVE","ORIGINAL","$1","$2","$3","$1┇$2┇$3");</string>
+								<key>Search</key>
+								<string>(?m)(.*?)•(.*?)•(.*)$</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>localStandardFullShortcuts</string>
+								<key>Which</key>
+								<string>All</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseRegEx</string>
+								<key>ActionName</key>
+								<string>Search/Replace: regex</string>
+								<key>ActionUID</key>
+								<integer>15439696</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string>insert into %Variable%instance_QWS_tablename% ("category", "source", "status", "state", "shortcut", "descrip", "url", "restoreval") values ("$1","OPTIONAL","INACTIVE","ORIGINAL","","$2","$3","$2┇$3");</string>
+								<key>Search</key>
+								<string>(?m)^(.*?)•(.*?)•(.*)$</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>localOptionalShortcuts</string>
+								<key>Which</key>
+								<string>All</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439697</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>CREATE TABLE IF NOT EXISTS "%Variable%instance_QWS_tablename%" (
+"idnumber" INTEGER PRIMARY KEY,
+"source" TEXT,
+"category" TEXT,
+"status" TEXT,
+"state" TEXT,
+"shortcut" TEXT,
+"descrip" TEXT,
+"url" TEXT,
+"isdefault" TEXT,
+"restoreval" TEXT
+);
+
+%Variable%localStandardFullShortcuts%
+%Variable%localOptionalShortcuts%</string>
+								<key>Variable</key>
+								<string>instanceTheData</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439698</integer>
+								<key>Append</key>
+								<false/>
+								<key>Destination</key>
+								<string>/tmp/websearch_data.sql</string>
+								<key>Encoding</key>
+								<string>UTF8</string>
+								<key>Format</key>
+								<string>PlainText</string>
+								<key>Format2</key>
+								<string>PlainText</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>WriteFile</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instanceTheData</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439699</integer>
+								<key>DisplayKind</key>
+								<string>Window</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>cat /tmp/websearch_data.sql | sqlite3 "$KMVAR_rg_QWS_dbase"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439700</integer>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string>Shortcuts database created</string>
+								<key>Text</key>
+								<string></string>
+								<key>Title</key>
+								<string>Quick Web Search</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>719152176.82881701</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>723403591.04692495</real>
+				<key>Name</key>
+				<string>scm | 02 New Database Setup</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>F6794206-3B09-4A01-B197-071C3B83989C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ Quick Web Search 1.6</string>
+		<key>ToggleMacroUID</key>
+		<string>0352452F-F4A3-4849-AB32-007DBD3F2622</string>
+		<key>UID</key>
+		<string>36DE5B40-178B-4949-8E91-8CA5C2C3574B</string>
+	</dict>
+</array>
+</plist>

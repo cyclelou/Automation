@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481321</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC73AwAAKwAAAAEA
+						AADvAwAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IEdvIHRvIEV4ZWN1dGVk
+						IE1hY3JvXApWZXJzaW9uOiAxLjBc
+						CkRhdGU6IDIwMTYvMDYvMDQgMTE6
+						MzAgUERUXApCeTogRGFuIFRob21h
+						cywgQ2hyaXN0b3BoZXIgU3RvbmUg
+						XHsgSGVhdnkgTGlmdGluZyBieSBT
+						aGFuZSBTdGFubGV5IFx9IGFuZCB3
+						aG9ldmVyIGVsc2Ugd2FudHMgY3Jl
+						ZGl0LlwKXApTZWxlY3QgYW4gIkV4
+						ZWN1dGUgYSBNYWNybyIgYWN0aW9u
+						IGluIHRoZSBlZGl0b3IsIHRoZW4g
+						cnVuIHRoaXMgbWFjcm8uIFRoZSBF
+						ZGl0b3Igd2lsbCBqdW1wIHRvIHRo
+						ZSBleGVjdXRlZCBtYWNyby5cClwK
+						SWYgeW91IGRvbid0IGhhdmUgYW4g
+						IkV4ZWN1dGUgYSBNYWNybyIgYWN0
+						aW9uIHNlbGVjdGVkLCBvciBpdCBk
+						b2Vzbid0IGhhdmUgYSB2YWxpZCBN
+						YWNybyBzZXQsIHRoZXJlJ2xsIGJl
+						IGEgYmVlcC4gUHJvYmFibHkuIE1v
+						c3Qgb2YgdGhlIHRpbWUuIE9LLCBp
+						dCBjZXJ0YWlubHkgd29uJ3QgZ28g
+						dG8gdGhlIE1hY3JvIHlvdSBkb24n
+						dCBoYXZlIHNlbGVjdGVkLlwKXApO
+						T1RFOiBUaGlzIGNvcGllcyB0aGUg
+						Y3VycmVudGx5LXNlbGVjdGVkIGFj
+						dGlvbiB0byB0aGUgY2xpcGJvYXJk
+						LCBzbyBpZiB5b3UgaGF2ZSBzb21l
+						dGhpbmcgeW91IHdhbnRlZCBvbiB0
+						aGUgY2xpcGJvYXJkLCBiZSBhd2Fy
+						ZSBvZiB0aGF0LiBJIHRyaWVkIGRl
+						bGV0aW5nIHRoZSBjdXJyZW50IGNs
+						aXBib2FyZCwgYnV0IHRoZXJlJ3Mg
+						YSB0aW1pbmcgaXNzdWUgc29tZXRp
+						bWVzLCBzbyB0aGF0J3MgdXAgdG8g
+						eW91Ln0BAAAAIwAAAAEAAAAHAAAA
+						VFhULnJ0ZhAAAAA348BZtgEAAAAA
+						AAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Go to Executed Macro v1.0</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Copy</string>
+						<key>ActionUID</key>
+						<integer>15481322</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<false/>
+						<key>TimeOutPeriod</key>
+						<real>10</real>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481323</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>.2</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481324</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>---------------------------------------------------------------------------------# Auth: Christopher Stone { Heavy Lifting by Shane Stanley }# dCre: 2016/06/03 22:05# dMod: 2016/06/04 10:50 (Dan Thomas - added missing "else beep").# Appl: Keyboard Maestro# Task: GO-TO macro of selected “Execute a Macro” action in the Keyboard Maestro Editor.# Aojc: True# Libs: None# Osax: None# Tags: @Applescript, @Script, @ASObjC, @Extract, @Keyboard_Maestro, @Plist---------------------------------------------------------------------------------use AppleScript version "2.4"use framework "Foundation"use scripting additions---------------------------------------------------------------------------------set kmPlistStr to missing valueset actionUUID to missing valueset systemPasteBoard to current application's NSPasteboard's generalPasteboard()if (systemPasteBoard's canReadItemWithDataConformingToTypes:{"com.stairways.keyboardmaestro.actionarray"}) as boolean then	# Copied Action or Actions	set kmPlistStr to systemPasteBoard's stringForType:"com.stairways.keyboardmaestro.actionarray"end ifif kmPlistStr ≠ missing value then	try		set kmPlistStr to kmPlistStr as text				tell application "System Events"			set actionPlistRecord to value of (make property list item with properties {text:kmPlistStr})			set actionUUID to MacroUID of item 1 of actionPlistRecord		end tell				if actionUUID ≠ "" then			tell application "Keyboard Maestro"				editMacro actionUUID			end tell		else			beep		end if	on error		beep	end tryelse	beepend if---------------------------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<false/>
+						<key>TimeOutPeriod</key>
+						<real>2</real>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>486754147.30832797</real>
+				<key>CustomIconData</key>
+				<string>KMEP-iTunesNext</string>
+				<key>ModificationDate</key>
+				<real>568498795.72320104</real>
+				<key>Name</key>
+				<string>Go to executed macro</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>ED277873-A5AC-450D-A552-B12949254C39</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

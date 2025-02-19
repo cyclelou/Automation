@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>56770</integer>
+						<key>HonorExcluded</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>HideOthers</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>722089156.77767205</real>
+				<key>ModificationDate</key>
+				<real>745087799.09368503</real>
+				<key>Name</key>
+				<string>Show Only Front App</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>3</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>BC6066A4-93BB-4E28-A8E0-DD60A143567F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

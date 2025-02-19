@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>PercentEncodeForURL</string>
+						<key>ActionUID</key>
+						<integer>15481336</integer>
+						<key>Destination</key>
+						<string>Variable</string>
+						<key>DestinationVariable</key>
+						<string>temp</string>
+						<key>MacroActionType</key>
+						<string>Filter</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481337</integer>
+						<key>IsDefaultApplication</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>OpenURL</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>URL</key>
+						<string>https://www.google.com/search?q=%Variable%temp%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>528235539.09107703</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>556654585.90900397</real>
+				<key>Name</key>
+				<string>Google clipboard</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>09BE9928-E598-48C8-B99A-CEBDF1E6129F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>A Macro by Christopher Stone &lt;scriptmeister@thestoneforge.com&gt;</string>
+						<key>ActionUID</key>
+						<integer>15483340</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC44AgAAKwAAAAEA
+						AAAwAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IEF1dGhvcmVkIGJ5IENocmlzdG9w
+						aGVyIFN0b25lIDxzY3JpcHRtZWlz
+						dGVyQHRoZXN0b25lZm9yZ2UuY29t
+						PlwKMjAxNi8wNi8xMSAwNjowMiA6
+						IENyZWF0ZWRcCjIwMTYvMDYvMTMg
+						MTU6MDEgOiBNb2RpZmllZFwKXApU
+						YXNrOlwKXApSZXBvcnQgdGhlIFN5
+						c3RlbSBFdmVudHMgVUkgSW5mb3Jt
+						YXRpb24gb2YgdGhlIEZyb250IFdp
+						bmRvdyBvZiB0aGUgRnJvbnQgYXBw
+						IGluIGVpdGhlciBUZXh0RWRpdCBP
+						UiB0aGUgY3VzdG9taXplZCBkZWZh
+						dWx0IGFwcCBmb3IgdGV4dCBmaWxl
+						cyBvbiB5b3VyIHN5c3RlbS5cCn0B
+						AAAAIwAAAAEAAAAHAAAAVFhULnJ0
+						ZhAAAAA348BZtgEAAAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Window Analysis Tool for System Events v1.50</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15483341</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>--------------------------------------------------------------------------------
+# Auth: Christopher Stone
+# dCre: 2016/06/11 05:40
+# dMod: 2016/06/13 15:01
+# Appl: System Events
+# Task: Report System Events UI Information for the Front Window of the Front app.
+# Libs: None
+# Osax: None
+# Aojc: True
+# Tags: @Applescript, @Script, @System_Events, @Analyze, @Front, @Window
+# Vers: 1.50
+--------------------------------------------------------------------------------
+use AppleScript version "2.4"
+use framework "Foundation"
+use scripting additions
+--------------------------------------------------------------------------------
+# If you haven't changed your default text editor these two options will be eqivalent.
+property outputType : "Default Text Editor" --&gt; Alternative: "TextEdit"
+--------------------------------------------------------------------------------
+
+set tabPad to "																				"
+
+tell application "System Events"
+	set frontProcess to first process whose frontmost is true
+	tell frontProcess
+		set processName to its name
+		tell front window
+			set windowName to its name
+			set entireContentsOfWindow to entire contents
+		end tell
+		try
+			goofy of entireContentsOfWindow
+		on error forcedErrorText
+		end try
+	end tell
+end tell
+
+set AppleScript's text item delimiters to {"{", "}"}
+set forcedErrorText to text item 2 of forcedErrorText
+set forcedErrorText to its cngStr:" of application process \"[^\"]*\" of application \"[^\"]*\"(?:, )?" intoString:linefeed inString:forcedErrorText
+set forcedErrorText to paragraphs of forcedErrorText
+repeat with theLine in forcedErrorText
+	set tabCnt to ofCount(theLine)
+	set tempText to (its cngStr:" \\bof\\b.+" intoString:"" inString:theLine)
+	if tabCnt &gt; 0 then
+		set tempText to text 1 thru tabCnt of tabPad &amp; tempText
+	end if
+	set contents of theLine to tempText
+end repeat
+
+set {oldTIDS, AppleScript's text item delimiters} to {AppleScript's text item delimiters, linefeed}
+set forcedErrorText to forcedErrorText as text
+set AppleScript's text item delimiters to oldTIDS
+set forcedErrorText to "application Process \"" &amp; processName &amp; "\"" &amp; linefeed &amp; ¬
+	tab &amp; "window " &amp; windowName &amp; linefeed &amp; ¬
+	forcedErrorText
+
+--------------------------------------------------------------------------------
+--» OUTPUT
+--------------------------------------------------------------------------------
+
+if outputType = "TextEdit" then
+	outputToTextEdit(forcedErrorText)
+else if outputType = "Default Text Editor" then
+	outputToDefaultTextEditor(forcedErrorText)
+end if
+
+--------------------------------------------------------------------------------
+--» HANDLERS
+--------------------------------------------------------------------------------
+on cngStr:findString intoString:replaceString inString:dataString
+	set anNSString to current application's NSString's stringWithString:dataString
+	set dataString to (anNSString's ¬
+		stringByReplacingOccurrencesOfString:findString withString:replaceString ¬
+			options:(current application's NSRegularExpressionSearch) range:{0, length of dataString}) as text
+end cngStr:intoString:inString:
+--------------------------------------------------------------------------------
+on createDirectoryAtPath:thePath
+	set {theResult, theError} to current application's NSFileManager's defaultManager()'s createDirectoryAtPath:thePath withIntermediateDirectories:true attributes:(missing value) |error|:(reference)
+	if not (theResult as boolean) then
+		set errorMsg to theError's localizedDescription() as text
+		error errorMsg
+	end if
+end createDirectoryAtPath:
+--------------------------------------------------------------------------------
+# Open in default editor for text files set in the Finder Get-Info window.
+--------------------------------------------------------------------------------
+on outputToDefaultTextEditor(_text)
+	set dirPath to POSIX path of (path to temporary items from user domain as text)
+	set filePath to dirPath &amp; "Window_UI_Exploration.txt"
+	its createDirectoryAtPath:dirPath
+	its writeString:_text toPath:filePath
+	set shCMD to "
+	open -t " &amp; qf(filePath) of me
+	do shell script shCMD
+end outputToDefaultTextEditor
+--------------------------------------------------------------------------------
+on ofCount(_text)
+	set {oldTIDS, AppleScript's text item delimiters} to {AppleScript's text item delimiters, " of "}
+	set theCount to length of (text items of _text)
+	set AppleScript's text item delimiters to oldTIDS
+	return theCount
+end ofCount
+--------------------------------------------------------------------------------
+on outputToTextEdit(_text)
+	do shell script "echo " &amp; qf(_text) of me &amp; " | open -f"
+end outputToTextEdit
+--------------------------------------------------------------------------------
+on qf(_text)
+	return (quoted form of _text)
+end qf
+--------------------------------------------------------------------------------
+on writeString:aString toPath:posixPath
+	set anNSString to current application's NSString's stringWithString:aString
+	anNSString's writeToFile:posixPath atomically:true encoding:(current application's NSUTF8StringEncoding) |error|:(missing value)
+end writeString:toPath:
+# Other encodings: NSMacOSRomanStringEncoding
+--------------------------------------------------------------------------------
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<false/>
+						<key>TrimResultsNew</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>487335647.97129899</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568495858.28424799</real>
+				<key>Name</key>
+				<string>Window analysis tool for system events</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>67C28776-CA40-4911-9A74-A39B005AC7E4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15481288</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5rBAAAKwAAAAEA
+						AABjBAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IEdldCBJbml0aWFsIENv
+						bW1lbnQgZnJvbSBGaXJzdCBTZWxl
+						Y3RlZCBNYWNyb1wKVmVyc2lvbjog
+						MS4wXApVcGRhdGVkOiAyMDE2LzA4
+						LzA0IDEzOjM4IFBUXApCeTogRGFu
+						IFRob21hc1wKXApOT1RFOiBGZWVs
+						IGZyZWUgdG8gdXNlIHRoaXMgY29k
+						ZSB3aXRob3V0IGF0dHJpYnV0aW9u
+						IHRvIG1lLiBJIGhhdmUgZW5vdWdo
+						IGFkb3JpbmcgZmFucyBhcyBpdCBp
+						cy5cClwKUFVSUE9TRTpcClwKRm9y
+						IHRoZSBmaXJzdCBNYWNybyBzZWxl
+						Y3RlZCBpbiB0aGUgRWRpdG9yLCBp
+						ZiB0aGUgZmlyc3QgQWN0aW9uIGlz
+						IGEgQ29tbWVudCwgdGhpcyBtYWNy
+						byByZXR1cm5zIHRoZSBOYW1lLCBU
+						aXRsZSwgYW5kIFRleHQgb2YgdGhl
+						IGNvbW1lbnQuXApcClVTQUdFOlwK
+						XApFeGVjdXRlIHRoaXMgbWFjcm8u
+						XApcClJFU1VMVFM6XApcCkFuIGVy
+						cm9yIG9jY3VycyBhbmQgdGhlIG1h
+						Y3JvIGlzIGNhbmNlbGVkIHVuZGVy
+						IHRoZXNlIGNvbmRpdGlvbnM6XApc
+						Clx1YzBcdTk2NzkgIE5vIE1hY3Jv
+						IGlzIHNlbGVjdGVkXApcdWMwXHU5
+						Njc5ICBUaGUgZmlyc3QgQWN0aW9u
+						IGlzbid0IGEgY29tbWVudA1cClx1
+						YzBcdTk2NzkgIEFueSBvdGhlciB1
+						bmV4cGVjdGVkIGNvbmRpdGlvbg1c
+						ClwKUmVzdWx0cyBhcmUgcmV0dXJu
+						ZWQgaW4gMyB2YXJpYWJsZXM6XApc
+						Clx1YzBcdTk2NzkgIGdpY05hbWVc
+						Clx1YzBcdTk2NzkgIGdpY1RpdGxl
+						XApcdWMwXHU5Njc5ICBnaWNUZXh0
+						XApcCkl0IGlzIHVwIHRvIHlvdSB0
+						byBkZWxldGUgdGhlc2UgdmFyaWFi
+						bGVzIGFmdGVyIGNhbGxpbmcgdGhp
+						cyBtYWNybywgaWYgeW91IHdhbnQg
+						dGhlbSBkZWxldGVkLlwKXApWRVJT
+						SU9OIEhJU1RPUlk6XAoxLjAgLSBJ
+						bml0aWFsIHZlcnNpb24ufQEAAAAj
+						AAAAAQAAAAcAAABUWFQucnRmEAAA
+						ADfjwFm2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>Get Initial Comment from First Selected Macro v1.0</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481289</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+
+	var KMEngine = (function() {
+		var _engineApp;
+		return {
+			getAllMacrosAsPlist: function() {
+				return this.readPlistBinaryFile(this.getAllMacrosSourceFileName());
+			},
+
+			getAllMacrosSourceFileName: function() {
+				return this.getAppSupportFolderName() + "Keyboard Maestro Macros.plist";
+			},
+
+			getAppSupportFolderName: function() {
+				var app = Application.currentApplication();
+				app.includeStandardAdditions = true;
+				return app.pathTo('application support', { from: 'user domain' }) +
+					"/Keyboard Maestro/";
+			},
+
+			getEngineAppName: function() {
+				return "Keyboard Maestro Engine";
+			},
+
+			getEngineApp: function() {
+				if (!_engineApp)
+					_engineApp = Application(this.getEngineAppName());
+				return _engineApp;
+			},
+
+			getVariable: function(name, required) {
+				var result = this.getEngineApp().getvariable(name);
+				if (!result &amp;&amp; required)
+					throw Error("Variable '" + name + "' is empty");
+				return result;
+			},
+
+			readPlistBinaryFile: function(path) {
+				var data = $.NSData.dataWithContentsOfFile(path);
+				return ObjC.deepUnwrap(
+					$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+						data, $.NSPropertyListBinaryFormat_v1_0, 0, null));
+			},
+
+			setVariable: function(name, value) {
+				this.getEngineApp().setvariable(name, {
+					to: value
+				});
+			},
+		};
+	})();
+
+	function getFirstSelectedMacroUUID() {
+		var selections = Application("Keyboard Maestro").selectedmacros();
+		return selections.length &gt; 0 ? selections[0] : "";
+	}
+
+	function getMacro(plist, macroUUID) {
+		for (var i = 0; i &lt; plist.MacroGroups.length; i++) {
+			var group = plist.MacroGroups[i];
+			if (group.Macros) {
+				for (var j = 0; j &lt; group.Macros.length; j++) {
+					var macro = group.Macros[j];
+					if (macro.UID == macroUUID)
+						return macro;
+				}
+			}
+		}
+		return "";
+	}
+
+	function getInitialComment(macro) {
+		var results = [];
+		if (!macro.Actions || macro.Actions.length === 0)
+			return null;
+
+		var action = macro.Actions[0];
+		if (action.MacroActionType !== "Comment")
+			return null;
+			
+		return {
+			name: action.ActionName || action.Title || "",
+			title: action.Title || "",
+			text: action.Text || ""
+		};
+	}
+
+	function execute() {
+		var macroUUID = getFirstSelectedMacroUUID();
+		if (!macroUUID)
+			throw Error("No macros selected");
+
+		var plist = KMEngine.getAllMacrosAsPlist();
+		var macro = getMacro(plist, macroUUID);
+		if (!macro)
+			throw Error("Could not find Macro for UUID '" + macroUUID + "'");
+
+		var macroName = macro.name;
+		var comment = getInitialComment(macro);
+		if (!comment)
+			throw Error("No initial comment");
+
+		KMEngine.setVariable("gicName", comment.name);
+		KMEngine.setVariable("gicTitle", comment.title);
+		KMEngine.setVariable("gicText", comment.text);
+
+		return "OK";
+	}
+
+	try {
+		return execute();
+	} catch (e) {
+		return e.message;
+	}
+})();</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>gicResult</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionName</key>
+						<string>Abort if error</string>
+						<key>ActionUID</key>
+						<integer>15481290</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>gicResult</string>
+									<key>VariableConditionType</key>
+									<string>IsNot</string>
+									<key>VariableValue</key>
+									<string>OK</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481291</integer>
+								<key>DeviceID</key>
+								<string>SOUNDEFFECTS</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PlaySound</string>
+								<key>Path</key>
+								<string>/System/Library/Sounds/Basso.aiff</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Notify error 'An error has occurred'</string>
+								<key>ActionUID</key>
+								<integer>15481292</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+										<key>Cancel</key>
+										<false/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>An error has occurred: %Variable%gicResult%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15481293</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15481294</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481295</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>gicResult</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>493298001.44232398</real>
+				<key>ModificationDate</key>
+				<real>568498791.31559801</real>
+				<key>Name</key>
+				<string>Get initial comment from first selected macro</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>D52296B4-9F4F-4B9E-B604-A03133B95718</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

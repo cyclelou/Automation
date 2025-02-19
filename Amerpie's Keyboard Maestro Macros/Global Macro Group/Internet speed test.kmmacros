@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481453</integer>
+						<key>MacroActionType</key>
+						<string>Notification</string>
+						<key>SoundName</key>
+						<string>Tink</string>
+						<key>Subtitle</key>
+						<string>Test has started. </string>
+						<key>Text</key>
+						<string>This will take some seconds…</string>
+						<key>Title</key>
+						<string>%ExecutingMacro%</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481454</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>speedtest-cli</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>istShellOut</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>ActionUID</key>
+						<integer>15481455</integer>
+						<key>Captures</key>
+						<array>
+							<string></string>
+							<string>istIP</string>
+							<string>istHost</string>
+							<string>istDown</string>
+							<string>istUp</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>SearchRegEx</string>
+						<key>Search</key>
+						<string>(?ms)((?:\d{1,3}\.?){4}).*Hosted by (.*?)$.*Download: (.*?)$.*Upload: (.*)$</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>istShellOut</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481456</integer>
+						<key>MacroActionType</key>
+						<string>Notification</string>
+						<key>SoundName</key>
+						<string>DefaultSoundName</string>
+						<key>Subtitle</key>
+						<string>My IP: %Variable%istIP%</string>
+						<key>Text</key>
+						<string>%Variable%istHost%</string>
+						<key>Title</key>
+						<string>↓ %Variable%istDown% ↑ %Variable%istUp%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>494847726.62018198</real>
+				<key>ModificationDate</key>
+				<real>568495659.40680504</real>
+				<key>Name</key>
+				<string>Internet speed test</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>60035AD4-AAF3-452A-9BE0-D9A764020C0D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

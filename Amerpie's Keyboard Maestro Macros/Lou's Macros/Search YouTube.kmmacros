@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15000410</integer>
+						<key>Default</key>
+						<string></string>
+						<key>MacroActionType</key>
+						<string>Search</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Search YouTube</string>
+						<key>URL</key>
+						<string>http://www.youtube.com/search?q=%Search%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>722123597.28916705</real>
+				<key>ModificationDate</key>
+				<real>722123655.98674405</real>
+				<key>Name</key>
+				<string>Search YouTube</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>16</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6144</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F6C4FA44-7FC3-4434-809D-54F89D13524D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

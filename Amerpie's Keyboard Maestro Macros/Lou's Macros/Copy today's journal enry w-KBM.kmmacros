@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15489810</integer>
+						<key>Destination</key>
+						<string>~/Library/CloudStorage/GoogleDrive-lou.plummer@gmail.com/My Drive/Inbox/md</string>
+						<key>MacroActionType</key>
+						<string>File</string>
+						<key>Operation</key>
+						<string>Copy</string>
+						<key>Source</key>
+						<string>%FinderSelection%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>728962304.13316</real>
+				<key>ModificationDate</key>
+				<real>747266304.37513196</real>
+				<key>Name</key>
+				<string>Copy today's journal enry w/KBM</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>DC2E20F2-A9A3-461A-9EED-E1E2EDE0B074</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

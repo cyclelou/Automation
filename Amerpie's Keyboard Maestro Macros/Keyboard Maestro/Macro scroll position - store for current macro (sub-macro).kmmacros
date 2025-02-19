@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15481688</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5hAgAAKwAAAAEA
+						AABZAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IE1hY3JvIFNjcm9sbCBQ
+						b3NpdGlvbiAtIFN0b3JlIGZvciBD
+						dXJyZW50IE1hY3JvIChTdWItTWFj
+						cm8pXApWZXJzaW9uOiAxLjBcClVw
+						ZGF0ZWQ6IDIwMTYvMDgvMDQgMTM6
+						MzggUFRcCkJ5OiBEYW4gVGhvbWFz
+						XApcClBVUlBPU0U6XApcClN0b3Jl
+						cyB0aGUgY3VycmVudCBtYWNybydz
+						IGxhc3Qga25vd24gc2Nyb2xsIHBv
+						c2l0aW9uLlwKXApXb3JrcyBpbiBj
+						b25qdW5jdGlvbiB3aXRoICJNYWNy
+						byBTY3JvbGwgUG9zaXRpb24gLSBS
+						ZXRvcmUgZm9yIEN1cnJlbnQgTWFj
+						cm8gKFN1Yi1NYWNybykiLlwKXApW
+						RVJTSU9OIEhJU1RPUlk6XAoxLjAg
+						LSBJbml0aWFsIHZlcnNpb24ufQEA
+						AAAjAAAAAQAAAAcAAABUWFQucnRm
+						EAAAADfjwFm2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>Macro Scroll Position - Store for Current Macro (Sub-Macro) v1.0</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Get mspUUID and mspScrollPosition</string>
+						<key>ActionUID</key>
+						<integer>15481689</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>try	set macroUUID to my getSelectedMacroUUID()	if macroUUID = "" then return "No macros selected"		set scrollPosition to my getScrollPosition()		tell application "Keyboard Maestro Engine"		setvariable "mspUUID" to macroUUID		setvariable "mspScrollPosition" to scrollPosition	end tell		return ""on error errMsg number errNum	return errMsgend tryon getScrollPosition()	tell application "System Events"		tell process "Keyboard Maestro"			get value of scroll bar 1 of scroll area 3 of splitter group 1 of group 1 of window "Keyboard Maestro Editor"		end tell	end tellend getScrollPositionon getSelectedMacroUUID()	tell application "Keyboard Maestro"		set macroUUIDs to selectedMacros		if (count of macroUUIDs) is 0 then			return ""		end if		return item 1 of macroUUIDs	end tellend getSelectedMacroUUID</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>mspResult</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Red</string>
+						<key>ActionName</key>
+						<string>Abort if error</string>
+						<key>ActionUID</key>
+						<integer>15481690</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>mspResult</string>
+									<key>VariableConditionType</key>
+									<string>IsNotEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481691</integer>
+								<key>DeviceID</key>
+								<string>SOUNDEFFECTS</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PlaySound</string>
+								<key>Path</key>
+								<string>/System/Library/Sounds/Basso.aiff</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Notify error 'An error has occurred: %Variable%mspResult%'</string>
+								<key>ActionUID</key>
+								<integer>15481692</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+										<key>Cancel</key>
+										<false/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>An error has occurred: %Variable%mspResult%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15481693</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Store the current Macro's scroll position</string>
+						<key>ActionUID</key>
+						<integer>15481694</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>DND__mspStorage</string>
+									<key>VariableConditionType</key>
+									<string>Matches</string>
+									<key>VariableValue</key>
+									<string>(?m)^(%Variable%mspUUID%=.*)$</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Append new value</string>
+								<key>ActionUID</key>
+								<integer>15481696</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Variable%DND__mspStorage%%Variable%mspUUID%=%Variable%mspScrollPosition%</string>
+								<key>Variable</key>
+								<string>DND__mspStorage</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseRegEx</string>
+								<key>ActionName</key>
+								<string>Replace Existing Value</string>
+								<key>ActionUID</key>
+								<integer>15481695</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string>%Variable%mspUUID%=%Variable%mspScrollPosition%</string>
+								<key>Search</key>
+								<string>(?m)^(%Variable%mspUUID%=.*)$</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>DND__mspStorage</string>
+								<key>Which</key>
+								<string>All</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15481697</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481698</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>mspResult</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481699</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>mspUUID</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>492864739.86647898</real>
+				<key>ModificationDate</key>
+				<real>568498797.65102696</real>
+				<key>Name</key>
+				<string>Macro scroll position - store for current macro (sub-macro)</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>9D6443E8-4BCC-4FFC-B5F5-B1BA6B1A4E6F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

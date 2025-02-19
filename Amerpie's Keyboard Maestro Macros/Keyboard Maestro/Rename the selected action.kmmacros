@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482267</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>------------------------------------------------------------------------------
+# Auth: Christopher Stone
+# dCre: 2017/05/22 14:45
+# dMod: 2017/05/22 14:53 
+# Appl: Keyboard Maestro Editor
+# Task: Select Rename in the contextual menu of the selected action.
+#     : If more than 1 action is selected bring up the contextual menu.
+# Libs: None
+# Osax: None
+# Tags: @Applescript, @Script, @Keyboard_Maestro, @System_Events, @Select, @Rename, @Contextual_Menu, @Menu, @Selected, @Action
+------------------------------------------------------------------------------
+
+tell application "System Events"
+   tell application process "Keyboard Maestro"
+      tell window "Keyboard Maestro Editor"
+         tell group 1
+            tell splitter group 1
+               tell scroll area 3
+                  set selectedGroups to groups whose selected is true
+                  if selectedGroups ≠ {} then
+                     set theAction to item 1 of selectedGroups
+                     tell theAction
+                        perform action "AXShowMenu"
+                        tell menu 1
+                           tell menu item "Rename…"
+                              perform action "AXPress"
+                           end tell
+                        end tell
+                     end tell
+                  end if
+               end tell
+            end tell
+         end tell
+      end tell
+   end tell
+end tell
+
+------------------------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>524539492.21994901</real>
+				<key>ModificationDate</key>
+				<real>568498824.05254805</real>
+				<key>Name</key>
+				<string>Rename the selected action</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>CECF8FCE-CAC0-40C9-BD36-122B874E4D6F</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

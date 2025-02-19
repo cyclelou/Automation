@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15487023</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "Things3"
+  set theToken to "YT6UOGciSgaVbUAUs-e8EA"
+  
+  set theTodos to to dos of list "Today"
+  repeat with aTodo in theTodos
+    set tagList to tags of aTodo
+    repeat with aTag in tagList
+      if (name of aTag as text) is "Evening"
+        if class of aTodo is project
+          set urlCommand to "update-project"
+        else
+          set urlCommand to "update"
+        end if
+        
+        set theUrl to "things:///" &amp; urlCommand &amp; "?auth-token=" &amp; theToken &amp; "&amp;id=" &amp; (id of aTodo as text) &amp; "&amp;when=evening"
+        open location theUrl
+      end if
+    end repeat
+  end repeat
+end tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>728003810.19726098</real>
+				<key>ModificationDate</key>
+				<real>728004318.45822597</real>
+				<key>Name</key>
+				<string>Move Tasks to Evening in Things 3</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>ExecuteType</key>
+						<string>Time</string>
+						<key>MacroTriggerType</key>
+						<string>Time</string>
+						<key>TimeHour</key>
+						<integer>3</integer>
+						<key>TimeMinutes</key>
+						<integer>30</integer>
+						<key>WhichDays</key>
+						<integer>127</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B6B08989-E516-4089-B748-D3481D2EB78A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>700373149.74044001</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15442725</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "System Events"
+    set visible of every process whose visible is true to false
+end tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>724637598.19716799</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>724637630.73313606</real>
+				<key>Name</key>
+				<string>Hide all windows </string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>4</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>C05E9CD7-6547-41D8-8230-C1B6F4526242</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Testing Zone</string>
+		<key>ToggleMacroUID</key>
+		<string>37E365ED-4293-4DE1-BBE1-EA605DCEC7F2</string>
+		<key>UID</key>
+		<string>A4F3A43C-4DA7-4120-8D6E-B1AFC7558EDE</string>
+	</dict>
+</array>
+</plist>

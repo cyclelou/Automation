@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15970889</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.jinghaoshe.qspace.pro</string>
+							<key>Name</key>
+							<string>QSpace Pro</string>
+							<key>NewFile</key>
+							<string>/Applications/QSpace Pro.app</string>
+						</dict>
+						<key>IsDefaultApplication</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Open1File</string>
+						<key>Path</key>
+						<string>~/Downloads/zips</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>463963627.34872401</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>744857352.38931406</real>
+				<key>Name</key>
+				<string>Folder Watcher</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Interest</key>
+						<dict>
+							<key>Observe</key>
+							<string>Add</string>
+							<key>ObserveWhen</key>
+							<string>IgnorePartial</string>
+							<key>Path</key>
+							<string>~/Downloads/zips</string>
+							<key>UID2</key>
+							<string>81C0BB20-7251-4839-A4E7-AD6260EB5AFE</string>
+						</dict>
+						<key>MacroTriggerType</key>
+						<string>Folder</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9E704928-B47C-40B7-8440-BA2E9E55EE6B</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>

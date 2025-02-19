@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>719152176.82849801</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>ActionUID</key>
+						<integer>15438966</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC7hAQAAKwAAAAEA
+						AADZAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNjcx
+						XGNvY29hc3VicnRmNjAwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYS1Cb2xkO1xm
+						MVxmc3dpc3NcZmNoYXJzZXQwIEhl
+						bHZldGljYTt9CntcY29sb3J0Ymw7
+						XHJlZDI1NVxncmVlbjI1NVxibHVl
+						MjU1O1xyZWQwXGdyZWVuMFxibHVl
+						MDt9CntcKlxleHBhbmRlZGNvbG9y
+						dGJsOztcY3NzcmdiXGMwXGMwXGMw
+						XGM4NDcwNlxjbmFtZSBjb250cm9s
+						VGV4dENvbG9yO30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcYlxmczI2IFxj
+						ZjIgUHVycG9zZQpcZjFcYjAgXAog
+						IFwnOTUgQnVpbGRzIHRoZSB2ZXJ5
+						IGNvbXBsaWNhdGVkIHNob3J0Y3V0
+						IGxpc3QgSFRNTCBwYWdlLn0BAAAA
+						IwAAAAEAAAAHAAAAVFhULnJ0ZhAA
+						AACn7/phtgEAAAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>sub | manager | 01 - Build Shortcut List HTML</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Set a flag to watch to see if the user has closed the window</string>
+						<key>ActionUID</key>
+						<integer>15438967</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>isopen</string>
+						<key>Variable</key>
+						<string>rg_QWS_listshortcuts</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15438968</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>DisplayProgress</string>
+						<key>Progress</key>
+						<string>25</string>
+						<key>Title</key>
+						<string>Building full shortcut list</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Process all active shortcuts</string>
+						<key>ActionUID</key>
+						<integer>15438969</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseRegEx</string>
+								<key>ActionName</key>
+								<string>User added - format for HTML</string>
+								<key>ActionUID</key>
+								<integer>15438970</integer>
+								<key>Destination</key>
+								<string>Variable</string>
+								<key>DestinationVariable</key>
+								<string>instanceActiveUserAddedHTML</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string>                &lt;tr class="user"&gt;%Return%                    &lt;td&gt;User Added&lt;/td&gt;%Return%                    &lt;td&gt;$1&lt;/td&gt;%Return%                    &lt;td&gt;$2 [&lt;a href="$3"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+								<key>Search</key>
+								<string>(?m)^(.*?)•(.*?)•(.*)</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instanceUserActive</string>
+								<key>Which</key>
+								<string>All</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseRegEx</string>
+								<key>ActionName</key>
+								<string>Built In - format for HTML</string>
+								<key>ActionUID</key>
+								<integer>15438971</integer>
+								<key>Destination</key>
+								<string>Variable</string>
+								<key>DestinationVariable</key>
+								<string>instanceActiveBuiltInHTML</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string>                &lt;tr class="builtin"&gt;%Return%                    &lt;td&gt;Built In&lt;/td&gt;%Return%                    &lt;td&gt;$1&lt;/td&gt;%Return%                    &lt;td&gt;$2 [&lt;a href="$3"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+								<key>Search</key>
+								<string>(?m)^(.*?)•(.*?)•(.*)</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instanceDefaultActive</string>
+								<key>Which</key>
+								<string>All</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>IgnoreCaseRegEx</string>
+								<key>ActionName</key>
+								<string>From List - format for HTML</string>
+								<key>ActionUID</key>
+								<integer>15438972</integer>
+								<key>Destination</key>
+								<string>Variable</string>
+								<key>DestinationVariable</key>
+								<string>instanceActiveFromListHTML</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SearchReplace</string>
+								<key>Replace</key>
+								<string>                &lt;tr class="fromlist"&gt;%Return%                    &lt;td&gt;From List&lt;/td&gt;%Return%                    &lt;td&gt;$1&lt;/td&gt;%Return%                    &lt;td&gt;$2 [&lt;a href="$3"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+								<key>Search</key>
+								<string>(?m)^(.*?)•(.*?)•(.*)</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instanceOptionalActive</string>
+								<key>Which</key>
+								<string>All</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Group the active shortcuts together</string>
+								<key>ActionUID</key>
+								<integer>15438973</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Variable%instanceActiveUserAddedHTML%
+%Variable%instanceActiveBuiltInHTML%
+%Variable%instanceActiveFromListHTML%</string>
+								<key>Variable</key>
+								<string>instanceActiveShortcutsHTML</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Prepare disabled built-in and user shortcuts</string>
+						<key>ActionUID</key>
+						<integer>15438974</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>If-Then-Else</string>
+								<key>ActionUID</key>
+								<integer>15438975</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instanceDefaultDisabled</string>
+											<key>VariableConditionType</key>
+											<string>IsNotEmpty</string>
+											<key>VariableValue</key>
+											<string>value</string>
+										</dict>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instanceUserDisabled</string>
+											<key>VariableConditionType</key>
+											<string>IsNotEmpty</string>
+											<key>VariableValue</key>
+											<string>value</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>Any</string>
+								</dict>
+								<key>ElseActions</key>
+								<array/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Handle user-added disabled shortcuts</string>
+										<key>ActionUID</key>
+										<integer>15438976</integer>
+										<key>CaseEntries</key>
+										<array>
+											<dict>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>Action</key>
+														<string>IgnoreCaseRegEx</string>
+														<key>ActionName</key>
+														<string>Disabled user shortcuts - format for HTML</string>
+														<key>ActionUID</key>
+														<integer>15438977</integer>
+														<key>Destination</key>
+														<string>Variable</string>
+														<key>DestinationVariable</key>
+														<string>instanceDisabledUserHTML</string>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>SearchReplace</string>
+														<key>Replace</key>
+														<string>                &lt;tr class="user"&gt;%Return%                    &lt;td&gt;User Added&lt;/td&gt;%Return%                    &lt;td&gt;$1&lt;/td&gt;%Return%                    &lt;td&gt;$2 [&lt;a href="$3"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+														<key>Search</key>
+														<string>(?m)^(.*?)•(.*?)•(.*)</string>
+														<key>Source</key>
+														<string>Variable</string>
+														<key>Variable</key>
+														<string>instanceUserDisabled</string>
+														<key>Which</key>
+														<string>All</string>
+													</dict>
+												</array>
+												<key>ConditionType</key>
+												<string>IsNotEmpty</string>
+												<key>TestValue</key>
+												<string></string>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Switch</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>instanceUserDisabled</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Handle built-in disabled shortcuts</string>
+										<key>ActionUID</key>
+										<integer>15438978</integer>
+										<key>CaseEntries</key>
+										<array>
+											<dict>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>Action</key>
+														<string>IgnoreCaseRegEx</string>
+														<key>ActionName</key>
+														<string>Hidden built in - format for HTML</string>
+														<key>ActionUID</key>
+														<integer>15438979</integer>
+														<key>Destination</key>
+														<string>Variable</string>
+														<key>DestinationVariable</key>
+														<string>instanceDisabledBuiltinHTML</string>
+														<key>MacroActionType</key>
+														<string>SearchReplace</string>
+														<key>Replace</key>
+														<string>                &lt;tr class="builtin"&gt;%Return%                    &lt;td&gt;Built In&lt;/td&gt;%Return%                    &lt;td&gt;$1&lt;/td&gt;%Return%                    &lt;td&gt;$2 [&lt;a href="$3"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+														<key>Search</key>
+														<string>(?m)^(.*?)•(.*?)•(.*)</string>
+														<key>Source</key>
+														<string>Variable</string>
+														<key>Variable</key>
+														<string>instanceDefaultDisabled</string>
+														<key>Which</key>
+														<string>All</string>
+													</dict>
+												</array>
+												<key>ConditionType</key>
+												<string>IsNotEmpty</string>
+												<key>TestValue</key>
+												<string></string>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>Switch</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>instanceDefaultDisabled</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Group the active shortcuts together</string>
+										<key>ActionUID</key>
+										<integer>15438980</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>%Variable%instanceDisabledUserHTML%
+%Variable%instanceDisabledBuiltinHTML%</string>
+										<key>Variable</key>
+										<string>instanceDisabledShortcutsHTML</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>If nothing is hidden, set a flag</string>
+										<key>ActionUID</key>
+										<integer>15438981</integer>
+										<key>CaseEntries</key>
+										<array>
+											<dict>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15438982</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>TRUE</string>
+														<key>Variable</key>
+														<string>localHiddenDefaultFlag</string>
+													</dict>
+												</array>
+												<key>ConditionType</key>
+												<string>IsNotEmpty</string>
+												<key>TestValue</key>
+												<string></string>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Switch</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>instanceDisabledShortcutsHTML</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Handle disabled shortcuts, if any</string>
+						<key>ActionUID</key>
+						<integer>15438983</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instanceDefaultDisabled</string>
+									<key>VariableConditionType</key>
+									<string>IsNotEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>instanceUserDisabled</string>
+									<key>VariableConditionType</key>
+									<string>IsNotEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>Any</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Handle user-added disabled shortcuts</string>
+								<key>ActionUID</key>
+								<integer>15438984</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Disabled user shortcuts - format for HTML</string>
+												<key>ActionUID</key>
+												<integer>15438985</integer>
+												<key>Destination</key>
+												<string>Variable</string>
+												<key>DestinationVariable</key>
+												<string>instanceDisabledUserHTML</string>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>                &lt;tr class="user"&gt;%Return%                    &lt;td&gt;User Added&lt;/td&gt;%Return%                    &lt;td&gt;$1&lt;/td&gt;%Return%                    &lt;td&gt;$2 [&lt;a href="$3"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+												<key>Search</key>
+												<string>(?m)^(.*?)•(.*?)•(.*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instanceUserDisabled</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>IsNotEmpty</string>
+										<key>TestValue</key>
+										<string></string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instanceUserDisabled</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Handle built-in disabled shortcuts</string>
+								<key>ActionUID</key>
+								<integer>15438986</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Hidden built in - format for HTML</string>
+												<key>ActionUID</key>
+												<integer>15438987</integer>
+												<key>Destination</key>
+												<string>Variable</string>
+												<key>DestinationVariable</key>
+												<string>instanceDisabledBuiltinHTML</string>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>                &lt;tr class="builtin"&gt;%Return%                    &lt;td&gt;Built In&lt;/td&gt;%Return%                    &lt;td&gt;$1&lt;/td&gt;%Return%                    &lt;td&gt;$2 [&lt;a href="$3"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+												<key>Search</key>
+												<string>(?m)^(.*?)•(.*?)•(.*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instanceDefaultDisabled</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>IsNotEmpty</string>
+										<key>TestValue</key>
+										<string></string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instanceDefaultDisabled</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Group the active shortcuts together</string>
+								<key>ActionUID</key>
+								<integer>15438988</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Variable%instanceDisabledUserHTML%
+%Variable%instanceDisabledBuiltinHTML%</string>
+								<key>Variable</key>
+								<string>instanceDisabledShortcutsHTML</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>If nothing is hidden, set a flag</string>
+								<key>ActionUID</key>
+								<integer>15438989</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15438990</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>TRUE</string>
+												<key>Variable</key>
+												<string>localHiddenDefaultFlag</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>IsNotEmpty</string>
+										<key>TestValue</key>
+										<string></string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instanceDisabledShortcutsHTML</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Prepare disabled from-list shortcuts</string>
+						<key>ActionUID</key>
+						<integer>15438991</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Aqua</string>
+								<key>ActionName</key>
+								<string>SQL: Get list of unique categories</string>
+								<key>ActionUID</key>
+								<integer>15438992</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>The SQL statement</string>
+										<key>ActionUID</key>
+										<integer>15438993</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>SELECT
+    distinct category
+FROM
+    %Variable%instance_QWS_tablename%
+WHERE
+    (status='INACTIVE') and source='OPTIONAL'</string>
+										<key>Variable</key>
+										<string>local_theSQL</string>
+									</dict>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15438994</integer>
+										<key>MacroActionType</key>
+										<string>ExecuteSubroutine</string>
+										<key>MacroUID</key>
+										<string>ED0CE0C6-A31C-42CD-BF72-9DA591F00E32</string>
+										<key>Parameters</key>
+										<array>
+											<string>.separator '•'</string>
+											<string>%Variable%local_theSQL%</string>
+											<string>SQL: Get list of unique categories [%ExecutingThisMacro%]</string>
+										</array>
+										<key>ResultVariable</key>
+										<string>localTheCategories</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Build the list with category headers</string>
+								<key>ActionUID</key>
+								<integer>15438995</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Insert the section header</string>
+										<key>ActionUID</key>
+										<integer>15438996</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>                &lt;tr class="sectiontitle"&gt;%Return%                    &lt;td colspan="3"&gt;%Return%                        &lt;b&gt;━━ %Variable%localACategory% ━━━━━━━ &lt;/b&gt;%Return%                    &lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+										<key>Variable</key>
+										<string>instanceOptionalAvailableHTML</string>
+										<key>Where</key>
+										<string>Append</string>
+									</dict>
+									<dict>
+										<key>ActionColor</key>
+										<string>Aqua</string>
+										<key>ActionName</key>
+										<string>SQL: Get list entries for this category</string>
+										<key>ActionUID</key>
+										<integer>15438997</integer>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionName</key>
+												<string>The SQL statement</string>
+												<key>ActionUID</key>
+												<integer>15438998</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>SELECT
+    descrip, url
+FROM
+    %Variable%instance_QWS_tablename%
+WHERE
+    category = '%Variable%localACategory%';</string>
+												<key>Variable</key>
+												<string>local_theSQL</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15438999</integer>
+												<key>MacroActionType</key>
+												<string>ExecuteSubroutine</string>
+												<key>MacroUID</key>
+												<string>ED0CE0C6-A31C-42CD-BF72-9DA591F00E32</string>
+												<key>Parameters</key>
+												<array>
+													<string>.separator '•'</string>
+													<string>%Variable%local_theSQL%</string>
+													<string>SQL: Get list entries for this category [%ExecutingThisMacro%]</string>
+													<string></string>
+												</array>
+												<key>ResultVariable</key>
+												<string>localCategoryOutput</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Group</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>IgnoreCaseRegEx</string>
+										<key>ActionName</key>
+										<string>Build the HTML row</string>
+										<key>ActionUID</key>
+										<integer>15439000</integer>
+										<key>Destination</key>
+										<string>Variable</string>
+										<key>DestinationVariable</key>
+										<string>localCategoryOutputHTML</string>
+										<key>MacroActionType</key>
+										<string>SearchReplace</string>
+										<key>Replace</key>
+										<string>                &lt;tr&gt;%Return%                    &lt;td&gt;From List&lt;/td&gt;%Return%                    &lt;td&gt;--&lt;/td&gt;%Return%                    &lt;td&gt;$1 [&lt;a href="$2"&gt;test&lt;/a&gt;]&lt;/td&gt;%Return%                &lt;/tr&gt;%Return%</string>
+										<key>Search</key>
+										<string>(?m)(.*?)•(.*)$</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>localCategoryOutput</string>
+										<key>Which</key>
+										<string>All</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Add all the rows</string>
+										<key>ActionUID</key>
+										<integer>15439001</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>%Variable%localCategoryOutputHTML%</string>
+										<key>Variable</key>
+										<string>instanceOptionalAvailableHTML</string>
+										<key>Where</key>
+										<string>Append</string>
+									</dict>
+								</array>
+								<key>Collections</key>
+								<dict>
+									<key>CollectionList</key>
+									<array>
+										<dict>
+											<key>CollectionType</key>
+											<string>LinesIn</string>
+											<key>IncludeBlankLines</key>
+											<false/>
+											<key>Source</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>localTheCategories</string>
+										</dict>
+									</array>
+								</dict>
+								<key>MacroActionType</key>
+								<string>For</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Variable</key>
+								<string>localACategory</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Red</string>
+						<key>ActionName</key>
+						<string>Why do I have to do this to make it work??</string>
+						<key>ActionUID</key>
+						<integer>15439002</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetActionDelay</string>
+						<key>Permanent</key>
+						<false/>
+						<key>Preference</key>
+						<string>InterAction</string>
+						<key>Reset</key>
+						<false/>
+						<key>Value</key>
+						<string>.2</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439003</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>DisplayProgress</string>
+						<key>Progress</key>
+						<string>50</string>
+						<key>Title</key>
+						<string>Building full shortcut list</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439004</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>&lt;html&gt;
+    &lt;head&gt;
+&lt;title&gt;Your Shortcuts&lt;/title&gt;</string>
+						<key>Variable</key>
+						<string>localHTMLstart</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439005</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>        &lt;style&gt;
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-ser;
+                line-height: 1.3;
+                margin: 10px;
+                font-size: 13px;
+            }
+
+            .tableFixHead {
+                /*overflow-y: auto;
+                height: 106px;*/
+                width: 600px;
+            }
+
+            .tableFixHead thead th {
+                position: -webkit-sticky;
+                top: -1;
+                border-top:0px;
+                border-bottom: 0px;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+                font-size: 13px;
+            }
+
+            th, td {
+                padding: 8px 16px;
+                border: 1px solid #ccc;
+                text-align: left;
+            }
+
+            th {
+                vertical-align: bottom;
+                background-color: #666;
+                color: #fff;
+                line-height: 28px;
+                margin-top: 4px;
+            }
+
+            .user {
+                background-color: #edf0ff;
+            }
+
+            .builtin {
+                background-color: #e9ffe9;
+            }
+
+            .fromlist {
+            	background-color: #fff2e9;
+            }
+
+            .sectiontitle {
+                background-color: #afafaf;
+                color: white;
+            }
+
+            .sectiontitle td {
+                 padding-left: 0px;
+            }
+
+            table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+            content: " \21E1\21E3" 
+            }
+
+        &lt;/style&gt;</string>
+						<key>Variable</key>
+						<string>localHTMLstyle</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439006</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>    &lt;/head&gt;
+    &lt;body data-kmwindowid="thelistwindow" data-kmwindow="SCREENVISIBLE(FRONT,Left) + ROUND((SCREENVISIBLE(FRONT,Width)/2)-320),ROUND(SCREENVISIBLE(FRONT,MidY)-350)+8,640,700"&gt;
+
+&lt;p&gt;Note: Eventually you should be able to activate and deactivate from this list, but that feature isn't done yet. Click the Test button next to any entry to run a test search—literally, a search for &lt;em&gt;test&lt;/em&gt;—on that particular site.&lt;/p&gt;
+
+&lt;!--&lt;div onclick="kmmacro('data was passed')"&gt;Click here to test&lt;/div&gt;--&gt;</string>
+						<key>Variable</key>
+						<string>localHTMLbodystart</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439007</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>DisplayProgress</string>
+						<key>Progress</key>
+						<string>75</string>
+						<key>Title</key>
+						<string>Building full shortcut list</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439008</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>        &lt;h3&gt;Active Shortcuts&lt;/h3&gt;
+        &lt;div class="tableFixHead" style="height: 300px; overflow: auto;"&gt;
+            &lt;table width="100%" class="sortable" cellpadding="0" cellspacing="0"&gt;
+&lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th width="20%"&gt;source&lt;/th&gt;
+                    &lt;th width="20%"&gt;shortcut&lt;/th&gt;
+                    &lt;th width="60%"&gt;description and test search&lt;/th&gt;
+                &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;</string>
+						<key>Variable</key>
+						<string>localHTMLactiveshortcutstable</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Handle hidden shortcuts, if any</string>
+						<key>ActionUID</key>
+						<integer>15439009</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>localHiddenDefaultFlag</string>
+									<key>VariableConditionType</key>
+									<string>IsNot</string>
+									<key>VariableValue</key>
+									<string>TRUE</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439012</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>&lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+            &lt;h3&gt;Available Built-In and User-added Shortcuts&lt;/h3&gt;
+            &lt;div class="tableFixHead" style="max-height: 300px; overflow: auto;"&gt;
+            &lt;table class="sortable" width="100%" border="1" cellspacing="0" cellpadding="2"&gt;
+&lt;thead&gt;
+                &lt;tr&gt;
+                    &lt;th width="20%" class="sorttable_nosort"&gt;source&lt;/th&gt;
+                    &lt;th width="20%"&gt;shortcut&lt;/th&gt;
+                    &lt;th width="60%"&gt;description and test search&lt;/th&gt;
+                &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;</string>
+								<key>Variable</key>
+								<string>localHTMLinactivebuiltintable</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439013</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>&lt;/tbody&gt;
+        &lt;/table&gt;
+&lt;/div&gt;
+
+    &lt;h3&gt;Available Optional Shortcuts&lt;/h3&gt;
+        &lt;div class="tableFixHead" style="max-height: 500px; overflow: auto;"&gt;
+        &lt;table width="100%" border="1" cellspacing="0" cellpadding="2"&gt;
+&lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th width="20%"&gt;source&lt;/th&gt;
+                &lt;th width="20%"&gt;shortcut&lt;/th&gt;
+                &lt;th width="60%"&gt;description and test search&lt;/th&gt;
+            &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;</string>
+								<key>Variable</key>
+								<string>localHTMLinactivefromlisttable</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439010</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>&lt;/tbody&gt;
+            &lt;/table&gt;
+        &lt;/div&gt;
+ &lt;h3 style="padding-top:20px;"&gt;Available Built-in and User-added Shortcuts&lt;/h3&gt;
+
+&lt;p&gt;There are no hidden built-in or user-added shortcuts—they're all active.&lt;/p&gt;</string>
+								<key>Variable</key>
+								<string>localHTMLinactivebuiltintable</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15439011</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string> &lt;h3 style="padding-top:20px;"&gt;Available Optional Shortcuts&lt;/h3&gt;
+        &lt;div class="tableFixHead" style="max-height: 300px; overflow: auto;"&gt;
+        &lt;table width="100%" border="1" cellspacing="0" cellpadding="2"&gt;
+&lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th width="20%"&gt;source&lt;/th&gt;
+                &lt;th width="20%"&gt;shortcut&lt;/th&gt;
+                &lt;th width="60%"&gt;description and test search&lt;/th&gt;
+            &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;</string>
+								<key>Variable</key>
+								<string>localHTMLinactivefromlisttable</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439014</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>DisplayProgress</string>
+						<key>Progress</key>
+						<string>100</string>
+						<key>Title</key>
+						<string>Building full shortcut list</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439015</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>&lt;/tbody&gt;
+                &lt;/table&gt;
+&lt;/div&gt;
+&lt;div style="height:40px"&gt;&amp;nbsp;&lt;/div&gt;
+        &lt;/body&gt;
+        
+    &lt;/html&gt;</string>
+						<key>Variable</key>
+						<string>localHTMLendofdata</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439016</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Variable%localHTMLstart%
+%Variable%localHTMLstyle%
+%Variable%localHTMLbodystart%
+%Variable%localHTMLactiveshortcutstable%
+%Variable%instanceActiveShortcutsHTML%
+%Variable%localHTMLinactivebuiltintable%
+%Variable%instanceDisabledShortcutsHTML%
+%Variable%localHTMLinactivefromlisttable%
+%Variable%instanceOptionalAvailableHTML%
+%Variable%localHTMLendofdata%</string>
+						<key>Variable</key>
+						<string>localHTMLFinalOutput</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>CaseSensitiveString</string>
+						<key>ActionName</key>
+						<string>Replace the search placeholder with 'test' for live searches</string>
+						<key>ActionUID</key>
+						<integer>15439017</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string>test</string>
+						<key>Search</key>
+						<string>{SEARCH}</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>localHTMLFinalOutput</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Display the final help page</string>
+						<key>ActionUID</key>
+						<integer>15439018</integer>
+						<key>Asynchronously</key>
+						<true/>
+						<key>Floating</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CustomPrompt</string>
+						<key>Text</key>
+						<string>&lt;script&gt;
+sorttable={l:function(){arguments.callee.done||(arguments.callee.done=!0,h&amp;&amp;clearInterval(h),document.createElement&amp;&amp;document.getElementsByTagName&amp;&amp;(sorttable.g=/^(\d\d?)[\/\.-](\d\d?)[\/\.-]((\d\d)?\d\d)$/,k(document.getElementsByTagName("table"),function(a){-1!=a.className.search(/\bsortable\b/)&amp;&amp;sorttable.v(a)})))},v:function(a){0==a.getElementsByTagName("thead").length&amp;&amp;(the=document.createElement("thead"),the.appendChild(a.rows[0]),a.insertBefore(the,a.firstChild));null==a.tHead&amp;&amp;(a.tHead=a.getElementsByTagName("thead")[0]);
+if(1==a.tHead.rows.length){sortbottomrows=[];for(var b=0;b&lt;a.rows.length;b++)-1!=a.rows[b].className.search(/\bsortbottom\b/)&amp;&amp;(sortbottomrows[sortbottomrows.length]=a.rows[b]);if(sortbottomrows){null==a.tFoot&amp;&amp;(tfo=document.createElement("tfoot"),a.appendChild(tfo));for(b=0;b&lt;sortbottomrows.length;b++)tfo.appendChild(sortbottomrows[b]);delete sortbottomrows}headrow=a.tHead.rows[0].cells;for(b=0;b&lt;headrow.length;b++)headrow[b].className.match(/\bsorttable_nosort\b/)||((mtch=headrow[b].className.match(/\bsorttable_([a-z0-9]+)\b/))&amp;&amp;
+(override=mtch[1]),headrow[b].F=mtch&amp;&amp;"function"==typeof sorttable["sort_"+override]?sorttable["sort_"+override]:sorttable.u(a,b),headrow[b].D=b,headrow[b].i=a.tBodies[0],l(headrow[b],sorttable.G=function(){if(-1!=this.className.search(/\bsorttable_sorted\b/))sorttable.reverse(this.i),this.className=this.className.replace("sorttable_sorted","sorttable_sorted_reverse"),this.removeChild(document.getElementById("sorttable_sortfwdind")),sortrevind=document.createElement("span"),sortrevind.id="sorttable_sortrevind",
+sortrevind.innerHTML='&amp;nbsp;&lt;span style="color:#00ff04;"&gt;&amp;#x21E1;&lt;/span&gt;',this.appendChild(sortrevind);else if(-1!=this.className.search(/\bsorttable_sorted_reverse\b/))sorttable.reverse(this.i),this.className=this.className.replace("sorttable_sorted_reverse","sorttable_sorted"),this.removeChild(document.getElementById("sorttable_sortrevind")),sortfwdind=document.createElement("span"),sortfwdind.id="sorttable_sortfwdind",sortfwdind.innerHTML='&amp;nbsp;&lt;span style="color:#00ff04;"&gt;&amp;#x21E3;&lt;/span&gt;',this.appendChild(sortfwdind);
+else{theadrow=this.parentNode;k(theadrow.childNodes,function(e){1==e.nodeType&amp;&amp;(e.className=e.className.replace("sorttable_sorted_reverse",""),e.className=e.className.replace("sorttable_sorted",""))});(sortfwdind=document.getElementById("sorttable_sortfwdind"))&amp;&amp;sortfwdind.parentNode.removeChild(sortfwdind);(sortrevind=document.getElementById("sorttable_sortrevind"))&amp;&amp;sortrevind.parentNode.removeChild(sortrevind);this.className+=" sorttable_sorted";sortfwdind=document.createElement("span");sortfwdind.id=
+"sorttable_sortfwdind";sortfwdind.innerHTML='&amp;nbsp;&lt;span style="color:#00ff04;"&gt;&amp;#x21E3;&lt;/span&gt;';this.appendChild(sortfwdind);row_array=[];col=this.D;rows=this.i.rows;for(var c=0;c&lt;rows.length;c++)row_array[row_array.length]=[sorttable.j(rows[c].cells[col]),rows[c]];row_array.sort(this.F);tb=this.i;for(c=0;c&lt;row_array.length;c++)tb.appendChild(row_array[c][1]);delete row_array}}))}},u:function(a,b){sortfn=sorttable.A;for(var c=0;c&lt;a.tBodies[0].rows.length;c++)if(text=sorttable.j(a.tBodies[0].rows[c].cells[b]),
+""!=text){if(text.match(/^-?[\u00a3$\u00a4]?[\d,.]+%?$/))return sorttable.C;if(possdate=text.match(sorttable.g)){first=parseInt(possdate[1]);second=parseInt(possdate[2]);if(12&lt;first)return sorttable.o;if(12&lt;second)return sorttable.B;sortfn=sorttable.o}}return sortfn},j:function(a){if(!a)return"";hasInputs="function"==typeof a.getElementsByTagName&amp;&amp;a.getElementsByTagName("input").length;if(null!=a.getAttribute("sorttable_customkey"))return a.getAttribute("sorttable_customkey");if("undefined"==typeof a.textContent||
+hasInputs)if("undefined"==typeof a.innerText||hasInputs)if("undefined"==typeof a.text||hasInputs)switch(a.nodeType){case 3:if("input"==a.nodeName.toLowerCase())return a.value.replace(/^\s+|\s+$/g,"");case 4:return a.nodeValue.replace(/^\s+|\s+$/g,"");case 1:case 11:for(var b="",c=0;c&lt;a.childNodes.length;c++)b+=sorttable.j(a.childNodes[c]);return b.replace(/^\s+|\s+$/g,"");default:return""}else return a.text.replace(/^\s+|\s+$/g,"");else return a.innerText.replace(/^\s+|\s+$/g,"");else return a.textContent.replace(/^\s+|\s+$/g,
+"")},reverse:function(a){newrows=[];for(var b=0;b&lt;a.rows.length;b++)newrows[newrows.length]=a.rows[b];for(b=newrows.length-1;0&lt;=b;b--)a.appendChild(newrows[b]);delete newrows},C:function(a,b){aa=parseFloat(a[0].replace(/[^0-9.-]/g,""));isNaN(aa)&amp;&amp;(aa=0);bb=parseFloat(b[0].replace(/[^0-9.-]/g,""));isNaN(bb)&amp;&amp;(bb=0);return aa-bb},A:function(a,b){return a[0].toLowerCase()==b[0].toLowerCase()?0:a[0].toLowerCase()&lt;b[0].toLowerCase()?-1:1},o:function(a,b){mtch=a[0].match(sorttable.g);y=mtch[3];m=mtch[2];
+d=mtch[1];1==m.length&amp;&amp;(m="0"+m);1==d.length&amp;&amp;(d="0"+d);dt1=y+m+d;mtch=b[0].match(sorttable.g);y=mtch[3];m=mtch[2];d=mtch[1];1==m.length&amp;&amp;(m="0"+m);1==d.length&amp;&amp;(d="0"+d);dt2=y+m+d;return dt1==dt2?0:dt1&lt;dt2?-1:1},B:function(a,b){mtch=a[0].match(sorttable.g);y=mtch[3];d=mtch[2];m=mtch[1];1==m.length&amp;&amp;(m="0"+m);1==d.length&amp;&amp;(d="0"+d);dt1=y+m+d;mtch=b[0].match(sorttable.g);y=mtch[3];d=mtch[2];m=mtch[1];1==m.length&amp;&amp;(m="0"+m);1==d.length&amp;&amp;(d="0"+d);dt2=y+m+d;return dt1==dt2?0:dt1&lt;dt2?-1:1},H:function(a,
+b){for(var c=0,e=a.length-1,g=!0;g;){g=!1;for(var f=c;f&lt;e;++f)0&lt;b(a[f],a[f+1])&amp;&amp;(g=a[f],a[f]=a[f+1],a[f+1]=g,g=!0);e--;if(!g)break;for(f=e;f&gt;c;--f)0&gt;b(a[f],a[f-1])&amp;&amp;(g=a[f],a[f]=a[f-1],a[f-1]=g,g=!0);c++}}};document.addEventListener&amp;&amp;document.addEventListener("DOMContentLoaded",sorttable.l,!1);if(/WebKit/i.test(navigator.userAgent))var h=setInterval(function(){/loaded|complete/.test(document.readyState)&amp;&amp;sorttable.l()},10);window.onload=sorttable.l;
+function l(a,b){if(a.addEventListener)a.addEventListener("click",b,!1);else{b.m||(b.m=n++);a.h||(a.h={});var c=a.h.click;c||(c=a.h.click={},a.onclick&amp;&amp;(c[0]=a.onclick));c[b.m]=b;a.onclick=p}}var n=1;function p(a){var b=!0;a||(a=((this.ownerDocument||this.document||this).parentWindow||window).event,a.preventDefault=q,a.stopPropagation=r);var c=this.h[a.type],e;for(e in c)this.s=c[e],!1===this.s(a)&amp;&amp;(b=!1);return b}function q(){this.returnValue=!1}function r(){this.cancelBubble=!0}
+Array.forEach||(Array.forEach=function(a,b,c){for(var e=0;e&lt;a.length;e++)b.call(c,a[e],e,a)});Function.prototype.forEach=function(a,b,c){for(var e in a)"undefined"==typeof this.prototype[e]&amp;&amp;b.call(c,a[e],e,a)};String.forEach=function(a,b,c){Array.forEach(a.split(""),function(e,g){b.call(c,e,g,a)})};
+function k(a,b){if(a){var c=Object;if(a instanceof Function)c=Function;else{if(a.forEach instanceof Function){a.forEach(b,void 0);return}"string"==typeof a?c=String:"number"==typeof a.length&amp;&amp;(c=Array)}c.forEach(a,b,void 0)}};
+
+function kmmacro(theDetails) {
+  window.KeyboardMaestro.Trigger("sub - Passed From Shortcut List",theDetails);
+}
+
+function closeThisWindow() {
+    window.close();	
+};
+		
+function KMWillCloseWindow() {
+    window.KeyboardMaestro.SetVariable( 'rg_QWS_listshortcuts', '%Delete%' );
+};
+
+document.write(window.KeyboardMaestro.GetVariable('localHTMLFinalOutput'));
+&lt;/script&gt;</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15439019</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetActionDelay</string>
+						<key>Permanent</key>
+						<false/>
+						<key>Preference</key>
+						<string>InterAction</string>
+						<key>Reset</key>
+						<true/>
+						<key>Value</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>719152176.82930899</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>723933705.65827501</real>
+				<key>Name</key>
+				<string>sub | manager | 01 - Build Shortcut List HTML</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>7230A399-3B1A-475B-9E3D-99AD418D7BDF</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ Quick Web Search 1.6</string>
+		<key>ToggleMacroUID</key>
+		<string>0352452F-F4A3-4849-AB32-007DBD3F2622</string>
+		<key>UID</key>
+		<string>36DE5B40-178B-4949-8E91-8CA5C2C3574B</string>
+	</dict>
+</array>
+</plist>

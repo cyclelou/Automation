@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15480984</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.hogbaysoftware.TaskPaper3.direct</string>
+							<key>Name</key>
+							<string>TaskPaper</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15480985</integer>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>function TaskPaperContext(editor, options) {
+	let outline = editor.outline
+   	editor.focusedItem = outline.evaluateItemPath('/project questions')[0]
+}
+
+Application('TaskPaper').documents[0].evaluate({
+  script: TaskPaperContext.toString()
+});</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15480986</integer>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15480987</integer>
+						<key>KeyCode</key>
+						<integer>36</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>4352</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>568552108.921417</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568552138.646541</real>
+				<key>Name</key>
+				<string>Add question</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>A014C596-3B0C-4C2B-A189-7A6CA24E2716</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

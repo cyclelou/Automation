@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionUID</key>
+						<integer>15481117</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5OBgAAKwAAAAEA
+						AABGBgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IEF1dGhvcjogIFwnYTBcJ2EwXCdh
+						MFwnYTBcJ2EwXCdhMEBKTWljaGFl
+						bFRYXApcClBVUlBPU0U6ICBcClwn
+						YTBcJ2EwXCc5NSBEZWxldGUgQUxM
+						IEtNIFZhcmlhYmxlcyBFWENFUFQg
+						dGhvc2Ugb24gdGhlIEtFRVAgTGlz
+						dFwKXCdhMFwnYTBcJzk1IFRvIGp1
+						c3QgZ2V0IGxpc3Qgb2YgZXhpc3Rp
+						bmcgdmFyaWFibGVzLCBDQU5DRUwg
+						d2hlbiBwcm9tcHRlZCB0byBjb25m
+						aXJtIGRlbGV0aW9uLiAgTm8gdmFy
+						aWFibGVzIGFyZSBkZWxldGVkIGlm
+						IENBTkNFTEVELlwKXCdhMFwnYTBc
+						Jzk1IFJlc3VsdHMgYXJlIGNvcGll
+						ZCB0byBDbGlwYm9hcmQsIGFuZCBk
+						aXNwbGF5ZWQgaW4gd2luZG93LlwK
+						XApIT1cgVE8gVVNFOlwKKDEpIEVk
+						aXQgdGhlIEtFRVAgTGlzdCBiZWxv
+						d1wnYTBcJ2EwKioqIElNUE9SVEFO
+						VCAqKipcCigyKSBSdW4gdGhpcyBt
+						YWNyb1wKKDMpIENBTkNFTCB0byBz
+						dG9wIHByb2Nlc3MgYW5kIGRpc3Bs
+						YXkgbGlzdCBvZiBjdXJyZW50IEtN
+						IFZhcmlhYmxlc1wKXApVU0VSIFNF
+						VFRJTkdTOlwKXCdhMFwnYTBcJzk1
+						XCdhMEFueSBBY3Rpb24gaW4gbWFn
+						ZW50YSBjb2xvciBpcyBkZXNpZ25l
+						ZCB0byBiZSBjaGFuZ2VkIGJ5IGVu
+						ZC11c2VyXApcJ2EwXCdhMFwnOTVc
+						J2EwVGhpcyBtYWNybyB1c2VzIEdv
+						b2dsZSBTZWFyY2ggYW5kIEdvb2ds
+						ZSBDaHJvbWUsIGJ1dCBjYW4gYmUg
+						ZWFzaWx5IGNoYW5nZWRcClwKQUNU
+						SU9OIENPTE9SIENPREVTXApcJ2Ew
+						XCdhMFwnOTVcJ2EwVG8gZmFjaWxp
+						dGF0ZSB0aGUgcmVhZGluZywgY3Vz
+						dG9taXppbmcsIGFuZCBtYWludGVu
+						YW5jZSBvZiB0aGlzIG1hY3JvLFwK
+						XCdhMFwnYTBcJ2EwXCdhMFwnYTBc
+						J2Ewa2V5IEFjdGlvbnMgYXJlIGNv
+						bG9yZWQgYXMgZm9sbG93czpcClwn
+						YTBcJ2EwXCc5NVwnYTBHUkVFTlwn
+						YTBcJ2EwXCdhMFwnYTBcJ2EwIC0t
+						IEtleSBDb21tZW50cyBkZXNpZ25l
+						ZCB0byBoaWdobGlnaHQgbWFpbiBz
+						ZWN0aW9ucyBvZiBtYWNyb1wKXCdh
+						MFwnYTBcJzk1XCdhME1BR0VOVEEg
+						LS0gQWN0aW9ucyBkZXNpZ25lZCB0
+						byBiZSBjdXN0b21pemVkIGJ5IHVz
+						ZXJcClwnYTBcJ2EwXCc5NVwnYTBZ
+						RUxMT1dcJ2EwXCdhMFwnYTAtLSBQ
+						cmltYXJ5IEFjdGlvbnMgKHVzdWFs
+						bHkgdGhlIG1haW4gcHVycG9zZSBv
+						ZiB0aGUgbWFjcm8pXApcJ2EwXCdh
+						MFwnOTVcJ2EwT1JBTkdFXCdhMFwn
+						YTAtLSBBY3Rpb25zIHRoYXQgcGVy
+						bWFuZW50bHkgZGVzdHJveSBWYXJp
+						YmxlcyBvciBDbGlwYm9hcmRzXApc
+						ClJFUVVJUkVTOiAgXAooMSkgIEtl
+						eWJvYXJkIE1hZXN0cm8gVmVyIDcu
+						MC4zK1wKKDIpICBZb3NlbWl0ZSAo
+						MTAuMTAuNSkrXAp+fn5+fn5+fn5+
+						fn5+fn5+fn5+fn5+fn5+fn5+fn5+
+						fn5+fn5+fn5+fn5+fn5+fQEAAAAj
+						AAAAAQAAAAcAAABUWFQucnRmEAAA
+						ADfjwFm2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>~~~~~ Ver 1.1   2016-04-15 ~~~~~</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionUID</key>
+						<integer>15481118</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6GAAAAKwAAAAEA
+						AAB+AAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNTA0
+						XGNvY29hc3VicnRmODMwCntcZm9u
+						dHRibH0Ke1xjb2xvcnRibDtccmVk
+						MjU1XGdyZWVuMjU1XGJsdWUyNTU7
+						fQp7XCpcZXhwYW5kZWRjb2xvcnRi
+						bDs7fQp9AQAAACMAAAABAAAABwAA
+						AFRYVC5ydGYQAAAAnl3CWbYBAAAA
+						AAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>~~~ COMMENT ~~~</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionName</key>
+						<string>Set KEEP List of KM Variables</string>
+						<key>ActionUID</key>
+						<integer>15481119</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string></string>
+						<key>Variable</key>
+						<string>DND__KM_Vars_To_Keep</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>ActionName</key>
+						<string>Execute JXA Script to Delete KM Variables NOT on Keep List</string>
+						<key>ActionUID</key>
+						<integer>15481120</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>/*
+⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶
+	[KM] Delete ALL KM Variables NOT in Keep List
+⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶
+
+DATE:    Fri, Apr 15, 2016
+AUTHOR:  JMichaelTX 
+
+REF:     The following were used in some way in the development of this script
+
+	• JXA Script by Rob Trent (@CompactPoint)
+		Deleting (some) Keyboard Maestro variables – protecting others
+		https://forum.keyboardmaestro.com/t/deleting-some-keyboard-maestro-variables-protecting-others/3301
+⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶⩶
+*/
+
+'use strict';
+
+var app = Application.currentApplication()
+app.includeStandardAdditions = true
+
+
+function run(){
+
+
+var kmeApp = Application("com.stairways.keyboardmaestro.engine")
+	
+	//--- GET ARRAY OF ALL CURRENT KM VARIABLE NAMES ---
+	// this is much faster than using the KM Variable object itself
+	
+	var kmVarNameArr = kmeApp.variables.name()		
+
+	//--- GET LIST OF KM VARIABLES TO KEEP ---
+	var kmVarToKeepArr = kmeApp.variables["DND__KM_Vars_To_Keep"].value().split("\n")
+
+	//--- MAKE LIST OF VARIABLES TO DELETE ---
+    var  kmVarToDelArr = kmVarNameArr
+        .filter(function (iVar) {
+            return kmVarToKeepArr.indexOf(iVar) === -1;
+        })
+
+		var numToDelete = kmVarToDelArr.length
+
+		//--- CONFIRM DELETION WITH USER ---
+		
+		var msgStr = "Num of KM Variables to DELETE: " + numToDelete
+		msgStr += "\n\nWARNING!  These KM Variables will be PERMANENTLY DELETED"
+		msgStr += "\nCANCEL to see list of all current variables"
+		var titleStr = "Keyboard Maestro Variable DELETION"
+		
+		var btnStr = dispDialog(msgStr,
+        		{
+          		withTitle:      titleStr
+          		,withIcon:      "caution"
+      		    ,buttons:       ["Cancel","Delete"]
+  		        ,defaultButton: "Delete"
+	          })
+		
+	//--------------------------------------------------------
+		if (btnStr === "Cancel") {	// ### CANCEL PROCESS ###
+	//--------------------------------------------------------
+			var outputStr = "User CANCELED process.  NO KM Variables were deleted"
+			outputStr += "\n\nVARIABLES TO KEEP:\n" + kmVarToKeepArr.join("\n")
+			outputStr += "\n\nCURRENT VARIABLES\n" + kmVarNameArr.join("\n")
+		}
+		
+	//-----------------------------------------------------	
+		else {	// ### PROCEED WITH DELETION ###
+	//-----------------------------------------------------
+	
+			var kmVars = kmeApp.variables
+
+			kmVarToDelArr.forEach(function (iKMVar) {
+				//console.log(iKMVar);
+				kmVars[iKMVar].value = '%Delete%'
+			})
+			
+			var outputStr = ""
+			outputStr += "VARIABLES THAT WERE KEPT:\n\t" + kmVarToKeepArr.join("\n\t")
+			outputStr += "\n\nDELETED VARIABLES:\n\t" + kmVarToDelArr.join("\n\t")
+			
+
+	} // ~~~ END else ~~~
+	
+	//----------------
+	return outputStr
+	//----------------
+	
+}	// ~~~~~~~~~~~~~~~~~~~~~ END function run() ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+function dispDialog (pMsg, pOptionsObj)	{
+	//——————————————————————————————————————————————
+	//			dispDialog()			Display Standard Dialog
+	//
+	//			Ver 1.0		2016-04-12
+	//——————————————————————————————————————————————
+	
+	app.beep()
+	
+	try {
+		var oAns = app.displayDialog(pMsg, pOptionsObj)            
+		var btnStr = oAns.buttonReturned
+	}
+	catch (e) {		
+			if (e.errorNumber === -128) {
+				console.log("User CANCELED process.")
+				btnStr = "Cancel"
+			}
+			else {
+				console.log(e)
+				e.errornumber
+			}
+	}
+	return btnStr
+
+}	// --- END function dispDialog ---
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>DND__KM_Var_Del_Results</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Set Clipboard RESULTS of Script</string>
+						<key>ActionUID</key>
+						<integer>15481121</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>JustDisplay</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetClipboardToText</string>
+						<key>Text</key>
+						<string>%DND__KM_Var_Del_Results%</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>DisplayWindow</string>
+						<key>ActionName</key>
+						<string>Displaly RESULTS of Script</string>
+						<key>ActionUID</key>
+						<integer>15481122</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC45AQAAKwAAAAEA
+						AAAxAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmbmlsXGZjaGFyc2V0
+						MCBIZWx2ZXRpY2FOZXVlO30Ke1xj
+						b2xvcnRibDtccmVkMjU1XGdyZWVu
+						MjU1XGJsdWUyNTU7fQpccGFyZFx0
+						eDU2MFx0eDExMjBcdHgxNjgwXHR4
+						MjI0MFx0eDI4MDBcdHgzMzYwXHR4
+						MzkyMFx0eDQ0ODBcdHg1MDQwXHR4
+						NTYwMFx0eDYxNjBcdHg2NzIwXHBh
+						cmRpcm5hdHVyYWxccGFydGlnaHRl
+						bmZhY3RvcjAKClxmMFxmczI2IFxj
+						ZjAgJVZhcmlhYmxlJURORF9fS01f
+						VmFyX0RlbF9SZXN1bHRzJX0BAAAA
+						IwAAAAEAAAAHAAAAVFhULnJ0ZhAA
+						AAAw48BZtgEAAAAAAAAAAAAA
+						</data>
+						<key>Text</key>
+						<string>%Variable%DND__KM_Var_Del_Results%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>482219870.20461297</real>
+				<key>CustomIconData</key>
+				<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568498785.27808905</real>
+				<key>Name</key>
+				<string>Delete all variables except those on keep list</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E5A72722-81F2-4998-9CC4-C79BA5AD4E4B</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

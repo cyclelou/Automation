@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15481212</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5HBAAAKwAAAAEA
+						AAA/BAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE1hY3JvOiBGaW5kIE1hY3JvcyB0
+						aGF0IHVzZSBTZWxlY3RlZCBTdWIt
+						TWFjcm9cCkF1dGhvcjogQERhblRo
+						b21hcyBvbiB0aGUgS00gZm9ydW0u
+						XApWZXJzaW9uOiAyLjBcClVwZGF0
+						ZWQ6IDIwMTYvMDYvMTkgMDk6MzMg
+						UERUXApcClBVUlBPU0U6XApcCkZp
+						bmRzIGFsbCBNYWNyb3MgdGhhdCB1
+						c2UgKGV4ZWN1dGUpIHRoZSBzZWxl
+						Y3RlZCBNYWNyby5cClwKVVNBR0U6
+						XApcClNlbGVjdCBhIE1hY3JvLCB0
+						aGVuIHRyaWdnZXIgdGhpcyBNYWNy
+						by5cClwKUkVTVUxUUzpcClwKVGhl
+						IHJlc3VsdHMgYXJlIGRpc3BsYXll
+						ZCBpbiBhIEN1c3RvbSBIVE1MIFBy
+						b21wdC4gRWFjaCBtYXRjaCBpcyBh
+						IGh5cGVybGluaywgc28geW91IGNh
+						biBnbyByaWdodCB0byB0aGUgTWFj
+						cm8gKG9yIGl0cyBHcm91cCkuXApc
+						Ck5PVEVTOlwKXApJZiB0aGUgd2lk
+						dGggYW5kL29yIGhlaWdodCBvZiB0
+						aGUgcmVzdWx0cyBkaWFsb2cgaXNu
+						J3QgdG8geW91ciBsaWtpbmcsIG9y
+						IHRoZXJlIGFyZSBzY3JvbGwgYmFy
+						cyBpbiB0aGUgZGlhbG9nLCB5b3Ug
+						Y2FuIGNoYWdlIGl0LiBDaGFuZ2Ug
+						dGhlIHZhbHVlcyBpbiB0aGUgZ3Jv
+						dXAgIlNob3cgdGhlIFJlc3VsdHMi
+						LlwKXApDSEFOR0UgTE9HOlwKdjIu
+						MDogUmV3cm90ZSB0aGUgSlhBIHNj
+						cmlwdCBhbmQgdGhlIEN1c3RvbSBI
+						VE1MIFByb21wdC4gQWRkZWQgYWJp
+						bGl0eSB0byBzcGVjaWZ5IHRoZSBQ
+						cm9tcHQgd2luZG93J3Mgc2l6ZS5c
+						CnYxLjExOiAqUmVhbGx5KiBhZGRl
+						ZCBzdXBwb3J0IGZvciBPUy9YIDEw
+						LjEwIChZb3NlbWl0ZSkuXAp2MS4x
+						OiBBZGRlZCBzdXBwb3J0IGZvciBP
+						Uy9YIDEwLjEwIChZb3NlbWl0ZSku
+						fQEAAAAjAAAAAQAAAAcAAABUWFQu
+						cnRmEAAAADfjwFm2AQAAAAAAAAAA
+						AAA=
+						</data>
+						<key>Title</key>
+						<string>Find Macros that use Selected Sub-Macro v2.0</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Copy UUID of selected Macro to fmumTargetMacroUUID, cancel if Macro not selected, etc.</string>
+						<key>ActionUID</key>
+						<integer>15481213</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481214</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SelectMenuItem</string>
+								<key>Menu</key>
+								<array>
+									<string>Edit</string>
+									<string>Copy as</string>
+									<string>Copy UUID</string>
+								</array>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>TargetApplication</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.stairways.keyboardmaestro.editor</string>
+									<key>Name</key>
+									<string>Keyboard Maestro</string>
+									<key>NewFile</key>
+									<string>/Applications/Keyboard Maestro.app</string>
+								</dict>
+								<key>TargetingType</key>
+								<string>Specific</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481215</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>.3</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Red</string>
+								<key>ActionName</key>
+								<string>Cancel if the "Copy as UUID" failed, or the clipboard doesn't contain a UUID</string>
+								<key>ActionUID</key>
+								<integer>15481216</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Text</string>
+											<key>Text</key>
+											<string>%ActionResult%</string>
+											<key>TextConditionType</key>
+											<string>IsNot</string>
+											<key>TextValue</key>
+											<string>OK</string>
+										</dict>
+										<dict>
+											<key>ClipboardConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>ClipboardText</key>
+											<string>(?i)[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}</string>
+											<key>ConditionType</key>
+											<string>Clipboard</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>Any</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15481217</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Notification</string>
+										<key>SoundName</key>
+										<string>Basso</string>
+										<key>Subtitle</key>
+										<string></string>
+										<key>Text</key>
+										<string>You must select a Macro first.</string>
+										<key>Title</key>
+										<string>%ExecutingMacro%</string>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15481218</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481219</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%CurrentClipboard%</string>
+								<key>Variable</key>
+								<string>fmumTargetMacroUUID</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionName</key>
+						<string>Run script to find matches, return results, cancel if errors</string>
+						<key>ActionUID</key>
+						<integer>15481220</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Look for matches, results in fmumTargetMacroName, fmumMatches, and fmumResults</string>
+								<key>ActionUID</key>
+								<integer>15481221</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScriptForAutomation</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>(function() {
+	'use strict';
+
+	function getKMMacrosSourceFileName() {
+		var app = Application.currentApplication();
+		app.includeStandardAdditions = true;
+		return app.pathTo(
+			'application support', {
+				from: 'user domain'
+			}
+		) + "/Keyboard Maestro/Keyboard Maestro Macros.plist";
+	}
+
+	function readPlistBinaryFile(filePath) {
+		var data = $.NSData.dataWithContentsOfFile(filePath);
+		return ObjC.deepUnwrap(
+			$.NSPropertyListSerialization
+			.propertyListWithDataOptionsFormatError(
+				data, $.NSPropertyListBinaryFormat_v1_0, 0, null));
+	}
+
+	function convertPlistPartToString(plistPart) {
+		var _data = $.NSPropertyListSerialization
+			.dataWithPropertyListFormatOptionsError(
+				$(plistPart), $.NSPropertyListXMLFormat_v1_0, 0, null);
+		var _nsstring = $.NSString.alloc.initWithDataEncoding(
+			_data, $.NSUTF8StringEncoding);
+		return $(_nsstring).js;
+	}
+
+	var _kme = Application("Keyboard Maestro Engine");
+	var _targetMacroUUID = _kme.getvariable('fmumTargetMacroUUID');
+	if (!_targetMacroUUID) {
+		throw Error('Empty parameter "fmumTargetMacroUUID"');
+	}
+
+	var _plist = readPlistBinaryFile(getKMMacrosSourceFileName());
+	var _targetMacroName = "Unknown";
+	var _results = [];
+	_plist.MacroGroups.forEach(function(group) {
+		var macros = group.Macros;
+
+		// If this is a smart group, it won't have any macros
+		if (!macros) {
+			return;
+		}
+
+		var groupName = group.Name;
+		var groupUUID = group.UID;
+
+		macros.forEach(function(macro) {
+			var macroName = macro.Name;
+			var macroUUID = macro.UID;
+			if (macroUUID === _targetMacroUUID) {
+				_targetMacroName = macroName;
+			} else {
+				var _parts = convertPlistPartToString(macro.Actions);
+				if (_parts &amp;&amp; _parts.indexOf(_targetMacroUUID) &gt;= 0) {
+					_results.push({
+						"groupName": groupName,
+						"groupUUID": groupUUID,
+						"macroName": macroName,
+						"macroUUID": macroUUID
+					})
+				}
+			}
+		})
+	});
+
+	_kme.setvariable("fmumTargetMacroName", {
+		to: _targetMacroName
+	});
+	_kme.setvariable("fmumMatches", {
+		to: _results.length == 0 ? "" : JSON.stringify(_results)
+	});
+})()</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseModernSyntax</key>
+								<false/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>fmumResults</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Cancel if errors</string>
+								<key>ActionUID</key>
+								<integer>15481222</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>fmumResults</string>
+											<key>VariableConditionType</key>
+											<string>IsNotEmpty</string>
+											<key>VariableValue</key>
+											<string>value</string>
+										</dict>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>fmumResults</string>
+											<key>VariableConditionType</key>
+											<string>DoesNotContain</string>
+											<key>VariableValue</key>
+											<string>warning: failed to get scripting definition from /usr/bin/osascript</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActionListDisclosed</key>
+								<false/>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>Action</key>
+										<string>DisplayWindow</string>
+										<key>ActionName</key>
+										<string>Display Text ‘An error has occurred: %Return%%Variable%fmumResults%’ in Window</string>
+										<key>ActionUID</key>
+										<integer>15481223</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>InsertText</string>
+										<key>Text</key>
+										<string>%ExecutingMacro%
+
+An error has occurred: %Return%%Variable%fmumResults%</string>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15481224</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Red</string>
+						<key>ActionName</key>
+						<string>Cancel if no matches</string>
+						<key>ActionUID</key>
+						<integer>15481225</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>fmumMatches</string>
+									<key>VariableConditionType</key>
+									<string>IsEmpty</string>
+									<key>VariableValue</key>
+									<string>value</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Setup fmumErrorMessage</string>
+								<key>ActionUID</key>
+								<integer>15481226</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>fmumTargetMacroName</string>
+											<key>VariableConditionType</key>
+											<string>Is</string>
+											<key>VariableValue</key>
+											<string>Unknown</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15481228</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>No macros use "%Variable%fmumTargetMacroName%"</string>
+										<key>Variable</key>
+										<string>fmumErrorMessage</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15481227</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>You have to select a Macro, not a Group</string>
+										<key>Variable</key>
+										<string>fmumErrorMessage</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Notification ‘fmumErrorMessage’</string>
+								<key>ActionUID</key>
+								<integer>15481229</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string>%Variable%fmumErrorMessage%</string>
+								<key>Title</key>
+								<string>%ExecutingMacro%</string>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15481230</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Show the Results</string>
+						<key>ActionUID</key>
+						<integer>15481231</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionName</key>
+								<string>Window width and height. Change these if the window isn't big enough for you</string>
+								<key>ActionUID</key>
+								<integer>15481232</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>fmumWindowWidth: Default value is 600</string>
+										<key>ActionUID</key>
+										<integer>15481233</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>600</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>fmumWindowWidth</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>fmumWindowHeight: Default value is 450</string>
+										<key>ActionUID</key>
+										<integer>15481234</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>450</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>fmumWindowHeight</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionName</key>
+								<string>If you get scroll bars in the window, change these to subtract larger numbers</string>
+								<key>ActionUID</key>
+								<integer>15481235</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>fmumBodyWidth: Default value is 'fmumWindowWidth - 10'</string>
+										<key>ActionUID</key>
+										<integer>15481236</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>fmumWindowWidth - 10</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>fmumBodyWidth</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>fmumBodyHeight: Default value is 'fmumWindowHeight - 25'</string>
+										<key>ActionUID</key>
+										<integer>15481237</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToCalculation</string>
+										<key>Text</key>
+										<string>fmumWindowHeight - 25</string>
+										<key>UseFormat</key>
+										<false/>
+										<key>Variable</key>
+										<string>fmumBodyHeight</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481238</integer>
+								<key>Floating</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>CustomPrompt</string>
+								<key>Text</key>
+								<string>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Matches&lt;/title&gt;
+
+    &lt;style type="text/css"&gt;
+        body {
+            font-family: verdana;
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            background: #353a40;
+        }
+
+        .heading {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        table {
+            border-collapse: separate;
+            background: #fff;
+            border-radius: 5px;
+            margin: auto;
+        }
+
+        thead th {
+            font-size: 16px;
+            font-weight: 400;
+            color: #fff;
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+            text-align: left;
+            padding: 10px;
+            background-size: 100%;
+            background-image: linear-gradient(#646f7f, #4a5564);
+            border-top: 1px solid #858d99;
+        }
+
+        thead th:first-child {
+            border-top-left-radius: 5px;
+        }
+
+        thead th:last-child {
+            border-top-right-radius: 5px;
+        }
+
+        tbody tr td {
+            font-weight: 400;
+            color: black;
+            font-size: 13px;
+            padding: 5px 5px 5px 5px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tbody tr:nth-child(2n) {
+            background: #f0f3f5;
+        }
+
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+        tbody tr:last-child td:first-child {
+            border-bottom-left-radius: 5px;
+        }
+
+        tbody tr:last-child td:last-child {
+            border-bottom-right-radius: 5px;
+        }
+
+        .myButton {
+            box-shadow: 0px 0px 0px 2px #9fb4f2;
+            background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+            background-color: #7892c2;
+            border-radius: 10px;
+            border: 1px solid #4e6096;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-family: verdana;
+            font-size: 14px;
+            padding: 4px 30px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #283966;
+        }
+
+        .myButton:hover {
+            background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+            background-color: #476e9e;
+        }
+
+        .myButton:active {
+            position: relative;
+            top: 1px;
+        }
+    &lt;/style&gt;
+
+    &lt;script type="text/javascript"&gt;
+        //
+        // Add a table dynamically, at runtime. Pass the "id" of the div that
+        // the table should be put in, the class name fo the table (so you can
+        // style it with css), and the data to put in the table.
+        //
+        // For "rowData", it's an array of data for each row. See the comments
+        // for the "contents" parameter of the "addRow" function for how to
+        // define this data.
+        function addTable(divID, tableClassName, rowData) {
+
+            // Add a cell.
+            //
+            // "uri" is optional. If present, the cell's content is an href
+            // with "value" as the display value, and "uri" as the link.
+            // Otherwise it's a regular text cell, with "value" as the content.
+            function addCell(tr, cellType, value, uri) {
+                var cell = document.createElement(cellType);
+                if (uri) {
+                    var a = document.createElement("a");
+                    a.setAttribute("href", uri);
+                    a.innerHTML = value;
+                    cell.appendChild(a);
+                } else {
+                    cell.appendChild(document.createTextNode(value));
+                }
+                tr.appendChild(cell);
+            }
+
+            // Add a row.
+            //
+            // "cellType" is "th" or "td".
+            //
+            // "contents" is an array of cell values. For each cell, you can
+            // indlude one value as the text, like this:
+            //      row = [cell one, cell two], etc.
+            // or you can specify an href, with a cell's content being a an
+            // array of 2 items: the display value and the URI. In this example,
+            // the second cell is an href:
+            //      row = [cell one, [cell two, http://...]]
+            // If this format is used, you can still pass an empty value as the
+            // URI if needed - in this case it will be ignored and a standard
+            // text cell will be added. ("empty" means undefined, null, or "".)
+            // You can intermix standard cell contents and hrefs however you want.
+            function addRow(tableBody, cellType, contents) {
+                var tr = document.createElement("tr");
+                contents.forEach(function(content) {
+                    var value, uri;
+                    if (content) {
+                        if (Array.isArray(content)) {
+                            value = content[0];
+                            uri = content[1]; // ok if there is no [1]
+                        } else {
+                            value = content;
+                        }
+                    }
+                    addCell(tr, cellType, value, uri);
+                });
+                tableBody.appendChild(tr);
+            }
+
+            //------------------------------------------------------------------
+            // addTable(macros)
+            var div = document.getElementById(divID);
+            var table = document.createElement('table');
+            table.className = tableClassName;
+
+            var thead = document.createElement('thead');
+            table.appendChild(thead);
+            addRow(thead, "th", ["Group", "Macro"]);
+
+            var tableBody = document.createElement('tbody');
+
+            table.appendChild(tableBody);
+            rowData.forEach(function(row) {
+                addRow(tableBody, "td", row);
+            });
+            div.appendChild(table)
+        } // addTable(macros)
+
+        function makeKMURI(uuid) {
+            return 'keyboardmaestro://m=' + uuid;
+        }
+
+        function KMDidShowWindow() {
+            try {
+                var macroName = window.KeyboardMaestro.GetVariable('fmumTargetMacroName');
+                var macros = JSON.parse(window.KeyboardMaestro.GetVariable('fmumMatches'));
+                heading.innerText = 'Macros that use Sub-Macro\n"' + macroName + '"';
+
+                var rowData = macros.map(function(macro) {
+                    return [
+                        [macro.groupName, makeKMURI(macro.groupUUID)],
+                        [macro.macroName, makeKMURI(macro.macroUUID)]
+                    ];
+                });
+                addTable("divTable", "gridtable", rowData);
+            } catch (e) {
+                document.write("Error in KMDidShowWindow(): " + e + "&lt;br&gt;");
+            }
+        }
+
+        function KMWindow() {
+            try {
+                var bodyWidth = window.KeyboardMaestro.GetVariable('fmumBodyWidth');
+                var bodyHeight = window.KeyboardMaestro.GetVariable('fmumBodyHeight');
+                document.body.style.width = bodyWidth + 'px';
+                document.body.style.height = bodyHeight + 'px';
+                return "fmumWindowWidth, fmumWindowHeight";
+            } catch (e) {
+                document.write("Error in KMWindow(): " + e + "&lt;br&gt;");
+            }
+        }
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div id="heading" class="heading"&gt;
+        Heading
+    &lt;/div&gt;
+    &lt;div id="divTable"&gt;
+    &lt;/div&gt;
+    &lt;div id="divButton" style="text-align:center; margin-top: 10px;"&gt;
+        &lt;input type="button" class="myButton" value="Close" onclick="window.KeyboardMaestro.Submit('OK')"&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Purple</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15481239</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481240</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumBodyHeight</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481241</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumBodyWidth</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481242</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumErrorMessage</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481243</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumMatches</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481244</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumResults</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481245</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumTargetMacroName</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481246</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumTargetMacroUUID</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481247</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumWindowHeight</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481248</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>fmumWindowWidth</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>488045765.47935498</real>
+				<key>CustomIconData</key>
+				<data>
+				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
+				AAAADmRlc2MAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2Zp
+				bGUAAAAAAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxl
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAM
+				c2tTSwAAACgAAAGEZGFESwAAAC4AAAGsY2FFUwAAACQA
+				AAHadmlWTgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAA
+				ACoAAAJIZnJGVQAAACgAAAJyaHVIVQAAACgAAAKaemhU
+				VwAAABYAAALCbmJOTwAAACYAAALYY3NDWgAAACIAAAL+
+				aGVJTAAAAB4AAAMgaXRJVAAAACgAAAM+cm9STwAAACQA
+				AANmZGVERQAAACwAAAOKa29LUgAAABYAAAO2c3ZTRQAA
+				ACYAAALYemhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxH
+				UgAAACIAAAP8cHRQTwAAACYAAAQebmxOTAAAACgAAARE
+				ZXNFUwAAACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIA
+				AASQZmlGSQAAACgAAASyaHJIUgAAACgAAATacGxQTAAA
+				ACwAAAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5V
+				UwAAACYAAAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBH
+				AEIAIABwAHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAA
+				UgBHAEIALQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABl
+				AHIAZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMA
+				Qx6lAHUAIABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBu
+				AGcAUABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkA
+				cgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+
+				BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA
+				6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBs
+				AOEAbgBvAHMAIABSAEcAQgAgAHAAcgBvAGYAaQBskBp1
+				KAAgAFIARwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBz
+				AGsAIABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMA
+				bgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXk
+				BdkF3AAgAFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkA
+				bABvACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUABy
+				AG8AZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMA
+				QQBsAGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQ
+				AHIAbwBmAGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xm
+				bpAaACAAUgBHAEIAIGPPj/Blh072TgCCLAAgAFIARwBC
+				ACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8ED
+				vwPGA68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBH
+				AEIAIABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUA
+				ZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4j
+				DkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcA
+				ZQBuAGUAbAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZ
+				AGwAZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkA
+				aQBsAGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAg
+				AHAAcgBvAGYAaQBsAFUAbgBpAHcAZQByAHMAYQBsAG4A
+				eQAgAHAAcgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5
+				ACAEPwRABD4ERAQ4BDsETAAgAFIARwBCBkUGRAZBACAG
+				KgY5BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBl
+				AG4AZQByAGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwA
+				ZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5j
+				LiwgYWxsIHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAA
+				APNSAAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZ
+				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
+				Y3BydAAABxQAAAA4d3RwdAAAB0wAAAAUclhZWgAAB2AA
+				AAAUZ1hZWgAAB3QAAAAUYlhZWgAAB4gAAAAUclRSQwAA
+				B5wAAAAOY2hhZAAAB6wAAAAsYlRSQwAAB5wAAAAOZ1RS
+				QwAAB5wAAAAOZGVzYwAAAAAAAAAUR2VuZXJpYyBSR0Ig
+				UHJvZmlsZQAAAAAAAAAAAAAAFEdlbmVyaWMgUkdCIFBy
+				b2ZpbGUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAG1sdWMAAAAAAAAA
+				HwAAAAxza1NLAAAAKAAAAYRkYURLAAAALgAAAaxjYUVT
+				AAAAJAAAAdp2aVZOAAAAJAAAAf5wdEJSAAAAJgAAAiJ1
+				a1VBAAAAKgAAAkhmckZVAAAAKAAAAnJodUhVAAAAKAAA
+				App6aFRXAAAAFgAAAsJuYk5PAAAAJgAAAthjc0NaAAAA
+				IgAAAv5oZUlMAAAAHgAAAyBpdElUAAAAKAAAAz5yb1JP
+				AAAAJAAAA2ZkZURFAAAALAAAA4prb0tSAAAAFgAAA7Zz
+				dlNFAAAAJgAAAth6aENOAAAAFgAAA8xqYUpQAAAAGgAA
+				A+JlbEdSAAAAIgAAA/xwdFBPAAAAJgAABB5ubE5MAAAA
+				KAAABERlc0VTAAAAJgAABB50aFRIAAAAJAAABGx0clRS
+				AAAAIgAABJBmaUZJAAAAKAAABLJockhSAAAAKAAABNpw
+				bFBMAAAALAAABQJydVJVAAAAIgAABS5hckVHAAAAJgAA
+				BVBlblVTAAAAJgAABXYAVgFhAGUAbwBiAGUAYwBuAP0A
+				IABSAEcAQgAgAHAAcgBvAGYAaQBsAEcAZQBuAGUAcgBl
+				AGwAIABSAEcAQgAtAGIAZQBzAGsAcgBpAHYAZQBsAHMA
+				ZQBQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6ABy
+				AGkAYwBDHqUAdQAgAGgA7ABuAGgAIABSAEcAQgAgAEMA
+				aAB1AG4AZwBQAGUAcgBmAGkAbAAgAFIARwBCACAARwBl
+				AG4A6QByAGkAYwBvBBcEMAQzBDAEOwRMBD0EOAQ5ACAE
+				PwRABD4ERAQwBDkEOwAgAFIARwBCAFAAcgBvAGYAaQBs
+				ACAAZwDpAG4A6QByAGkAcQB1AGUAIABSAFYAQgDBAGwA
+				dABhAGwA4QBuAG8AcwAgAFIARwBCACAAcAByAG8AZgBp
+				AGyQGnUoACAAUgBHAEIAIIJyX2ljz4/wAEcAZQBuAGUA
+				cgBpAHMAawAgAFIARwBCAC0AcAByAG8AZgBpAGwATwBi
+				AGUAYwBuAP0AIABSAEcAQgAgAHAAcgBvAGYAaQBsBeQF
+				6AXVBeQF2QXcACAAUgBHAEIAIAXbBdwF3AXZAFAAcgBv
+				AGYAaQBsAG8AIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMA
+				bwBQAHIAbwBmAGkAbAAgAFIARwBCACAAZwBlAG4AZQBy
+				AGkAYwBBAGwAbABnAGUAbQBlAGkAbgBlAHMAIABSAEcA
+				QgAtAFAAcgBvAGYAaQBsx3y8GAAgAFIARwBCACDVBLhc
+				0wzHfGZukBoAIABSAEcAQgAgY8+P8GWHTvZOAIIsACAA
+				UgBHAEIAIDDXMO0w1TChMKQw6wOTA7UDvQO5A7oDzAAg
+				A8ADwQO/A8YDrwO7ACAAUgBHAEIAUABlAHIAZgBpAGwA
+				IABSAEcAQgAgAGcAZQBuAOkAcgBpAGMAbwBBAGwAZwBl
+				AG0AZQBlAG4AIABSAEcAQgAtAHAAcgBvAGYAaQBlAGwO
+				Qg4bDiMORA4fDiUOTAAgAFIARwBCACAOFw4xDkgOJw5E
+				DhsARwBlAG4AZQBsACAAUgBHAEIAIABQAHIAbwBmAGkA
+				bABpAFkAbABlAGkAbgBlAG4AIABSAEcAQgAtAHAAcgBv
+				AGYAaQBpAGwAaQBHAGUAbgBlAHIAaQENAGsAaQAgAFIA
+				RwBCACAAcAByAG8AZgBpAGwAVQBuAGkAdwBlAHIAcwBh
+				AGwAbgB5ACAAcAByAG8AZgBpAGwAIABSAEcAQgQeBDEE
+				SQQ4BDkAIAQ/BEAEPgREBDgEOwRMACAAUgBHAEIGRQZE
+				BkEAIAYqBjkGMQZKBkEAIABSAEcAQgAgBicGRAY5BicG
+				RQBHAGUAbgBlAHIAaQBjACAAUgBHAEIAIABQAHIAbwBm
+				AGkAbABldGV4dAAAAABDb3B5cmlnaHQgMjAwNyBBcHBs
+				ZSBJbmMuLCBhbGwgcmlnaHRzIHJlc2VydmVkLgBYWVog
+				AAAAAAAA81IAAQAAAAEWz1hZWiAAAAAAAAB0TQAAPe4A
+				AAPQWFlaIAAAAAAAAFp1AACscwAAFzRYWVogAAAAAAAA
+				KBoAABWfAAC4NmN1cnYAAAAAAAAAAQHNAABzZjMyAAAA
+				AAABDEIAAAXe///zJgAAB5IAAP2R///7ov///aMAAAPc
+				AADAbIAAIFA4JBYNB4RCYVC4ZDQWAogEYGBoG+X9F3hA
+				3rDY5CIhEBEBZEOo+K4+DH/KXo/ZY1H3L2NF3834G/o7
+				CACA50MQVPTqAaAH5k3JS/3bQACE4+JJk33tT0XMmhN4
+				JSAuDKwoqK/XxXUO/LAzIG94GDJEBRgB7UfKQ/XpbzDR
+				XVNwTdUGBrwRHnezLMi3A3RA1nAzXA25H1kDcUsX1jVk
+				98ggo6AgflWJjX0tcg91/A17A2RA0xA1DA2JAyJPQUhp
+				0Ax3e3mQIG/4WBcqD2jXXwi3zvWnA1PA0RA3LA0lwoGn
+				wRyzXagOZnj0RjA37CwEDuwvJe+2Zm0JAzTA1lA3fAzB
+				A1dA26C/YjY+KdgSNnDOWCDjzjDb3oVJY/Y2gQFoGcKB
+				gsibWgWrAGFO3p8k03RIo6BDnCsuoEjqsB+GU3RNv6ba
+				inopADtaFz6jOj4Mv0MSZHEhDWg2+o8OcJrNlGpADAJH
+				AeqKeKinkpAHI+BztmQ3RKKahkKkTCozMwVCnnsRCin3
+				HACBa1oUyCmR5P6a7+mmmRzJuvADCw1oOQYVKZHI+aBA
+				KpAGoGAqBn0op5oGfiqIHH6BgGoryzzQFA0FQaFoCAAP
+				AQAAAwAAAAEAEAAAAQEAAwAAAAEAEAAAAQIAAwAAAAQA
+				ACOGAQMAAwAAAAEABQAAAQYAAwAAAAEAAgAAAREABAAA
+				AAEAACEEARIAAwAAAAEAAQAAARUAAwAAAAEABAAAARYA
+				AwAAAAEAEAAAARcABAAAAAEAAAHIARwAAwAAAAEAAQAA
+				AT0AAwAAAAEAAgAAAVIAAwAAAAEAAQAAAVMAAwAAAAQA
+				ACOOh3MABwAAB9gAACOWAAAAAAAIAAgACAAIAAEAAQAB
+				AAEAAAfYYXBwbAIgAABtbnRyUkdCIFhZWiAH2QACABkA
+				CwAaAAthY3NwQVBQTAAAAABhcHBsAAAAAAAAAAAAAAAA
+				AAAAAAAA9tYAAQAAAADTLWFwcGwAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAtkZXNjAAABCAAAAG9kc2NtAAABeAAABZxjcHJ0AAAH
+				FAAAADh3dHB0AAAHTAAAABRyWFlaAAAHYAAAABRnWFla
+				AAAHdAAAABRiWFlaAAAHiAAAABRyVFJDAAAHnAAAAA5j
+				aGFkAAAHrAAAACxiVFJDAAAHnAAAAA5nVFJDAAAHnAAA
+				AA5kZXNjAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxl
+				AAAAAAAAAAAAAAAUR2VuZXJpYyBSR0IgUHJvZmlsZQAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAfAAAADHNr
+				U0sAAAAoAAABhGRhREsAAAAuAAABrGNhRVMAAAAkAAAB
+				2nZpVk4AAAAkAAAB/nB0QlIAAAAmAAACInVrVUEAAAAq
+				AAACSGZyRlUAAAAoAAACcmh1SFUAAAAoAAACmnpoVFcA
+				AAAWAAACwm5iTk8AAAAmAAAC2GNzQ1oAAAAiAAAC/mhl
+				SUwAAAAeAAADIGl0SVQAAAAoAAADPnJvUk8AAAAkAAAD
+				ZmRlREUAAAAsAAADimtvS1IAAAAWAAADtnN2U0UAAAAm
+				AAAC2HpoQ04AAAAWAAADzGphSlAAAAAaAAAD4mVsR1IA
+				AAAiAAAD/HB0UE8AAAAmAAAEHm5sTkwAAAAoAAAERGVz
+				RVMAAAAmAAAEHnRoVEgAAAAkAAAEbHRyVFIAAAAiAAAE
+				kGZpRkkAAAAoAAAEsmhySFIAAAAoAAAE2nBsUEwAAAAs
+				AAAFAnJ1UlUAAAAiAAAFLmFyRUcAAAAmAAAFUGVuVVMA
+				AAAmAAAFdgBWAWEAZQBvAGIAZQBjAG4A/QAgAFIARwBC
+				ACAAcAByAG8AZgBpAGwARwBlAG4AZQByAGUAbAAgAFIA
+				RwBCAC0AYgBlAHMAawByAGkAdgBlAGwAcwBlAFAAZQBy
+				AGYAaQBsACAAUgBHAEIAIABnAGUAbgDoAHIAaQBjAEMe
+				pQB1ACAAaADsAG4AaAAgAFIARwBCACAAQwBoAHUAbgBn
+				AFAAZQByAGYAaQBsACAAUgBHAEIAIABHAGUAbgDpAHIA
+				aQBjAG8EFwQwBDMEMAQ7BEwEPQQ4BDkAIAQ/BEAEPgRE
+				BDAEOQQ7ACAAUgBHAEIAUAByAG8AZgBpAGwAIABnAOkA
+				bgDpAHIAaQBxAHUAZQAgAFIAVgBCAMEAbAB0AGEAbADh
+				AG4AbwBzACAAUgBHAEIAIABwAHIAbwBmAGkAbJAadSgA
+				IABSAEcAQgAggnJfaWPPj/AARwBlAG4AZQByAGkAcwBr
+				ACAAUgBHAEIALQBwAHIAbwBmAGkAbABPAGIAZQBjAG4A
+				/QAgAFIARwBCACAAcAByAG8AZgBpAGwF5AXoBdUF5AXZ
+				BdwAIABSAEcAQgAgBdsF3AXcBdkAUAByAG8AZgBpAGwA
+				bwAgAFIARwBCACAAZwBlAG4AZQByAGkAYwBvAFAAcgBv
+				AGYAaQBsACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAEEA
+				bABsAGcAZQBtAGUAaQBuAGUAcwAgAFIARwBCAC0AUABy
+				AG8AZgBpAGzHfLwYACAAUgBHAEIAINUEuFzTDMd8Zm6Q
+				GgAgAFIARwBCACBjz4/wZYdO9k4AgiwAIABSAEcAQgAg
+				MNcw7TDVMKEwpDDrA5MDtQO9A7kDugPMACADwAPBA78D
+				xgOvA7sAIABSAEcAQgBQAGUAcgBmAGkAbAAgAFIARwBC
+				ACAAZwBlAG4A6QByAGkAYwBvAEEAbABnAGUAbQBlAGUA
+				bgAgAFIARwBCAC0AcAByAG8AZgBpAGUAbA5CDhsOIw5E
+				Dh8OJQ5MACAAUgBHAEIAIA4XDjEOSA4nDkQOGwBHAGUA
+				bgBlAGwAIABSAEcAQgAgAFAAcgBvAGYAaQBsAGkAWQBs
+				AGUAaQBuAGUAbgAgAFIARwBCAC0AcAByAG8AZgBpAGkA
+				bABpAEcAZQBuAGUAcgBpAQ0AawBpACAAUgBHAEIAIABw
+				AHIAbwBmAGkAbABVAG4AaQB3AGUAcgBzAGEAbABuAHkA
+				IABwAHIAbwBmAGkAbAAgAFIARwBCBB4EMQRJBDgEOQAg
+				BD8EQAQ+BEQEOAQ7BEwAIABSAEcAQgZFBkQGQQAgBioG
+				OQYxBkoGQQAgAFIARwBCACAGJwZEBjkGJwZFAEcAZQBu
+				AGUAcgBpAGMAIABSAEcAQgAgAFAAcgBvAGYAaQBsAGV0
+				ZXh0AAAAAENvcHlyaWdodCAyMDA3IEFwcGxlIEluYy4s
+				IGFsbCByaWdodHMgcmVzZXJ2ZWQuAFhZWiAAAAAAAADz
+				UgABAAAAARbPWFlaIAAAAAAAAHRNAAA97gAAA9BYWVog
+				AAAAAAAAWnUAAKxzAAAXNFhZWiAAAAAAAAAoGgAAFZ8A
+				ALg2Y3VydgAAAAAAAAABAc0AAHNmMzIAAAAAAAEMQgAA
+				Bd7///MmAAAHkgAA/ZH///ui///9owAAA9wAAMBs
+				</data>
+				<key>ModificationDate</key>
+				<real>568498789.50586295</real>
+				<key>Name</key>
+				<string>Find macros that use selected sub-macro</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5C1C8F56-BE5F-404F-BDFE-DE1A7716EC53</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

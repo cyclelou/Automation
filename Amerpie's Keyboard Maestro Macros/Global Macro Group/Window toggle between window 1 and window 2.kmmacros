@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>SelectWindow</string>
+						<key>ActionUID</key>
+						<integer>15483342</integer>
+						<key>HeightExpression</key>
+						<string>300</string>
+						<key>HorizontalExpression</key>
+						<string>125</string>
+						<key>MacroActionType</key>
+						<string>ManipulateWindow</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>Targeting</key>
+						<string>WindowIndex</string>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>VerticalExpression</key>
+						<string>125</string>
+						<key>WidthExpression</key>
+						<string>300</string>
+						<key>WindowIndexExpression</key>
+						<string>2</string>
+						<key>WindowName</key>
+						<string></string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>459061285.50323999</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568495705.69185901</real>
+				<key>Name</key>
+				<string>Window toggle between window 1 and window 2</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>76CC73B5-3D45-4AAA-89A5-59F46E1050B1</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

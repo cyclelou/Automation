@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484423</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>------------------------------------------------------------------------------# Auth: Christopher Stone# Mod: Gabe Glick# dCre: 2014/08/21 21:37# dMod: 12/6/2017 09:05# Appl: Keyboard Maestro# Task: Create Predefined Macro in current macro group.# Libs: None# Osax: None# Tags: @Applescript, @Script, @Keyboard_Maestro_8, @KM8, @Editor, @Edit, @Macro------------------------------------------------------------------------------try		---------------------------------------------------------------------------	# User Settings:	---------------------------------------------------------------------------	tell application "Keyboard Maestro"		set macroGroupName to name of item 1 of (get selected macro groups)	end tell	set macroName to ""	set macroTrigger to "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;
+
+	&lt;!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\"&gt;
+
+	&lt;plist version=\"1.0\"&gt;
+
+	&lt;dict&gt;
+
+		&lt;key&gt;FireType&lt;/key&gt;
+
+		&lt;string&gt;Pressed&lt;/string&gt;
+
+		&lt;key&gt;KeyCode&lt;/key&gt;
+
+		&lt;integer&gt;32767&lt;/integer&gt;
+
+		&lt;key&gt;MacroTriggerType&lt;/key&gt;
+
+		&lt;string&gt;HotKey&lt;/string&gt;
+
+		&lt;key&gt;Modifiers&lt;/key&gt;
+
+		&lt;integer&gt;0&lt;/integer&gt;
+
+	&lt;/dict&gt;
+
+	&lt;/plist&gt;
+
+	"	set macroAction to "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;
+
+	&lt;!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\"&gt;
+
+	&lt;plist version=\"1.0\"&gt;
+
+	&lt;dict&gt;
+
+		&lt;key&gt;KeyCode&lt;/key&gt;
+
+		&lt;integer&gt;32767&lt;/integer&gt;
+
+		&lt;key&gt;MacroActionType&lt;/key&gt;
+
+		&lt;string&gt;SimulateKeystroke&lt;/string&gt;
+
+		&lt;key&gt;Modifiers&lt;/key&gt;
+
+		&lt;integer&gt;0&lt;/integer&gt;
+
+		&lt;key&gt;ReleaseAll&lt;/key&gt;
+
+		&lt;false/&gt;
+
+		&lt;key&gt;TargetApplication&lt;/key&gt;
+
+		&lt;dict/&gt;
+
+		&lt;key&gt;TargetingType&lt;/key&gt;
+
+		&lt;string&gt;Front&lt;/string&gt;
+
+	&lt;/dict&gt;
+
+	&lt;/plist&gt;
+
+	"	---------------------------------------------------------------------------		tell application "Keyboard Maestro Engine"		set macroTrigger to search macroTrigger for "\\\"" replace "\"" as text		set macroAction to search macroAction for "\\\"" replace "\"" as text	end tell		tell application "Keyboard Maestro"				if frontmost is not true then			activate		end if				------------------------------------------------------------------------		# Make sure the designated macro group and macro exist.		# Create one or both of them as necessary.		------------------------------------------------------------------------				if (exists of macro group macroGroupName) = false then			set newGroup to make new macro group with properties {name:macroGroupName}			select newGroup		end if				if (exists of macro macroName) = false then			tell macro group macroGroupName				set newMacro to make new macro with properties {name:macroName}				tell newMacro					make new trigger with properties {xml:macroTrigger}					make new action with properties {xml:macroAction}				end tell				select newMacro				return --» script ends here IF a new macro is created.			end tell		end if				------------------------------------------------------------------------		# Select the macro group if necessary.		------------------------------------------------------------------------				if selected of macro group macroGroupName = false or length of (get selected macro groups) &gt; 1 then			select macro group macroGroupName		end if				------------------------------------------------------------------------		# Select the macro for editing.		------------------------------------------------------------------------				editMacro macroName				------------------------------------------------------------------------			end tell	on error e number n	set e to e &amp; return &amp; return &amp; "Num: " &amp; n	if n ≠ -128 then		try			tell application (path to frontmost application as text) to set ddButton to button returned of ¬				(display dialog e with title "ERROR!" buttons {"Copy Error Message", "Cancel", "OK"} ¬					default button "OK" giving up after 30)			if ddButton = "Copy Error Message" then set the clipboard to e		end try	end ifend try------------------------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484424</integer>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>View</string>
+							<string>Edit Name</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.stairways.keyboardmaestro.editor</string>
+							<key>Name</key>
+							<string>Keyboard Maestro</string>
+							<key>NewFile</key>
+							<string>/Applications/Keyboard Maestro.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>534211553.796525</real>
+				<key>ModificationDate</key>
+				<real>568498860.89488697</real>
+				<key>Name</key>
+				<string>Create key to key macro</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>46</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7180B889-84A2-4B68-B971-A1BA942DB604</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

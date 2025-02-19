@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>509610467.10374999</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>12</integer>
+						<key>Height</key>
+						<string>IMAGE(Height)/2</string>
+						<key>Left</key>
+						<string>100</string>
+						<key>MacroActionType</key>
+						<string>ResizeImage</string>
+						<key>ResizeAction</key>
+						<string>ScaleTo</string>
+						<key>TargetUseTriggerClipboard</key>
+						<true/>
+						<key>Top</key>
+						<string>100</string>
+						<key>Width</key>
+						<string>IMAGE(Width)/2</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>511340665.16981399</real>
+				<key>ModificationDate</key>
+				<real>511340714.652583</real>
+				<key>Name</key>
+				<string>Half Size Image</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>ClipboardFilter</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>FD2C52E0-6CB1-4BDF-9F06-B231A548290A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Clipboard Filters</string>
+		<key>Theme</key>
+		<dict>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>F33D816E-63C4-4874-AAF9-9ECE69AD0AEE</string>
+		<key>UID</key>
+		<string>52710DBC-9117-4AAC-B910-59C016C4BDEA</string>
+	</dict>
+</array>
+</plist>

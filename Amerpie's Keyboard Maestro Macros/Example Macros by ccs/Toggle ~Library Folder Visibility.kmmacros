@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>477887256.80178601</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>55486</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>------------------------------------------------------------
+# Auth: Shane Stanley
+# dCre: 2011/08/09 00:51
+# dMod: 2016/01/07 17:05
+# Appl: Finder
+# Task: Toggle visibility of ~/Library/ (the user library folder).
+# Tags: @Applescript, @Script, @Toggle, @User, @Library
+# Note: Should function on Mavericks (Library), Yosemite, and El Capitan.
+------------------------------------------------------------
+use framework "Foundation"
+
+set anNSString to current application's NSString's stringWithString:"~/Library"
+set anNSURL to current application's |NSURL|'s fileURLWithPath:(anNSString's stringByExpandingTildeInPath())
+set theKey to current application's NSURLIsHiddenKey
+set {theResult, oldValue} to anNSURL's getResourceValue:(reference) forKey:theKey |error|:(missing value)
+anNSURL's setResourceValue:(not oldValue as boolean) forKey:theKey |error|:(missing value)
+
+------------------------------------------------------------
+
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>474766596.48602301</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>474766611.42185998</real>
+				<key>Name</key>
+				<string>Toggle ~Library Folder Visibility</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>122</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>9A9F937F-5422-4224-8CAB-D81D5287C5D5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Example Macros by ccs</string>
+		<key>ToggleMacroUID</key>
+		<string>308A41F3-41B8-482F-8642-CC66C50307A8</string>
+		<key>UID</key>
+		<string>A4DF4902-83C6-413A-9ED1-57CFA63B379C</string>
+	</dict>
+</array>
+</plist>

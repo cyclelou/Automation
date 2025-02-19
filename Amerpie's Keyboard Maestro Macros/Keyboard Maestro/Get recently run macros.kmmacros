@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484454</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC62AgAAKwAAAAEA
+						AACuAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNTA0
+						XGNvY29hc3VicnRmODMwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30Ke1wqXGV4cGFu
+						ZGVkY29sb3J0Ymw7O30KXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+						YXJkaXJuYXR1cmFsXHBhcnRpZ2h0
+						ZW5mYWN0b3IwCgpcZjBcZnMyNCBc
+						Y2YwIE5hbWU6IEdldCBSZWNlbnRs
+						eSBSdW4gTWFjcm9zXApWZXJzaW9u
+						OiAxLjFcClVwZGF0ZWQ6IDIwMTYv
+						MDcvMDYgMDM6MDAgUERUXApCeTog
+						RGFuIFRob21hc1wKXApQVVJQT1NF
+						OlwKXApSZXZlYWxzIHRoZSBHcm91
+						cCBmb3IgdGhlIGN1cnJlbnQgTWFj
+						cm8uUHJvZHVjZXMgYSBsaXN0IG9m
+						IG1hY3JvcyBhbmQgdGhlIGxhc3Qg
+						dGltZSB0aGV5IHdlcmUgcnVuLCBz
+						b3J0ZWQgYnkgTGFzdEV4ZWN1dGVk
+						IGRhdGUuXApcCk5PVEU6XApcCkZl
+						ZWwgZmVyZWUgdG8gbW9kaWZ5IHRo
+						ZSBkYXRlIGZvcm1hdCwgaWYgeW91
+						IHdhbnQuXApcClZFUlNJT04gSElT
+						VE9SWTpcCnYxLjEgLSBBZGRlZCBh
+						dHRyaWJ1dGlvbiwgYXMgcmVxdWVz
+						dGVkLiBCb3cgYWhlYWQuXAp2MS4w
+						IC0gSW5pdGlhbCB2ZXJzaW9uLn0B
+						AAAAIwAAAAEAAAAHAAAAVFhULnJ0
+						ZhAAAAD8Q8hZtgEAAAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Get Recently Run Macros v1.1</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15484455</integer>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+	ObjC.import('AppKit');
+
+	function getKMStatsFileName() {
+		var app = Application.currentApplication();
+		app.includeStandardAdditions = true;
+		return app.pathTo(
+			'application support', {
+				from: 'user domain'
+			}
+		) + "/Keyboard Maestro/Keyboard Maestro Macro Stats.plist";
+	}
+
+	function getPropertiesAndValues(obj, propertiesOnly) {
+		var propNames = Object.getOwnPropertyNames(obj);
+		var list = [];
+		for (var i = 0; i &lt; propNames.length; i++) {
+			var propName = propNames[i];
+			var propValue = obj[propName];
+			if (!propertiesOnly || typeof(propValue) !== "function")
+				list.push(propName + " = '" + propValue + "'");
+		}
+		return list.join("\n");
+	}
+
+	function readPlistBinaryFile(filePath) {
+		var data = $.NSData.dataWithContentsOfFile(filePath);
+		return ObjC.deepUnwrap(
+			$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+				data, $.NSPropertyListBinaryFormat_v1_0, 0, null));
+	}
+
+	function convertStringToPlist(str) {
+		return ObjC.deepUnwrap(
+			$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+				$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));
+	};
+
+	function getAllKMGroupsAndMacrosPlist(kme) {
+		var _kme = kme || Application("Keyboard Maestro Engine");
+		var _macros = _kme.getmacros({
+			asstring: true
+		});
+		return convertStringToPlist(_macros);
+	}
+
+	function plistTimestampToDate(timestamp) {
+		var result = ObjC.unwrap($.NSDate.dateWithTimeIntervalSinceReferenceDate(timestamp));
+		return result;
+	}
+
+	var _groupsAndMacros = getAllKMGroupsAndMacrosPlist();
+	var _statsPlist = readPlistBinaryFile(getKMStatsFileName());
+
+	var _macroStats = [];
+	for (var i = 0; i &lt; _groupsAndMacros.length; i++) {
+		var group = _groupsAndMacros[i];
+		if (!group.macros) continue;
+		for (var j = 0; j &lt; group.macros.length; j++) {
+			var macro = group.macros[j];
+			var statsDict = _statsPlist[macro.uid];
+			if (statsDict) {
+				var timestamp = statsDict.LastExecuted;
+				var date = plistTimestampToDate(timestamp);
+				_macroStats.push({ macroName: macro.name, lastExecutedTimestamp: timestamp, lastExecutedDate: date });
+			}
+		}
+	}
+
+	_macroStats.sort(function(a, b) {
+		if (a.lastExecutedTimestamp &lt; b.lastExecutedTimestamp) {
+			return 1;
+		} else if (a.lastExecutedTimestamp &gt; b.lastExecutedTimestamp) {
+			return -1
+		} else {
+			return 0;
+		}
+	})
+
+	var _results = _macroStats.map(function(m) {
+		return m.macroName + " : " + m.lastExecutedDate;
+	})
+	return _results.join("\n");
+})()</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>489461755.56322801</real>
+				<key>ModificationDate</key>
+				<real>568498861.81737995</real>
+				<key>Name</key>
+				<string>Get recently run macros</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>46</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>DA003648-E967-4A1C-A6A1-3621E6FFD21C</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionName</key>
+						<string>Info: Bundle identifiers for other browsers</string>
+						<key>ActionUID</key>
+						<integer>15481104</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481105</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Comment</string>
+								<key>StyledText</key>
+								<data>
+								cnRmZAAAAAAD
+								AAAAAgAAAAcA
+								AABUWFQucnRm
+								AQAAAC5WAQAA
+								KwAAAAEAAABO
+								AQAAe1xydGYx
+								XGFuc2lcYW5z
+								aWNwZzEyNTJc
+								Y29jb2FydGYx
+								NDA0XGNvY29h
+								c3VicnRmNDcw
+								CntcZm9udHRi
+								bFxmMFxmc3dp
+								c3NcZmNoYXJz
+								ZXQwIEhlbHZl
+								dGljYTt9Cntc
+								Y29sb3J0Ymw7
+								XHJlZDI1NVxn
+								cmVlbjI1NVxi
+								bHVlMjU1O30K
+								XHBhcmRcdHg1
+								NjBcdHgxMTIw
+								XHR4MTY4MFx0
+								eDIyNDBcdHgy
+								ODAwXHR4MzM2
+								MFx0eDM5MjBc
+								dHg0NDgwXHR4
+								NTA0MFx0eDU2
+								MDBcdHg2MTYw
+								XHR4NjcyMFxw
+								YXJkaXJuYXR1
+								cmFsXHBhcnRp
+								Z2h0ZW5mYWN0
+								b3IwCgpcZjBc
+								ZnMyNCBcY2Yw
+								IG9yZy5tb3pp
+								bGxhLmZpcmVm
+								b3hcCmNvbS5v
+								cGVyYXNvZnR3
+								YXJlLk9wZXJh
+								XApjb20uZ29v
+								Z2xlLkNocm9t
+								ZVwKfQEAAAAj
+								AAAAAQAAAAcA
+								AABUWFQucnRm
+								EAAAADfjwFm2
+								AQAAAAAAAAAA
+								AAA=
+								</data>
+								<key>Title</key>
+								<string>Some other browser bundle identifiers in here</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Or execute this to get all 'http' apps on your Mac [Swift 2]</string>
+								<key>ActionUID</key>
+								<integer>15481106</integer>
+								<key>DisplayKind</key>
+								<string>Window</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsActive</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteSwift</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>import Foundation
+let URLScheme = "http"
+if let allApps = LSCopyAllHandlersForURLScheme(URLScheme) {
+let bundleIDs = Unmanaged.fromOpaque(allApps.toOpaque()).takeUnretainedValue() as CFStringRef
+print (bundleIDs, terminator: "")
+} else {
+	print ("No handlers found for “\(URLScheme)”!", terminator: "")
+}</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Or execute this to get all 'http' apps on your Mac [Swift 3]</string>
+								<key>ActionUID</key>
+								<integer>15481107</integer>
+								<key>DisplayKind</key>
+								<string>Window</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>MacroActionType</key>
+								<string>ExecuteSwift</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>import Foundation
+let URLScheme = "http"
+if let allApps = LSCopyAllHandlersForURLScheme(URLScheme) {
+	let bundleIDs = Unmanaged
+		.fromOpaque(allApps.toOpaque())
+		.takeUnretainedValue() as CFString
+	print (bundleIDs, terminator: "")
+} else {
+	print ("No handlers found for “\(URLScheme)”!", terminator: "")
+}</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481108</integer>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<true/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteSwift</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>import Foundation
+LSSetDefaultHandlerForURLScheme("http", "com.apple.SafariTechnologyPreview")
+LSSetDefaultHandlerForURLScheme("http", "com.apple.safari")</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>To get the system’s confirmation dialog disable this group</string>
+						<key>ActionUID</key>
+						<integer>15481109</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481110</integer>
+								<key>DisplayKind</key>
+								<string>Window</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>MacroActionType</key>
+								<string>ExecuteAppleScript</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>tell application "System Events"	tell application process "CoreServicesUIAgent"		tell window 1			tell (first button whose name starts with "use")				set value of attribute "AXFocused" to true			end tell		end tell	end tell
+keystroke spaceend tell</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Current default browser notification [Swift 2]</string>
+								<key>ActionUID</key>
+								<integer>15481111</integer>
+								<key>DisplayKind</key>
+								<string>Briefly</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsActive</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteSwift</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>import Foundation
+let URLScheme = "http"
+if let currentBrowser = LSCopyDefaultHandlerForURLScheme(URLScheme) {
+let bundleID = Unmanaged.fromOpaque(currentBrowser.toOpaque()).takeUnretainedValue() as CFStringRef
+print (bundleID, terminator: "")
+} else {
+	print ("No default handler set for “\(URLScheme)”!", terminator: "")
+}</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Current default browser notification [Swift 3]</string>
+								<key>ActionUID</key>
+								<integer>15481112</integer>
+								<key>DisplayKind</key>
+								<string>Briefly</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<true/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>MacroActionType</key>
+								<string>ExecuteSwift</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>import Foundation
+let URLScheme = "http"
+if let currentBrowser = LSCopyDefaultHandlerForURLScheme(URLScheme) {
+	let bundleID = Unmanaged
+			.fromOpaque(currentBrowser.toOpaque())
+			.takeUnretainedValue() as CFString
+	print (bundleID, terminator: "")
+} else {
+	print ("No default handler set for “\(URLScheme)”!", terminator: "")
+}</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>479901696.51629603</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>556659457.99255705</real>
+				<key>Name</key>
+				<string>Default browser toggle (stp)</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>B1110F11-FFBC-4E19-BB08-40C2DFD6E52E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482044</integer>
+						<key>Argument</key>
+						<string>%SystemClipboard%</string>
+						<key>Command</key>
+						<string>NewTab</string>
+						<key>MacroActionType</key>
+						<string>SafariControl</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>WebBrowser</key>
+						<string>Safari</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482045</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Safari</string>
+							<key>Name</key>
+							<string>Safari</string>
+							<key>NewFile</key>
+							<string>/Applications/Safari.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>539467354.05378306</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>569500806.368945</real>
+				<key>Name</key>
+				<string>Open URL in clipboard in Safari</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>8DE13A9E-53F3-436A-AC25-D827D487A060</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

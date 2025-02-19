@@ -1,0 +1,1875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>725560211.02260804</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>ActionUID</key>
+						<integer>15604141</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4JAgAAKwAAAAEA
+						AAABAgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzA5
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYS1Cb2xkO1xmMVxm
+						c3dpc3NcZmNoYXJzZXQwIEhlbHZl
+						dGljYTt9CntcY29sb3J0Ymw7XHJl
+						ZDI1NVxncmVlbjI1NVxibHVlMjU1
+						O1xyZWQwXGdyZWVuMFxibHVlMDt9
+						CntcKlxleHBhbmRlZGNvbG9ydGJs
+						OztcY3NzcmdiXGMwXGMwXGMwXGM4
+						NDcwNlxjbmFtZSBjb250cm9sVGV4
+						dENvbG9yO30KXHBhcmRcdHg1NjBc
+						dHgxMTIwXHR4MTY4MFx0eDIyNDBc
+						dHgyODAwXHR4MzM2MFx0eDM5MjBc
+						dHg0NDgwXHR4NTA0MFx0eDU2MDBc
+						dHg2MTYwXHR4NjcyMFxwYXJkaXJu
+						YXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
+						b3IwCgpcZjBcYlxmczI2IFxjZjIg
+						UHVycG9zZQpcZjFcYjAgXAogIFwn
+						OTUgQ3JlYXRlIGxpc3RzIG9mIG1v
+						dmVkLCByZW5hbWVkLCBhbmQgbW92
+						ZWQtYW5kLXJlbmFtZWQgbWFjcm9z
+						IGFuZC9vciBncm91cHN9AQAAACMA
+						AAABAAAABwAAAFRYVC5ydGYQAAAA
+						badGZbYBAAAAAAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>tasks: Analyze moves and renames</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Find all renamed macro groups</string>
+						<key>ActionUID</key>
+						<integer>15604142</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Aqua</string>
+								<key>ActionName</key>
+								<string>Extract renamed macro groups from the database</string>
+								<key>ActionUID</key>
+								<integer>15604143</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>The SQL commands</string>
+										<key>ActionUID</key>
+										<integer>15604144</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>SELECT gro.Group_Name, grn.Group_Name
+FROM groups_new grn
+JOIN groups_old gro
+ON grn.Group_ID = gro.Group_ID
+WHERE grn.Group_Name &lt;&gt; gro.Group_Name</string>
+										<key>Variable</key>
+										<string>local_theSQL</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Extract the matching records</string>
+										<key>ActionUID</key>
+										<integer>15604145</integer>
+										<key>MacroActionType</key>
+										<string>ExecuteSubroutine</string>
+										<key>MacroUID</key>
+										<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+										<key>Parameters</key>
+										<array>
+											<string>.separator ←🔸→</string>
+											<string>%Variable%local_theSQL%</string>
+											<string>Macros</string>
+											<string>Extract all renamed groups</string>
+										</array>
+										<key>ResultVariable</key>
+										<string>instance_groupsRenamed</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Do some update and labeling work on matches</string>
+								<key>ActionUID</key>
+								<integer>15604146</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the renamed groups in the database</string>
+												<key>ActionUID</key>
+												<integer>15604147</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604148</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE groups_new
+SET Group_Status = 'renamed'
+WHERE Group_ID IN (
+  SELECT gro.Group_ID
+  FROM groups_old gro
+  WHERE groups_new.Group_Name &lt;&gt; gro.Group_Name
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604149</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set status of renamed groups</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the macros in the renamed group in the database</string>
+												<key>ActionUID</key>
+												<integer>15604150</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604151</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE macros_new
+SET Macro_Status = 'grouprenamed'
+WHERE Group_ID IN (
+  SELECT gro.Group_ID
+  FROM groups_new grn
+  JOIN groups_old gro
+  ON grn.Group_ID = gro.Group_ID
+  WHERE grn.Group_Name &lt;&gt; gro.Group_Name
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604152</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set status of renamed macros within renamed groups</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Extract groups for labeling</string>
+												<key>ActionUID</key>
+												<integer>15604153</integer>
+												<key>Destination</key>
+												<string>Variable</string>
+												<key>DestinationVariable</key>
+												<string>local_RenamedGroups</string>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>$1</string>
+												<key>Search</key>
+												<string>(?m).*?←🔸→(.*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsRenamed</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>ActionName</key>
+												<string>If Finder labels enabled, label the matches</string>
+												<key>ActionUID</key>
+												<integer>15604154</integer>
+												<key>CaseEntries</key>
+												<array>
+													<dict>
+														<key>Actions</key>
+														<array>
+															<dict>
+																<key>ActionName</key>
+																<string>Label them</string>
+																<key>ActionUID</key>
+																<integer>15604155</integer>
+																<key>Actions</key>
+																<array>
+																	<dict>
+																		<key>ActionName</key>
+																		<string>Empty macro groups have UUIDs but don't exist in Finder, so skip them</string>
+																		<key>ActionUID</key>
+																		<integer>15604156</integer>
+																		<key>DisplayKind</key>
+																		<string>Variable</string>
+																		<key>HonourFailureSettings</key>
+																		<true/>
+																		<key>IncludeStdErr</key>
+																		<false/>
+																		<key>IncludedVariables</key>
+																		<array>
+																			<string>9999</string>
+																		</array>
+																		<key>IsDisclosed</key>
+																		<false/>
+																		<key>MacroActionType</key>
+																		<string>ExecuteShellScript</string>
+																		<key>Path</key>
+																		<string></string>
+																		<key>Source</key>
+																		<string>Nothing</string>
+																		<key>Text</key>
+																		<string>if [ -f "$KMVAR_rg_MBU_tNewestBackup"/"$KMVAR_local_theGroup" ]; then echo "exists"; fi</string>
+																		<key>TimeOutAbortsMacro</key>
+																		<true/>
+																		<key>TrimResults</key>
+																		<false/>
+																		<key>TrimResultsNew</key>
+																		<false/>
+																		<key>UseText</key>
+																		<true/>
+																		<key>Variable</key>
+																		<string>local_isFolderThere</string>
+																	</dict>
+																	<dict>
+																		<key>ActionName</key>
+																		<string>Case Statement</string>
+																		<key>ActionUID</key>
+																		<integer>15604157</integer>
+																		<key>CaseEntries</key>
+																		<array>
+																			<dict>
+																				<key>Actions</key>
+																				<array>
+																					<dict>
+																						<key>ActionUID</key>
+																						<integer>15604158</integer>
+																						<key>Attribute</key>
+																						<string>Tags</string>
+																						<key>MacroActionType</key>
+																						<string>SetFileAttribute</string>
+																						<key>Path</key>
+																						<string>%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%</string>
+																						<key>Text</key>
+																						<string>Purple</string>
+																					</dict>
+																				</array>
+																				<key>ConditionType</key>
+																				<string>Is</string>
+																				<key>TestValue</key>
+																				<string>exists</string>
+																			</dict>
+																		</array>
+																		<key>MacroActionType</key>
+																		<string>Switch</string>
+																		<key>Source</key>
+																		<string>Variable</string>
+																		<key>Variable</key>
+																		<string>local_isFolderThere</string>
+																	</dict>
+																</array>
+																<key>Collections</key>
+																<dict>
+																	<key>CollectionList</key>
+																	<array>
+																		<dict>
+																			<key>CollectionType</key>
+																			<string>LinesIn</string>
+																			<key>IncludeBlankLines</key>
+																			<false/>
+																			<key>Source</key>
+																			<string>Variable</string>
+																			<key>Variable</key>
+																			<string>local_RenamedGroups</string>
+																		</dict>
+																	</array>
+																</dict>
+																<key>MacroActionType</key>
+																<string>For</string>
+																<key>TimeOutAbortsMacro</key>
+																<true/>
+																<key>Variable</key>
+																<string>local_theGroup</string>
+															</dict>
+														</array>
+														<key>ConditionType</key>
+														<string>Is</string>
+														<key>TestValue</key>
+														<string>Yes</string>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Switch</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_UseLabels</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_groupsRenamed</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604159</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>+Extract renamed groups and update database</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Find all renamed macros</string>
+						<key>ActionUID</key>
+						<integer>15604160</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Aqua</string>
+								<key>ActionName</key>
+								<string>Extract renamed macros from the database</string>
+								<key>ActionUID</key>
+								<integer>15604161</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>The SQL commands</string>
+										<key>ActionUID</key>
+										<integer>15604162</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>SELECT mn.Group_Name, mo.Macro_Name, mn.Macro_Name
+FROM macros_new mn join macros_old mo
+ON mn.Macro_ID = mo.Macro_ID
+WHERE mn.Macro_Name &lt;&gt; mo.Macro_Name
+AND mn.Group_ID = mo.Group_ID</string>
+										<key>Variable</key>
+										<string>local_theSQL</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Extract the matching records</string>
+										<key>ActionUID</key>
+										<integer>15604163</integer>
+										<key>MacroActionType</key>
+										<string>ExecuteSubroutine</string>
+										<key>MacroUID</key>
+										<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+										<key>Parameters</key>
+										<array>
+											<string>.separator ←🔸→</string>
+											<string>%Variable%local_theSQL%</string>
+											<string>Macros</string>
+											<string>Exctract all renamed macros</string>
+										</array>
+										<key>ResultVariable</key>
+										<string>instance_macrosRenamed</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Update datatbase if there were matches</string>
+								<key>ActionUID</key>
+								<integer>15604164</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the renamed macros in the database</string>
+												<key>ActionUID</key>
+												<integer>15604165</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604166</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE macros_new
+SET Macro_Status = 'renamed'
+WHERE Macro_ID IN (
+  SELECT mo.Macro_ID
+  FROM macros_old mo
+  WHERE macros_new.Macro_Name &lt;&gt; mo.Macro_Name
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604167</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set status of renamed macros</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the groups containing the renamed macros in the database</string>
+												<key>ActionUID</key>
+												<integer>15604168</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604169</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE groups_new
+SET Group_Status = 'modified'
+WHERE Group_ID IN (
+  SELECT mn.Group_ID
+  FROM macros_new mn
+  WHERE mn.Macro_Status = 'renamed'
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604170</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set the status of groups containing renamed macros</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_macrosRenamed</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604171</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>Extract renamed macros and update database</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Find all moved macros</string>
+						<key>ActionUID</key>
+						<integer>15604172</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Aqua</string>
+								<key>ActionName</key>
+								<string>Extract moved macros from the database</string>
+								<key>ActionUID</key>
+								<integer>15604173</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>The SQL commands</string>
+										<key>ActionUID</key>
+										<integer>15604174</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>SELECT mn.Macro_Name, mo.Group_Name, mn.Group_Name
+FROM macros_new mn
+JOIN macros_old mo
+ON mn.Macro_ID = mo.Macro_ID
+AND mn.Macro_Name = mo.Macro_Name
+WHERE mn.Group_ID &lt;&gt; mo.Group_ID</string>
+										<key>Variable</key>
+										<string>local_theSQL</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Extract the matching records</string>
+										<key>ActionUID</key>
+										<integer>15604175</integer>
+										<key>MacroActionType</key>
+										<string>ExecuteSubroutine</string>
+										<key>MacroUID</key>
+										<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+										<key>Parameters</key>
+										<array>
+											<string>.separator ←🔸→</string>
+											<string>%Variable%local_theSQL%</string>
+											<string>Macros</string>
+											<string>Extract all moved macros</string>
+										</array>
+										<key>ResultVariable</key>
+										<string>instance_macrosMoved</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Set the status of the moved macros in the database</string>
+								<key>ActionUID</key>
+								<integer>15604176</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the moved macros in the database</string>
+												<key>ActionUID</key>
+												<integer>15604177</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604178</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE macros_new
+SET Macro_Status = 'moved'
+WHERE Macro_ID IN (
+  SELECT mo.Macro_ID
+  FROM macros_new AS mn
+  JOIN macros_old AS mo
+  ON mn.Macro_ID = mo.Macro_ID
+  WHERE mn.Macro_Name = mo.Macro_Name
+  AND mn.Group_ID &lt;&gt; mo.Group_ID
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604179</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set status of moved macros</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the groups containing the moved macros in the database</string>
+												<key>ActionUID</key>
+												<integer>15604180</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604181</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE groups_new
+SET Group_Status = 'modified'
+WHERE Group_ID IN (
+  SELECT DISTINCT mn.Group_ID
+  FROM macros_new mn
+  JOIN macros_old mo
+  ON mn.Macro_ID = mo.Macro_ID
+  AND mn.Macro_Name = mo.Macro_Name
+  WHERE mn.Group_ID &lt;&gt; mo.Group_ID
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604182</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set status of groups containing moved macros</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_macrosMoved</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604183</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>Extract moved macros and update database</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Find and label all moved and renamed macros</string>
+						<key>ActionUID</key>
+						<integer>15604184</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Aqua</string>
+								<key>ActionName</key>
+								<string>Extract all moved and renamed macros from the database</string>
+								<key>ActionUID</key>
+								<integer>15604185</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>The SQL commands</string>
+										<key>ActionUID</key>
+										<integer>15604186</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>SELECT mo.Macro_Name, mn.Macro_Name, mo.Group_Name, mn.Group_Name
+FROM macros_new mn
+JOIN macros_old mo
+ON mn.Macro_ID = mo.Macro_ID
+AND mn.Macro_Name &lt;&gt; mo.Macro_Name
+WHERE mn.Group_ID &lt;&gt; mo.Group_ID</string>
+										<key>Variable</key>
+										<string>local_theSQL</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Extract the matching records</string>
+										<key>ActionUID</key>
+										<integer>15604187</integer>
+										<key>MacroActionType</key>
+										<string>ExecuteSubroutine</string>
+										<key>MacroUID</key>
+										<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+										<key>Parameters</key>
+										<array>
+											<string>.separator ←🔸→</string>
+											<string>%Variable%local_theSQL%</string>
+											<string>Macros</string>
+											<string>Extract all renamed and moved macros</string>
+										</array>
+										<key>ResultVariable</key>
+										<string>instance_macrosMovedRenamed</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Update datatbase if there were matches</string>
+								<key>ActionUID</key>
+								<integer>15604188</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the moved and renamed macros in the database</string>
+												<key>ActionUID</key>
+												<integer>15604189</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604190</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE macros_new
+SET Macro_Status = 'movedrenamed'
+WHERE Macro_ID IN (
+  SELECT mo.Macro_ID
+  FROM macros_new AS mn
+  JOIN macros_old AS mo
+  ON mn.Macro_ID = mo.Macro_ID
+  WHERE mn.Macro_Name &lt;&gt; mo.Macro_Name
+  AND mn.Group_ID &lt;&gt; mo.Group_ID
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604191</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set status of moved and renamed macros</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Aqua</string>
+												<key>ActionName</key>
+												<string>Set the status of the groups containing the moved and renamed macros in the database</string>
+												<key>ActionUID</key>
+												<integer>15604192</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>The SQL commands</string>
+														<key>ActionUID</key>
+														<integer>15604193</integer>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>UPDATE groups_new
+SET Group_Status = 'modified'
+WHERE Group_ID IN (
+  SELECT DISTINCT mn.Group_ID
+  FROM macros_new mn
+  JOIN macros_old mo
+  ON mn.Macro_ID = mo.Macro_ID
+  AND mn.Macro_Name &lt;&gt; mo.Macro_Name
+  WHERE mn.Group_ID &lt;&gt; mo.Group_ID
+);</string>
+														<key>Variable</key>
+														<string>local_theSQL</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>SQL: Peform the update</string>
+														<key>ActionUID</key>
+														<integer>15604194</integer>
+														<key>MacroActionType</key>
+														<string>ExecuteSubroutine</string>
+														<key>MacroUID</key>
+														<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+														<key>Parameters</key>
+														<array>
+															<string></string>
+															<string>%Variable%local_theSQL%</string>
+															<string>Macros</string>
+															<string>Set status of groups containing moved and renamed macros</string>
+														</array>
+														<key>ResultVariable</key>
+														<string></string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_macrosMovedRenamed</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604195</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>Extract moved-and-renamed macros and update database</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Prepare header for moves/renames</string>
+						<key>ActionUID</key>
+						<integer>15604196</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15604197</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instance_macrosMoved</string>
+											<key>VariableConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>VariableValue</key>
+											<string>[^\s]+</string>
+										</dict>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instance_macrosRenamed</string>
+											<key>VariableConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>VariableValue</key>
+											<string>[^\s]+</string>
+										</dict>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instance_macrosMovedRenamed</string>
+											<key>VariableConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>VariableValue</key>
+											<string>[^\s]+</string>
+										</dict>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instance_groupsRenamed</string>
+											<key>VariableConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>VariableValue</key>
+											<string>[^\s]+</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Beginning of structural change section</string>
+										<key>ActionUID</key>
+										<integer>15604199</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┃  MOVED, RENAMED, AND MOVED AND RENAMED MACROS AND GROUPS                                     
+┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+</string>
+										<key>Variable</key>
+										<string>instance_Report_MovesRenames</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>No structural changes at all</string>
+										<key>ActionUID</key>
+										<integer>15604198</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>%Delete%</string>
+										<key>Variable</key>
+										<string>instance_Report_MovesRenames</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604200</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>+Report: Prepare moves/renames header</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Renamed Macro Groups</string>
+						<key>ActionUID</key>
+						<integer>15604201</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Make sure there's data there</string>
+								<key>ActionUID</key>
+								<integer>15604202</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Format for columnar output</string>
+												<key>ActionUID</key>
+												<integer>15604203</integer>
+												<key>Destination</key>
+												<string>Variable</string>
+												<key>DestinationVariable</key>
+												<string>instance_groupsRenamedReport</string>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>$1←🔸→$2</string>
+												<key>Search</key>
+												<string>(?m)^(.*)←🔸→(.*)$</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsRenamed</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>Sort</string>
+												<key>ActionUID</key>
+												<integer>15604204</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Filter</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsRenamedReport</string>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Purple</string>
+												<key>ActionName</key>
+												<string>Pad data for report</string>
+												<key>ActionUID</key>
+												<integer>15604205</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>ExecuteSubroutine</string>
+												<key>MacroUID</key>
+												<string>CC576422-F453-4FBB-8490-C05FA4DB6C6D</string>
+												<key>Parameters</key>
+												<array>
+													<string>%Variable%instance_groupsRenamedReport%</string>
+													<string>Old Group Name←🔸→New Group Name</string>
+													<string>2</string>
+												</array>
+												<key>ResultVariable</key>
+												<string>instance_groupsRenamedReport</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604206</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>
+ ▪️ RENAMED MACRO GROUPS (sorted by old group name)
+
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Add the divider bar below the header</string>
+												<key>ActionUID</key>
+												<integer>15604207</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>       $1\n       ─────────────────────────────────────────────────────────────────────────────────────────</string>
+												<key>Search</key>
+												<string>^(Old Group.*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsRenamedReport</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604208</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>%Variable%instance_groupsRenamedReport%
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_groupsRenamed</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604209</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>Report: Format renamed groups</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Renamed Macros</string>
+						<key>ActionUID</key>
+						<integer>15604210</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Make sure there's data there</string>
+								<key>ActionUID</key>
+								<integer>15604211</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>Sort</string>
+												<key>ActionUID</key>
+												<integer>15604212</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Filter</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_macrosRenamed</string>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Purple</string>
+												<key>ActionUID</key>
+												<integer>15604213</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>ExecuteSubroutine</string>
+												<key>MacroUID</key>
+												<string>CC576422-F453-4FBB-8490-C05FA4DB6C6D</string>
+												<key>Parameters</key>
+												<array>
+													<string>%Variable%instance_macrosRenamed%</string>
+													<string>Group←🔸→Old Name←🔸→New Name</string>
+													<string>3</string>
+												</array>
+												<key>ResultVariable</key>
+												<string>instance_macrosRenamedProcessedReport</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604214</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>
+ ▪️ RENAMED MACROS (sorted by group name)
+
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Add the divider bar below the header</string>
+												<key>ActionUID</key>
+												<integer>15604215</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>       $1\n       ─────────────────────────────────────────────────────────────────────────────────────────</string>
+												<key>Search</key>
+												<string>^(Group.*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_macrosRenamedProcessedReport</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604216</integer>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>%Variable%instance_macrosRenamedProcessedReport%
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_macrosRenamed</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604217</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>Report: Format renamed macros</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Moved Macros</string>
+						<key>ActionUID</key>
+						<integer>15604218</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Make sure there's data there</string>
+								<key>ActionUID</key>
+								<integer>15604219</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>Sort</string>
+												<key>ActionUID</key>
+												<integer>15604220</integer>
+												<key>MacroActionType</key>
+												<string>Filter</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_macrosMoved</string>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Purple</string>
+												<key>ActionUID</key>
+												<integer>15604221</integer>
+												<key>MacroActionType</key>
+												<string>ExecuteSubroutine</string>
+												<key>MacroUID</key>
+												<string>CC576422-F453-4FBB-8490-C05FA4DB6C6D</string>
+												<key>Parameters</key>
+												<array>
+													<string>%Variable%instance_macrosMoved%</string>
+													<string>Name←🔸→Old Group←🔸→New Group</string>
+													<string>3</string>
+												</array>
+												<key>ResultVariable</key>
+												<string>instance_macrosMovedProcessedReport</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604222</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>
+ ▪️ MOVED MACROS (sorted by macro name)
+
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Add the divider bar below the header</string>
+												<key>ActionUID</key>
+												<integer>15604223</integer>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>       $1\n       ─────────────────────────────────────────────────────────────────────────────────────────</string>
+												<key>Search</key>
+												<string>^(Name.*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_macrosMovedProcessedReport</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604224</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>%Variable%instance_macrosMovedProcessedReport%
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_macrosMoved</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604225</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>Report: Format moved macros</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Moved and Renamed Macros</string>
+						<key>ActionUID</key>
+						<integer>15604226</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Make sure there's data there</string>
+								<key>ActionUID</key>
+								<integer>15604227</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>Sort</string>
+												<key>ActionUID</key>
+												<integer>15604228</integer>
+												<key>MacroActionType</key>
+												<string>Filter</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_macrosMovedRenamed</string>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Purple</string>
+												<key>ActionUID</key>
+												<integer>15604229</integer>
+												<key>MacroActionType</key>
+												<string>ExecuteSubroutine</string>
+												<key>MacroUID</key>
+												<string>CC576422-F453-4FBB-8490-C05FA4DB6C6D</string>
+												<key>Parameters</key>
+												<array>
+													<string>%Variable%instance_macrosMovedRenamed%</string>
+													<string>Old Name←🔸→New Name←🔸→Old Group←🔸→New Group</string>
+													<string>4</string>
+												</array>
+												<key>ResultVariable</key>
+												<string>instance_macrosMovedProcessedReport</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604230</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>
+ ▪️ MOVED AND RENAMED MACROS (sorted by old name)
+
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Add the divider bar below the header</string>
+												<key>ActionUID</key>
+												<integer>15604231</integer>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>       $1\n       ─────────────────────────────────────────────────────────────────────────────────────────</string>
+												<key>Search</key>
+												<string>^(Old Name.*)</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_macrosMovedProcessedReport</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15604232</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>%Variable%instance_macrosMovedProcessedReport%
+</string>
+												<key>Variable</key>
+												<string>instance_Report_MovesRenames</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_macrosMovedRenamed</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionUID</key>
+								<integer>15604233</integer>
+								<key>Asynchronously</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteMacro</string>
+								<key>MacroUID</key>
+								<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+								<key>Parameter</key>
+								<string>Report: Format moved and renamed macros</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseParameter</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>725560211.02369905</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>723215576.80221701</real>
+				<key>Name</key>
+				<string>tasks | 02 Analyze moves and renames</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>994DAFD8-E2DB-4948-A9D0-EACAA2A86DD5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ MacroBackerUpper 2.9</string>
+		<key>ToggleMacroUID</key>
+		<string>240B095D-918C-465D-BECE-A76AC22F9D3D</string>
+		<key>UID</key>
+		<string>B9551CF3-538D-440B-8609-FF0E36E310EB</string>
+	</dict>
+</array>
+</plist>

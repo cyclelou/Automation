@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Trigger Option Using Long Press of HotKey [Example]</string>
+						<key>ActionUID</key>
+						<integer>15482034</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4YCwAAKwAAAAEA
+						AAAQCwAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNTA0
+						XGNvY29hc3VicnRmODMwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTtcZjFcZm5p
+						bFxmY2hhcnNldDAgTHVjaWRhR3Jh
+						bmRlO30Ke1xjb2xvcnRibDtccmVk
+						MjU1XGdyZWVuMjU1XGJsdWUyNTU7
+						fQp7XCpcZXhwYW5kZWRjb2xvcnRi
+						bDs7fQpccGFyZFx0eDU2MFx0eDEx
+						MjBcdHgxNjgwXHR4MjI0MFx0eDI4
+						MDBcdHgzMzYwXHR4MzkyMFx0eDQ0
+						ODBcdHg1MDQwXHR4NTYwMFx0eDYx
+						NjBcdHg2NzIwXHBhcmRpcm5hdHVy
+						YWxccGFydGlnaHRlbmZhY3RvcjAK
+						ClxmMFxmczI0IFxjZjAgXCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XApBdXRob3IJOiAgQ2hy
+						aXN0b3BoZXIgU3RvbmUgPHNjcmlw
+						dG1laXN0ZXJAdGhlc3RvbmVmb3Jn
+						ZS5jb20+XApDcmVhdGVkCTogIDIw
+						MTgvMDMvMjQgMTU6MDRcCk1vZGlm
+						aWVkCTogIDIwMTgvMDMvMjQgMTU6
+						MDRcClwnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wKU2hv
+						cnQgUHJlc3MgClxmMSBcdWMwXHU4
+						Njc0IApcZjAgIE9wZW5zIHRoZSBL
+						ZXlib2FyZCBNYWVzdHJvIEVuZ2lu
+						ZSBMb2cgaW4gdGhlIEJCRWRpdCAo
+						aWYgeW91IGhhdmUgaXQpLlwKTG9u
+						ZyBQcmVzcyAKXGYxIFx1YzBcdTg2
+						NzQgClxmMCAgT3BlbnMgdGhlIEtl
+						eWJvYXJkIE1hZXN0cm8gRW5naW5l
+						IExvZyBpbiB0aGUgQ29uc29sZS5h
+						cHAuXApccGFyZFx0eDU2MFx0eDEx
+						MjBcdHgxNjgwXHR4MjI0MFx0eDI4
+						MDBcdHgzMzYwXHR4MzkyMFx0eDQ0
+						ODBcdHg1MDQwXHR4NTYwMFx0eDYx
+						NjBcdHg2NzIwXHBhcmRpcm5hdHVy
+						YWxccGFydGlnaHRlbmZhY3RvcjAK
+						XGNmMCBcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcClxw
+						YXJkXHR4NTYwXHR4MTEyMFx0eDE2
+						ODBcdHgyMjQwXHR4MjgwMFx0eDMz
+						NjBcdHgzOTIwXHR4NDQ4MFx0eDUw
+						NDBcdHg1NjAwXHR4NjE2MFx0eDY3
+						MjBccGFyZGlybmF0dXJhbFxwYXJ0
+						aWdodGVuZmFjdG9yMApcY2YwIFRo
+						ZSBLZXlib2FyZCBNYWVzdHJvIGxv
+						Z3MgZm9sZGVyIGlzIG9wZW5lZCBp
+						biB0aGUgRmluZGVyIGZvciBxdWlj
+						ayBhY2Nlc3MuXApccGFyZFx0eDU2
+						MFx0eDExMjBcdHgxNjgwXHR4MjI0
+						MFx0eDI4MDBcdHgzMzYwXHR4Mzky
+						MFx0eDQ0ODBcdHg1MDQwXHR4NTYw
+						MFx0eDYxNjBcdHg2NzIwXHBhcmRp
+						cm5hdHVyYWxccGFydGlnaHRlbmZh
+						Y3RvcjAKXGNmMCBcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						YjdcJ2I3XCdiN1wnYjdcJ2I3XCdi
+						N1wnYjdcJ2I3XCdiN1wnYjdcJ2I3
+						XCdiN1wnYjdcJ2I3XCdiN1wnYjdc
+						J2I3XCdiN1wnYjdcJ2I3XCdiN1wn
+						Yjd9AQAAACMAAAABAAAABwAAAFRY
+						VC5ydGYQAAAAGrm2WrYBAAAAAAAA
+						AAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Open Engine Log in Console or BBEdit</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482035</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>----------------------------------------------------------------# Auth: Christopher Stone# dCre: 2018/03/24 15:08# dMod: 2018/03/24 15:08 # Appl: Finder# Task: Open the Keyboard Maestro Logs Folder in the Background.# Libs: None# Osax: None# Tags: @Applescript, @Script, @Finder, @Open, @Keyboard_Maestro, @Logs, @Folder, @Background----------------------------------------------------------------set folderAlias to alias ((path to library folder from user domain as text) &amp; "Logs:Keyboard Maestro:")tell application "Finder"	open folderAliasend tell----------------------------------------------------------------</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15482036</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>0.35</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>CHECK FOR LONG PRESS of Trigger to Set Option/Choice for Macro</string>
+						<key>ActionUID</key>
+						<integer>15482037</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Key</string>
+									<key>KeyCode</key>
+									<integer>37</integer>
+									<key>KeyConditionType</key>
+									<string>Down</string>
+								</dict>
+								<dict>
+									<key>ConditionType</key>
+									<string>Modifiers</string>
+									<key>ModifiersDown</key>
+									<integer>6144</integer>
+									<key>ModifiersUp</key>
+									<integer>0</integer>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>Any</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482040</integer>
+								<key>Application</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.sublimetext.3</string>
+									<key>Name</key>
+									<string>Sublime Text</string>
+								</dict>
+								<key>IsDefaultApplication</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Open1File</string>
+								<key>Path</key>
+								<string>~/Library/Logs/Keyboard Maestro/Engine.log</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482041</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>Application</key>
+											<dict>
+												<key>BundleIdentifier</key>
+												<string>com.sublimetext.3</string>
+												<key>Name</key>
+												<string>Sublime Text</string>
+											</dict>
+											<key>ApplicationConditionType</key>
+											<string>Active</string>
+											<key>ConditionType</key>
+											<string>Application</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>PauseUntil</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TimeOutPeriod</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482042</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>Application</key>
+											<dict>
+												<key>BundleIdentifier</key>
+												<string>com.sublimetext.3</string>
+												<key>Name</key>
+												<string>Sublime Text</string>
+											</dict>
+											<key>ConditionType</key>
+											<string>FrontWindow</string>
+											<key>FrontWindowConditionType</key>
+											<string>TitleIs</string>
+											<key>FrontWindowTitle</key>
+											<string>Engine.log</string>
+											<key>IsFrontApplication</key>
+											<false/>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>MacroActionType</key>
+								<string>PauseUntil</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TimeOutPeriod</key>
+								<real>5</real>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482043</integer>
+								<key>DisplayKind</key>
+								<string>None</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>MacroActionType</key>
+								<string>ExecuteAppleScript</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>----------------------------------------------------------------# Auth: Christopher Stone# dCre: 2018/03/24 15:20# dMod: 2018/03/24 15:20 # Appl: BBEdit# Task: Scroll the insertion point to the end of the text.# Libs: None# Osax: None# Tags: @Applescript, @Script, @BBEdit, @Scroll, @Insertion, @Point, @End, @Text----------------------------------------------------------------tell application "BBEdit"	tell  text document "Engine.log"		select insertion point after its text	end tellend tell----------------------------------------------------------------</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482038</integer>
+								<key>DeviceID</key>
+								<string>SOUNDEFFECTS</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PlaySound</string>
+								<key>Path</key>
+								<string>/System/Library/Sounds/Tink.aiff</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15482039</integer>
+								<key>Application</key>
+								<dict>
+									<key>BundleIdentifier</key>
+									<string>com.apple.Console</string>
+									<key>Name</key>
+									<string>Console</string>
+									<key>NewFile</key>
+									<string>/System/Applications/Utilities/Console.app</string>
+								</dict>
+								<key>IsDefaultApplication</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Open1File</string>
+								<key>Path</key>
+								<string>~/Library/Logs/Keyboard Maestro/Engine.log</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>543614744.23560798</real>
+				<key>ModificationDate</key>
+				<real>543783918.24394798</real>
+				<key>Name</key>
+				<string>Open the Keyboard Maestro Engine Log</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>3CBF2F6B-ED10-40EB-B0B2-CA21C2BE4A32</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

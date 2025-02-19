@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15481358</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC5BAgAAKwAAAAEA
+						AAA5AgAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IEltcG9ydCBRdWljayBN
+						YWNyb1wKVmVyc2lvbjogMS4wLjFc
+						ClVwZGF0ZWQ6IDIwMTYvMDkvMDcg
+						MTQ6MTggUERUXApCeTogRGFuIFRo
+						b21hc1wKXApQVVJQT1NFOlwKXApJ
+						bXBvcnRzIHRoZSBjdXJyZW50IFF1
+						aWNrTWFjcm8gKGlmIGFueSkgaW50
+						byB0aGUgR2xvYmFsIE1hY3JvIEdy
+						b3VwLiBJdCB3aWxsIGJlIG5hbWVk
+						ICJRdWljayBNYWNybyAtIEltcG9y
+						dGVkIi5cClwKVkVSU0lPTiBISVNU
+						T1JZOlwKMS4wLjEgLSBEZWxldGUg
+						aW5pdGlhbCBTZW1hcGhvcmUgYWN0
+						aW9uLlwKMS4wIC0gSW5pdGlhbCB2
+						ZXJzaW9uLn0BAAAAIwAAAAEAAAAH
+						AAAAVFhULnJ0ZhAAAAA348BZtgEA
+						AAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Import Quick Macro v1.0</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481359</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+
+	var FileUtils = (function() {
+		return {
+			fileExists: function(path) {
+				var result = this.getFileOrFolderExists(path);
+				return result.exists &amp;&amp; result.isFile;
+			},
+
+			getFileOrFolderExists: function(path) {
+				var isDirectory = Ref();
+				var exists = $.NSFileManager.defaultManager
+					.fileExistsAtPathIsDirectory(path, isDirectory);
+				return {
+					exists: exists,
+					isFile: !isDirectory[0]
+				};
+			},
+
+			readTextFile: function(strPath) {
+				var error;
+				var str = ObjC.unwrap(
+					$.NSString.stringWithContentsOfFileEncodingError(
+						$(strPath).stringByStandardizingPath,
+						$.NSUTF8StringEncoding,
+						error
+					)
+				);
+				if (error)
+					throw Error('Could not read file "' + strPath + '"');
+				return str;
+			},
+		};
+	})();
+
+	var PlistUtils = (function() {
+		function readTextFile(strPath) {
+			var error;
+			var str = ObjC.unwrap(
+				$.NSString.stringWithContentsOfFileEncodingError(
+					$(strPath).stringByStandardizingPath,
+					$.NSUTF8StringEncoding,
+					error
+				)
+			);
+			if (error)
+				throw Error('Could not read file "' + strPath + '"');
+			return str;
+		}
+
+		return {
+			convertPlistPartToString: function(plistPart) {
+				var data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(
+					$(plistPart), $.NSPropertyListXMLFormat_v1_0, 0, null);
+				var nsstring = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);
+				return $(nsstring).js;
+			},
+
+			convertStringToPlist: function(str) {
+				return ObjC.deepUnwrap(
+					$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+						$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));
+			},
+
+			readPlistArrayTextFile: function(strPath) {
+				// var str = readTextFile(strPath);
+				// return this.convertStringToPlist(str);
+				var strFullPath = $(strPath).stringByStandardizingPath;
+				return ObjC.deepUnwrap($.NSArray.arrayWithContentsOfFile(strFullPath));
+			},
+		};
+	})();
+
+	var KMEngine = (function() {
+		var _engineApp;
+
+		return {
+			convertStringToPlist: function(str) {
+				return ObjC.deepUnwrap(
+					$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+						$(str).dataUsingEncoding($.NSUTF8StringEncoding), 0, 0, null));
+			},
+
+			doScript: function(uuidOrUniqueNameOrScript, parameter, timeout) {
+				if (parameter) {
+					if (timeout) {
+						this.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter }, { timeout: timeout });
+					} else {
+						this.getEngineApp().doScript(uuidOrUniqueNameOrScript, { withParameter: parameter });
+					}
+				} else {
+					if (timeout) {
+						this.getEngineApp().doScript(uuidOrUniqueNameOrScript, { timeout: timeout });
+					} else {
+						this.getEngineApp().doScript(uuidOrUniqueNameOrScript);
+					}
+				}
+			},
+
+			getAppSupportFolderName: function() {
+				var app = Application.currentApplication();
+				app.includeStandardAdditions = true;
+				return app.pathTo('application support', { from: 'user domain' }) +
+					"/Keyboard Maestro/";
+			},
+
+			getEngineAppName: function() {
+				return "Keyboard Maestro Engine";
+			},
+
+			getEngineApp: function() {
+				if (!_engineApp)
+					_engineApp = Application(this.getEngineAppName());
+				return _engineApp;
+			},
+
+			getMacros: function(binary) {
+				return this.getEngineApp().getmacros({
+					asstring: !binary
+				});
+			},
+
+			getMacrosAsPlist: function(binary) {
+				return this.convertStringToPlist(this.getMacros(false));
+			},
+
+			getVariable: function(name, required) {
+				var result = this.getEngineApp().getvariable(name);
+				if (!result &amp;&amp; required)
+					throw Error("Variable '" + name + "' is empty");
+				return result;
+			},
+
+		};
+
+	})();
+
+	var KMEditor = (function() {
+		var _editorAppName = "Keyboard Maestro";
+		var _editorApp;
+
+		return {
+			getEditorApp: function() {
+				return _editorApp ? _editorApp : _editorApp = Application(_editorAppName);
+			},
+
+			getEditorAppName: function() {return _editorAppName;},
+
+			importMacros: function(pathOrPlist) {
+				this.getEditorApp().importmacros(pathOrPlist);
+			},
+		};
+	})();
+
+	function getGlobalMacroGroupUUID() {
+		var plist = KMEngine.getMacrosAsPlist();
+		var globalMacroGroup = plist.find(function(group) {
+			return group.name === "Global Macro Group";
+		});
+		return globalMacroGroup ? globalMacroGroup.uid : null;
+	}
+
+	function getQuickMacro() {
+		var path = KMEngine.getAppSupportFolderName() + "Quick Macros.plist";
+		if (!FileUtils.fileExists(path))
+			throw Error("QuickMacro file doesn't exist: '" + path + "'");
+		var macroString = FileUtils.readTextFile(path);
+		if (!macroString)
+			throw Error("No QuickMacro to import in file: '" + path + "'");
+
+		// There's one element that has only a UID, no value. We grab that UID,
+		// then change it to an "Actions" element, which is missing in the
+		// QuickMacros file.
+		var match = macroString.match(/&lt;key&gt;([0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12})&lt;\/key&gt;/i);
+		if (!match || match.length &lt; 2)
+			throw Error("Could not find UID in 'Quick Macros.plist' file");
+		var uid = match[1];
+		macroString = macroString.replace(uid, "Actions");
+
+		var macro = PlistUtils.convertStringToPlist(macroString);
+		macro.UID = uid;
+		macro.Name = "Quick Macro - Imported";
+		macro.Triggers = [];
+		if (macro.Actions.length &gt; 0) {
+			if(macro.Actions[0].MacroActionType === "Semaphore")
+				macro.Actions.splice(0, 1);
+		}
+
+		return macro;
+	}
+
+	function createEmptyGlobalMacroGroup() {
+		var emptyMacrosString =
+			'&lt;?xml version="1.0" encoding="UTF-8"?&gt; \n' +
+			'&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt; \n' +
+			'&lt;plist version="1.0"&gt; \n' +
+			'&lt;array&gt; \n' +
+			'	&lt;dict&gt; \n' +
+			'		&lt;key&gt;Activate&lt;/key&gt; \n' +
+			'		&lt;string&gt;Normal&lt;/string&gt; \n' +
+			'		&lt;key&gt;CreationDate&lt;/key&gt; \n' +
+			'		&lt;real&gt;476327082.54374099&lt;/real&gt; \n' +
+			'		&lt;key&gt;Macros&lt;/key&gt; \n' +
+			'		&lt;array&gt; \n' +
+			'		&lt;/array&gt; \n' +
+			'		&lt;key&gt;Name&lt;/key&gt; \n' +
+			'		&lt;string&gt;Global Macro Group&lt;/string&gt; \n' +
+			'		&lt;key&gt;ToggleMacroUID&lt;/key&gt; \n' +
+			'		&lt;string&gt;F27B683F-D94D-4A80-A804-BB520C5BD73A&lt;/string&gt; \n' +
+			'		&lt;key&gt;UID&lt;/key&gt; \n' +
+			'		&lt;string&gt;DA8512F7-F323-46B1-8319-752E0495CFD0&lt;/string&gt; \n' +
+			'	&lt;/dict&gt; \n' +
+			'&lt;/array&gt; \n' +
+			'&lt;/plist&gt;';
+
+		var globalMacroGroupUID = getGlobalMacroGroupUUID();
+		if (globalMacroGroupUID)
+			emptyMacrosString = emptyMacrosString.replace("DA8512F7-F323-46B1-8319-752E0495CFD0", globalMacroGroupUID);
+
+		var plist = PlistUtils.convertStringToPlist(emptyMacrosString);
+		return plist[0];
+	}
+
+	function execute() {
+		var macro = getQuickMacro();
+		var group = createEmptyGlobalMacroGroup();
+		group.Macros.push(macro);
+		var str = PlistUtils.convertPlistPartToString([group]);
+		KMEditor.importMacros(str);
+		return "OK";
+	}
+
+	return execute();
+	try {
+		return execute();
+	} catch (e) {
+		return "Error: " + e.message;
+	}
+})();</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>iqmResult</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Abort if error</string>
+						<key>ActionUID</key>
+						<integer>15481360</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>iqmResult</string>
+									<key>VariableConditionType</key>
+									<string>IsNot</string>
+									<key>VariableValue</key>
+									<string>OK</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActionListDisclosed</key>
+						<false/>
+						<key>ElseActions</key>
+						<array/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481361</integer>
+								<key>DeviceID</key>
+								<string>SOUNDEFFECTS</string>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PlaySound</string>
+								<key>Path</key>
+								<string>/System/Library/Sounds/Basso.aiff</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Notify error 'An error has occurred'</string>
+								<key>ActionUID</key>
+								<integer>15481362</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+										<key>Cancel</key>
+										<false/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>An error has occurred: %Variable%iqmResult%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+							<dict>
+								<key>Action</key>
+								<string>CancelThisMacro</string>
+								<key>ActionUID</key>
+								<integer>15481363</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Cancel</string>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15481364</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481365</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>iqmResult</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>494962724.15393502</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>556659533.66977799</real>
+				<key>Name</key>
+				<string>Import quick macro</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>531117E7-0ABA-404D-A054-F54124079421</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

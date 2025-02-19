@@ -1,0 +1,1198 @@
+[
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739915901.8332319,
+    "BTTTriggerType" : 175,
+    "BTTTriggerTypeDescriptionReadOnly" : "2 Finger Force Click",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "A48B73E6-F21D-457B-9B12-752D2B8F2BB1",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 0,
+    "BTTOrder" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.803272,
+        "BTTTriggerParentUUID" : "A48B73E6-F21D-457B-9B12-752D2B8F2BB1",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "73E3E058-7CC4-4920-958C-5EC218C929AA",
+        "BTTLayoutIndependentActionChar" : "TAB",
+        "BTTShortcutToSend" : "55,48",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 2
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739880087.7737389,
+    "BTTTriggerType" : 121,
+    "BTTTriggerTypeDescriptionReadOnly" : "4 Finger Click",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "83AEC6AA-DF9A-447B-BB97-70B1898539E4",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 1,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1733913906.2202439,
+        "BTTTriggerParentUUID" : "83AEC6AA-DF9A-447B-BB97-70B1898539E4",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "E7F4D531-F317-44FD-978E-17AF172ECA7B",
+        "BTTPredefinedActionType" : 50,
+        "BTTPredefinedActionName" : "Hide All Windows",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 3
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739880087.7737498,
+    "BTTTriggerType" : 158,
+    "BTTTriggerTypeDescriptionReadOnly" : "Corner Click Bottom Right",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "BE6179CD-B375-44D4-AE50-9BA2DCBB95B4",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 0,
+    "BTTOrder" : 2,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.7980509,
+        "BTTTriggerParentUUID" : "BE6179CD-B375-44D4-AE50-9BA2DCBB95B4",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "7410262A-801A-4D3C-8F14-29DD0D8A704D",
+        "BTTLayoutIndependentActionChar" : "g",
+        "BTTAutoAdaptActionToKeyboardLayout" : true,
+        "BTTGenericActionConfig" : "autoAdapt",
+        "BTTShortcutToSend" : "59,56,5",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 14
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739880087.773797,
+    "BTTTriggerType" : 157,
+    "BTTTriggerTypeDescriptionReadOnly" : "Corner Click Bottom Left",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "544D5830-E3B5-405A-ABEF-CA085C3CA104",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 0,
+    "BTTOrder" : 3,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1734861061.4949908,
+        "BTTTriggerParentUUID" : "544D5830-E3B5-405A-ABEF-CA085C3CA104",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "7A8E5F51-8C76-40CA-89F1-69A64B9BB3AF",
+        "BTTPredefinedActionType" : 59,
+        "BTTPredefinedActionName" : "Open URL  or  Open URL With Selection",
+        "BTTOpenURL" : "https:\/\/www.google.com\/search?q=%s&udm=14",
+        "BTTOpenURLBrowser" : "Default",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 15
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739880087.773792,
+    "BTTTriggerType" : 183,
+    "BTTTriggerTypeDescriptionReadOnly" : "Corner Click Top Right",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "0260A79C-1CB7-4597-B469-7F69EAA4C9BE",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 4,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1737286696.4692039,
+        "BTTTriggerParentUUID" : "0260A79C-1CB7-4597-B469-7F69EAA4C9BE",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "D988B5BF-BCEA-47DE-910D-626341A070C0",
+        "BTTLayoutIndependentActionChar" : "p",
+        "BTTShortcutToSend" : "59,58,35",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 16
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739880152.0377002,
+    "BTTTriggerType" : 102,
+    "BTTTriggerTypeDescriptionReadOnly" : "3 Finger Swipe Up",
+    "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+    "BTTUUID" : "CFC4F9FA-8CE0-4E6C-978B-92D1F1222EA0",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 5,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1739880161.8343229,
+        "BTTTriggerParentUUID" : "CFC4F9FA-8CE0-4E6C-978B-92D1F1222EA0",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+        "BTTUUID" : "7C9878F5-611A-4992-8DA9-955E0BB5B237",
+        "BTTLayoutIndependentActionChar" : "TAB",
+        "BTTShortcutToSend" : "55,48",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 38
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTTriggerType" : 202,
+    "BTTTriggerTypeDescriptionReadOnly" : "",
+    "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+    "BTTUUID" : "A902F4A3-801F-439F-939C-54CE4ED581C5",
+    "BTTGenericActionConfig2" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorBackgroundColorDark" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTSeparatorBackgroundColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTRepeatRate" : 2,
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 0
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739727499.53616,
+    "BTTTriggerType" : 1003,
+    "BTTTriggerTypeDescriptionReadOnly" : "Button 3",
+    "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+    "BTTUUID" : "0EC55A2B-A591-4760-A119-249B4D571C1E",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1739696071.3767951,
+        "BTTTriggerParentUUID" : "0EC55A2B-A591-4760-A119-249B4D571C1E",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+        "BTTUUID" : "3568BB95-9577-441F-9400-FF90D0506C30",
+        "BTTLayoutIndependentActionChar" : "h",
+        "BTTGenericActionConfig2" : "onlyDown",
+        "BTTShortcutToSend" : "59,58,56,55,4",
+        "BTTShortcutUpDown" : "onlyDown",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 37
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739727536.135989,
+    "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+    "BTTUUID" : "4AD015AE-7D41-4106-96C6-E1A616AF9863",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 1,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1739727553.4189811,
+        "BTTTriggerParentUUID" : "4AD015AE-7D41-4106-96C6-E1A616AF9863",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeNormalMouse",
+        "BTTUUID" : "75FB2C99-53AB-48FC-A1B4-545CEBBE973A",
+        "BTTPredefinedActionType" : 46,
+        "BTTPredefinedActionName" : "Application Switcher",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 38
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTTriggerType" : 202,
+    "BTTTriggerTypeDescriptionReadOnly" : "",
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "FC79B101-338D-4B56-A23F-E4CE01ABF3F6",
+    "BTTGenericActionConfig2" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorBackgroundColorDark" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTSeparatorBackgroundColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTRepeatRate" : 9,
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : -1,
+    "BTTOrder" : 0,
+    "BTTAutoAdaptToKeyboardLayout" : 0
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1739906962.0006471,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "8B8365C6-D79B-4B51-9EF9-99290B8F6135",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTAdditionalConfiguration" : "8388608",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "F4",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 118,
+    "BTTShortcutModifierKeys" : 8388608,
+    "BTTOrder" : 8,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8023491,
+        "BTTTriggerParentUUID" : "8B8365C6-D79B-4B51-9EF9-99290B8F6135",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "540F5BCC-F753-4F63-B5EC-CE71900A257F",
+        "BTTLayoutIndependentActionChar" : "SPACE",
+        "BTTShortcutToSend" : "55,49",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 19,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0744669,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "A828BF11-9CA9-45A5-913C-47AB2035A2EC",
+    "BTTPredefinedActionType" : 248,
+    "BTTPredefinedActionName" : "Trigger Named Trigger (Configured in Other Tab)",
+    "BTTNamedTriggerToTrigger" : "Escape",
+    "BTTAdditionalConfiguration" : "0",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "ESCAPE",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 53,
+    "BTTShortcutModifierKeys" : 0,
+    "BTTOrder" : 9,
+    "BTTAutoAdaptToKeyboardLayout" : 1
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.074404,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "8A2C8442-DA70-4551-B532-77B6C9690AEB",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTAdditionalConfiguration" : "8388608",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "e",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 14,
+    "BTTShortcutModifierKeys" : 8388608,
+    "BTTOrder" : 10,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8009539,
+        "BTTTriggerParentUUID" : "8A2C8442-DA70-4551-B532-77B6C9690AEB",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "E6961A47-45D6-43A1-8EB3-E8711C82A93A",
+        "BTTLayoutIndependentActionChar" : "e",
+        "BTTShortcutToSend" : "59,58,14",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 20,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1737284910.661659,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "2142E7C5-083A-4853-969D-3EC820BA463B",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTAdditionalConfiguration" : "393219",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "c",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 8,
+    "BTTShortcutModifierKeys" : 393216,
+    "BTTOrder" : 11,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1732319770.0909019,
+        "BTTTriggerParentUUID" : "2142E7C5-083A-4853-969D-3EC820BA463B",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "FBC9AB73-D3E9-4F4D-BC60-151C59CA718E",
+        "BTTPredefinedActionType" : 289,
+        "BTTPredefinedActionName" : "Close All Notification Alerts  or  Notification Center",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 21,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0744882,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "A94FA54F-AA6F-4D59-B3FE-86E7DB05AC6E",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTAdditionalConfiguration" : "8388608",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : ",",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 43,
+    "BTTShortcutModifierKeys" : 8388608,
+    "BTTOrder" : 12,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8035841,
+        "BTTTriggerParentUUID" : "A94FA54F-AA6F-4D59-B3FE-86E7DB05AC6E",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "DA01B9E8-1AFA-4F17-BEEC-7D19AAB4F0B3",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 32,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      },
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8033581,
+        "BTTTriggerParentUUID" : "A94FA54F-AA6F-4D59-B3FE-86E7DB05AC6E",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "3A0697DC-9E5A-43BA-B241-EB7D58FA2F3E",
+        "BTTLayoutIndependentActionChar" : ",",
+        "BTTShortcutToSend" : "59,58,56,43",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 33,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0744271,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "4C38725E-51BA-416E-A5CA-68B3B3377279",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTAdditionalConfiguration" : "8388608",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "v",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 9,
+    "BTTShortcutModifierKeys" : 8388608,
+    "BTTOrder" : 13,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8027802,
+        "BTTTriggerParentUUID" : "4C38725E-51BA-416E-A5CA-68B3B3377279",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "8102977B-6575-4252-97A2-1E9A0A678DD0",
+        "BTTLayoutIndependentActionChar" : "v",
+        "BTTShortcutToSend" : "58,55,9",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 21,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0744991,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "71EE9042-D764-430E-8ABE-C547420C5AB6",
+    "BTTPredefinedActionType" : 172,
+    "BTTPredefinedActionName" : "Run Apple Script (blocking)",
+    "BTTInlineAppleScript" : "tell application \"System Events\" to set FrontmostApp to name of application processes whose frontmost is true\n\ndisplay alert \"Command + Q\n\nAre you sure that you want to quit \" & FrontmostApp & \"?\" message \"Any unsaved changes will be lost.\" as critical buttons {\"Yes\", \"No\"} default button 1 cancel button \"No\"\n\nif the button returned of the result is \"yes\" then\n\ntell application (path to frontmost application as text) to quit\n\nend if",
+    "BTTAdditionalConfiguration" : "1048584",
+    "BTTKeyboardShortcutKeyboardType" : 2301,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "q",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 12,
+    "BTTShortcutModifierKeys" : 1048576,
+    "BTTOrder" : 14,
+    "BTTAutoAdaptToKeyboardLayout" : 0
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0744781,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "57FF1A6E-5485-4584-AC86-0A4D710C2D9E",
+    "BTTPredefinedActionType" : 248,
+    "BTTPredefinedActionName" : "Trigger Named Trigger (Configured in Other Tab)",
+    "BTTNamedTriggerToTrigger" : "Show Window Snapper",
+    "BTTAdditionalConfiguration" : "1179648",
+    "BTTKeyboardShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "w",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 13,
+    "BTTShortcutModifierKeys" : 1179648,
+    "BTTOrder" : 15,
+    "BTTAutoAdaptToKeyboardLayout" : 1,
+    "BTTFiles" : [
+      {
+        "BTTFileContent" : "PGh0bWw+Cgo8aGVhZD4KICAgIDxzdHlsZT4KICAgICAgICAuZ3JpZC1jb250YWluZXIgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBoZWlnaHQ6IDE1MHB4OwogICAgICAgICAgICB3aWR0aDogMTUwcHg7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNkOWQ5ZDk7CiAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNiNWI2Yjc7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLXRlbXBsYXRlLXJvd3M6IDFmciAxZnI7CiAgICAgICAgICAgIGdyaWQtZ2FwOiAwcHggMHB4OwogICAgICAgICAgICBncmlkLXRlbXBsYXRlLWFyZWFzOiAiVG9wTGVmdCBUb3BSaWdodCIiQm90dG9tTGVmdCBCb3R0b21SaWdodCI7CiAgICAgICAgfQoKICAgICAgICAuaGlnaGxpZ2h0ZWQgewogICAgICAgICAgICBvcGFjaXR5OiAuNjsKICAgICAgICAgICAgdHJhbnNpdGlvbjogMC4zcyBlYXNlLWluLW91dDsKICAgICAgICB9CgogICAgICAgIC5Ub3BMZWZ0VG9wTGVmdDpob3ZlciwKICAgICAgICAuVG9wUmlnaHRUb3BSaWdodDpob3ZlciwKICAgICAgICAuQm90dG9tTGVmdEJvdHRvbUxlZnQ6aG92ZXIsCiAgICAgICAgLkJvdHRvbVJpZ2h0Qm90dG9tUmlnaHQ6aG92ZXIgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjZDlkOWQ5OwogICAgICAgICAgICB0cmFuc2l0aW9uOiAwLjJzIGVhc2UtaW4tb3V0OwogICAgICAgIH0KCiAgICAgICAgLlRvcExlZnQgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnQ7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLWdhcDogMXB4IDFweDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1hcmVhczoKICAgICAgICAgICAgICAgICJUb3BMZWZ0VG9wTGVmdCBUb3BMZWZ0VG9wUmlnaHQiIlRvcExlZnRCb3R0b21MZWZ0IFRvcExlZnRCb3R0b21SaWdodCI7CiAgICAgICAgfQoKICAgICAgICAuVG9wTGVmdFRvcExlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRUb3BMZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGOwogICAgICAgICAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAxMHB4OwogICAgICAgICAgICAtd2Via2l0LWJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgfQoKICAgICAgICAuVG9wTGVmdEJvdHRvbUxlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRCb3R0b21MZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgIH0KCgogICAgICAgIC5Ub3BMZWZ0VG9wUmlnaHQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRUb3BSaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICB9CgogICAgICAgIC5Ub3BMZWZ0Qm90dG9tUmlnaHQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRCb3R0b21SaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICB9CgogICAgICAgIC5Ub3BSaWdodCB7CiAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQ7CiAgICAgICAgICAgIGdyaWQtYXJlYTogVG9wUmlnaHQ7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLWdhcDogMXB4IDFweDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1hcmVhczogIlRvcFJpZ2h0VG9wTGVmdCBUb3BSaWdodFRvcFJpZ2h0IiJUb3BSaWdodEJvdHRvbUxlZnQgVG9wUmlnaHRCb3R0b21SaWdodCI7CiAgICAgICAgfQoKICAgICAgICAuVG9wUmlnaHRUb3BMZWZ0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBUb3BSaWdodFRvcExlZnQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuVG9wUmlnaHRUb3BSaWdodCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogVG9wUmlnaHRUb3BSaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICAgICAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDEwcHg7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICB9CgogICAgICAgIC5Ub3BSaWdodEJvdHRvbUxlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcFJpZ2h0Qm90dG9tTGVmdDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICB9CgogICAgICAgIC5Ub3BSaWdodEJvdHRvbVJpZ2h0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBUb3BSaWdodEJvdHRvbVJpZ2h0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgIH0KCiAgICAgICAgLkJvdHRvbUxlZnQgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbUxlZnQ7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLWdhcDogMXB4IDFweDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1hcmVhczogIkJvdHRvbUxlZnRUb3BMZWZ0IEJvdHRvbUxlZnRUb3BSaWdodCIiQm90dG9tTGVmdEJvdHRvbUxlZnQgQm90dG9tTGVmdEJvdHRvbVJpZ2h0IjsKICAgICAgICB9CgogICAgICAgIC5Cb3R0b21MZWZ0VG9wTGVmdCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogQm90dG9tTGVmdFRvcExlZnQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tTGVmdFRvcFJpZ2h0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBCb3R0b21MZWZ0VG9wUmlnaHQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tTGVmdEJvdHRvbUxlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbUxlZnRCb3R0b21MZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgICAgICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiAxMHB4OwogICAgICAgICAgICAtd2Via2l0LWJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tTGVmdEJvdHRvbVJpZ2h0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBCb3R0b21MZWZ0Qm90dG9tUmlnaHQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tUmlnaHQgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbVJpZ2h0OwogICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtcm93czogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC1nYXA6IDFweCAxcHg7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtYXJlYXM6ICJCb3R0b21SaWdodFRvcExlZnQgQm90dG9tUmlnaHRUb3BSaWdodCIiQm90dG9tUmlnaHRCb3R0b21MZWZ0IEJvdHRvbVJpZ2h0Qm90dG9tUmlnaHQiOwogICAgICAgIH0KCiAgICAgICAgLkJvdHRvbVJpZ2h0VG9wTGVmdCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogQm90dG9tUmlnaHRUb3BMZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgIH0KCiAgICAgICAgLkJvdHRvbVJpZ2h0VG9wUmlnaHQgewogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbVJpZ2h0VG9wUmlnaHQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tUmlnaHRCb3R0b21MZWZ0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBCb3R0b21SaWdodEJvdHRvbUxlZnQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tUmlnaHRCb3R0b21SaWdodCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogQm90dG9tUmlnaHRCb3R0b21SaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICAgICAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IDEwcHg7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICB9CiAgICA8L3N0eWxlPgoKICAgIDxzY3JpcHQ+CiAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkID0gW107CgogICAgICAgIGZ1bmN0aW9uIGFkZEhpZ2hsaWdodChjbGFzc05hbWVzKSB7CiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgY2xhc3NOYW1lcy5sZW5ndGg7IGkrKykgewogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLnB1c2goY2xhc3NOYW1lc1tpXSk7CiAgICAgICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKGNsYXNzTmFtZXNbaV0pLml0ZW0oMCkuY2xhc3NMaXN0LmFkZCgnaGlnaGxpZ2h0ZWQnKTsKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgICAgIGZ1bmN0aW9uIHVuaXEoYSkgewogICAgICAgICAgICB2YXIgcHJpbXMgPSB7CiAgICAgICAgICAgICAgICAgICAgImJvb2xlYW4iOiB7fSwKICAgICAgICAgICAgICAgICAgICAibnVtYmVyIjoge30sCiAgICAgICAgICAgICAgICAgICAgInN0cmluZyI6IHt9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgb2JqcyA9IFtdOwoKICAgICAgICAgICAgcmV0dXJuIGEuZmlsdGVyKGZ1bmN0aW9uKGl0ZW0pIHsKICAgICAgICAgICAgICAgIHZhciB0eXBlID0gdHlwZW9mIGl0ZW07CiAgICAgICAgICAgICAgICBpZiAodHlwZSBpbiBwcmltcykKICAgICAgICAgICAgICAgICAgICByZXR1cm4gcHJpbXNbdHlwZV0uaGFzT3duUHJvcGVydHkoaXRlbSkgPyBmYWxzZSA6IChwcmltc1t0eXBlXVtpdGVtXSA9IHRydWUpOwogICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgIHJldHVybiBvYmpzLmluZGV4T2YoaXRlbSkgPj0gMCA_IGZhbHNlIDogb2Jqcy5wdXNoKGl0ZW0pOwogICAgICAgICAgICB9KTsKICAgICAgICB9CgogICAgICAgIGZ1bmN0aW9uIHJlbW92ZUhpZ2hsaWdodChjbGFzc05hbWVzKSB7CgogICAgICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IGNsYXNzTmFtZXMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgIHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZCA9IHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5maWx0ZXIoZSA9PiBlICE9PSBjbGFzc05hbWVzW2ldKTsKICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoY2xhc3NOYW1lc1tpXSkuaXRlbSgwKS5jbGFzc0xpc3QucmVtb3ZlKCdoaWdobGlnaHRlZCcpOwogICAgICAgICAgICB9CgogICAgICAgIH0KCgogICAgICAgIGZ1bmN0aW9uIHBlcmZvcm1BY3Rpb24oKSB7CiAgICAgICAgICAgIGNvbnNvbGUubG9nKHVuaXEod2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkKSk7CiAgICAgICAgICAgIHZhciB0cmlnZ2VyID0gJyc7CiAgICAgICAgICAgIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignVG9wTGVmdCcpICE9PSAtMSAmJgogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ1RvcFJpZ2h0JykgIT09IC0xICYmCiAgICAgICAgICAgICAgICB3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignQm90dG9tTGVmdCcpICE9PSAtMSAmJgogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ0JvdHRvbVJpZ2h0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ21heGltaXplJzsKICAgICAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignVG9wTGVmdCcpICE9PSAtMSAmJgogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ1RvcFJpZ2h0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ3RvcGhhbGYnOwogICAgICAgICAgICB9IGVsc2UgaWYgKHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdCb3R0b21MZWZ0JykgIT09IC0xICYmCiAgICAgICAgICAgICAgICB3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignQm90dG9tUmlnaHQnKSAhPT0gLTEpIHsKICAgICAgICAgICAgICAgIHRyaWdnZXIgPSAnYm90dG9taGFsZic7CiAgICAgICAgICAgIH0gZWxzZSBpZiAod2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ1RvcExlZnQnKSAhPT0gLTEgJiYKICAgICAgICAgICAgICAgIHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdCb3R0b21MZWZ0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ2xlZnRoYWxmJzsKICAgICAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignVG9wUmlnaHQnKSAhPT0gLTEgJiYKICAgICAgICAgICAgICAgIHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdCb3R0b21SaWdodCcpICE9PSAtMSkgewogICAgICAgICAgICAgICAgdHJpZ2dlciA9ICdyaWdodGhhbGYnOwogICAgICAgICAgICB9IGVsc2UgaWYgKHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdUb3BSaWdodCcpICE9PSAtMSkgewogICAgICAgICAgICAgICAgdHJpZ2dlciA9ICd0b3ByaWdodCc7CgogICAgICAgICAgICB9IGVsc2UgaWYgKHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdUb3BMZWZ0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ3RvcGxlZnQnOwoKICAgICAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignQm90dG9tTGVmdCcpICE9PSAtMSkgewogICAgICAgICAgICAgICAgdHJpZ2dlciA9ICdib3R0b21sZWZ0JzsKCiAgICAgICAgICAgIH0gZWxzZSBpZiAod2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ0JvdHRvbVJpZ2h0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ2JvdHRvbXJpZ2h0JzsKCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCd0cmlnZ2VyJywgdHJpZ2dlcik7CiAgICAgICAgICAgIHdpbmRvdy5CVFQuY2FsbEhhbmRsZXIoJ3RyaWdnZXJfbmFtZWQnLCB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyX25hbWU6IHRyaWdnZXIsCiAgICAgICAgICAgICAgICBjbG9zZUZsb2F0aW5nSFRNTE1lbnU6IDEKICAgICAgICAgICAgfSkKICAgICAgICB9CiAgICA8L3NjcmlwdD4KCjwvaGVhZD4KCjxib2R5PgogICAgPGRpdiBjbGFzcz0iZ3JpZC1jb250YWluZXIiIG9uY2xpY2s9InBlcmZvcm1BY3Rpb24oKSI+CiAgICAgICAgPGRpdiBjbGFzcz0iVG9wTGVmdCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcExlZnQnXSkiIG9ubW91c2VvdXQ9InJlbW92ZUhpZ2hsaWdodChbJ1RvcExlZnQnXSk7Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYXJlYS1vdmVybGFwIFRvcExlZnRUb3BMZWZ0Ij4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcExlZnRCb3R0b21MZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iVG9wTGVmdFRvcFJpZ2h0IFRvcCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ1RvcExlZnQnXSk7IiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydUb3BSaWdodCcsICdUb3BMZWZ0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcExlZnRCb3R0b21SaWdodCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ0JvdHRvbVJpZ2h0JywgJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnLCAnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iVG9wUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydUb3BSaWdodCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnXSkiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJhcmVhLW92ZXJsYXAgVG9wUmlnaHRUb3BMZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnVG9wTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnVG9wTGVmdCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJUb3BSaWdodFRvcFJpZ2h0Ij4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcFJpZ2h0Qm90dG9tTGVmdCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ0JvdHRvbVJpZ2h0JywgJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnLCAnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcFJpZ2h0Qm90dG9tUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydUb3BSaWdodCcsICdCb3R0b21SaWdodCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPCEtLQogICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9IkJvdHRvbUxlZnQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0J10pIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYXJlYS1vdmVybGFwIEJvdHRvbUxlZnRUb3BMZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIC0tPgoKICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCddKSI+CgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJhcmVhLW92ZXJsYXAgQm90dG9tTGVmdFRvcExlZnQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiIG9ubW91c2VvdXQ9InJlbW92ZUhpZ2hsaWdodChbJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0VG9wUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydUb3BSaWdodCcsICdCb3R0b21SaWdodCcsICdCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiIG9ubW91c2VvdXQ9InJlbW92ZUhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ0JvdHRvbVJpZ2h0JywgJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0Qm90dG9tTGVmdCI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0Qm90dG9tUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iQm90dG9tUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21SaWdodCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnQm90dG9tUmlnaHQnXSkiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJhcmVhLW92ZXJsYXAgQm90dG9tUmlnaHRUb3BMZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnLCAnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydUb3BSaWdodCcsICdCb3R0b21SaWdodCcsICdCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iQm90dG9tUmlnaHRUb3BSaWdodCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ0JvdHRvbVJpZ2h0JywgJ1RvcFJpZ2h0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21SaWdodCcsICdUb3BSaWdodCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21SaWdodEJvdHRvbUxlZnQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IkJvdHRvbVJpZ2h0Qm90dG9tUmlnaHQiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICA8L2Rpdj4KPC9ib2R5PgoKCjwvaHRtbD4=",
+        "BTTFileOther" : "html"
+      },
+      {
+        "BTTFileContent" : "PGh0bWw+Cgo8aGVhZD4KICAgIDxzdHlsZT4KICAgICAgICAuZ3JpZC1jb250YWluZXIgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBoZWlnaHQ6IDE1MHB4OwogICAgICAgICAgICB3aWR0aDogMTUwcHg7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNkOWQ5ZDk7CiAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNiNWI2Yjc7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLXRlbXBsYXRlLXJvd3M6IDFmciAxZnI7CiAgICAgICAgICAgIGdyaWQtZ2FwOiAwcHggMHB4OwogICAgICAgICAgICBncmlkLXRlbXBsYXRlLWFyZWFzOiAiVG9wTGVmdCBUb3BSaWdodCIiQm90dG9tTGVmdCBCb3R0b21SaWdodCI7CiAgICAgICAgfQoKICAgICAgICAuaGlnaGxpZ2h0ZWQgewogICAgICAgICAgICBvcGFjaXR5OiAuNjsKICAgICAgICAgICAgdHJhbnNpdGlvbjogMC4zcyBlYXNlLWluLW91dDsKICAgICAgICB9CgogICAgICAgIC5Ub3BMZWZ0VG9wTGVmdDpob3ZlciwKICAgICAgICAuVG9wUmlnaHRUb3BSaWdodDpob3ZlciwKICAgICAgICAuQm90dG9tTGVmdEJvdHRvbUxlZnQ6aG92ZXIsCiAgICAgICAgLkJvdHRvbVJpZ2h0Qm90dG9tUmlnaHQ6aG92ZXIgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjZDlkOWQ5OwogICAgICAgICAgICB0cmFuc2l0aW9uOiAwLjJzIGVhc2UtaW4tb3V0OwogICAgICAgIH0KCiAgICAgICAgLlRvcExlZnQgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnQ7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLWdhcDogMXB4IDFweDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1hcmVhczoKICAgICAgICAgICAgICAgICJUb3BMZWZ0VG9wTGVmdCBUb3BMZWZ0VG9wUmlnaHQiIlRvcExlZnRCb3R0b21MZWZ0IFRvcExlZnRCb3R0b21SaWdodCI7CiAgICAgICAgfQoKICAgICAgICAuVG9wTGVmdFRvcExlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRUb3BMZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRkZGRkZGOwogICAgICAgICAgICBib3JkZXItdG9wLWxlZnQtcmFkaXVzOiAxMHB4OwogICAgICAgICAgICAtd2Via2l0LWJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgfQoKICAgICAgICAuVG9wTGVmdEJvdHRvbUxlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRCb3R0b21MZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgIH0KCgogICAgICAgIC5Ub3BMZWZ0VG9wUmlnaHQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRUb3BSaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICB9CgogICAgICAgIC5Ub3BMZWZ0Qm90dG9tUmlnaHQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcExlZnRCb3R0b21SaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICB9CgogICAgICAgIC5Ub3BSaWdodCB7CiAgICAgICAgICAgIGRpc3BsYXk6IGdyaWQ7CiAgICAgICAgICAgIGdyaWQtYXJlYTogVG9wUmlnaHQ7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLWdhcDogMXB4IDFweDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1hcmVhczogIlRvcFJpZ2h0VG9wTGVmdCBUb3BSaWdodFRvcFJpZ2h0IiJUb3BSaWdodEJvdHRvbUxlZnQgVG9wUmlnaHRCb3R0b21SaWdodCI7CiAgICAgICAgfQoKICAgICAgICAuVG9wUmlnaHRUb3BMZWZ0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBUb3BSaWdodFRvcExlZnQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuVG9wUmlnaHRUb3BSaWdodCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogVG9wUmlnaHRUb3BSaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICAgICAgYm9yZGVyLXRvcC1yaWdodC1yYWRpdXM6IDEwcHg7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICB9CgogICAgICAgIC5Ub3BSaWdodEJvdHRvbUxlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IFRvcFJpZ2h0Qm90dG9tTGVmdDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICB9CgogICAgICAgIC5Ub3BSaWdodEJvdHRvbVJpZ2h0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBUb3BSaWdodEJvdHRvbVJpZ2h0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgIH0KCiAgICAgICAgLkJvdHRvbUxlZnQgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbUxlZnQ7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiAxZnIgMWZyOwogICAgICAgICAgICBncmlkLWdhcDogMXB4IDFweDsKICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1hcmVhczogIkJvdHRvbUxlZnRUb3BMZWZ0IEJvdHRvbUxlZnRUb3BSaWdodCIiQm90dG9tTGVmdEJvdHRvbUxlZnQgQm90dG9tTGVmdEJvdHRvbVJpZ2h0IjsKICAgICAgICB9CgogICAgICAgIC5Cb3R0b21MZWZ0VG9wTGVmdCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogQm90dG9tTGVmdFRvcExlZnQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tTGVmdFRvcFJpZ2h0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBCb3R0b21MZWZ0VG9wUmlnaHQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tTGVmdEJvdHRvbUxlZnQgewogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbUxlZnRCb3R0b21MZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgICAgICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiAxMHB4OwogICAgICAgICAgICAtd2Via2l0LWJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY2xpcDogcGFkZGluZy1ib3g7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tTGVmdEJvdHRvbVJpZ2h0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBCb3R0b21MZWZ0Qm90dG9tUmlnaHQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tUmlnaHQgewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbVJpZ2h0OwogICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtcm93czogMWZyIDFmcjsKICAgICAgICAgICAgZ3JpZC1nYXA6IDFweCAxcHg7CiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtYXJlYXM6ICJCb3R0b21SaWdodFRvcExlZnQgQm90dG9tUmlnaHRUb3BSaWdodCIiQm90dG9tUmlnaHRCb3R0b21MZWZ0IEJvdHRvbVJpZ2h0Qm90dG9tUmlnaHQiOwogICAgICAgIH0KCiAgICAgICAgLkJvdHRvbVJpZ2h0VG9wTGVmdCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogQm90dG9tUmlnaHRUb3BMZWZ0OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiAjRkZGRkZGOwogICAgICAgIH0KCiAgICAgICAgLkJvdHRvbVJpZ2h0VG9wUmlnaHQgewogICAgICAgICAgICBncmlkLWFyZWE6IEJvdHRvbVJpZ2h0VG9wUmlnaHQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tUmlnaHRCb3R0b21MZWZ0IHsKICAgICAgICAgICAgZ3JpZC1hcmVhOiBCb3R0b21SaWdodEJvdHRvbUxlZnQ7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNGRkZGRkY7CiAgICAgICAgfQoKICAgICAgICAuQm90dG9tUmlnaHRCb3R0b21SaWdodCB7CiAgICAgICAgICAgIGdyaWQtYXJlYTogQm90dG9tUmlnaHRCb3R0b21SaWdodDsKICAgICAgICAgICAgYmFja2dyb3VuZDogI0ZGRkZGRjsKICAgICAgICAgICAgYm9yZGVyLWJvdHRvbS1yaWdodC1yYWRpdXM6IDEwcHg7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICAgICAgYmFja2dyb3VuZC1jbGlwOiBwYWRkaW5nLWJveDsKICAgICAgICB9CiAgICA8L3N0eWxlPgoKICAgIDxzY3JpcHQ+CiAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkID0gW107CgogICAgICAgIGZ1bmN0aW9uIGFkZEhpZ2hsaWdodChjbGFzc05hbWVzKSB7CiAgICAgICAgICAgIGZvciAodmFyIGkgPSAwOyBpIDwgY2xhc3NOYW1lcy5sZW5ndGg7IGkrKykgewogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLnB1c2goY2xhc3NOYW1lc1tpXSk7CiAgICAgICAgICAgICAgICBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKGNsYXNzTmFtZXNbaV0pLml0ZW0oMCkuY2xhc3NMaXN0LmFkZCgnaGlnaGxpZ2h0ZWQnKTsKICAgICAgICAgICAgfQoKICAgICAgICB9CgogICAgICAgIGZ1bmN0aW9uIHVuaXEoYSkgewogICAgICAgICAgICB2YXIgcHJpbXMgPSB7CiAgICAgICAgICAgICAgICAgICAgImJvb2xlYW4iOiB7fSwKICAgICAgICAgICAgICAgICAgICAibnVtYmVyIjoge30sCiAgICAgICAgICAgICAgICAgICAgInN0cmluZyI6IHt9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgb2JqcyA9IFtdOwoKICAgICAgICAgICAgcmV0dXJuIGEuZmlsdGVyKGZ1bmN0aW9uKGl0ZW0pIHsKICAgICAgICAgICAgICAgIHZhciB0eXBlID0gdHlwZW9mIGl0ZW07CiAgICAgICAgICAgICAgICBpZiAodHlwZSBpbiBwcmltcykKICAgICAgICAgICAgICAgICAgICByZXR1cm4gcHJpbXNbdHlwZV0uaGFzT3duUHJvcGVydHkoaXRlbSkgPyBmYWxzZSA6IChwcmltc1t0eXBlXVtpdGVtXSA9IHRydWUpOwogICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgIHJldHVybiBvYmpzLmluZGV4T2YoaXRlbSkgPj0gMCA_IGZhbHNlIDogb2Jqcy5wdXNoKGl0ZW0pOwogICAgICAgICAgICB9KTsKICAgICAgICB9CgogICAgICAgIGZ1bmN0aW9uIHJlbW92ZUhpZ2hsaWdodChjbGFzc05hbWVzKSB7CgogICAgICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IGNsYXNzTmFtZXMubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgIHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZCA9IHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5maWx0ZXIoZSA9PiBlICE9PSBjbGFzc05hbWVzW2ldKTsKICAgICAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoY2xhc3NOYW1lc1tpXSkuaXRlbSgwKS5jbGFzc0xpc3QucmVtb3ZlKCdoaWdobGlnaHRlZCcpOwogICAgICAgICAgICB9CgogICAgICAgIH0KCgogICAgICAgIGZ1bmN0aW9uIHBlcmZvcm1BY3Rpb24oKSB7CiAgICAgICAgICAgIGNvbnNvbGUubG9nKHVuaXEod2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkKSk7CiAgICAgICAgICAgIHZhciB0cmlnZ2VyID0gJyc7CiAgICAgICAgICAgIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignVG9wTGVmdCcpICE9PSAtMSAmJgogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ1RvcFJpZ2h0JykgIT09IC0xICYmCiAgICAgICAgICAgICAgICB3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignQm90dG9tTGVmdCcpICE9PSAtMSAmJgogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ0JvdHRvbVJpZ2h0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ21heGltaXplJzsKICAgICAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignVG9wTGVmdCcpICE9PSAtMSAmJgogICAgICAgICAgICAgICAgd2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ1RvcFJpZ2h0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ3RvcGhhbGYnOwogICAgICAgICAgICB9IGVsc2UgaWYgKHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdCb3R0b21MZWZ0JykgIT09IC0xICYmCiAgICAgICAgICAgICAgICB3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignQm90dG9tUmlnaHQnKSAhPT0gLTEpIHsKICAgICAgICAgICAgICAgIHRyaWdnZXIgPSAnYm90dG9taGFsZic7CiAgICAgICAgICAgIH0gZWxzZSBpZiAod2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ1RvcExlZnQnKSAhPT0gLTEgJiYKICAgICAgICAgICAgICAgIHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdCb3R0b21MZWZ0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ2xlZnRoYWxmJzsKICAgICAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignVG9wUmlnaHQnKSAhPT0gLTEgJiYKICAgICAgICAgICAgICAgIHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdCb3R0b21SaWdodCcpICE9PSAtMSkgewogICAgICAgICAgICAgICAgdHJpZ2dlciA9ICdyaWdodGhhbGYnOwogICAgICAgICAgICB9IGVsc2UgaWYgKHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdUb3BSaWdodCcpICE9PSAtMSkgewogICAgICAgICAgICAgICAgdHJpZ2dlciA9ICd0b3ByaWdodCc7CgogICAgICAgICAgICB9IGVsc2UgaWYgKHdpbmRvdy5jdXJyZW50bHlIaWdobGlnaHRlZC5pbmRleE9mKCdUb3BMZWZ0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ3RvcGxlZnQnOwoKICAgICAgICAgICAgfSBlbHNlIGlmICh3aW5kb3cuY3VycmVudGx5SGlnaGxpZ2h0ZWQuaW5kZXhPZignQm90dG9tTGVmdCcpICE9PSAtMSkgewogICAgICAgICAgICAgICAgdHJpZ2dlciA9ICdib3R0b21sZWZ0JzsKCiAgICAgICAgICAgIH0gZWxzZSBpZiAod2luZG93LmN1cnJlbnRseUhpZ2hsaWdodGVkLmluZGV4T2YoJ0JvdHRvbVJpZ2h0JykgIT09IC0xKSB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyID0gJ2JvdHRvbXJpZ2h0JzsKCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGNvbnNvbGUubG9nKCd0cmlnZ2VyJywgdHJpZ2dlcik7CiAgICAgICAgICAgIHdpbmRvdy5CVFQuY2FsbEhhbmRsZXIoJ3RyaWdnZXJfbmFtZWQnLCB7CiAgICAgICAgICAgICAgICB0cmlnZ2VyX25hbWU6IHRyaWdnZXIsCiAgICAgICAgICAgICAgICBjbG9zZUZsb2F0aW5nSFRNTE1lbnU6IDEKICAgICAgICAgICAgfSkKICAgICAgICB9CiAgICA8L3NjcmlwdD4KCjwvaGVhZD4KCjxib2R5PgogICAgPGRpdiBjbGFzcz0iZ3JpZC1jb250YWluZXIiIG9uY2xpY2s9InBlcmZvcm1BY3Rpb24oKSI+CiAgICAgICAgPGRpdiBjbGFzcz0iVG9wTGVmdCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcExlZnQnXSkiIG9ubW91c2VvdXQ9InJlbW92ZUhpZ2hsaWdodChbJ1RvcExlZnQnXSk7Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYXJlYS1vdmVybGFwIFRvcExlZnRUb3BMZWZ0Ij4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcExlZnRCb3R0b21MZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iVG9wTGVmdFRvcFJpZ2h0IFRvcCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ1RvcExlZnQnXSk7IiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydUb3BSaWdodCcsICdUb3BMZWZ0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcExlZnRCb3R0b21SaWdodCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ0JvdHRvbVJpZ2h0JywgJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnLCAnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iVG9wUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydUb3BSaWdodCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnXSkiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJhcmVhLW92ZXJsYXAgVG9wUmlnaHRUb3BMZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnVG9wTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnVG9wTGVmdCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJUb3BSaWdodFRvcFJpZ2h0Ij4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcFJpZ2h0Qm90dG9tTGVmdCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ0JvdHRvbVJpZ2h0JywgJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnLCAnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IlRvcFJpZ2h0Qm90dG9tUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydUb3BSaWdodCcsICdCb3R0b21SaWdodCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPCEtLQogICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9IkJvdHRvbUxlZnQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0J10pIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYXJlYS1vdmVybGFwIEJvdHRvbUxlZnRUb3BMZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIC0tPgoKICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnQm90dG9tTGVmdCddKSI+CgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJhcmVhLW92ZXJsYXAgQm90dG9tTGVmdFRvcExlZnQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiIG9ubW91c2VvdXQ9InJlbW92ZUhpZ2hsaWdodChbJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0VG9wUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydUb3BSaWdodCcsICdCb3R0b21SaWdodCcsICdCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiIG9ubW91c2VvdXQ9InJlbW92ZUhpZ2hsaWdodChbJ1RvcFJpZ2h0JywgJ0JvdHRvbVJpZ2h0JywgJ0JvdHRvbUxlZnQnLCAnVG9wTGVmdCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0Qm90dG9tTGVmdCI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21MZWZ0Qm90dG9tUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iQm90dG9tUmlnaHQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21SaWdodCddKSIgb25tb3VzZW91dD0icmVtb3ZlSGlnaGxpZ2h0KFsnQm90dG9tUmlnaHQnXSkiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJhcmVhLW92ZXJsYXAgQm90dG9tUmlnaHRUb3BMZWZ0IiBvbm1vdXNlb3Zlcj0iYWRkSGlnaGxpZ2h0KFsnVG9wUmlnaHQnLCAnQm90dG9tUmlnaHQnLCAnQm90dG9tTGVmdCcsICdUb3BMZWZ0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydUb3BSaWdodCcsICdCb3R0b21SaWdodCcsICdCb3R0b21MZWZ0JywgJ1RvcExlZnQnXSkiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iQm90dG9tUmlnaHRUb3BSaWdodCIgb25tb3VzZW92ZXI9ImFkZEhpZ2hsaWdodChbJ0JvdHRvbVJpZ2h0JywgJ1RvcFJpZ2h0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21SaWdodCcsICdUb3BSaWdodCddKSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJCb3R0b21SaWdodEJvdHRvbUxlZnQiIG9ubW91c2VvdmVyPSJhZGRIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIiBvbm1vdXNlb3V0PSJyZW1vdmVIaWdobGlnaHQoWydCb3R0b21MZWZ0JywgJ0JvdHRvbVJpZ2h0J10pIj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9IkJvdHRvbVJpZ2h0Qm90dG9tUmlnaHQiPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KCiAgICA8L2Rpdj4KPC9ib2R5PgoKCjwvaHRtbD4=",
+        "BTTFileOther" : "html"
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.074456,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "CF96CA91-49C2-4A68-B735-029620F57693",
+    "BTTPredefinedActionType" : 29,
+    "BTTPredefinedActionName" : "Brightness Down",
+    "BTTAdditionalConfiguration" : "8388608",
+    "BTTKeyboardShortcutKeyboardType" : 1806,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "ࢳ",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 145,
+    "BTTShortcutModifierKeys" : 8388608,
+    "BTTOrder" : 16,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8023419,
+        "BTTTriggerParentUUID" : "CF96CA91-49C2-4A68-B735-029620F57693",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "763F424B-453C-4B68-A122-08896FD31F82",
+        "BTTPredefinedActionType" : 121,
+        "BTTPredefinedActionName" : "Brightness Down (External Display)",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTTriggerOnDown" : 1,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 0,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.074461,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "F53314B1-3E14-4C6C-A5C2-0C36D0C28E28",
+    "BTTPredefinedActionType" : 28,
+    "BTTPredefinedActionName" : "Brightness Up",
+    "BTTAdditionalConfiguration" : "8388608",
+    "BTTKeyboardShortcutKeyboardType" : 1806,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "঳",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 144,
+    "BTTShortcutModifierKeys" : 8388608,
+    "BTTOrder" : 17,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8032331,
+        "BTTTriggerParentUUID" : "F53314B1-3E14-4C6C-A5C2-0C36D0C28E28",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "89649BDD-0A8E-4310-A6EC-BF568C9E7A81",
+        "BTTPredefinedActionType" : 120,
+        "BTTPredefinedActionName" : "Brightness Up (External Display)",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTTriggerOnDown" : 1,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 0,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0743661,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "A0BE5D86-6715-463D-AD23-D82B0EC985F4",
+    "BTTPredefinedActionType" : 260,
+    "BTTPredefinedActionName" : "Brightness Down  (Small Step)",
+    "BTTAdditionalConfiguration" : "9044002",
+    "BTTKeyboardShortcutKeyboardType" : 1806,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "ࢳ",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 145,
+    "BTTShortcutModifierKeys" : 9043968,
+    "BTTOrder" : 18,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8031411,
+        "BTTTriggerParentUUID" : "A0BE5D86-6715-463D-AD23-D82B0EC985F4",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "27A85291-F679-4190-8E9C-567F76FF6388",
+        "BTTPredefinedActionType" : 262,
+        "BTTPredefinedActionName" : "Brightness Down  (Small Step, External Display)",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTTriggerOnDown" : 1,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 0,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.074373,
+    "BTTTriggerType" : 0,
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "4CBFB67C-0CEA-4BA1-A17B-521D6400BB9D",
+    "BTTPredefinedActionType" : 259,
+    "BTTPredefinedActionName" : "Brightness Up (Small Step)",
+    "BTTAdditionalConfiguration" : "9044002",
+    "BTTKeyboardShortcutKeyboardType" : 1806,
+    "BTTTriggerOnDown" : 1,
+    "BTTLayoutIndependentChar" : "঳",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTShortcutKeyCode" : 144,
+    "BTTShortcutModifierKeys" : 9043968,
+    "BTTOrder" : 19,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8010778,
+        "BTTTriggerParentUUID" : "4CBFB67C-0CEA-4BA1-A17B-521D6400BB9D",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "C9B931FC-E349-4673-9E15-B4E2F022ED8B",
+        "BTTPredefinedActionType" : 261,
+        "BTTPredefinedActionName" : "Brightness Up (Small Step, External Display)",
+        "BTTKeyboardShortcutKeyboardType" : 0,
+        "BTTTriggerOnDown" : 1,
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTShortcutKeyCode" : -1,
+        "BTTOrder" : 0,
+        "BTTAutoAdaptToKeyboardLayout" : 0
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTTriggerType" : 202,
+    "BTTTriggerTypeDescriptionReadOnly" : "",
+    "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+    "BTTUUID" : "6B8ADAA8-DBD7-4072-AF57-5B73FD4DE2F1",
+    "BTTGenericActionConfig2" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorBackgroundColorDark" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTSeparatorBackgroundColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTRepeatRate" : 11,
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 0
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0744939,
+    "BTTTriggerType" : 770,
+    "BTTTriggerTypeDescriptionReadOnly" : "Move Mouse To Right Edge Of Screen",
+    "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+    "BTTUUID" : "63BE9FE8-8CF3-4CE4-9FBA-E0CE1FA0B420",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTMoveToRightScreenEdgeMinDistance" : 4,
+    "BTTDelayBeforeTriggering" : 0,
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTRequiredModifierKeys" : 8388608,
+    "BTTOrder" : 22,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723313000.4522049,
+        "BTTTriggerParentUUID" : "63BE9FE8-8CF3-4CE4-9FBA-E0CE1FA0B420",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+        "BTTUUID" : "AAD6199F-EB70-4BAC-8CC8-26FBB5A6BA22",
+        "BTTPredefinedActionType" : 171,
+        "BTTPredefinedActionName" : "Capture Screenshot then edit in BTT (easiest)",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 34
+      }
+    ]
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTTriggerType" : 202,
+    "BTTTriggerTypeDescriptionReadOnly" : "",
+    "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+    "BTTUUID" : "1CD75A9E-A953-4035-ABF3-C3FACE8FA59A",
+    "BTTGenericActionConfig2" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorBackgroundColorDark" : "0.000000, 0.000000, 0.000000, 255.000000",
+    "BTTSeparatorFontColorDark" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTSeparatorBackgroundColor" : "255.000000, 255.000000, 255.000000, 255.000000",
+    "BTTRepeatRate" : 13,
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 0
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0745091,
+    "BTTTriggerType" : 624,
+    "BTTTriggerTypeDescriptionReadOnly" : "Please Select a Trigger ",
+    "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+    "BTTUUID" : "D11D4056-E454-439C-BD6A-5C71AC4ACD9D",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 24,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8031011,
+        "BTTTriggerParentUUID" : "D11D4056-E454-439C-BD6A-5C71AC4ACD9D",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+        "BTTUUID" : "9B17741F-E180-488B-8FDD-DAE0D51500D9",
+        "BTTPredefinedActionType" : 5,
+        "BTTPredefinedActionName" : "Mission Control",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 16
+      }
+    ],
+    "BTTKeySequence" : {
+      "BTTPauseBetween" : 0.29999999999999999,
+      "BTTKeyCount" : 4,
+      "BTTKeySequenceDownKeys" : [
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        },
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        }
+      ],
+      "BTTKeySequenceMixedKeys" : [
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        },
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        },
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        },
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        }
+      ],
+      "BTTKeySequenceUpKeys" : [
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        },
+        {
+          "BTTKEYCode" : 58,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 722134528
+        }
+      ]
+    }
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.074384,
+    "BTTTriggerType" : 624,
+    "BTTTriggerTypeDescriptionReadOnly" : "Please Select a Trigger ",
+    "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+    "BTTUUID" : "3D4F8DA1-0FDA-4927-8C97-83D68A260738",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 25,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.7982259,
+        "BTTTriggerParentUUID" : "3D4F8DA1-0FDA-4927-8C97-83D68A260738",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+        "BTTUUID" : "0D0995D3-1465-4B55-B629-480AAED46C44",
+        "BTTPredefinedActionType" : 202,
+        "BTTPredefinedActionName" : "Start Screen Saver",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 22
+      }
+    ],
+    "BTTKeySequence" : {
+      "BTTPauseBetween" : 0.29999999999999999,
+      "BTTCharactersToDeleteAfterwards" : 2,
+      "BTTKeyCount" : 4,
+      "BTTKeySequenceDownKeys" : [
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        },
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        }
+      ],
+      "BTTKeySequenceMixedKeys" : [
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        },
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        },
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        },
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        }
+      ],
+      "BTTKeySequenceUpKeys" : [
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        },
+        {
+          "BTTKEYCharacter" : " ⎋",
+          "BTTKEYCode" : 53,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 743206080
+        }
+      ]
+    }
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0743949,
+    "BTTTriggerType" : 624,
+    "BTTTriggerTypeDescriptionReadOnly" : "Please Select a Trigger ",
+    "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+    "BTTUUID" : "3EFE05C5-18EA-4F58-B601-DADE6D53908E",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 26,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8023129,
+        "BTTTriggerParentUUID" : "3EFE05C5-18EA-4F58-B601-DADE6D53908E",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+        "BTTUUID" : "B0CB2AE8-B326-42B2-BBE8-5DB28A38DF67",
+        "BTTPredefinedActionType" : 45,
+        "BTTPredefinedActionName" : "Show Desktop",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 17
+      }
+    ],
+    "BTTKeySequence" : {
+      "BTTPauseBetween" : 0.29999999999999999,
+      "BTTKeyCount" : 4,
+      "BTTKeySequenceDownKeys" : [
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        },
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        }
+      ],
+      "BTTKeySequenceMixedKeys" : [
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        },
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        },
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        },
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        }
+      ],
+      "BTTKeySequenceUpKeys" : [
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        },
+        {
+          "BTTKEYCode" : 59,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716800
+        }
+      ]
+    }
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.074415,
+    "BTTTriggerType" : 624,
+    "BTTTriggerTypeDescriptionReadOnly" : "Please Select a Trigger ",
+    "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+    "BTTUUID" : "20A84E78-666C-45A4-804D-3CD64C792FFE",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 1,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 27,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8006439,
+        "BTTTriggerParentUUID" : "20A84E78-666C-45A4-804D-3CD64C792FFE",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+        "BTTUUID" : "2E5E6F33-2576-4138-91FF-EEDA08AE7F78",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 1
+      },
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.8035631,
+        "BTTTriggerParentUUID" : "20A84E78-666C-45A4-804D-3CD64C792FFE",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+        "BTTUUID" : "F1D5F1AD-DE6A-448E-86CE-96FA1F6686C2",
+        "BTTPredefinedActionType" : 122,
+        "BTTPredefinedActionName" : "Show Notification Center",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 2
+      }
+    ],
+    "BTTKeySequence" : {
+      "BTTPauseBetween" : 0.29999999999999999,
+      "BTTKeyCount" : 4,
+      "BTTKeySequenceDownKeys" : [
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        },
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        }
+      ],
+      "BTTKeySequenceMixedKeys" : [
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        },
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        },
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        },
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        }
+      ],
+      "BTTKeySequenceUpKeys" : [
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        },
+        {
+          "BTTKEYCode" : 56,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 738716928
+        }
+      ]
+    }
+  },
+  {
+    "BTTActionCategory" : 0,
+    "BTTLastUpdatedAt" : 1734860916.0744359,
+    "BTTTriggerType" : 624,
+    "BTTTriggerTypeDescriptionReadOnly" : "Please Select a Trigger ",
+    "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+    "BTTUUID" : "0D7554AB-A944-43B3-AA5B-908B26F3AE18",
+    "BTTPredefinedActionType" : 366,
+    "BTTPredefinedActionName" : "Empty Placeholder",
+    "BTTEnabled" : 0,
+    "BTTEnabled2" : 1,
+    "BTTOrder" : 29,
+    "BTTAdditionalActions" : [
+      {
+        "BTTActionCategory" : 0,
+        "BTTLastUpdatedAt" : 1723311357.797879,
+        "BTTTriggerParentUUID" : "0D7554AB-A944-43B3-AA5B-908B26F3AE18",
+        "BTTIsPureAction" : true,
+        "BTTTriggerClass" : "BTTTriggerTypeKeySequence",
+        "BTTUUID" : "7C09ECAD-43DA-4498-8DD0-F7F031FF816D",
+        "BTTPredefinedActionType" : 125,
+        "BTTPredefinedActionName" : "Show Menu Bar in Context Menu",
+        "BTTEnabled" : 1,
+        "BTTEnabled2" : 1,
+        "BTTOrder" : 17
+      }
+    ],
+    "BTTKeySequence" : {
+      "BTTPauseBetween" : 0.29999999999999999,
+      "BTTKeyCount" : 4,
+      "BTTKeySequenceDownKeys" : [
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        },
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        }
+      ],
+      "BTTKeySequenceMixedKeys" : [
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        },
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        },
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYDown" : 1,
+          "BTTKEYOrderRelevant" : 1,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        },
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        }
+      ],
+      "BTTKeySequenceUpKeys" : [
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        },
+        {
+          "BTTKEYCode" : 55,
+          "BTTKEYRequired" : 1,
+          "BTTKEYTime" : 744586176
+        }
+      ]
+    }
+  }
+]

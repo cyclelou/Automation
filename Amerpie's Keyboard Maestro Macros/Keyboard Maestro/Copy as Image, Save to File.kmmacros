@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Comment</string>
+						<key>ActionUID</key>
+						<integer>15481053</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4AAgAAKwAAAAEA
+						AAD4AQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNTYx
+						XGNvY29hc3VicnRmMjAwCntcZm9u
+						dHRibFxmMFxmbmlsXGZjaGFyc2V0
+						MCBIZWx2ZXRpY2FOZXVlO30Ke1xj
+						b2xvcnRibDtccmVkMjU1XGdyZWVu
+						MjU1XGJsdWUyNTU7XHJlZDBcZ3Jl
+						ZW4wXGJsdWUwO30Ke1wqXGV4cGFu
+						ZGVkY29sb3J0Ymw7O1xjc2dyYXlc
+						YzA7fQpccGFyZFx0eDU2MFx0eDEx
+						MjBcdHgxNjgwXHR4MjI0MFx0eDI4
+						MDBcdHgzMzYwXHR4MzkyMFx0eDQ0
+						ODBcdHg1MDQwXHR4NTYwMFx0eDYx
+						NjBcdHg2NzIwXHBhcmRpcm5hdHVy
+						YWxccGFydGlnaHRlbmZhY3RvcjAK
+						ClxmMFxmczI2IFxjZjIgVGhlIGZp
+						cnN0IGFuZCB0aGlyZCBzdGVwcyBo
+						ZXJlIHVzZSB0aGUgQ0xJUEJPQVJE
+						U0VFRCgpIGZ1bmN0aW9uIHRvIGVu
+						c3VyZSB0aGF0IHRoZSBjbGlwYm9h
+						cmRcJzkycyBjb250ZW50cyBoYXZl
+						IGNoYW5nZWQgdG8gdGhlIG5ld2x5
+						IGNvcGllZCBpbWFnZSBiZWZvcmUg
+						cHJvY2VlZGluZyB3aXRoIHRoZSBt
+						YWNyby59AQAAACMAAAABAAAABwAA
+						AFRYVC5ydGYQAAAApgczWrYBAAAA
+						AAAAAAAAAA==
+						</data>
+						<key>Title</key>
+						<string>Note</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481054</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToCalculation</string>
+						<key>Text</key>
+						<string>CLIPBOARDSEED()</string>
+						<key>UseFormat</key>
+						<false/>
+						<key>Variable</key>
+						<string>LocalCBSeedBefore</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481055</integer>
+						<key>MacroActionType</key>
+						<string>SelectMenuItem</string>
+						<key>Menu</key>
+						<array>
+							<string>Edit</string>
+							<string>Copy as</string>
+							<string>Copy as Image</string>
+						</array>
+						<key>TargetApplication</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.stairways.keyboardmaestro.editor</string>
+							<key>Name</key>
+							<string>Keyboard Maestro</string>
+							<key>NewFile</key>
+							<string>/Applications/Keyboard Maestro.app</string>
+						</dict>
+						<key>TargetingType</key>
+						<string>Specific</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481056</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Calculation</string>
+									<key>Text</key>
+									<string>CLIPBOARDSEED() ≠ LocalCBSeedBefore</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>PauseUntil</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Comment</string>
+						<key>ActionUID</key>
+						<integer>15481057</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC6uAQAAKwAAAAEA
+						AACmAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNTYx
+						XGNvY29hc3VicnRmMjAwCntcZm9u
+						dHRibFxmMFxmbmlsXGZjaGFyc2V0
+						MCBIZWx2ZXRpY2FOZXVlO30Ke1xj
+						b2xvcnRibDtccmVkMjU1XGdyZWVu
+						MjU1XGJsdWUyNTU7XHJlZDBcZ3Jl
+						ZW4wXGJsdWUwO30Ke1wqXGV4cGFu
+						ZGVkY29sb3J0Ymw7O1xjc2dyYXlc
+						YzA7fQpccGFyZFx0eDU2MFx0eDEx
+						MjBcdHgxNjgwXHR4MjI0MFx0eDI4
+						MDBcdHgzMzYwXHR4MzkyMFx0eDQ0
+						ODBcdHg1MDQwXHR4NTYwMFx0eDYx
+						NjBcdHg2NzIwXHBhcmRpcm5hdHVy
+						YWxccGFydGlnaHRlbmZhY3RvcjAK
+						ClxmMFxmczI2IFxjZjIgRW5hYmxl
+						IHRoZSBwcm9tcHQgYWN0aW9uIGJl
+						bG93IGFuZCBkaXNhYmxlIHRoZSBB
+						cHBsZVNjcmlwdCBhY3Rpb24gdG8g
+						ZW50ZXIgaW1hZ2UgbmFtZXMgbWFu
+						dWFsbHkuIH0BAAAAIwAAAAEAAAAH
+						AAAAVFhULnJ0ZhAAAACQATNatgEA
+						AAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Note</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481058</integer>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsActive</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string></string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Enter Name for Image</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Local__ImageName</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Comment</string>
+						<key>ActionUID</key>
+						<integer>15481059</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4nBAAAKwAAAAEA
+						AAAfBAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNTYx
+						XGNvY29hc3VicnRmMjAwCntcZm9u
+						dHRibFxmMFxmbmlsXGZjaGFyc2V0
+						MCBIZWx2ZXRpY2FOZXVlO1xmMVxm
+						bmlsXGZjaGFyc2V0MCBWZXJkYW5h
+						O30Ke1xjb2xvcnRibDtccmVkMjU1
+						XGdyZWVuMjU1XGJsdWUyNTU7XHJl
+						ZDBcZ3JlZW4wXGJsdWUwO1xyZWQw
+						XGdyZWVuMFxibHVlMDtccmVkNjRc
+						Z3JlZW4xMjhcYmx1ZTA7ClxyZWQx
+						MDhcZ3JlZW41XGJsdWUyMTE7XHJl
+						ZDBcZ3JlZW4wXGJsdWUyNTU7fQp7
+						XCpcZXhwYW5kZWRjb2xvcnRibDs7
+						XGNzZ3JheVxjMDtcY3NnZW5lcmlj
+						cmdiXGMwXGMwXGMwO1xjc2dlbmVy
+						aWNyZ2JcYzI1MDAwXGM1MDAwMVxj
+						MDsKXGNzZ2VuZXJpY3JnYlxjNDIz
+						MzdcYzE4NDFcYzgyODMzO1xjc2dl
+						bmVyaWNyZ2JcYzBcYzBcYzEwMDAw
+						MDt9ClxwYXJkXHR4NTYwXHR4MTEy
+						MFx0eDE2ODBcdHgyMjQwXHR4Mjgw
+						MFx0eDMzNjBcdHgzOTIwXHR4NDQ4
+						MFx0eDUwNDBcdHg1NjAwXHR4NjE2
+						MFx0eDY3MjBccGFyZGlybmF0dXJh
+						bFxwYXJ0aWdodGVuZmFjdG9yMAoK
+						XGYwXGZzMjYgXGNmMiBJZiB5b3Ug
+						d291bGQgbGlrZSBtdWx0aXBsZSBt
+						YWNybyBhY3Rpb25zIHRvIGJlIHNl
+						cGFyYXRlZCBieSBzb21ldGhpbmcg
+						b3RoZXIgdGhhbiBhIGNvbW1hIGFu
+						ZCBzcGFjZSwgeW91IGNhbiBjaGFu
+						Z2UgdGhhdCBieSBtb2RpZnlpbmcg
+						dGhlIHNlY3Rpb24gY29udGFpbmlu
+						ZyB0aGUgY29tbWEgYW5kIHNwYWNl
+						IGluIHRoaXMgbGluZTpcClwKXHBh
+						cmRcdHg1NjBcdHgxMTIwXHR4MTY4
+						MFx0eDIyNDBcdHgyODAwXHR4MzM2
+						MFx0eDM5MjBcdHg0NDgwXHR4NTA0
+						MFx0eDU2MDBcdHg2MTYwXHR4Njcy
+						MFxwYXJkaXJuYXR1cmFsXHBhcnRp
+						Z2h0ZW5mYWN0b3IwCgpcZjFcYlxm
+						czI0IFxjZjMgc2V0ClxiMCAgXGNm
+						NCBBY3Rpb25OYW1lc1xjZjMgIApc
+						YiB0bwpcYjAgIFxjZjQgQWN0aW9u
+						TmFtZXNcY2YzICAmICIsICIgJiBc
+						Y2Y1IG5hbWVcY2YzICAKXGIgb2YK
+						XGIwICAKXGkgXGNmNiBpdGVtClxp
+						MCBcY2YzICBcY2Y0IGlcY2YzICAK
+						XGIgb2YKXGIwICBcY2Y0IFNlbGVj
+						dGVkQWN0aW9uc30BAAAAIwAAAAEA
+						AAAHAAAAVFhULnJ0ZhAAAABqBzNa
+						tgEAAAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Note</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Get Name of Selected Macro or Actions</string>
+						<key>ActionUID</key>
+						<integer>15481060</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>tell application "Keyboard Maestro"
+	
+	#Check to see if selection is a macro or macro actions
+	set kmSelection to selection
+	set kmSelectionClass to class of item 1 of kmSelection
+	
+	#If selection is macro, get macro name, end script
+	if kmSelectionClass is "macro" then
+		return name of item 1 of kmSelection
+		
+		#Otherwise, get names of all selected actions
+	else
+		set ActionNames to ""
+		repeat with i from 1 to (length of kmSelection)
+			if ActionNames is "" then
+				set ActionNames to name of item i of kmSelection
+			else
+				set ActionNames to ActionNames &amp; ", " &amp; name of item i of kmSelection
+				
+			end if
+		end repeat
+	end if
+end tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>Local__ImageName</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481061</integer>
+						<key>Append</key>
+						<false/>
+						<key>Destination</key>
+						<string>~/Desktop/%Variable%Local__ImageName%.png</string>
+						<key>Encoding</key>
+						<string>UTF8</string>
+						<key>Format</key>
+						<string>PNG</string>
+						<key>Format2</key>
+						<string>PNG</string>
+						<key>MacroActionType</key>
+						<string>WriteFile</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>534983940.38680297</real>
+				<key>ModificationDate</key>
+				<real>568498783.51256096</real>
+				<key>Name</key>
+				<string>Copy as Image, Save to File</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>290D7EEA-BBC3-4164-9D0B-321362D95057</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

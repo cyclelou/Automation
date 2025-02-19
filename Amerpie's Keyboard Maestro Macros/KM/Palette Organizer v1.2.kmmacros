@@ -1,0 +1,4412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>490752742.26498199</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15485626</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC7dBQAAKwAAAAEA
+						AADVBQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNjcx
+						XGNvY29hc3VicnRmNjAwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30Ke1wqXGV4cGFu
+						ZGVkY29sb3J0Ymw7O30KXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+						YXJkaXJuYXR1cmFsXHBhcnRpZ2h0
+						ZW5mYWN0b3IwCgpcZjBcZnMyNCBc
+						Y2YwIE5hbWU6IFBhbGV0dGUgT3Jn
+						YW5pemVyXApWZXJzaW9uOiAxLjFc
+						ClVwZGF0ZWQ6IDIwMTkvMDkvMDMg
+						MTA6MjcgUFNUXApCeTogRGFuIFRo
+						b21hc1wKXApQVVJQT1NFOlwKXApF
+						YXNpbHkgb3JkZXIvcmUtb3JkZXIg
+						bWFjcm9zLCBhbmQgYWRkL3VwZGF0
+						ZSBwcmVmaXggbnVtYmVycy4gVGhp
+						cyBpcyBhbiBldm9sdXRpb24gb2Yg
+						bXkgcHJldmlvdXMgdmVyc2lvbiwg
+						IlJlbnVtYmVyIE1hY3JvIFByZWZp
+						eCBOdW1iZXJzIi5cClwKVVNBR0U6
+						XApcCjEpIFNlbGVjdCB0d28gb3Ig
+						bW9yZSBtYWNyb3MsIHdoZXRoZXIg
+						dGhleSBoYXZlIHByZWZpeCBudW1i
+						ZXJzIG9yIG5vdC5cCjIpIExhdW5j
+						aCB0aGlzIG1hY3JvLlwKMykgUmUt
+						T3JkZXIgdGhlIG1hY3JvcyBhcyBk
+						ZXNpcmVkLlwKMykgQWRkICJTZXBh
+						cmF0b3IiIG1hY3JvcyBhcyBkZXNp
+						cmVkLlwKNSkgQWRkL1VwZGF0ZSBw
+						cmVmaXggbnVtYmVycyB1c2luZyBh
+						IHN0YXJ0aW5nIHByZWZpeCBudW1i
+						ZXIgYW5kIGFuIGluY3JlbWVudCBh
+						bW91bnQuXAo2KSBDbGljayAiT0si
+						LCBhbmQgdGhpcyBtYWNybyB3aWxs
+						IGFwcGx5IGFsbCB5b3VyIGNoYW5n
+						ZXMuXApcCk5PVEU6IFlvdSBjYW4g
+						YWx3YXlzICJVbmRvIiwgaWYgeW91
+						IG5lZWQgdG8uIFVzdWFsbHkgb25s
+						eSB0YWtlcyBvbmUgVW5kbyBjb21t
+						YW5kIHRvIHVuZG8gZXZlcnl0aGlu
+						Zy5cClwKREVUQUlMUzpcClwKS00g
+						YWxsb3dzIHlvdSB0byB1c2UgMi1k
+						aWdpdCBwcmVmaXhlcyBmb2xsb3dl
+						ZCBieSAiKSIgdG8gc3BlY2lmeSB0
+						aGUgb3JkZXIgTWFjcm8gbmFtZXMg
+						c2hvdWxkIGFwcGVhciBpbiBhIFBh
+						bGV0dGUgb3IgdGhlIFN0YXR1cyBN
+						ZW51LiBMaWtlIHRoaXM6XApcCjAx
+						KU1hY3JvIE9uZVwKMDIpTWFjcm8g
+						VHdvXAowM01hY3JvIFRocmVlXApc
+						CktNIGRvZXNuJ3Qgc2hvdyB0aGVz
+						ZSBwcmVmaXhlcyBpbiBhIFBhbGV0
+						dGUgb3IgdGhlIFN0YXR1cyBNZW51
+						LlwKXApXaGVuIHlvdSB3YW50IHRv
+						IHB1dCBzb21ldGhpbmcgYmV0d2Vl
+						biAwMSBhbmQgMDIsIHlvdSBoYXZl
+						IHRvIHJlbnVtYmVyIDAyIGFuZCBl
+						dmVyeXRoaW5nIGFmdGVyIGl0LiBU
+						aGlzIG1hY3JvIGRvZXMgdGhlIHJl
+						bnVtYmVyaW5nIGZvciB5b3UuXApc
+						ClZFUlNJT04gSElTVE9SWTpcCjEu
+						MiAtIFVwZGF0ZWQgdG8gZml4IGFu
+						IGlzc3VlIHdpdGggS00gdjkuXAox
+						LjEgLSBOZXcgcmVuYW1lIG1ldGhv
+						ZC5cCjEuMCAtIEluaXRpYWwgdmVy
+						c2lvbi5cCn0BAAAAIwAAAAEAAAAH
+						AAAAVFhULnJ0ZhAAAACbom5dtgEA
+						AAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>Palette Organizer v1.2</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15485627</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4SBAAAKwAAAAEA
+						AAAKBAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNjcx
+						XGNvY29hc3VicnRmMjAwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30Ke1wqXGV4cGFu
+						ZGVkY29sb3J0Ymw7O30KXHBhcmRc
+						dHg1NjBcdHgxMTIwXHR4MTY4MFx0
+						eDIyNDBcdHgyODAwXHR4MzM2MFx0
+						eDM5MjBcdHg0NDgwXHR4NTA0MFx0
+						eDU2MDBcdHg2MTYwXHR4NjcyMFxw
+						YXJkaXJuYXR1cmFsXHBhcnRpZ2h0
+						ZW5mYWN0b3IwCgpcZjBcZnMyNCBc
+						Y2YwIENvcHlyaWdodCAoYykgMjAx
+						Ny0yMDE5IERhbmllbCBUaG9tYXNc
+						ClwKUGVybWlzc2lvbiB0byB1c2Us
+						IGNvcHksIG1vZGlmeSwgYW5kL29y
+						IGRpc3RyaWJ1dGUgdGhpcyBzb2Z0
+						d2FyZSBmb3IgYW55IHB1cnBvc2Ug
+						d2l0aCBvciB3aXRob3V0IGZlZSBp
+						cyBoZXJlYnkgZ3JhbnRlZCwgcHJv
+						dmlkZWQgdGhhdCB0aGUgYWJvdmUg
+						Y29weXJpZ2h0IG5vdGljZSBhbmQg
+						dGhpcyBwZXJtaXNzaW9uIG5vdGlj
+						ZSBhcHBlYXIgaW4gYWxsIGNvcGll
+						cy5cClwKVEhFIFNPRlRXQVJFIElT
+						IFBST1ZJREVEICJBUyBJUyIgQU5E
+						IFRIRSBBVVRIT1IgRElTQ0xBSU1T
+						IEFMTCBXQVJSQU5USUVTIFdJVEgg
+						UkVHQVJEIFRPIFRISVMgU09GVFdB
+						UkUgSU5DTFVESU5HIEFMTCBJTVBM
+						SUVEIFdBUlJBTlRJRVMgT0YgTUVS
+						Q0hBTlRBQklMSVRZIEFORCBGSVRO
+						RVNTLiBJTiBOTyBFVkVOVCBTSEFM
+						TCBUSEUgQVVUSE9SIEJFIExJQUJM
+						RSBGT1IgQU5ZIFNQRUNJQUwsIERJ
+						UkVDVCwgSU5ESVJFQ1QsIE9SIENP
+						TlNFUVVFTlRJQUwgREFNQUdFUyBP
+						UiBBTlkgREFNQUdFUyBXSEFUU09F
+						VkVSIFJFU1VMVElORyBGUk9NIExP
+						U1MgT0YgVVNFLCBEQVRBIE9SIFBS
+						T0ZJVFMsIFdIRVRIRVIgSU4gQU4g
+						QUNUSU9OIE9GIENPTlRSQUNULCBO
+						RUdMSUdFTkNFIE9SIE9USEVSIFRP
+						UlRJT1VTIEFDVElPTiwgQVJJU0lO
+						RyBPVVQgT0YgT1IgSU4gQ09OTkVD
+						VElPTiBXSVRIIFRIRSBVU0UgT1Ig
+						UEVSRk9STUFOQ0UgT0YgVEhJUyBT
+						T0ZUV0FSRS5cCn0BAAAAIwAAAAEA
+						AAAHAAAAVFhULnJ0ZhAAAAAo6Idc
+						tgEAAAAAAAAAAAAA
+						</data>
+						<key>Title</key>
+						<string>License Agreement / Disclaimer</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Purple</string>
+						<key>ActionName</key>
+						<string>Only allow one copy of this macro to run at a time</string>
+						<key>ActionUID</key>
+						<integer>15485628</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Semaphore</string>
+						<key>NotifyOnTimeOut</key>
+						<false/>
+						<key>SemaphoreAction</key>
+						<string>Lock</string>
+						<key>SemaphoreName</key>
+						<string>%ExecutingThisMacroUUID%</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TimeOutPeriod</key>
+						<real>0.01</real>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Get the selected macros into palorg_MacrosInfo, or cancel if error</string>
+						<key>ActionUID</key>
+						<integer>15485629</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485630</integer>
+								<key>DisplayKind</key>
+								<string>Variable</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>ExecuteJavaScriptForAutomation</string>
+								<key>NotifyOnFailure</key>
+								<false/>
+								<key>Path</key>
+								<string></string>
+								<key>StopOnFailure</key>
+								<false/>
+								<key>Text</key>
+								<string>(function(inDesignMode) {
+	'use strict';
+
+	function dump(obj, desc) {
+		console.log((desc ? desc + ": " : "") + JSON.stringify(obj, null, "\t"));
+	}
+
+	var KMEditor = (function() {
+		var _editorAppName = "Keyboard Maestro";
+		var _editorApp;
+
+		return {
+			getEditorApp: function() {
+				return _editorApp ? _editorApp : _editorApp = Application(_editorAppName);
+			},
+
+			getEditorAppName: function() {return _editorAppName;},
+
+			getSelectedMacrosOrGroups: function() {
+				return this.getEditorApp().selectedmacros();
+			}
+		};
+	})();
+
+	var KMEngine = (function() {
+		var _engineApp;
+
+		return {
+			getAllMacrosSourceFileName: function() {
+				return this.getAppSupportFolderName() + "Keyboard Maestro Macros.plist";
+			},
+
+			getAppSupportFolderName: function() {
+				var app = Application.currentApplication();
+				app.includeStandardAdditions = true;
+				return app.pathTo('application support', { from: 'user domain' }) +
+					"/Keyboard Maestro/";
+			},
+
+			getEngineAppName: function() {
+				return "Keyboard Maestro Engine";
+			},
+
+			getEngineApp: function() {
+				if (!_engineApp)
+					_engineApp = Application(this.getEngineAppName());
+				return _engineApp;
+			},
+
+			readPlistBinaryFile: function(path) {
+				var data = $.NSData.dataWithContentsOfFile(path);
+				return ObjC.deepUnwrap(
+					$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+						data, $.NSPropertyListBinaryFormat_v1_0, 0, null));
+			},
+		};
+	})();
+
+	function getMacrosInfo(selectedMacroUUIDs) {
+
+		function getMacroName(macro) {
+			if (macro.Name)
+				return macro.Name;
+			throw Error("Un-named Macro UUID: " + macro.UID);
+		}
+
+		function getMacroInfo(macro) {
+			var info = {
+				macroUUID: macro.UID,
+				macroName: getMacroName(macro)
+			};
+			var matches = info.macroName.match(/^(\d\d)?(\))?(.*)/);
+			if (!matches || matches.length != 4)
+				throw Error("Could not parse macro name '" + info.macroName + "'");
+			info.prefixNumber = matches[1] || "";
+			info.macroNameNoPrefix = matches[3].trim();
+			return info;
+		}
+
+		function reOrderResult(macrosInfo, selectedMacroUUIDs) {
+			macrosInfo.macros = selectedMacroUUIDs.map(function(selectedMacroUUID) {
+				var info = macrosInfo.macros.find(function(macroInfo) {
+					return macroInfo.macroUUID === selectedMacroUUID;
+				});
+				if (!info)
+					throw Error("Could not find macro information for UUID '" + selectedMacroUUID + "'");
+				return info;
+			});
+		}
+
+		// getMacrosInfo()
+		var result = {
+			macros: []
+		};
+		var macroGroup;
+		var plist = KMEngine.readPlistBinaryFile(KMEngine.getAllMacrosSourceFileName());
+		plist.MacroGroups.forEach(function(group) {
+			if (group.Macros) {
+				group.Macros.forEach(function(macro) {
+					if (selectedMacroUUIDs.indexOf(macro.UID) &gt;= 0) {
+						if (!result.groupUUID) {
+							macroGroup = group;
+							result.groupUUID = group.UID;
+							result.groupName = group.Name;
+							result.groupToggleMacroUID = group.ToggleMacroUID;
+						} else if (result.groupUUID !== group.UID) {
+							throw Error("Selected macros must all be from the same group");
+						}
+
+						result.macros.push(getMacroInfo(macro));
+					}
+				});
+			}
+		});
+
+		reOrderResult(result, selectedMacroUUIDs);
+
+		return result;
+	} // getMacrosInfo()
+
+	function execute() {
+		var selectedMacroUUIDs = KMEditor.getSelectedMacrosOrGroups();
+		if (!selectedMacroUUIDs || selectedMacroUUIDs.length &lt; 2)
+			throw Error("You must select two or more macros");
+
+		var result = getMacrosInfo(selectedMacroUUIDs);
+		return JSON.stringify(result);
+	}
+
+	if (inDesignMode) {
+        return execute();
+    } else {
+        try {
+            return execute();
+        } catch (e) {
+            return "Error: " + e.message;
+        }
+    }
+})(false);</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseModernSyntax</key>
+								<false/>
+								<key>UseText</key>
+								<true/>
+								<key>Variable</key>
+								<string>palorg_MacrosInfo</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Yellow</string>
+								<key>ActionName</key>
+								<string>Abort if error</string>
+								<key>ActionUID</key>
+								<integer>15485631</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>palorg_MacrosInfo</string>
+											<key>VariableConditionType</key>
+											<string>Matches</string>
+											<key>VariableValue</key>
+											<string>^Error:</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15485632</integer>
+										<key>DeviceID</key>
+										<string>SOUNDEFFECTS</string>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>PlaySound</string>
+										<key>Path</key>
+										<string>/System/Library/Sounds/Basso.aiff</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15485633</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string></string>
+										<key>Variable</key>
+										<string>palorg_MacroUUID</string>
+									</dict>
+									<dict>
+										<key>Action</key>
+										<string>CaseSensitiveRegEx</string>
+										<key>ActionUID</key>
+										<integer>15485634</integer>
+										<key>Captures</key>
+										<array>
+											<string></string>
+											<string>palorg_MacroUUID</string>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SearchRegEx</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Search</key>
+										<string>^Error: Un-named Macro UUID: (.*)</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Variable</key>
+										<string>palorg_MacrosInfo</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>We handle some errors differently...</string>
+										<key>ActionUID</key>
+										<integer>15485635</integer>
+										<key>Conditions</key>
+										<dict>
+											<key>ConditionList</key>
+											<array>
+												<dict>
+													<key>ConditionType</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>palorg_MacroUUID</string>
+													<key>VariableConditionType</key>
+													<string>IsNotEmpty</string>
+													<key>VariableValue</key>
+													<string>value</string>
+												</dict>
+											</array>
+											<key>ConditionListMatch</key>
+											<string>All</string>
+										</dict>
+										<key>ElseActions</key>
+										<array>
+											<dict>
+												<key>ActionName</key>
+												<string>Notify error 'An error has occurred'</string>
+												<key>ActionUID</key>
+												<integer>15485638</integer>
+												<key>Buttons</key>
+												<array>
+													<dict>
+														<key>Button</key>
+														<string>OK</string>
+														<key>Cancel</key>
+														<true/>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>PromptForUserInput</string>
+												<key>Prompt</key>
+												<string>%Variable%palorg_MacrosInfo%</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+												<key>Title</key>
+												<string>%ExecutingThisMacro%</string>
+												<key>Variables</key>
+												<array/>
+											</dict>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>IfThenElse</string>
+										<key>ThenActions</key>
+										<array>
+											<dict>
+												<key>ActionName</key>
+												<string>Tell KM to start editing macro 'palorg_MacroUUID'</string>
+												<key>ActionUID</key>
+												<integer>15485636</integer>
+												<key>DisplayKind</key>
+												<string>None</string>
+												<key>HonourFailureSettings</key>
+												<true/>
+												<key>IncludeStdErr</key>
+												<true/>
+												<key>IncludedVariables</key>
+												<array>
+													<string>9999</string>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>ExecuteAppleScript</string>
+												<key>NotifyOnFailure</key>
+												<false/>
+												<key>Path</key>
+												<string></string>
+												<key>StopOnFailure</key>
+												<false/>
+												<key>Text</key>
+												<string>tell application "Keyboard Maestro Engine" to set _uuid to getvariable "palorg_MacroUUID"tell application "Keyboard Maestro" to editMacro _uuid</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+												<key>TrimResults</key>
+												<true/>
+												<key>TrimResultsNew</key>
+												<true/>
+												<key>UseText</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15485637</integer>
+												<key>Buttons</key>
+												<array>
+													<dict>
+														<key>Button</key>
+														<string>OK</string>
+														<key>Cancel</key>
+														<true/>
+													</dict>
+												</array>
+												<key>IsDisclosed</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>PromptForUserInput</string>
+												<key>Prompt</key>
+												<string>This macro doesn't really have a name. It looks like it does, because Keyboard Maestro makes up a name when there isn't one specified.
+
+Please enter a real name, and try again.</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+												<key>Title</key>
+												<string>%ExecutingThisMacro%</string>
+												<key>Variables</key>
+												<array/>
+											</dict>
+										</array>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Green</string>
+						<key>ActionName</key>
+						<string>Prompt the user to re-order and re-number, abort if canceled</string>
+						<key>ActionUID</key>
+						<integer>15485639</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485640</integer>
+								<key>Floating</key>
+								<true/>
+								<key>MacroActionType</key>
+								<string>CustomPrompt</string>
+								<key>Text</key>
+								<string>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;title&gt;Palette Organizer&lt;/title&gt;
+		&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+
+		&lt;!-- ======== Top and Client =============================== --&gt;
+		&lt;style type="text/css"&gt;
+			html,
+			body,
+			.page {
+				height: 100%;
+			}
+
+			body {
+				overflow: hidden;
+				margin: 0;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+			}
+
+			.page {
+				display: flex;
+				flex-direction: column;
+			}
+
+			header, footer {
+				background: #ececec;
+				color: black;
+			}
+
+			header {
+				flex: 0 0 auto;
+				min-height: 60px;
+				padding-right: 58px; /* width of icon cell */
+			}
+
+			#tblHeader {
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+			}
+
+			#tblHeader td:first-child {
+				padding-right: 10px;
+			}
+
+			#content {
+				flex: 1 1 auto;
+				position: relative;
+				overflow-y: auto;
+				padding-left: 20px;
+				padding-right: 20px;
+				background: #ececec;
+			}
+
+			#tblClient {
+				width: 100%;
+				border-collapse: collapse;
+			}
+
+			.errorMessage {
+				color: red;
+			}
+		&lt;/style&gt;
+
+		&lt;!-- ======== selMacros Toolbar Buttons =============================== --&gt;
+		&lt;style type="text/css"&gt;
+			#tblClient td:first-child {
+				width: 1%;
+				vertical-align: top;
+				margin: 0;
+				padding-left: 0px;
+				padding-right: 0px;
+				padding-top: 15px;
+				padding-bottom: 0px;
+			}
+		&lt;/style&gt;
+
+		&lt;!-- ======== Macros List =============================== --&gt;
+		&lt;style type="text/css"&gt;
+
+			#tblClient td:nth-child(2) {
+				width: auto;
+				padding: 0;
+				margin: 0;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+
+			#selMacros {
+				font-weight: 400;
+				color: black;
+				font-size: 14px;
+				padding: 5px;
+				/*width: 100%;*/
+			}
+		&lt;/style&gt;
+
+		&lt;!-- ======== Renumber Controls ========================== --&gt;
+		&lt;style type="text/css"&gt;
+
+			#tblClient td:last-child {
+				width: 180px;
+				padding-top: 10px;
+				padding-left: 0px;
+				padding-right: 0px;
+				padding-bottom: 0px;
+				margin: 0;
+				vertical-align: top;
+			}
+
+			#tblRenumberControls {
+				border-collapse: collapse;
+				margin: 0;
+				padding: 0;
+			}
+
+			#tblRenumberControls td:first-child {
+				padding: 0;
+				padding-right: 4px;
+				width: 110px;
+				text-align: right;
+				vertical-align: middle;
+			}
+
+			#tblRenumberControls td:last-child {
+				width: auto;
+				vertical-align: middle;
+				padding: 0;
+			}
+
+			#tblRenumberControls tr:last-child td {
+				padding-top:5px;
+				text-align: center;
+			}
+
+			#tblRenumberControls input {
+				width: 50px;
+			}
+		&lt;/style&gt;
+
+		&lt;!-- ======== Bottom Styles =============================== --&gt;
+		&lt;style type="text/css"&gt;
+			footer {
+				flex: 0 0 auto;
+				min-height: 50px;
+				padding-top: 10px;
+				padding-right: 20px;
+			}
+
+			footer a {
+				float: right;
+				margin-left: 5px;
+				width: 50px;
+				text-align: center;
+			}
+		&lt;/style&gt;
+
+		&lt;!-- ======== modalDialogBox =============================== --&gt;
+		&lt;style type="text/css"&gt;
+			.modalDialog {
+				position: fixed;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 15px;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				background: rgba(0,0,0,0.8);
+				z-index: 99999;
+				transition: opacity 100ms ease-in;
+			}
+
+			.modalDialogHidden {
+				opacity:0;
+				pointer-events: none;
+			}
+
+			.modalDialogVisible {
+				opacity:1;
+				pointer-events: auto;
+			}
+
+			.modalDialogBox {
+				width: 400px;
+				position: fixed;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				padding: 0;
+				padding-top: 15px;
+				padding-bottom: 15px;
+				padding-left: 0;
+				padding-right: 0;
+				border-radius: 10px;
+				background: #ececec;
+				/*background:linear-gradient(to bottom, #ececec 5%, #999 90%);*/
+			}
+
+			#editBoxDialog &gt; .modalDialogBox {
+				width: 600px;
+			}
+
+			.modalDialogHeader span {
+				font-size: 16px;
+				font-weight: bold;
+				margin-left: 15px;
+			}
+
+			.modalDialogBody {
+				font-size: 14px;
+				margin-top: 0;
+				margin-left: 15px;
+				margin-right: 15px;
+				margin-bottom: 15px;
+			}
+
+			.modalDialogInputTable {
+				width: 100%;
+			}
+
+			.modalDialogInputTable input {
+				font-size: 14px;
+				width: 100%;
+			}
+
+			.modalDialogIconTable td:first-child {
+				padding-right: 10px;
+			}
+
+			.modalDialogFooter {
+				margin-right: 15px;
+			}
+
+			.modalDialogBox a {
+				float: right;
+				width: 70px;
+				margin-left: 5px;
+				text-align: center;
+			}
+		&lt;/style&gt;
+
+		&lt;!-- ======== Buttons =============================== --&gt;
+		&lt;style type="text/css"&gt;
+			.disabled {
+				cursor: not-allowed !important;
+				pointer-events: none !important;
+				color: lightgray !important;
+				background-color: #ffffff !important;
+				background-image: none !important;
+			}
+
+			.btnSelMacrosTool {
+				width: 30px;
+				height: 30px;
+				box-shadow:inset 0px 1px 0px 0px #97c4fe;
+				background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+				background-color:#3d94f6;
+				border-radius:6px;
+				border:1px solid #337fed;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:16px;
+				font-weight:bold;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #1570cd;
+			}
+			.btnSelMacrosTool:hover {
+				background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+				background-color:#1e62d0;
+			}
+			.btnSelMacrosTool:active {
+				position:relative;
+				top:1px;
+			}
+
+			.btnRenumber {
+				width: 114px;
+				height: 29px;
+				line-height: 29px;
+				box-shadow:inset 0px 1px 0px 0px #caefab;
+				background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+				background-color:#77d42a;
+				border-radius:6px;
+				border:1px solid #268a16;
+				display:inline-block;
+				cursor:pointer;
+				color:#306108;
+				font-family:Arial;
+				font-size:13px;
+				font-weight:bold;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #aade7c;
+			}
+			.btnRenumber:hover {
+				background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+				background-color:#5cb811;
+			}
+			.btnRenumber:active {
+				position:relative;
+				top:1px;
+			}
+
+			.dialogOkButton {
+				box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+				background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+				background-color:#79bbff;
+				border-radius:6px;
+				border:1px solid #84bbf3;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:12px;
+				font-weight:bold;
+				padding:6px 0px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #528ecc;
+			}
+			.dialogOkButton:hover {
+				background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+				background-color:#378de5;
+			}
+			.dialogOkButton:active {
+				position:relative;
+				top:1px;
+			}
+
+			.okButton {
+				box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+				background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+				background-color:#79bbff;
+				border-radius:6px;
+				border:1px solid #84bbf3;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:15px;
+				font-weight:bold;
+				padding:6px 24px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #528ecc;
+			}
+			.okButton:hover {
+				background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+				background-color:#378de5;
+			}
+			.okButton:active {
+				position:relative;
+				top:1px;
+			}
+
+			.cancelButton {
+				box-shadow:inset 0px 1px 0px 0px #ffffff;
+				background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+				background-color:#ffffff;
+				border-radius:6px;
+				border:1px solid #dcdcdc;
+				display:inline-block;
+				cursor:pointer;
+				color:#666666;
+				font-family:Arial;
+				font-size:15px;
+				font-weight:bold;
+				padding:6px 24px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #ffffff;
+			}
+			.cancelButton:hover {
+				background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+				background-color:#f6f6f6;
+			}
+			.cancelButton:active {
+				position:relative;
+				top:1px;
+			}
+
+			.dialogCancelButton {
+				box-shadow:inset 0px 1px 0px 0px #ffffff;
+				background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+				background-color:#ffffff;
+				border-radius:6px;
+				border:1px solid #dcdcdc;
+				display:inline-block;
+				cursor:pointer;
+				color:#666666;
+				font-family:Arial;
+				font-size:12px;
+				font-weight:bold;
+				padding:6px 0px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #ffffff;
+			}
+			.dialogCancelButton:hover {
+				background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+				background-color:#f6f6f6;
+			}
+			.dialogCancelButton:active {
+				position:relative;
+				top:1px;
+			}
+		&lt;/style&gt;
+
+		&lt;!-- ==================== Prorotypes, Helper Functions =============================== --&gt;
+		&lt;script type="text/javascript"&gt;
+			if (!String.prototype.startsWith) {
+				String.prototype.startsWith = function(searchString, position) {
+					position = position || 0;
+					return this.substr(position, searchString.length) === searchString;
+				};
+			}
+
+			Node.prototype.toggleClass = function toggleClass(className, include) {
+				var classNames = this.className.split(" ");
+				var index = classNames.indexOf(className);
+				if (include) {
+					if (index &lt; 0) {
+						classNames.push(className);
+					}
+				} else {
+					if (index &gt;= 0) {
+						classNames.splice(index, 1);
+					}
+				}
+				this.className = classNames.join(" ");
+			};
+
+			Node.prototype.swapClasses = function swapClasses(className1, className2, useClassName1) {
+				function swap(node, name1, name2) {
+					var classNames = node.className.split(" ");
+					var i = classNames.indexOf(name2);
+					if (i &gt;= 0)
+						classNames.splice(i, 1);
+					if (classNames.indexOf(name1) &lt; 0)
+						classNames.push(name1);
+					node.className = classNames.join(" ");
+				}
+
+				if (useClassName1 === undefined || useClassName1) {
+					swap(this, className1, className2);
+				} else {
+					swap(tis, className2, className1);
+				}
+			};
+
+			function getKMVariable(name, required) {
+				var value = window.KeyboardMaestro.GetVariable(name);
+				if (required &amp;&amp; !value)
+					throw Error("Variable '" + name + "' not set");
+				return value;
+			}
+		&lt;/script&gt;
+
+		&lt;!-- ============= logDebugMessage and ErrorHandler ========================================= --&gt;
+		&lt;script type="text/javascript"&gt;
+			var _logDebugMessageEnabled = false;
+			var _firstDebugMessage = true;
+			function logDebugMessage(message) {
+				if (!_logDebugMessageEnabled)
+					return;
+				try {
+					if (_firstDebugMessage) {
+						_firstDebugMessage = false;
+						window.KeyboardMaestro.Trigger("LogDebugMessage", "=====================================================");
+					}
+					window.KeyboardMaestro.Trigger("LogDebugMessage", message);
+				} catch (e) {
+				}
+			}
+
+			function dump(obj, desc) {
+				logDebugMessage((desc ? desc + ": " : "") + JSON.stringify(obj, null, "\t"));
+			}
+
+			var ErrorHandler = (function() {
+				return {
+					handle: function(error, context) {
+						this.log(ErrorHandler.format(error, context));
+					},
+
+					format: function(error, context) {
+						if (context)
+							return "Error in '" + context + "':\n" + error.message;
+						return error.message;
+					},
+
+					log: function(str) {
+						logDebugMessage(str);
+						document.write(str.split("\n").join("&lt;br /&gt;") + "&lt;br / /&gt;");
+					}
+				};
+			})();
+		&lt;/script&gt;
+
+		&lt;!-- ============= Modal Dialogs ================================================== --&gt;
+		&lt;script type="text/javascript"&gt;
+			function showInfoDialog(message) {
+				try {
+					// document.getElementById("modalDialogTitle").innerText = title;
+					document.getElementById("infoDialogMessage").innerText = message;
+					document.getElementById("infoDialog").swapClasses("modalDialogVisible", "modalDialogHidden");
+				} catch (e) {
+					ErrorHandler.handle(e, "showInfoDialog");
+				}
+			}
+
+			function closeInfoDialog() {
+				try {
+					document.getElementById("infoDialog").swapClasses("modalDialogHidden", "modalDialogVisible");
+				} catch (e) {
+					ErrorHandler.handle(e, "closeInfoDialog");
+				}
+			}
+
+			function editMacroName() {
+				try {
+					var selection = getSelectedOptionAndMacro();
+					if (!selection)
+						return;
+					showEditBoxDialog("Edit Macro Name", selection.macro.macroNameNoPrefix, "editMacroName");
+				} catch (e) {
+					ErrorHandler.handle(e, "editMacroName");
+				}
+			}
+
+			var _showEditBoxDialogWhenAddingDivider = true;
+			function addDivider() {
+				try {
+					if (_showEditBoxDialogWhenAddingDivider) {
+						showEditBoxDialog("Enter Divider Text", _lastDividerString, "addDivider");
+					} else {
+						addDividerMacro(_lastDividerString);
+					}
+				} catch (e) {
+					ErrorHandler.handle(e, "addDivider");
+				}
+			}
+
+			function addDividerMacro(text) {
+				var macro = {
+					macroUUID: "",
+					macroName: "",
+					prefixNumber: "",
+					macroNameNoPrefix: text
+				};
+				_macrosInfo.macros.push(macro);
+				var macroIndex = _macrosInfo.macros.length - 1;
+
+				var sel = document.getElementById("selMacros");
+				var selIndex = sel.selectedIndex;
+				sel.selectedIndex = addMacroToSelMacros(macroIndex, selIndex &gt;= 0 ? selIndex + 1 : undefined);
+				storeLastDivider(text);
+				enableControls();
+			}
+
+			function deleteDivider() {
+				try {
+					var selection = getSelectedOptionAndMacro();
+					if (selection.macro.macroUUID)
+						return;
+					var macroIndex = selection.option.value;
+					selection.sel.options.remove(selection.optionIndex);
+					_macrosInfo.macros.splice(macroIndex, 1);
+					enableControls();
+				} catch (e) {
+					ErrorHandler.handle(e, "deleteDivider");
+				}
+			}
+
+			var _editBoxDialogShowing = false;
+			var _editBoxDialogListenerAssigned = false;
+			function showEditBoxDialog(title, text, action) {
+				try {
+					var input = document.getElementById("editBoxDialogText");
+
+					if (!_editBoxDialogListenerAssigned) {
+						_editBoxDialogListenerAssigned = true;
+						input.addEventListener("keydown", function(event) {
+							switch (event.keyCode) {
+								case 13:
+									closeEditBoxDialog("OK");
+									break;
+								case 27:
+									closeEditBoxDialog("Cancel");
+									break;
+							}
+						});
+					}
+
+					input.value = text;
+					document.getElementById("editBoxDialogTitle").innerHTML = title;
+					var dialog = document.getElementById("editBoxDialog");
+					dialog.dataset.action = action;
+					dialog.swapClasses("modalDialogVisible", "modalDialogHidden");
+					_editBoxDialogShowing = true;
+
+					window.setTimeout(function() {
+						var input = document.getElementById("editBoxDialogText");
+						input.focus();
+						input.select();
+					}, 101);
+				} catch (e) {
+					ErrorHandler.handle(e, "showEditBoxDialog");
+				}
+			}
+
+			function closeEditBoxDialog(result) {
+				function setErrorMessage(str) {
+					document.getElementById("editBoxDialogErrorMessage").innerHTML = str;
+				}
+
+				function validateAndStoreMacroName(macroName) {
+					var selection = getSelectedOptionAndMacro();
+					if (!selection)
+						throw Error("Logic Error: No selection found");
+					if (!macroName) {
+						setErrorMessage("Macro Name is required");
+						return false;
+					}
+					selection.macro.macroNameNoPrefix = macroName;
+					selection.option.text = getMacroName(selection.macro);
+
+					if (!selection.macro.macroUUID) {
+						storeLastDivider(macroName);
+						_showEditBoxDialogWhenAddingDivider = false;
+					}
+
+					return true;
+				}
+
+				function validateAndAddDivider(text) {
+					if (!text) {
+						setErrorMessage("Divider Text is required");
+						return false;
+					}
+					addDividerMacro(text);
+					_showEditBoxDialogWhenAddingDivider = false;
+					return true;
+				}
+
+				function validateAndStoreResult(action) {
+					var macroName = document.getElementById("editBoxDialogText").value.trim();
+					switch (action) {
+						case "editMacroName":
+							return validateAndStoreMacroName(macroName);
+						case "addDivider":
+							return validateAndAddDivider(macroName);
+						default:
+							throw Error("Unexpected action: '" + action + "'");
+					}
+				}
+
+				// closeEditBoxDialog()
+				try {
+					var dialog = document.getElementById("editBoxDialog");
+					if (result === "OK" &amp;&amp; !validateAndStoreResult(dialog.dataset.action))
+						return;
+					setErrorMessage("");
+					dialog.swapClasses("modalDialogHidden", "modalDialogVisible");
+
+					setTimeout(function() {
+						_editBoxDialogShowing = false;
+					}, 1);
+				} catch (e) {
+					ErrorHandler.handle(e, "closeEditBoxDialog");
+				}
+			} // closeEditBoxDialog()
+		&lt;/script&gt;
+
+		&lt;!-- ============= UI Manipulation and Access ===================================== --&gt;
+		&lt;script type="text/javascript"&gt;
+			function enableControls() {
+
+				function enableControl(id, enabled) {
+					document.getElementById(id).toggleClass("disabled", !enabled);
+				}
+
+				function showControl(id, show) {
+					document.getElementById(id).style.visibility = show ? "visible" : "collapse";
+				}
+
+				try {
+					var selectedOption = getSelectedOptionAndMacro();
+					enableControl("btnUp", selectedOption &amp;&amp; selectedOption.lowestSelectedIndex &gt; 0);
+					enableControl("btnDown", selectedOption &amp;&amp; selectedOption.highestSelectedIndex &lt; selectedOption.optionsCount - 1);
+					enableControl("btnEditMacroName", selectedOption);
+					showControl("btnDeleteDivider", selectedOption &amp;&amp; !selectedOption.macro.macroUUID);
+				} catch (e) {
+					ErrorHandler.handle(e, "enableControls");
+				}
+			}
+
+			function getMacroName(macro) {
+				try {
+					if (macro.prefixNumber)
+						return macro.prefixNumber + ")" + macro.macroNameNoPrefix;
+					return macro.macroNameNoPrefix;
+				} catch (e) {
+					ErrorHandler.handle(e, "getMacroName");
+				}
+			}
+
+			function addMacroToSelMacros(macroIndex, selIndex) {
+				try {
+					var macro = _macrosInfo.macros[macroIndex];
+					var opt = document.createElement("option");
+					opt.text = getMacroName(macro);
+					opt.value = macroIndex;
+					var sel = document.getElementById("selMacros");
+					if (selIndex !== undefined) {
+						sel.add(opt, selIndex);
+					} else {
+						sel.add(opt);
+						selIndex = sel.options.length - 1;
+					}
+					return selIndex;
+				} catch (e) {
+					ErrorHandler.handle(e, "addMacroToSelMacros");
+				}
+			}
+
+			function getSelectedOptionAndMacro() {
+				try {
+					var sel = document.getElementById("selMacros");
+					var optionIndex = sel.selectedIndex;
+					if (optionIndex &lt; 0)
+						return null;
+
+					var option;
+					var lowestSelectedIndex = 9999;
+					var highestSelectedIndex = -1;
+					var options = sel.options;
+					for (var i = 0; i &lt; options.length; i++) {
+						option = options[i];
+						if (option.selected) {
+							lowestSelectedIndex = Math.min(lowestSelectedIndex, i);
+							highestSelectedIndex = Math.max(highestSelectedIndex, i);
+						}
+					}
+
+					option = sel.options[optionIndex];
+					return {
+						sel: sel,
+						option: option,
+						optionIndex: optionIndex,
+						macro: _macrosInfo.macros[option.value],
+						lowestSelectedIndex: lowestSelectedIndex,
+						highestSelectedIndex: highestSelectedIndex,
+						optionsCount: sel.options.length
+					};
+				} catch (e) {
+					ErrorHandler.handle(e, "getSelectedOptionAndMacro");
+				}
+			}
+
+			function applyRenumbering() {
+
+				function setRenumberErrorMessage(str) {
+					document.getElementById("spanRenumberErrorMessage").innerHTML = str;
+				}
+
+				function isValidNumber(str, min, max) {
+					if (str.search(/^\d\d*$/) !== 0)
+						return false;
+					var num = parseInt(str);
+					return num &gt;= min &amp;&amp; num &lt;= max;
+				}
+
+				try {
+					setRenumberErrorMessage("");
+					var maxStartingNumber = 100 - _macrosInfo.macros.length;
+					var startingNumber = document.getElementById("inpStartingNumber").value;
+					if (!isValidNumber(startingNumber, 1, maxStartingNumber)) {
+						setRenumberErrorMessage("Starting Number must be a number between 1 and " + maxStartingNumber + ".");
+						return;
+					}
+					startingNumber = parseInt(startingNumber);
+
+					var increment = document.getElementById("inpIncrement").value;
+					if (!isValidNumber(increment, 1, 98)) {
+						setRenumberErrorMessage("Increment must be a number greater than 0.");
+						return;
+					}
+					increment = parseInt(increment);
+
+					if (startingNumber + ((_macrosInfo.macros.length - 1) * increment) &gt; 99) {
+						setRenumberErrorMessage("These values would create a prefix &gt; 2 digits.");
+						return;
+					}
+
+					var options = document.getElementById("selMacros").options;
+					var prefixNumber = startingNumber;
+					for (var i = 0; i &lt; options.length; i++) {
+						var option = options[i];
+						var macro = _macrosInfo.macros[option.value];
+						macro.prefixNumber = (prefixNumber &lt; 10 ? "0" : "") + prefixNumber;
+						option.text = getMacroName(macro);
+						prefixNumber += increment;
+					}
+				} catch (e) {
+					ErrorHandler.handle(e, "applyRenumbering");
+				}
+			}
+
+			function moveSelectedItems(up) {
+				function swapIf(sel,i1,i2) {
+					var swapVar = '';
+					if ( ! sel[i1].selected &amp;&amp; sel[i2].selected) {
+						swapVar = sel[i2].text;
+						sel[i2].text = sel[i1].text;
+						sel[i1].text = swapVar;
+						swapVar = sel[i2].value;
+						sel[i2].value = sel[i1].value;
+						sel[i1].value = swapVar;
+						sel[i1].selected = true;
+						sel[i2].selected = false;
+					}
+				}
+
+				function moveUp() {
+					try {
+						var sel = document.getElementById("selMacros");
+						var i1=0, i2=1;
+						while (i2 &lt; sel.options.length) {
+							swapIf(sel,i1++,i2++);
+						}
+						enableControls();
+					} catch (e) {
+						ErrorHandler.handle(e, "moveUp");
+					}
+				}
+
+				function moveDown() {
+					try {
+						var sel = document.getElementById("selMacros");
+						var i1=sel.options.length-1, i2=i1-1;
+						while (i1 &gt; 0) {
+							swapIf(sel,i1--,i2--);
+						}
+						enableControls();
+					} catch (e) {
+						ErrorHandler.handle(e, "moveDown");
+					}
+				}
+
+				// moveSelectedItems()
+				if (up) {
+					moveUp();
+				} else {
+					moveDown();
+				}
+			} // moveSelectedItems()
+
+			function fillSelect() {
+				var sel = document.getElementById("selMacros");
+				for (var i = 0; i &lt; _macrosInfo.macros.length; i++) {
+					addMacroToSelMacros(i);
+				}
+	        }
+		&lt;/script&gt;
+
+		&lt;!-- ============= Main Body Logic ========================================= --&gt;
+		&lt;script type="text/javascript"&gt;
+			var _desiredWindowPosition;
+			var _macrosInfo;
+			var _lastDividerString;
+			var _lastDividerCharVarName = "DND__palorg_lastDividerChar";
+			var _availWindowWidth;
+			var _availWindowHeight;
+
+			function storeLastDivider(text) {
+				if (!text)
+					throw Error("Logic Error: 'storeLastDivider' should never be called with an empty parameter");
+				var dividerChar = text.substring(0, 1);
+				if (!_lastDividerString || !_lastDividerString.startsWith(dividerChar)) {
+					window.KeyboardMaestro.SetVariable(_lastDividerCharVarName, dividerChar);
+				}
+				_lastDividerString = text;
+			}
+
+			function setupUI() {
+				function getDividerString() {
+					var divider = "";
+					var longestMacroName = 0;
+					_macrosInfo.macros.forEach(function(macro) {
+						longestMacroName = Math.max(longestMacroName, macro.macroName.length);
+						var matches = macro.macroNameNoPrefix.match(/([^0-9a-z ]{8,})/gi);
+						if (matches) {
+							matches.forEach(function(match) {
+								if (match.length &gt; divider.length)
+									divider = match;
+							});
+						}
+					});
+
+					if (!divider) {
+						var dividerChar = getKMVariable(_lastDividerCharVarName) || "⎯";
+						divider = Array(longestMacroName + 1).join(dividerChar);
+					}
+					return divider;
+				}
+
+				// setupUI()
+				try {
+					document.onkeydown = function(event) {
+						if (event.which == 27 &amp;&amp; _editBoxDialogShowing)
+							return false;
+					};
+
+					document.getElementById("header").innerText = "Organizing Macros for Palette\n\"" + _macrosInfo.groupName + "\"";
+					storeLastDivider(getDividerString());
+					// fillSelect();
+					document.getElementById("selMacros").focus();
+					enableControls();
+				} catch (e) {
+					ErrorHandler.handle(e, "setupUI");
+				}
+			} // setupUI()
+
+			function KMDidShowWindow() {
+				try {
+					var actualScreenY = window.screenY;
+					if (actualScreenY !== _desiredWindowPosition.top)
+						window.moveBy(0, _desiredWindowPosition.top - actualScreenY);
+
+					setupUI();
+				} catch (e) {
+					ErrorHandler.handle(e, "KMDidShowWindow");
+				}
+			}
+
+			function KMWindow() {
+				function setupAvailWindowWidthAndHeight() {
+					function getFauxOrRealValue(varName, actualValue, actualOffsetValue) {
+						var result;
+						var str = getKMVariable(varName);
+						if (str) {
+							result = parseInt(str);
+							if (isNaN(result))
+								throw Error(varName + " contains non-numeric value '" + str + "'");
+							result -= actualOffsetValue;
+						} else {
+							result = actualValue;
+						}
+						return result;
+					}
+
+					// setupAvailWindowWidthAndHeight()
+					_availWindowWidth = getFauxOrRealValue("palorg_fauxAvailWindowWidth", window.screen.availWidth, 0);
+					_availWindowHeight = getFauxOrRealValue("palorg_fauxAvailWindowHeight", window.screen.availHeight, window.screen.availTop);
+				} // setupAvailWindowWidthAndHeight()
+
+				function setupBestWindowHeight() {
+
+					function calculateWindowHeightFromTblClientHeight(tblClient) {
+						var headerAndFooterHeight = 140;
+						return tblClient.offsetHeight + headerAndFooterHeight;
+					}
+
+					var minSelMacrosSize = 10;
+
+					var tblClient = document.getElementById("tblClient");
+					var selMacros = document.getElementById("selMacros");
+
+					var size = Math.max(minSelMacrosSize, _macrosInfo.macros.length + 5);
+					selMacros.size = size.toString();
+					while ((size &gt; minSelMacrosSize) &amp;&amp; (calculateWindowHeightFromTblClientHeight(tblClient) &gt; _availWindowHeight)) {
+						size = size - 1;
+						selMacros.size = size.toString();
+					}
+
+					return calculateWindowHeightFromTblClientHeight(tblClient);
+				}
+
+				function setupWidth() {
+					var sel = document.getElementById("selMacros");
+					var selWidth = sel.offsetWidth;
+					sel.style.width = "100%";
+					var additionalSelWidth = Math.max(0, selWidth - sel.offsetWidth);
+					return document.getElementById("content").offsetWidth + additionalSelWidth;
+				}
+
+				function calculateCenteredWindowPosition(width, height) {
+					var availTop = window.screen.availTop;
+					var availLeft = window.screen.availLeft;
+					return {
+						left: ((_availWindowWidth - width) / 2) + availLeft,
+						top: ((_availWindowHeight - height) / 2) + availTop,
+						width: width,
+						height: height
+					};
+				}
+
+				// KMWindow()
+				try {
+					setupAvailWindowWidthAndHeight();
+					_macrosInfo = JSON.parse(getKMVariable("palorg_MacrosInfo", true));
+					fillSelect();
+
+					var width = setupWidth();
+					document.body.style.width = width + "px";
+					var height = setupBestWindowHeight();
+					document.body.style.height = height + 'px';
+
+					_desiredWindowPosition = calculateCenteredWindowPosition(width, height);
+					return _desiredWindowPosition.left + ", " + _desiredWindowPosition.top + ", " + width + ", " + height;
+				} catch (e) {
+					ErrorHandler.handle(e, "KMWindow");
+				}
+			} // KMWindow()
+
+			function submitWindow(result) {
+				function storeResult() {
+					try {
+						var result = [];
+						var options = document.getElementById("selMacros").options;
+						var lastPrefixNumber = 0;
+						for (var i = 0; i &lt; options.length; i++) {
+							var option = options[i];
+							var macro = _macrosInfo.macros[option.value];
+							if (!macro.prefixNumber || macro.prefixNumber &lt;= lastPrefixNumber)
+								return "Macros need to be re-numbered.";
+							if (macro.macroName !== getMacroName(macro))
+								result.push(macro.macroUUID + "\t" + macro.macroName + "\t" + macro.prefixNumber + ")" + macro.macroNameNoPrefix);
+							lastPrefixNumber = macro.prefixNumber;
+						}
+
+						window.KeyboardMaestro.SetVariable("palorg_RenumberedMacrosList", result.join("\n"));
+
+						window.KeyboardMaestro.SetVariable("palorg_GroupUUID", _macrosInfo.groupUUID);
+						window.KeyboardMaestro.SetVariable("palorg_GroupName", _macrosInfo.groupName);
+						window.KeyboardMaestro.SetVariable("palorg_GroupToggleMacroUID", _macrosInfo.groupToggleMacroUID);
+						return "";
+					} catch (e) {
+						return e.message;
+					}
+				}
+
+				// submitWindow()
+				var errorMessage = storeResult();
+				if (errorMessage) {
+					showInfoDialog(errorMessage);
+					return;
+				}
+				window.KeyboardMaestro.Submit(result);
+			} // submitWindow()
+
+			function cancelWindow(result) {
+				window.KeyboardMaestro.Cancel(result);
+			}
+		&lt;/script&gt;
+	&lt;/head&gt;
+
+	&lt;body&gt;
+		&lt;div id="infoDialog" class="modalDialog modalDialogHidden"&gt;
+			&lt;div class="modalDialogBox"&gt;
+				&lt;div class="modalDialogBody"&gt;
+					&lt;table class="modalDialogIconTable"&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAA
+								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
+								YFLB5AAAAABJRU5ErkJggg=="&gt;
+							&lt;/td&gt;
+							&lt;td id="infoDialogMessage"&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/table&gt;
+				&lt;/div&gt;
+				&lt;div class="modalDialogFooter"&gt;
+					&lt;a class="dialogOkButton" onclick="closeInfoDialog()"&gt;OK&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div id="editBoxDialog" class="modalDialog modalDialogHidden"&gt;
+			&lt;div class="modalDialogBox"&gt;
+				&lt;div class="modalDialogHeader"&gt;
+					&lt;span id="editBoxDialogTitle"&gt;Edit Macro Name&lt;/span&gt;
+					&lt;hr /&gt;
+				&lt;/div&gt;
+				&lt;div class="modalDialogBody"&gt;
+					&lt;table class="modalDialogInputTable"&gt;
+						&lt;tr&gt;
+							&lt;td&gt;
+								&lt;input id="editBoxDialogText" onkeydown="editBoxDialogTextKeyDown"/&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+						&lt;tr&gt;
+							&lt;td class="errorMessage"&gt;
+								&lt;span id="editBoxDialogErrorMessage"&gt;&lt;/span&gt;
+							&lt;/td&gt;
+						&lt;/tr&gt;
+					&lt;/table&gt;
+				&lt;/div&gt;
+				&lt;div class="modalDialogFooter"&gt;
+					&lt;a class="dialogOkButton" onclick="closeEditBoxDialog('OK')"&gt;OK&lt;/a&gt;
+					&lt;a class="dialogCancelButton" onclick="closeEditBoxDialog('Cancel')"&gt;Cancel&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class="page"&gt;
+			&lt;header&gt;
+				&lt;table id="tblHeader"&gt;
+					&lt;tr&gt;
+						&lt;td&gt;
+							&lt;img src="data:image/png;base64,
+							iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QAAAAA
+							AAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwVFx0AnqIi
+							ZwAAE69JREFUaEOlmXmUZVV97z97n3Pnmqu6muqu6pGxmx6hBUQfQVEJoESh
+							aYGgviaICc+s6DNB8/LeS8x6YWnic8IBEV2YlSXdsNSQFwQ0KoiM3TT0TNNj
+							zdV9a7zTGfbev/fHube6mmZK8lvrrLOne/b3+9vf396/c67iP2Hl5z5J00Xf
+							O61dTvyzlnDIx5U1UgVXEahavfRb5nUe858y9VYD3simfrOJtt/bAsD0truz
+							qYxZoVNmg/bsfO3TrT3XiSuncTWQwIKZQcxxxE2DO4BE21T4wKBahQC4XevQ
+							q3a86ZwAg99cQe+n987e/8MEAKZ+c8utOtX6R36q1Jfy9jR58mqTkrIHAn4r
+							6CyIQ8Sg7DgIoHzwOwL83rJ4XRNIdRum/Bd69UtDAG7nmejVB193vqHvr2fh
+							H73I4DdXrO399N6X4N+5Av0/OJdMc3efn/Ov9TPum362RiY/hs424zJrMM3X
+							4/JX4NIFREBJ8rvGXZshVG0bXuVX6NpzKNMPZEGlAO/nwN8itZ16zdHKG0Bg
+							dMtlHzbFiY7eO3bdB2+DwMA9Z9B3+ygD965a6Of9O7LN05/JtVWzftcaXNtV
+							mKYbEP+MxLliwVVREgAGJTEQg4tBYlAWJYJCQBmw0+jai+jKE+hgB+JC8Fp/
+							DeouvebIL9yO64B/Q6+bAmD88SvfQ67z3wb+xz81rX2SCrwJgaNfy4BuYsmf
+							jnPsO73XpfL6O519/fN0z1XEPV8DvwdRGXAhysWgYhQxOANEIAYlSVlhQJI2
+							JKq3N8bapM8W0dVdqIkfolIdIV76d3rt6HsT4NcoF0dNqYWLB6q7Xtmx4JYn
+							L2/gfF0Cu/8Wzv+fsOfzpAs9Tf+Q71Kf7lzRjFn4HeLmD6HimVlgSgyoGGwE
+							JMCU1MlI3fvECaE5ZXGNMXVSzgACtowq3g8yiU75o8pzl6k1kwcmnrr5WZXP
+							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
+							3sj/B7AN4gyLN2jqAAAAAElFTkSuQmCC" /&gt;
+						&lt;/td&gt;
+						&lt;td&gt;
+							&lt;h3 id="header"&gt;Palette Organizer&lt;/h3&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+				&lt;/table&gt;
+			&lt;/header&gt;
+
+			&lt;div id="content"&gt;
+				&lt;table id="tblClient"&gt;
+					&lt;tr&gt;
+						&lt;td&gt;
+							&lt;div&gt;
+								&lt;a href="#" id="btnUp" title="Move selected items up" class="btnSelMacrosTool" onclick="moveSelectedItems(true)"&gt;
+									&lt;img src="data:image/png;base64,
+									iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA
+									AAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwXEi0wy/8u
+									WAAAAQxJREFUSMftlD9KA0EYxX+JHiBn0PIhiH8OYG2TNkVMoSCCJ/AClp5A
+									olvZaa5gE0hh5bMRUU+QA4hoM5FlSGSZDdtkXjX7zbf8eO+bGcjKylpJ2Z67
+									bgresd1J/b+dCD0CpsDU9mmK81YCtA8UUflE0rVtJC0fvAA6U1fSqCq8XfUg
+									hXiLf1ofbB9KqhR7q6LTAXATlT/DnLej+kBSsQzH/TnQD2AT2AXG0d6t7bNa
+									jm13gfuo/KIwxBDpGjABdqK+nqS7VMcX0fezJM1mGPjfwB7wHvUO60R9WVq/
+									StoqAf/gkn6ADeCt1H9c63DZ3gcOgCvga9FVCSmsA+fAk6THxt7kxt/trKys
+									1dQvahRp4AGdbSsAAAAASUVORK5CYII=
+									" /&gt;
+								&lt;/a&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;a href="#" id="btnDown" title="Move selected items down" class="btnSelMacrosTool" onclick="moveSelectedItems(false)"&gt;
+									&lt;img src="data:image/png;base64,
+									iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA
+									AAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwXEjglkZcs
+									pwAAARBJREFUSMftlDFKBEEQRd+sHmBvIKJG38DEwNDcQFPBHQRBEC/gBYSN
+									DI0EHU/gERQjERP5YCR6Ag9gsCatDM24M2MjiPSDhu6qon51N1WQyWQyv4Ht
+									xn2X+DaKDslWgXXgBHiXNE10FjgEHiTdTMs7aBHdAu6AMeDvRGs8hQKvbW//
+									WBg4qu2XbD82fYHtAngGFmrxZynCx9F52fbXzUMBM8A9MB/F7qb+8Q5QReYX
+									YBGYALfAWuQ/kHSaJBzES+A8Mr8Cb8BKZC8lVW05B11aRNIFUEauuQbRDUlV
+									l7YqevZ107N/sinpKhRK8o3rSLoERg2uvT6iKRNtZHsS1n7fqZUqPrQ9/NMz
+									PJPJ/E8+AFT2cBiAPra4AAAAAElFTkSuQmCC
+									" /&gt;
+								&lt;/a&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;a href="#" id="btnEditMacroName" title="Edit selected macro name" class="btnSelMacrosTool" onclick="editMacroName()"&gt;
+									&lt;img src="data:image/png;base64,
+									iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA
+									AAD5Q7t/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4AwXEjoDcazL
+									2AAAAtlJREFUSMftlktIVFEYx//n3nNH78yYXGcqJ/Nm4KLXylZFGRGaJSrZ
+									y0XQIggisullm4gSW0WvTWUbE7LCRw8XGlJTESFUGG1ykRUzppXFPJrxzjj3
+									8bUxokVqo0WL+cPZHM73/fh//29xgLTSSut/UrskoVuW5U6wrodqvnYHOP7X
+									od4tS9EDZLc5HSMfGvbRaGsjvahaQ9eBkxPVselAa7cvhm2wX04s2enPL1jo
+									3kXfmGETwMnA40tt2Owf+m1/IWWn5YD9bb8cW7Q9UFKxxV1RvY01RjiE9xpi
+									/SHyfw4+n6heSBUqSVxOehCoKFVdgsgZCFi8cgUatDi1dHR8jXNx7YyC95cD
+									NonLpmkOHjt91LWxdD5zxFvR2t6JaDRGI6Ghb3osVpgkGp2xjPdtADIyuN0w
+									TP/xM3UuxeVhCPsANgst3Yzu9gxHnIMPVEtxR5t9XyfsxacK3VsGcInbk7oV
+									OHG2LkdxeRhCPlhWNiJaBvk6miLOsKnqiit6bRLolB3vKQEy7dyuJ61A/fm6
+									HMWVyxC6D8tSENYy6KC3KWwRFlimGW15OjUjk2a8tdiNLBuyxhJWoP7c4V+h
+									ozby1jaFdQuqoU8dCgDiZA9e+zXMnjPvxpGjK5arqpOxyEtYpCAUs5HXezXM
+									GFTTMGM3e/9sSSd0XLlKxbI85qipqaruvGeB6SJM5vkBDTEG1cZ+hTocDgBA
+									UVHR9DLeVFxw4crF+tpPIzF0dd9G5ToFp061BwlQXw3KmpGZL4iiKIiiKAAA
+									55wAUF9fnz6trS5bv7o2GBmDKGViXt4iHDh2o0fH3N1Bc+4sSWE50s+4TAAG
+									ESUBJACkDq4qzjuUm+uB72EvHj159uDNcPyyyQs+CjAXAjAAjAFIMMYSRGSM
+									3yXHT+qj3lFe+FbTErfefZGbLZ49KjJTBGAxxnQiShLR2LgzA4DJGLMMw6B4
+									PE4DAwPp/0Jaaf0bfQefhjmDiw2RTAAAAABJRU5ErkJggg==
+									" /&gt;
+								&lt;/a&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;a href="#" id="btnAddDivider" title="Add Divider" class="btnSelMacrosTool" onclick="addDivider()"&gt;
+									&lt;img src="data:image/png;base64,
+									iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABmJLR0QAAAAA
+									AAD5Q7t/AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4AwXEwYYifgR
+									/AAAAGdJREFUSMftlEESwCAIAw3//3O89AyV6LTOZM9KMETGMMZsAiuHSebF
+									gPMdkywbyYivrA7FWmksLwq01FEMPH4Z+eyxfOhaHae+R3U3blkgVALVFs7E
+									sTgXNENHRVRNPKlsGGOMuY4Jxo409B5qKxIAAAAASUVORK5CYII=
+									" /&gt;
+								&lt;/a&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;a href="#" id="btnDeleteDivider" title="Delete Divider" class="btnSelMacrosTool" onclick="deleteDivider()"&gt;
+									&lt;img src="data:image/png;base64,
+									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
+									oFv436xSO1caPJ2JAAAAAElFTkSuQmCC" /&gt;
+								&lt;/a&gt;
+							&lt;/div&gt;
+						&lt;/td&gt;
+						&lt;td&gt;
+							&lt;select id="selMacros" multiple size="25" onchange="enableControls()" ondblclick="editMacroName()"&gt;&lt;/select&gt;
+						&lt;/td&gt;
+						&lt;td&gt;
+							&lt;table id="tblRenumberControls"&gt;
+								&lt;tr&gt;
+									&lt;td&gt;
+										&lt;label&gt;Starting Number:&lt;/label&gt;
+									&lt;/td&gt;
+									&lt;td&gt;
+										&lt;input id="inpStartingNumber" value="1"/&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td&gt;
+										&lt;label&gt;Increment:&lt;/label&gt;
+									&lt;/td&gt;
+									&lt;td&gt;
+										&lt;input id="inpIncrement" value="1"/&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td class="errorMessage" colspan="2"&gt;
+										&lt;span id="spanRenumberErrorMessage"&gt;&lt;/span&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+								&lt;tr&gt;
+									&lt;td colspan="2"&gt;
+										&lt;a href="#" id="btnRenumber" class="btnRenumber" onclick="applyRenumbering()"&gt;Renumber&lt;/a&gt;
+									&lt;/td&gt;
+								&lt;/tr&gt;
+							&lt;/table&gt;
+						&lt;/td&gt;
+					&lt;/tr&gt;
+
+				&lt;/table&gt;
+			&lt;/div&gt;
+
+			&lt;footer&gt;
+				&lt;div&gt;
+					&lt;a id="btnOK" class="okButton" onclick="submitWindow('OK')"&gt;OK&lt;/a&gt;
+					&lt;a class="cancelButton" onclick="cancelWindow('Cancel')"&gt;Cancel&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/footer&gt;
+		&lt;/div&gt;
+	&lt;/body&gt;
+
+&lt;/html&gt;</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Yellow</string>
+								<key>ActionName</key>
+								<string>Abort if Canceled</string>
+								<key>ActionUID</key>
+								<integer>15485641</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>HTML Result Button</string>
+											<key>VariableConditionType</key>
+											<string>IsNot</string>
+											<key>VariableValue</key>
+											<string>OK</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActionListDisclosed</key>
+								<false/>
+								<key>ElseActions</key>
+								<array/>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>Action</key>
+										<string>CancelThisMacro</string>
+										<key>ActionUID</key>
+										<integer>15485642</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Cancel</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Do the renumbering</string>
+						<key>ActionUID</key>
+						<integer>15485643</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionColor</key>
+								<string>Purple</string>
+								<key>ActionName</key>
+								<string>Show the Please Wait dialog</string>
+								<key>ActionUID</key>
+								<integer>15485644</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15485645</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>&lt;dict&gt;
+		&lt;key&gt;MacroActionType&lt;/key&gt;
+		&lt;string&gt;CustomPrompt&lt;/string&gt;
+		&lt;key&gt;Text&lt;/key&gt;
+		&lt;string&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+	&amp;lt;head&amp;gt;
+		&amp;lt;title&amp;gt;Palette Organizer&amp;lt;/title&amp;gt;
+		&amp;lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&amp;gt;
+
+		&amp;lt;!-- ======== Top and Client =============================== --&amp;gt;
+		&amp;lt;style type="text/css"&amp;gt;
+			body {
+				overflow: hidden;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				font-size: 14px;
+				text-align: center;
+				margin: 0;
+				background: #E0F2F5;
+			}
+
+			#tblPleaseWait {
+				padding: 20px;
+			}
+			#divPleaseWaitMessage {
+				font-size: 20px;
+				font-weight: bold;
+				padding-bottom: 20px;
+			}
+			#divText {
+				font-size: 14px;
+			}
+
+			#tblCompleted {
+				padding-left: 20px;
+				padding-right: 10px;
+				padding-top: 20px;
+				padding-bottom: 10px;
+				width:100%;
+			}
+			#divCompletedMessage {
+				font-size: 20px;
+				font-weight: bold;
+				padding-bottom: 5px;
+			}
+			#divOkButton a {
+				float: right;
+				width: 50px;
+				margin-top:5px;
+			}
+
+			.hidden {
+				display: none;
+			}
+
+			.okButton {
+				box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+				background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+				background-color:#79bbff;
+				border-radius:6px;
+				border:1px solid #84bbf3;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:Arial;
+				font-size:15px;
+				font-weight:bold;
+				padding:6px 24px;
+				text-decoration:none;
+				text-shadow:0px 1px 0px #528ecc;
+			}
+			.okButton:hover {
+				background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+				background-color:#378de5;
+			}
+			.okButton:active {
+				position:relative;
+				top:1px;
+			}
+
+		&amp;lt;/style&amp;gt;
+
+		&amp;lt;script type="text/javascript"&amp;gt;
+			Node.prototype.toggleClass = function toggleClass(className, include) {
+				var classNames = this.className.split(" ");
+				var index = classNames.indexOf(className);
+				if (include) {
+					if (index &amp;lt; 0) {
+						classNames.push(className);
+					}
+				} else {
+					if (index &amp;gt;= 0) {
+						classNames.splice(index, 1);
+					}
+				}
+				this.className = classNames.join(" ");
+			};
+
+			var _left;
+			var _top;
+			var _width;
+			var _height;
+			var _availWindowWidth;
+			var _availWindowHeight;
+			function KMWindow() {
+				function setupAvailWindowWidthAndHeight() {
+					function getFauxOrRealValue(varName, actualValue, actualOffsetValue) {
+						var result;
+						var str = window.KeyboardMaestro.GetVariable(varName);
+						if (str) {
+							result = parseInt(str);
+							if (isNaN(result)) {
+								result = actualValue;
+							} else {
+								result -= actualOffsetValue;
+							}
+						} else {
+							result = actualValue;
+						}
+						return result;
+					}
+
+					// setupAvailWindowWidthAndHeight()
+					_availWindowWidth = getFauxOrRealValue("palorg_fauxAvailWindowWidth", window.screen.availWidth, 0);
+					_availWindowHeight = getFauxOrRealValue("palorg_fauxAvailWindowHeight", window.screen.availHeight, window.screen.availTop);
+				} // setupAvailWindowWidthAndHeight()
+
+
+				var ani = document.getElementById("ani") ;
+				ani.setAttribute( "src", "data:image/png;base64," +
+					"R0lGODlhGQE/AOcAAAAAAP///5eruD4+PoCSnZKmso6hrZWptneHkYiapT09" +
+					"PTo6Ov7+/jU1NSEhIc7Z4LHAyf7//8/a4bLAyrLBytDb4tng5N3j59bd4dHY" +
+					"3dPa38/X3DExMSQkJCsrKy4uLigoKC3T9paqty7V9yrQ9jHZ+CrO9SjM9A55" +
+					"rizS9yvR9ifK9C3U9+Hm6SnN9S7W+CPE8iTG8jDY+CjL9A11qS/X+CbI8wxx" +
+					"pSXH8w+AtSLC8SDA8CHB8RCEugttoSXF8RCGvAppnRKJvTDU9B+/8BKQxxWV" +
+					"yQ58sRWb0h277h257hai2Qlgkhqx6AplmBem3RaZzRGNxA9+synO9SC+7xed" +
+					"0ROTyh687yLD8v39/eTp7BWe1hGKwR+98Bmt5RSXzSLD8Rik2ZWotROOwhmq" +
+					"4Bii1DDW9h646RSRxImcpw+CuBqt4Rag1fr7+/f4+SzO8hy27C/S9DHY9xyx" +
+					"5CbI9Bip4Rqm1x+25hy37CXI8y7U9Rmp3fj5+hKNwY2jso+ir5OntCjH7yC9" +
+					"7RSSxxy47ivM8fX295Oms4yequru8O7x8oiaphqv5By16Bin3RCDtyK/7iG9" +
+					"6iC66SjK9Bu17By05izQ9Rqo2hOX0B667Kq7xinJ7y3Q9IaYo3iHkt/k6ISV" +
+					"oRwcHOfs7heg0i7R8whZio2grCXH8iTB6yO/6x6x4ibF7inO9hyv4vL09fz8" +
+					"/Ruz6gdPfijK8CbC6/v8/Buq2pCjr4KUn5GksXqKlaS4xdvi5i3R9fDz9BOW" +
+					"zh+04x2u3pKlshus3izU95ywvZ60wiPC7hidzSXD7xOZ0fT19qO2wx6v3/3+" +
+					"/qGzv3+Qm9fe4rzK09Pb36+/ya2+yBgYGJmvvI+mtJSrusDN1rbFztXc4Byr" +
+					"3C3W9x645yrO9iC557TDzVpaWszX332NmLrH0cnW3MTR2cfT28TP15emsKi2" +
+					"v9HZ3rLCzMrV25Got9LZ3goQEZuqtCe53NXe5dXV1eXl5YiZpJepsxuFn9ra" +
+					"2hAeJA1AXxYkKy3F5QAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFMgD/ACwA" +
+					"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");
+
+				var tbl = document.getElementById("tblPleaseWait");
+				_width = 434;
+				_height = 166;
+				document.body.style.width = _width + "px";
+				document.body.style.height = _height + 'px';
+
+				// center on the screen
+				setupAvailWindowWidthAndHeight();
+				_left = ((_availWindowWidth - _width) / 2) + window.screen.availLeft;
+				_top = ((_availWindowHeight - _height) / 2) + window.screen.availTop;
+
+				// setTimeout(function() {
+				// 	showCompleted();
+				// }, 2000);
+
+				return _left + ", " + _top + ", " + _width + ", " + _height;
+			}
+
+			function showCompleted() {
+				document.getElementById("tblPleaseWait").toggleClass("hidden", true);
+				document.getElementById("tblCompleted").toggleClass("hidden", false);
+				window.KeyboardMaestro.ResizeWindow(_left + ", " + _top + ", " + _width + ", " + (_height - 60));
+			}
+		&amp;lt;/script&amp;gt;
+	&amp;lt;/head&amp;gt;
+
+	&amp;lt;body data-kmwindowid="PaletteOrganizerPleaseWaitScreen"&amp;gt;
+		&amp;lt;table id="tblPleaseWait"&amp;gt;
+			&amp;lt;tr&amp;gt;
+				&amp;lt;td&amp;gt;
+					&amp;lt;div id="divPleaseWaitMessage" &amp;gt;
+						Please Wait while Changes are Applied...
+					&amp;lt;/div&amp;gt;
+				&amp;lt;/td&amp;gt;
+			&amp;lt;/tr&amp;gt;
+			&amp;lt;tr&amp;gt;
+				&amp;lt;td&amp;gt;
+					&amp;lt;div id="divAni" &amp;gt;
+						&amp;lt;img id="ani" src="data:image/gif;" /&amp;gt;
+					&amp;lt;/div&amp;gt;
+				&amp;lt;/td&amp;gt;
+			&amp;lt;/tr&amp;gt;
+		&amp;lt;/table&amp;gt;
+		&amp;lt;table id="tblCompleted" class="hidden"&amp;gt;
+			&amp;lt;tr&amp;gt;
+				&amp;lt;td&amp;gt;
+					&amp;lt;div id="divCompletedMessage" &amp;gt;
+						Finished!
+					&amp;lt;/div&amp;gt;
+				&amp;lt;/td&amp;gt;
+			&amp;lt;/tr&amp;gt;
+			&amp;lt;tr&amp;gt;
+				&amp;lt;td&amp;gt;
+					&amp;lt;div id="divOkButton" &amp;gt;
+						&amp;lt;a id="btnOK" class="okButton" onclick="window.KeyboardMaestro.Cancel('Cancel')"&amp;gt;OK&amp;lt;/a&amp;gt;
+					&amp;lt;/div&amp;gt;
+				&amp;lt;/td&amp;gt;
+			&amp;lt;/tr&amp;gt;
+		&amp;lt;/table&amp;gt;
+	&amp;lt;/body&amp;gt;
+
+&amp;lt;/html&amp;gt;&lt;/string&gt;
+		&lt;key&gt;TimeOutAbortsMacro&lt;/key&gt;
+		&lt;true/&gt;
+		&lt;key&gt;UseText&lt;/key&gt;
+		&lt;true/&gt;
+&lt;/dict&gt;
+</string>
+										<key>Variable</key>
+										<string>palorg_PleaseWaitDialog</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Show the Custom HTML Prompt asynchronously</string>
+										<key>ActionUID</key>
+										<integer>15485646</integer>
+										<key>DisplayKind</key>
+										<string>None</string>
+										<key>HonourFailureSettings</key>
+										<true/>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>IncludedVariables</key>
+										<array>
+											<string>9999</string>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>ExecuteAppleScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>tell application "Keyboard Maestro Engine"	set _script to getvariable "palorg_PleaseWaitDialog"	ignoring application responses		do script _script	end ignoringend tell</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15485647</integer>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>Pause</string>
+										<key>Time</key>
+										<string>.5</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Magenta</string>
+								<key>ActionName</key>
+								<string>Renumber each macro</string>
+								<key>ActionUID</key>
+								<integer>15485648</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>Action</key>
+										<string>IgnoreCaseRegEx</string>
+										<key>ActionName</key>
+										<string>Search ‘palorg_Line’ returning palorg_Number, palorg_MacroName, palorg_MacroUUID</string>
+										<key>ActionUID</key>
+										<integer>15485649</integer>
+										<key>Captures</key>
+										<array>
+											<string></string>
+											<string>palorg_MacroUUID</string>
+											<string>palorg_ActualMacroName</string>
+											<string>palorg_NewMacroName</string>
+										</array>
+										<key>MacroActionType</key>
+										<string>SearchRegEx</string>
+										<key>Search</key>
+										<string>^([^\t]*)\t([^\t]*)\t(.*)</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>palorg_MacroLine</string>
+									</dict>
+									<dict>
+										<key>ActionUID</key>
+										<integer>15485650</integer>
+										<key>AllWindows</key>
+										<true/>
+										<key>AlreadyActivatedActionType</key>
+										<string>Normal</string>
+										<key>Application</key>
+										<dict>
+											<key>BundleIdentifier</key>
+											<string>com.stairways.keyboardmaestro.editor</string>
+											<key>Name</key>
+											<string>Keyboard Maestro</string>
+											<key>NewFile</key>
+											<string>/Applications/Keyboard Maestro.app</string>
+										</dict>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>ActivateApplication</string>
+										<key>ReopenWindows</key>
+										<false/>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+									<dict>
+										<key>ActionColor</key>
+										<string>Green</string>
+										<key>ActionName</key>
+										<string>Insert new macro, or start edit existing macro</string>
+										<key>ActionUID</key>
+										<integer>15485651</integer>
+										<key>Conditions</key>
+										<dict>
+											<key>ConditionList</key>
+											<array>
+												<dict>
+													<key>ConditionType</key>
+													<string>Variable</string>
+													<key>Variable</key>
+													<string>palorg_MacroUUID</string>
+													<key>VariableConditionType</key>
+													<string>IsEmpty</string>
+													<key>VariableValue</key>
+													<string>value</string>
+												</dict>
+											</array>
+											<key>ConditionListMatch</key>
+											<string>All</string>
+										</dict>
+										<key>ElseActions</key>
+										<array>
+											<dict>
+												<key>ActionColor</key>
+												<string>Teal</string>
+												<key>ActionName</key>
+												<string>Rename existing macro</string>
+												<key>ActionUID</key>
+												<integer>15485663</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionName</key>
+														<string>Tell KM to start editing macro 'palorg_MacroUUID'</string>
+														<key>ActionUID</key>
+														<integer>15485664</integer>
+														<key>DisplayKind</key>
+														<string>None</string>
+														<key>HonourFailureSettings</key>
+														<true/>
+														<key>IncludeStdErr</key>
+														<true/>
+														<key>IncludedVariables</key>
+														<array>
+															<string>9999</string>
+														</array>
+														<key>MacroActionType</key>
+														<string>ExecuteAppleScript</string>
+														<key>NotifyOnFailure</key>
+														<false/>
+														<key>Path</key>
+														<string></string>
+														<key>StopOnFailure</key>
+														<false/>
+														<key>Text</key>
+														<string>tell application "Keyboard Maestro Engine" to set _uuid to getvariable "palorg_MacroUUID"tell application "Keyboard Maestro" to editMacro _uuid</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>TrimResults</key>
+														<true/>
+														<key>TrimResultsNew</key>
+														<true/>
+														<key>UseText</key>
+														<true/>
+													</dict>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15485665</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>Pause</string>
+														<key>Time</key>
+														<string>.2</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+													<dict>
+														<key>ActionColor</key>
+														<string>Red</string>
+														<key>ActionName</key>
+														<string>Verify that the editor is editing the macro we expect</string>
+														<key>ActionUID</key>
+														<integer>15485666</integer>
+														<key>Actions</key>
+														<array>
+															<dict>
+																<key>Action</key>
+																<string>Copy</string>
+																<key>ActionUID</key>
+																<integer>15485667</integer>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>CutCopyPaste</string>
+																<key>TimeOutAbortsMacro</key>
+																<true/>
+															</dict>
+															<dict>
+																<key>ActionUID</key>
+																<integer>15485668</integer>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>SetVariableToText</string>
+																<key>Text</key>
+																<string>%CurrentClipboard%</string>
+																<key>Variable</key>
+																<string>palorg_EditingMacroName</string>
+															</dict>
+															<dict>
+																<key>ActionColor</key>
+																<string>Yellow</string>
+																<key>ActionName</key>
+																<string>Cancel if we're not on the right macro</string>
+																<key>ActionUID</key>
+																<integer>15485669</integer>
+																<key>Conditions</key>
+																<dict>
+																	<key>ConditionList</key>
+																	<array>
+																		<dict>
+																			<key>ConditionType</key>
+																			<string>Variable</string>
+																			<key>Variable</key>
+																			<string>palorg_EditingMacroName</string>
+																			<key>VariableConditionType</key>
+																			<string>IsNot</string>
+																			<key>VariableValue</key>
+																			<string>%Variable%palorg_ActualMacroName%</string>
+																		</dict>
+																	</array>
+																	<key>ConditionListMatch</key>
+																	<string>All</string>
+																</dict>
+																<key>ElseActionListDisclosed</key>
+																<false/>
+																<key>ElseActions</key>
+																<array/>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>IfThenElse</string>
+																<key>ThenActions</key>
+																<array>
+																	<dict>
+																		<key>ActionColor</key>
+																		<string>Purple</string>
+																		<key>ActionName</key>
+																		<string>Have the "Please Wait" dialog show that we're done</string>
+																		<key>ActionUID</key>
+																		<integer>15485670</integer>
+																		<key>DisplayKind</key>
+																		<string>None</string>
+																		<key>IsDisclosed</key>
+																		<false/>
+																		<key>MacroActionType</key>
+																		<string>ExecuteJavaScriptForCustomPrompt</string>
+																		<key>Path</key>
+																		<string></string>
+																		<key>Text</key>
+																		<string>showCompleted();</string>
+																		<key>TimeOutAbortsMacro</key>
+																		<false/>
+																		<key>TimeOutPeriod</key>
+																		<real>1</real>
+																		<key>UseText</key>
+																		<true/>
+																		<key>WindowID</key>
+																		<string>PaletteOrganizerPleaseWaitScreen</string>
+																	</dict>
+																	<dict>
+																		<key>ActionUID</key>
+																		<integer>15485671</integer>
+																		<key>DeviceID</key>
+																		<string>SOUNDEFFECTS</string>
+																		<key>IsDisclosed</key>
+																		<false/>
+																		<key>MacroActionType</key>
+																		<string>PlaySound</string>
+																		<key>Path</key>
+																		<string>/System/Library/Sounds/Basso.aiff</string>
+																		<key>TimeOutAbortsMacro</key>
+																		<true/>
+																	</dict>
+																	<dict>
+																		<key>ActionUID</key>
+																		<integer>15485672</integer>
+																		<key>Buttons</key>
+																		<array>
+																			<dict>
+																				<key>Button</key>
+																				<string>OK</string>
+																				<key>Cancel</key>
+																				<true/>
+																			</dict>
+																		</array>
+																		<key>IsDisclosed</key>
+																		<false/>
+																		<key>MacroActionType</key>
+																		<string>PromptForUserInput</string>
+																		<key>Prompt</key>
+																		<string>Expected Macro Name to be "%Variable%palorg_ActualMacroName%",
+Found "%Variable%palorg_EditingMacroName%" instead.</string>
+																		<key>TimeOutAbortsMacro</key>
+																		<true/>
+																		<key>Title</key>
+																		<string>%ExecutingThisMacro%</string>
+																		<key>Variables</key>
+																		<array/>
+																	</dict>
+																</array>
+																<key>TimeOutAbortsMacro</key>
+																<true/>
+															</dict>
+														</array>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>Group</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+													<dict>
+														<key>Action</key>
+														<string>ByPasting</string>
+														<key>ActionName</key>
+														<string>Paste in renumbered macro name</string>
+														<key>ActionUID</key>
+														<integer>15485673</integer>
+														<key>MacroActionType</key>
+														<string>InsertText</string>
+														<key>Text</key>
+														<string>%Variable%palorg_NewMacroName%</string>
+													</dict>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15485674</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>KeyCode</key>
+														<integer>36</integer>
+														<key>MacroActionType</key>
+														<string>SimulateKeystroke</string>
+														<key>Modifiers</key>
+														<integer>0</integer>
+														<key>ReleaseAll</key>
+														<false/>
+														<key>TargetApplication</key>
+														<dict/>
+														<key>TargetingType</key>
+														<string>Front</string>
+													</dict>
+												</array>
+												<key>IsActive</key>
+												<false/>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+											<dict>
+												<key>ActionColor</key>
+												<string>Teal</string>
+												<key>ActionName</key>
+												<string>Rename existing macro</string>
+												<key>ActionUID</key>
+												<integer>15485675</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15485676</integer>
+														<key>DisplayKind</key>
+														<string>Variable</string>
+														<key>HonourFailureSettings</key>
+														<true/>
+														<key>IncludeStdErr</key>
+														<false/>
+														<key>IncludedVariables</key>
+														<array>
+															<string>9999</string>
+														</array>
+														<key>MacroActionType</key>
+														<string>ExecuteJavaScriptForAutomation</string>
+														<key>NotifyOnFailure</key>
+														<false/>
+														<key>Path</key>
+														<string></string>
+														<key>StopOnFailure</key>
+														<false/>
+														<key>Text</key>
+														<string>(function(inDesignMode, designModeParams) {
+	'use strict';
+
+    var _kme = Application("Keyboard Maestro Engine");
+	function getKMVariable(name, required) {
+		var result = undefined;
+		if (inDesignMode &amp;&amp; designModeParams)
+			result = designModeParams[name];
+		if (result === undefined)
+			result = _kme.getvariable(name);
+		if (required &amp;&amp; !result)
+			throw Error("Variable '" + name + "' is empty");
+		return result;
+	}
+
+    var _km = Application("Keyboard Maestro");
+
+	function execute() {
+        var macroId = getKMVariable("palorg_MacroUUID", true);
+        var newName = getKMVariable("palorg_NewMacroName", true);
+        var macros = _km.macros.whose({id: {"=": macroId}});
+        if (macros.length == 0)
+            throw new Error("Macro '" + macroId + "' not found");
+        var macro = macros[0];
+        macro.name = newName;
+        return "OK";
+	}
+
+    if (inDesignMode) {
+		try {
+            return execute();
+        } catch (e) {
+            return "Error on line: " + e.line + ": " + e.message;
+        } finally {
+			try {
+				Application("Atom").activate();
+			} catch (e) {
+			}
+		}
+	} else {
+        try {
+            return execute();
+        } catch (e) {
+            return "Error: " + e.message;
+        }
+    }
+})(false);</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>TrimResults</key>
+														<true/>
+														<key>TrimResultsNew</key>
+														<true/>
+														<key>UseModernSyntax</key>
+														<false/>
+														<key>UseText</key>
+														<true/>
+														<key>Variable</key>
+														<string>palorg_Result</string>
+													</dict>
+													<dict>
+														<key>ActionColor</key>
+														<string>Yellow</string>
+														<key>ActionName</key>
+														<string>Abort if error</string>
+														<key>ActionUID</key>
+														<integer>15485677</integer>
+														<key>Conditions</key>
+														<dict>
+															<key>ConditionList</key>
+															<array>
+																<dict>
+																	<key>ConditionType</key>
+																	<string>Variable</string>
+																	<key>Variable</key>
+																	<string>palorg_Result</string>
+																	<key>VariableConditionType</key>
+																	<string>IsNot</string>
+																	<key>VariableValue</key>
+																	<string>OK</string>
+																</dict>
+															</array>
+															<key>ConditionListMatch</key>
+															<string>All</string>
+														</dict>
+														<key>ElseActionListDisclosed</key>
+														<false/>
+														<key>ElseActions</key>
+														<array/>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>IfThenElse</string>
+														<key>ThenActions</key>
+														<array>
+															<dict>
+																<key>ActionColor</key>
+																<string>Purple</string>
+																<key>ActionName</key>
+																<string>Have the "Please Wait" dialog show that we're done</string>
+																<key>ActionUID</key>
+																<integer>15485678</integer>
+																<key>DisplayKind</key>
+																<string>None</string>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>ExecuteJavaScriptForCustomPrompt</string>
+																<key>Path</key>
+																<string></string>
+																<key>Text</key>
+																<string>showCompleted();</string>
+																<key>TimeOutAbortsMacro</key>
+																<false/>
+																<key>TimeOutPeriod</key>
+																<real>1</real>
+																<key>UseText</key>
+																<true/>
+																<key>WindowID</key>
+																<string>PaletteOrganizerPleaseWaitScreen</string>
+															</dict>
+															<dict>
+																<key>ActionUID</key>
+																<integer>15485679</integer>
+																<key>DeviceID</key>
+																<string>SOUNDEFFECTS</string>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>PlaySound</string>
+																<key>Path</key>
+																<string>/System/Library/Sounds/Basso.aiff</string>
+																<key>TimeOutAbortsMacro</key>
+																<true/>
+															</dict>
+															<dict>
+																<key>ActionName</key>
+																<string>Notify error 'An error has occurred'</string>
+																<key>ActionUID</key>
+																<integer>15485680</integer>
+																<key>Buttons</key>
+																<array>
+																	<dict>
+																		<key>Button</key>
+																		<string>OK</string>
+																		<key>Cancel</key>
+																		<true/>
+																	</dict>
+																</array>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>PromptForUserInput</string>
+																<key>Prompt</key>
+																<string>An error has occurred: %Variable%palorg_Result%</string>
+																<key>TimeOutAbortsMacro</key>
+																<true/>
+																<key>Title</key>
+																<string>%ExecutingThisMacro%</string>
+																<key>Variables</key>
+																<array/>
+															</dict>
+														</array>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>IfThenElse</string>
+										<key>ThenActions</key>
+										<array>
+											<dict>
+												<key>ActionColor</key>
+												<string>Teal</string>
+												<key>ActionName</key>
+												<string>Create new macro</string>
+												<key>ActionUID</key>
+												<integer>15485652</integer>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15485653</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>SetVariableToText</string>
+														<key>Text</key>
+														<string>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"&gt;
+&lt;plist version="1.0"&gt;
+&lt;array&gt;
+	&lt;dict&gt;
+		&lt;key&gt;Actions&lt;/key&gt;
+		&lt;array/&gt;
+		&lt;key&gt;CreationDate&lt;/key&gt;
+		&lt;real&gt;486575765.970276&lt;/real&gt;
+		&lt;key&gt;CustomIconData&lt;/key&gt;
+		&lt;data&gt;
+		iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJ
+		AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsTAAAL
+		EwEAmpwYAAAAB3RJTUUH4AwVCzMkvJqVjgAAAB1pVFh0
+		Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUH
+		AAAAC0lEQVQI12NgAAIAAAUAAeImBZsAAAAASUVORK5CYII=
+		&lt;/data&gt;
+		&lt;key&gt;ModificationDate&lt;/key&gt;
+		&lt;real&gt;503885802.87024403&lt;/real&gt;
+		&lt;key&gt;Name&lt;/key&gt;
+		&lt;string&gt;%Variable%palorg_NewMacroName%&lt;/string&gt;
+		&lt;key&gt;Triggers&lt;/key&gt;
+		&lt;array/&gt;
+		&lt;key&gt;UID&lt;/key&gt;
+		&lt;string&gt;FB05DC83-1460-40D3-880D-7FC616C7EF6E&lt;/string&gt;
+	&lt;/dict&gt;
+&lt;/array&gt;
+&lt;/plist&gt;</string>
+														<key>Variable</key>
+														<string>palorg_SeparatorMacroPlist</string>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>Put the separator macro on the clipboard</string>
+														<key>ActionUID</key>
+														<integer>15485654</integer>
+														<key>DisplayKind</key>
+														<string>Variable</string>
+														<key>HonourFailureSettings</key>
+														<true/>
+														<key>IncludeStdErr</key>
+														<false/>
+														<key>IncludedVariables</key>
+														<array>
+															<string>9999</string>
+														</array>
+														<key>MacroActionType</key>
+														<string>ExecuteJavaScriptForAutomation</string>
+														<key>NotifyOnFailure</key>
+														<false/>
+														<key>Path</key>
+														<string></string>
+														<key>StopOnFailure</key>
+														<false/>
+														<key>Text</key>
+														<string>(function(inDesignMode) {
+	'use strict';
+	ObjC.import('AppKit');
+
+	function execute() {
+		var plist = Application("Keyboard Maestro Engine").getvariable("palorg_SeparatorMacroPlist");
+		if (!plist)
+			throw Error("Variable '" + palorg_SeparatorMacroPlist + "' is empty");
+
+		var clipboard = $.NSPasteboard.generalPasteboard;
+		clipboard.clearContents;
+		clipboard.setStringForType($(plist), $("com.stairways.keyboardmaestro.macrosarray"));
+
+		return "OK";
+	}
+
+	if (inDesignMode) {
+        return execute();
+    } else {
+        try {
+            return execute();
+        } catch (e) {
+            return "Error: " + e.message;
+        }
+    }
+})(false);</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>TrimResults</key>
+														<true/>
+														<key>TrimResultsNew</key>
+														<true/>
+														<key>UseModernSyntax</key>
+														<false/>
+														<key>UseText</key>
+														<true/>
+														<key>Variable</key>
+														<string>palorg_Result</string>
+													</dict>
+													<dict>
+														<key>ActionColor</key>
+														<string>Yellow</string>
+														<key>ActionName</key>
+														<string>Abort if error</string>
+														<key>ActionUID</key>
+														<integer>15485655</integer>
+														<key>Conditions</key>
+														<dict>
+															<key>ConditionList</key>
+															<array>
+																<dict>
+																	<key>ConditionType</key>
+																	<string>Variable</string>
+																	<key>Variable</key>
+																	<string>palorg_Result</string>
+																	<key>VariableConditionType</key>
+																	<string>IsNot</string>
+																	<key>VariableValue</key>
+																	<string>OK</string>
+																</dict>
+															</array>
+															<key>ConditionListMatch</key>
+															<string>All</string>
+														</dict>
+														<key>ElseActionListDisclosed</key>
+														<false/>
+														<key>ElseActions</key>
+														<array/>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>IfThenElse</string>
+														<key>ThenActions</key>
+														<array>
+															<dict>
+																<key>ActionColor</key>
+																<string>Purple</string>
+																<key>ActionName</key>
+																<string>Have the "Please Wait" dialog show that we're done</string>
+																<key>ActionUID</key>
+																<integer>15485656</integer>
+																<key>DisplayKind</key>
+																<string>None</string>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>ExecuteJavaScriptForCustomPrompt</string>
+																<key>Path</key>
+																<string></string>
+																<key>Text</key>
+																<string>showCompleted();</string>
+																<key>TimeOutAbortsMacro</key>
+																<false/>
+																<key>TimeOutPeriod</key>
+																<real>1</real>
+																<key>UseText</key>
+																<true/>
+																<key>WindowID</key>
+																<string>PaletteOrganizerPleaseWaitScreen</string>
+															</dict>
+															<dict>
+																<key>ActionUID</key>
+																<integer>15485657</integer>
+																<key>DeviceID</key>
+																<string>SOUNDEFFECTS</string>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>PlaySound</string>
+																<key>Path</key>
+																<string>/System/Library/Sounds/Basso.aiff</string>
+																<key>TimeOutAbortsMacro</key>
+																<true/>
+															</dict>
+															<dict>
+																<key>ActionName</key>
+																<string>Notify error 'An error has occurred'</string>
+																<key>ActionUID</key>
+																<integer>15485658</integer>
+																<key>Buttons</key>
+																<array>
+																	<dict>
+																		<key>Button</key>
+																		<string>OK</string>
+																		<key>Cancel</key>
+																		<true/>
+																	</dict>
+																</array>
+																<key>IsDisclosed</key>
+																<false/>
+																<key>MacroActionType</key>
+																<string>PromptForUserInput</string>
+																<key>Prompt</key>
+																<string>An error has occurred: %Variable%palorg_Result%</string>
+																<key>TimeOutAbortsMacro</key>
+																<true/>
+																<key>Title</key>
+																<string>%ExecutingThisMacro%</string>
+																<key>Variables</key>
+																<array/>
+															</dict>
+														</array>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+													<dict>
+														<key>ActionName</key>
+														<string>Set focus to Macros list</string>
+														<key>ActionUID</key>
+														<integer>15485659</integer>
+														<key>DisplayKind</key>
+														<string>Window</string>
+														<key>HonourFailureSettings</key>
+														<true/>
+														<key>IncludeStdErr</key>
+														<true/>
+														<key>IncludedVariables</key>
+														<array>
+															<string>9999</string>
+														</array>
+														<key>MacroActionType</key>
+														<string>ExecuteAppleScript</string>
+														<key>NotifyOnFailure</key>
+														<false/>
+														<key>Path</key>
+														<string></string>
+														<key>StopOnFailure</key>
+														<false/>
+														<key>Text</key>
+														<string>tell application "System Events"
+	tell application process "Keyboard Maestro"
+		tell (first window whose subrole is "AXStandardWindow")
+			tell scroll area 2 of splitter group 1 of group 1
+				set focused to true
+			end tell
+		end tell
+	end tell
+end tell</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>TrimResults</key>
+														<true/>
+														<key>TrimResultsNew</key>
+														<true/>
+														<key>UseText</key>
+														<true/>
+													</dict>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15485660</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>Pause</string>
+														<key>Time</key>
+														<string>.1</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+													<dict>
+														<key>Action</key>
+														<string>Paste</string>
+														<key>ActionUID</key>
+														<integer>15485661</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>CutCopyPaste</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15485662</integer>
+														<key>IsDisclosed</key>
+														<false/>
+														<key>MacroActionType</key>
+														<string>Pause</string>
+														<key>Time</key>
+														<string>.5</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+													</dict>
+												</array>
+												<key>MacroActionType</key>
+												<string>Group</string>
+												<key>TimeOutAbortsMacro</key>
+												<true/>
+											</dict>
+										</array>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+									</dict>
+								</array>
+								<key>Collections</key>
+								<dict>
+									<key>CollectionList</key>
+									<array>
+										<dict>
+											<key>CollectionType</key>
+											<string>LinesIn</string>
+											<key>IncludeBlankLines</key>
+											<false/>
+											<key>Source</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>palorg_RenumberedMacrosList</string>
+										</dict>
+									</array>
+								</dict>
+								<key>MacroActionType</key>
+								<string>For</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Variable</key>
+								<string>palorg_MacroLine</string>
+							</dict>
+							<dict>
+								<key>ActionColor</key>
+								<string>Purple</string>
+								<key>ActionName</key>
+								<string>Have the "Please Wait" dialog show that we're done</string>
+								<key>ActionUID</key>
+								<integer>15485681</integer>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Have the "Please Wait" dialog show that we're done</string>
+										<key>ActionUID</key>
+										<integer>15485682</integer>
+										<key>DisplayKind</key>
+										<string>None</string>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>ExecuteJavaScriptForCustomPrompt</string>
+										<key>Path</key>
+										<string></string>
+										<key>Text</key>
+										<string>showCompleted();</string>
+										<key>TimeOutAbortsMacro</key>
+										<false/>
+										<key>TimeOutPeriod</key>
+										<real>1</real>
+										<key>UseText</key>
+										<true/>
+										<key>WindowID</key>
+										<string>PaletteOrganizerPleaseWaitScreen</string>
+									</dict>
+									<dict>
+										<key>ActionName</key>
+										<string>Focus the dialog</string>
+										<key>ActionUID</key>
+										<integer>15485683</integer>
+										<key>DisplayKind</key>
+										<string>None</string>
+										<key>HonourFailureSettings</key>
+										<true/>
+										<key>IncludeStdErr</key>
+										<true/>
+										<key>IncludedVariables</key>
+										<array>
+											<string>9999</string>
+										</array>
+										<key>IsDisclosed</key>
+										<false/>
+										<key>MacroActionType</key>
+										<string>ExecuteAppleScript</string>
+										<key>NotifyOnFailure</key>
+										<false/>
+										<key>Path</key>
+										<string></string>
+										<key>StopOnFailure</key>
+										<false/>
+										<key>Text</key>
+										<string>tell application "System Events"	tell application process "Keyboard Maestro Engine"		tell window "Palette Organizer"			perform action "AXRaise"		end tell	end tellend tell</string>
+										<key>TimeOutAbortsMacro</key>
+										<true/>
+										<key>TrimResults</key>
+										<true/>
+										<key>TrimResultsNew</key>
+										<true/>
+										<key>UseText</key>
+										<true/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Group</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Notification ‘Renaming has completed.’</string>
+								<key>ActionUID</key>
+								<integer>15485684</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>Notification</string>
+								<key>SoundName</key>
+								<string></string>
+								<key>Subtitle</key>
+								<string></string>
+								<key>Text</key>
+								<string>Renaming has completed.</string>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15485685</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485686</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_EditingMacroName</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485687</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_fauxAvailWindowWidth</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485688</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_fauxAvailWindowHeight</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485689</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_MacroLine</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485690</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_MacroUUID</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485691</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_MacrosInfo</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485692</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_PleaseWaitDialog</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485693</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_RenumberedMacrosList</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485694</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_Result</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15485695</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>palorg_SeparatorMacroPlist</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>503759316.99747002</real>
+				<key>CustomIconData</key>
+				<data>
+				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
+				fA95vIA8TMTyZkgsiofqDYikhb+0jMYaKcj8r0ipMA+0
+				kEXEjwfksssZHUs8tMsUt0iMs4fMtkuMr0uMjMjLTUdE
+				mcmEvknklclAA8ncbsnsvcwkwkmswwAg3z+wkJ8QAbUc
+				ccmsa0TIwEkUh8XsiEi0h8t7v8sMjcsUzzv8tkzktM0c
+				jcu008j80k000U1UiK77FsSokcbMxUccvUdEcEnU20yM
+				c83hvs2kdc4McsTMycaokka5E0S0UjXIkAjMX8Y0YEZk
+				hkY8hMic60rkiMZsro+0jUXEu8jEz88Dv878zRSsZs2E
+				aYwES0T0UU48dU904c4zJ04k+E+c9c+85M5oosSs5aYh
+				pk6MXolkkcg8ZUh080y8Z8aE6r+1AdAFBxT7fggIAA8B
+				AAADAAAAAQBAAAABAQADAAAAAQBAAAABAgADAAAABAAA
+				IhoBAwADAAAAAQAFAAABBgADAAAAAQACAAABEQAEAAAA
+				AQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgAD
+				AAAAAQBAAAABFwAEAAAAAQAAIVgBHAADAAAAAQABAAAB
+				PQADAAAAAQACAAABUgADAAAAAQABAAABUwADAAAABAAA
+				IiKHcwAHAAAH2AAAIioAADYMAAgACAAIAAgAAQABAAEA
+				AQAAB9hhcHBsAiAAAG1udHJSR0IgWFlaIAfZAAIAGQAL
+				ABoAC2Fjc3BBUFBMAAAAAGFwcGwAAAAAAAAAAAAAAAAA
+				AAAAAAD21gABAAAAANMtYXBwbAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				C2Rlc2MAAAEIAAAAb2RzY20AAAF4AAAFnGNwcnQAAAcU
+				AAAAOHd0cHQAAAdMAAAAFHJYWVoAAAdgAAAAFGdYWVoA
+				AAd0AAAAFGJYWVoAAAeIAAAAFHJUUkMAAAecAAAADmNo
+				YWQAAAesAAAALGJUUkMAAAecAAAADmdUUkMAAAecAAAA
+				DmRlc2MAAAAAAAAAFEdlbmVyaWMgUkdCIFByb2ZpbGUA
+				AAAAAAAAAAAAABRHZW5lcmljIFJHQiBQcm9maWxlAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAABtbHVjAAAAAAAAAB8AAAAMc2tT
+				SwAAACgAAAGEZGFESwAAAC4AAAGsY2FFUwAAACQAAAHa
+				dmlWTgAAACQAAAH+cHRCUgAAACYAAAIidWtVQQAAACoA
+				AAJIZnJGVQAAACgAAAJyaHVIVQAAACgAAAKaemhUVwAA
+				ABYAAALCbmJOTwAAACYAAALYY3NDWgAAACIAAAL+aGVJ
+				TAAAAB4AAAMgaXRJVAAAACgAAAM+cm9STwAAACQAAANm
+				ZGVERQAAACwAAAOKa29LUgAAABYAAAO2c3ZTRQAAACYA
+				AALYemhDTgAAABYAAAPMamFKUAAAABoAAAPiZWxHUgAA
+				ACIAAAP8cHRQTwAAACYAAAQebmxOTAAAACgAAAREZXNF
+				UwAAACYAAAQedGhUSAAAACQAAARsdHJUUgAAACIAAASQ
+				ZmlGSQAAACgAAASyaHJIUgAAACgAAATacGxQTAAAACwA
+				AAUCcnVSVQAAACIAAAUuYXJFRwAAACYAAAVQZW5VUwAA
+				ACYAAAV2AFYBYQBlAG8AYgBlAGMAbgD9ACAAUgBHAEIA
+				IABwAHIAbwBmAGkAbABHAGUAbgBlAHIAZQBsACAAUgBH
+				AEIALQBiAGUAcwBrAHIAaQB2AGUAbABzAGUAUABlAHIA
+				ZgBpAGwAIABSAEcAQgAgAGcAZQBuAOgAcgBpAGMAQx6l
+				AHUAIABoAOwAbgBoACAAUgBHAEIAIABDAGgAdQBuAGcA
+				UABlAHIAZgBpAGwAIABSAEcAQgAgAEcAZQBuAOkAcgBp
+				AGMAbwQXBDAEMwQwBDsETAQ9BDgEOQAgBD8EQAQ+BEQE
+				MAQ5BDsAIABSAEcAQgBQAHIAbwBmAGkAbAAgAGcA6QBu
+				AOkAcgBpAHEAdQBlACAAUgBWAEIAwQBsAHQAYQBsAOEA
+				bgBvAHMAIABSAEcAQgAgAHAAcgBvAGYAaQBskBp1KAAg
+				AFIARwBCACCCcl9pY8+P8ABHAGUAbgBlAHIAaQBzAGsA
+				IABSAEcAQgAtAHAAcgBvAGYAaQBsAE8AYgBlAGMAbgD9
+				ACAAUgBHAEIAIABwAHIAbwBmAGkAbAXkBegF1QXkBdkF
+				3AAgAFIARwBCACAF2wXcBdwF2QBQAHIAbwBmAGkAbABv
+				ACAAUgBHAEIAIABnAGUAbgBlAHIAaQBjAG8AUAByAG8A
+				ZgBpAGwAIABSAEcAQgAgAGcAZQBuAGUAcgBpAGMAQQBs
+				AGwAZwBlAG0AZQBpAG4AZQBzACAAUgBHAEIALQBQAHIA
+				bwBmAGkAbMd8vBgAIABSAEcAQgAg1QS4XNMMx3xmbpAa
+				ACAAUgBHAEIAIGPPj/Blh072TgCCLAAgAFIARwBCACAw
+				1zDtMNUwoTCkMOsDkwO1A70DuQO6A8wAIAPAA8EDvwPG
+				A68DuwAgAFIARwBCAFAAZQByAGYAaQBsACAAUgBHAEIA
+				IABnAGUAbgDpAHIAaQBjAG8AQQBsAGcAZQBtAGUAZQBu
+				ACAAUgBHAEIALQBwAHIAbwBmAGkAZQBsDkIOGw4jDkQO
+				Hw4lDkwAIABSAEcAQgAgDhcOMQ5IDicORA4bAEcAZQBu
+				AGUAbAAgAFIARwBCACAAUAByAG8AZgBpAGwAaQBZAGwA
+				ZQBpAG4AZQBuACAAUgBHAEIALQBwAHIAbwBmAGkAaQBs
+				AGkARwBlAG4AZQByAGkBDQBrAGkAIABSAEcAQgAgAHAA
+				cgBvAGYAaQBsAFUAbgBpAHcAZQByAHMAYQBsAG4AeQAg
+				AHAAcgBvAGYAaQBsACAAUgBHAEIEHgQxBEkEOAQ5ACAE
+				PwRABD4ERAQ4BDsETAAgAFIARwBCBkUGRAZBACAGKgY5
+				BjEGSgZBACAAUgBHAEIAIAYnBkQGOQYnBkUARwBlAG4A
+				ZQByAGkAYwAgAFIARwBCACAAUAByAG8AZgBpAGwAZXRl
+				eHQAAAAAQ29weXJpZ2h0IDIwMDcgQXBwbGUgSW5jLiwg
+				YWxsIHJpZ2h0cyByZXNlcnZlZC4AWFlaIAAAAAAAAPNS
+				AAEAAAABFs9YWVogAAAAAAAAdE0AAD3uAAAD0FhZWiAA
+				AAAAAABadQAArHMAABc0WFlaIAAAAAAAACgaAAAVnwAA
+				uDZjdXJ2AAAAAAAAAAEBzQAAc2YzMgAAAAAAAQxCAAAF
+				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
+				CAAIAAgAAQABAAEAAQAAB9hhcHBsAiAAAG1udHJSR0Ig
+				WFlaIAfZAAIAGQALABoAC2Fjc3BBUFBMAAAAAGFwcGwA
+				AAAAAAAAAAAAAAAAAAAAAAD21gABAAAAANMtYXBwbAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAC2Rlc2MAAAEIAAAAb2RzY20AAAF4
+				AAAFnGNwcnQAAAcUAAAAOHd0cHQAAAdMAAAAFHJYWVoA
+				AAdgAAAAFGdYWVoAAAd0AAAAFGJYWVoAAAeIAAAAFHJU
+				UkMAAAecAAAADmNoYWQAAAesAAAALGJUUkMAAAecAAAA
+				DmdUUkMAAAecAAAADmRlc2MAAAAAAAAAFEdlbmVyaWMg
+				UkdCIFByb2ZpbGUAAAAAAAAAAAAAABRHZW5lcmljIFJH
+				QiBQcm9maWxlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtbHVjAAAA
+				AAAAAB8AAAAMc2tTSwAAACgAAAGEZGFESwAAAC4AAAGs
+				Y2FFUwAAACQAAAHadmlWTgAAACQAAAH+cHRCUgAAACYA
+				AAIidWtVQQAAACoAAAJIZnJGVQAAACgAAAJyaHVIVQAA
+				ACgAAAKaemhUVwAAABYAAALCbmJOTwAAACYAAALYY3ND
+				WgAAACIAAAL+aGVJTAAAAB4AAAMgaXRJVAAAACgAAAM+
+				cm9STwAAACQAAANmZGVERQAAACwAAAOKa29LUgAAABYA
+				AAO2c3ZTRQAAACYAAALYemhDTgAAABYAAAPMamFKUAAA
+				ABoAAAPiZWxHUgAAACIAAAP8cHRQTwAAACYAAAQebmxO
+				TAAAACgAAAREZXNFUwAAACYAAAQedGhUSAAAACQAAARs
+				dHJUUgAAACIAAASQZmlGSQAAACgAAASyaHJIUgAAACgA
+				AATacGxQTAAAACwAAAUCcnVSVQAAACIAAAUuYXJFRwAA
+				ACYAAAVQZW5VUwAAACYAAAV2AFYBYQBlAG8AYgBlAGMA
+				bgD9ACAAUgBHAEIAIABwAHIAbwBmAGkAbABHAGUAbgBl
+				AHIAZQBsACAAUgBHAEIALQBiAGUAcwBrAHIAaQB2AGUA
+				bABzAGUAUABlAHIAZgBpAGwAIABSAEcAQgAgAGcAZQBu
+				AOgAcgBpAGMAQx6lAHUAIABoAOwAbgBoACAAUgBHAEIA
+				IABDAGgAdQBuAGcAUABlAHIAZgBpAGwAIABSAEcAQgAg
+				AEcAZQBuAOkAcgBpAGMAbwQXBDAEMwQwBDsETAQ9BDgE
+				OQAgBD8EQAQ+BEQEMAQ5BDsAIABSAEcAQgBQAHIAbwBm
+				AGkAbAAgAGcA6QBuAOkAcgBpAHEAdQBlACAAUgBWAEIA
+				wQBsAHQAYQBsAOEAbgBvAHMAIABSAEcAQgAgAHAAcgBv
+				AGYAaQBskBp1KAAgAFIARwBCACCCcl9pY8+P8ABHAGUA
+				bgBlAHIAaQBzAGsAIABSAEcAQgAtAHAAcgBvAGYAaQBs
+				AE8AYgBlAGMAbgD9ACAAUgBHAEIAIABwAHIAbwBmAGkA
+				bAXkBegF1QXkBdkF3AAgAFIARwBCACAF2wXcBdwF2QBQ
+				AHIAbwBmAGkAbABvACAAUgBHAEIAIABnAGUAbgBlAHIA
+				aQBjAG8AUAByAG8AZgBpAGwAIABSAEcAQgAgAGcAZQBu
+				AGUAcgBpAGMAQQBsAGwAZwBlAG0AZQBpAG4AZQBzACAA
+				UgBHAEIALQBQAHIAbwBmAGkAbMd8vBgAIABSAEcAQgAg
+				1QS4XNMMx3xmbpAaACAAUgBHAEIAIGPPj/Blh072TgCC
+				LAAgAFIARwBCACAw1zDtMNUwoTCkMOsDkwO1A70DuQO6
+				A8wAIAPAA8EDvwPGA68DuwAgAFIARwBCAFAAZQByAGYA
+				aQBsACAAUgBHAEIAIABnAGUAbgDpAHIAaQBjAG8AQQBs
+				AGcAZQBtAGUAZQBuACAAUgBHAEIALQBwAHIAbwBmAGkA
+				ZQBsDkIOGw4jDkQOHw4lDkwAIABSAEcAQgAgDhcOMQ5I
+				DicORA4bAEcAZQBuAGUAbAAgAFIARwBCACAAUAByAG8A
+				ZgBpAGwAaQBZAGwAZQBpAG4AZQBuACAAUgBHAEIALQBw
+				AHIAbwBmAGkAaQBsAGkARwBlAG4AZQByAGkBDQBrAGkA
+				IABSAEcAQgAgAHAAcgBvAGYAaQBsAFUAbgBpAHcAZQBy
+				AHMAYQBsAG4AeQAgAHAAcgBvAGYAaQBsACAAUgBHAEIE
+				HgQxBEkEOAQ5ACAEPwRABD4ERAQ4BDsETAAgAFIARwBC
+				BkUGRAZBACAGKgY5BjEGSgZBACAAUgBHAEIAIAYnBkQG
+				OQYnBkUARwBlAG4AZQByAGkAYwAgAFIARwBCACAAUABy
+				AG8AZgBpAGwAZXRleHQAAAAAQ29weXJpZ2h0IDIwMDcg
+				QXBwbGUgSW5jLiwgYWxsIHJpZ2h0cyByZXNlcnZlZC4A
+				WFlaIAAAAAAAAPNSAAEAAAABFs9YWVogAAAAAAAAdE0A
+				AD3uAAAD0FhZWiAAAAAAAABadQAArHMAABc0WFlaIAAA
+				AAAAACgaAAAVnwAAuDZjdXJ2AAAAAAAAAAEBzQAAc2Yz
+				MgAAAAAAAQxCAAAF3v//8yYAAAeSAAD9kf//+6L///2j
+				AAAD3AAAwGyAACBQOCQWCgKBAMPBiFBgLAoMAEAv0Aux
+				3Ph2OJ0P5xPl9gB8QaRSORAoCAAHGAmBIxForkMtiYXj
+				UTg0JBoGxN7SB5th7uFus9vK1ZNBVphVu9MOp3AB0jES
+				AwbtFuvRmyMUBYAjBNIcdp4elRADF+gYTAB9PV4wJ/u0
+				AAJ+W4BP94AACgB3wJ/NcANVjL5tqldPpVNlwAFuqpeO
+				RPwQNg0ACdbJkgrwXE9Ahx8POdvx5OgAP5+5B/vRugAE
+				AtygB/vp5wJ9vLQvp6XZ/vnWAKEEw2MMlrtnPpbQMBJI
+				zhpZGw+nwluV1v0AAsCOkAAN4Wt6Oa7gF8OAAA0OOvQv
+				Z66x9vfQvfyv4JiW3u1xABqN9ztAkIR6DwOA4ADNjE8I
+				ZkAGCAXAIXICgOAAJnubYACIfrQHschzuqfq1n2f7oAA
+				fp/gAAwBgCtAFAq1ANBE0JrGW1AEoELJRnsKwihOAo4F
+				aRIdEeerygAYqLgAEAELcDx6LycB1wSdQCgYAAXgWdS0
+				H0Ah8lkboDlMJQoByJxTlUZRRn4fq0hoDp/hqTZhnmTA
+				lhSAw/E+NINECfSPAAAJ8n01h/n4gR7ugQxxCKABngWH
+				IAEsDhEgAYhoH0U5kH+EheDAH4EDaI43mKGp/IFPc6xD
+				PIVgqAYrFaL4IlSAZ/02c5rglDYDAMAAPhS0BmnG/hug
+				JFgpAkdgAG0eQDGoC4jBsBQ2j2XAxGQbZ7mCkiBgKhAK
+				E8KIJmiHILgIDRpmdJZ7gEk4XhpXwAnqhACH/Dp7HxTY
+				OCEFoAHm2h+kqUhtEgfYDgMeZ3H2AZ2FKZB1kyfx+T0g
+				gcA2A42E0JAKEmf58JCfoBU2uCEVVDsN02fYFP4bAVho
+				chflcXBIDMEIEkCDoJgrJ1YHoIhPGuEJ3HifdfIMAYoB
+				MBZGD4GgHjgBJ8PQfB9Ogf2NgIfboG6FQggAQxgnCPxn
+				GeaZBlULYQmSIwZh0GxaGiZpgjAUpsCIfk907aAZAsAw
+				yDSFgHDyGCchEBR9z2c4FAUABxBGHwAA8dBnnUdZ8nwc
+				YbhUEoZmacByGOOxZG0MJvnYfps2haABoECAVAoAghBo
+				DAEiEG4/B6LxnleZ5mA4dB/nWcp6nubxoHMeZfGWcp/G
+				BDgAI/zyCAH5ADgR5YHeUBIGgIAwEAOCoMgcD4hCWD4s
+				l0VhvFYe58M9O5+ZxOZ6TDox88WeWJnxHbQpG3QBALWA
+				DAWBP8gh/IEgj/ICAHgBH+AQAiCABgIH6P4fw+k5j5M4
+				PYew8B7wTIuxMeY+4MEhL0QEAAAPAQAAAwAAAAEAEAAA
+				AQEAAwAAAAEAEAAAAQIAAwAAAAQAAEMwAQMAAwAAAAEA
+				BQAAAQYAAwAAAAEAAgAAAREABAAAAAEAAD6uARIAAwAA
+				AAEAAQAAARUAAwAAAAEABAAAARYAAwAAAAEAEAAAARcA
+				BAAAAAEAAAPHARwAAwAAAAEAAQAAAT0AAwAAAAEAAgAA
+				AVIAAwAAAAEAAQAAAVMAAwAAAAQAAEM4h3MABwAAB9gA
+				AENAAAAAAAAIAAgACAAIAAEAAQABAAEAAAfYYXBwbAIg
+				AABtbnRyUkdCIFhZWiAH2QACABkACwAaAAthY3NwQVBQ
+				TAAAAABhcHBsAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAA
+				AADTLWFwcGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtkZXNjAAABCAAA
+				AG9kc2NtAAABeAAABZxjcHJ0AAAHFAAAADh3dHB0AAAH
+				TAAAABRyWFlaAAAHYAAAABRnWFlaAAAHdAAAABRiWFla
+				AAAHiAAAABRyVFJDAAAHnAAAAA5jaGFkAAAHrAAAACxi
+				VFJDAAAHnAAAAA5nVFJDAAAHnAAAAA5kZXNjAAAAAAAA
+				ABRHZW5lcmljIFJHQiBQcm9maWxlAAAAAAAAAAAAAAAU
+				R2VuZXJpYyBSR0IgUHJvZmlsZQAAAAAAAAAAAAAAAAAA
+				AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				AAAAbWx1YwAAAAAAAAAfAAAADHNrU0sAAAAoAAABhGRh
+				REsAAAAuAAABrGNhRVMAAAAkAAAB2nZpVk4AAAAkAAAB
+				/nB0QlIAAAAmAAACInVrVUEAAAAqAAACSGZyRlUAAAAo
+				AAACcmh1SFUAAAAoAAACmnpoVFcAAAAWAAACwm5iTk8A
+				AAAmAAAC2GNzQ1oAAAAiAAAC/mhlSUwAAAAeAAADIGl0
+				SVQAAAAoAAADPnJvUk8AAAAkAAADZmRlREUAAAAsAAAD
+				imtvS1IAAAAWAAADtnN2U0UAAAAmAAAC2HpoQ04AAAAW
+				AAADzGphSlAAAAAaAAAD4mVsR1IAAAAiAAAD/HB0UE8A
+				AAAmAAAEHm5sTkwAAAAoAAAERGVzRVMAAAAmAAAEHnRo
+				VEgAAAAkAAAEbHRyVFIAAAAiAAAEkGZpRkkAAAAoAAAE
+				smhySFIAAAAoAAAE2nBsUEwAAAAsAAAFAnJ1UlUAAAAi
+				AAAFLmFyRUcAAAAmAAAFUGVuVVMAAAAmAAAFdgBWAWEA
+				ZQBvAGIAZQBjAG4A/QAgAFIARwBCACAAcAByAG8AZgBp
+				AGwARwBlAG4AZQByAGUAbAAgAFIARwBCAC0AYgBlAHMA
+				awByAGkAdgBlAGwAcwBlAFAAZQByAGYAaQBsACAAUgBH
+				AEIAIABnAGUAbgDoAHIAaQBjAEMepQB1ACAAaADsAG4A
+				aAAgAFIARwBCACAAQwBoAHUAbgBnAFAAZQByAGYAaQBs
+				ACAAUgBHAEIAIABHAGUAbgDpAHIAaQBjAG8EFwQwBDME
+				MAQ7BEwEPQQ4BDkAIAQ/BEAEPgREBDAEOQQ7ACAAUgBH
+				AEIAUAByAG8AZgBpAGwAIABnAOkAbgDpAHIAaQBxAHUA
+				ZQAgAFIAVgBCAMEAbAB0AGEAbADhAG4AbwBzACAAUgBH
+				AEIAIABwAHIAbwBmAGkAbJAadSgAIABSAEcAQgAggnJf
+				aWPPj/AARwBlAG4AZQByAGkAcwBrACAAUgBHAEIALQBw
+				AHIAbwBmAGkAbABPAGIAZQBjAG4A/QAgAFIARwBCACAA
+				cAByAG8AZgBpAGwF5AXoBdUF5AXZBdwAIABSAEcAQgAg
+				BdsF3AXcBdkAUAByAG8AZgBpAGwAbwAgAFIARwBCACAA
+				ZwBlAG4AZQByAGkAYwBvAFAAcgBvAGYAaQBsACAAUgBH
+				AEIAIABnAGUAbgBlAHIAaQBjAEEAbABsAGcAZQBtAGUA
+				aQBuAGUAcwAgAFIARwBCAC0AUAByAG8AZgBpAGzHfLwY
+				ACAAUgBHAEIAINUEuFzTDMd8Zm6QGgAgAFIARwBCACBj
+				z4/wZYdO9k4AgiwAIABSAEcAQgAgMNcw7TDVMKEwpDDr
+				A5MDtQO9A7kDugPMACADwAPBA78DxgOvA7sAIABSAEcA
+				QgBQAGUAcgBmAGkAbAAgAFIARwBCACAAZwBlAG4A6QBy
+				AGkAYwBvAEEAbABnAGUAbQBlAGUAbgAgAFIARwBCAC0A
+				cAByAG8AZgBpAGUAbA5CDhsOIw5EDh8OJQ5MACAAUgBH
+				AEIAIA4XDjEOSA4nDkQOGwBHAGUAbgBlAGwAIABSAEcA
+				QgAgAFAAcgBvAGYAaQBsAGkAWQBsAGUAaQBuAGUAbgAg
+				AFIARwBCAC0AcAByAG8AZgBpAGkAbABpAEcAZQBuAGUA
+				cgBpAQ0AawBpACAAUgBHAEIAIABwAHIAbwBmAGkAbABV
+				AG4AaQB3AGUAcgBzAGEAbABuAHkAIABwAHIAbwBmAGkA
+				bAAgAFIARwBCBB4EMQRJBDgEOQAgBD8EQAQ+BEQEOAQ7
+				BEwAIABSAEcAQgZFBkQGQQAgBioGOQYxBkoGQQAgAFIA
+				RwBCACAGJwZEBjkGJwZFAEcAZQBuAGUAcgBpAGMAIABS
+				AEcAQgAgAFAAcgBvAGYAaQBsAGV0ZXh0AAAAAENvcHly
+				aWdodCAyMDA3IEFwcGxlIEluYy4sIGFsbCByaWdodHMg
+				cmVzZXJ2ZWQuAFhZWiAAAAAAAADzUgABAAAAARbPWFla
+				IAAAAAAAAHRNAAA97gAAA9BYWVogAAAAAAAAWnUAAKxz
+				AAAXNFhZWiAAAAAAAAAoGgAAFZ8AALg2Y3VydgAAAAAA
+				AAABAc0AAHNmMzIAAAAAAAEMQgAABd7///MmAAAHkgAA
+				/ZH///ui///9owAAA9wAAMBs
+				</data>
+				<key>ModificationDate</key>
+				<real>747266337.26286495</real>
+				<key>Name</key>
+				<string>Palette Organizer v1.2</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>79B7CA24-757C-4E9D-AC81-1668DB3C8839</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>KM</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FFD26489-48A1-4EFA-8B64-560F53098070</string>
+		<key>UID</key>
+		<string>0E8EFDFD-663F-4160-ABE3-750A601AE96F</string>
+	</dict>
+</array>
+</plist>

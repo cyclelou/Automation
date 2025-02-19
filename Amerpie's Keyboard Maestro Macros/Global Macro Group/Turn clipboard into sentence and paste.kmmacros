@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>UppercaseFirst</string>
+						<key>ActionUID</key>
+						<integer>15482713</integer>
+						<key>MacroActionType</key>
+						<string>Filter</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>ActionUID</key>
+						<integer>15482714</integer>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string>.</string>
+						<key>Search</key>
+						<string>$</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>Paste</string>
+						<key>ActionUID</key>
+						<integer>15482715</integer>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>CutCopyPaste</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>538211903.33899999</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>568495675.02934694</real>
+				<key>Name</key>
+				<string>Turn clipboard into sentence and paste</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>C9790787-CB0A-4EF4-982E-151963121BB6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

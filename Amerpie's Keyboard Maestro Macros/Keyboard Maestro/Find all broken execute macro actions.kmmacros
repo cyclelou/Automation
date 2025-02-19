@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>459260250.73768198</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/Keyboard Maestro.app</string>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionUID</key>
+						<integer>15481205</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4yBAAAKwAAAAEA
+						AAAqBAAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmNDcwCntcZm9u
+						dHRibFxmMFxmc3dpc3NcZmNoYXJz
+						ZXQwIEhlbHZldGljYTt9CntcY29s
+						b3J0Ymw7XHJlZDI1NVxncmVlbjI1
+						NVxibHVlMjU1O30KXHBhcmRcdHg1
+						NjBcdHgxMTIwXHR4MTY4MFx0eDIy
+						NDBcdHgyODAwXHR4MzM2MFx0eDM5
+						MjBcdHg0NDgwXHR4NTA0MFx0eDU2
+						MDBcdHg2MTYwXHR4NjcyMFxwYXJk
+						aXJuYXR1cmFsXHBhcnRpZ2h0ZW5m
+						YWN0b3IwCgpcZjBcZnMyNCBcY2Yw
+						IE5hbWU6IEZpbmQgQWxsIEJyb2tl
+						biBFeGVjdXRlIE1hY3JvIEFjdGlv
+						bnNcClZlcnNpb246IDEuMFwKVXBk
+						YXRlZDogMjAxNi8wOS8wNSAwODox
+						MiBQVFwKQnk6IERhbiBUaG9tYXNc
+						ClwKUFVSUE9TRS9VU0FHRTpcClwK
+						UmV0dXJucyBhIGxpc3Qgb2YgYWxs
+						IE1hY3JvcyB0aGF0IGNvbnRhaW4g
+						YnJva2VuICJFeGVjdXRlIE1hY3Jv
+						IiBhY3Rpb25zLiAiQnJva2VuIiBt
+						ZWFucyB0aGF0IHRoZSBleGVjdXRl
+						ZCBtYWNybyBubyBsb25nZXIgZXhp
+						c3RzLlwKXApJZiB5b3UgZGlzY292
+						ZXIgYW4gaW5zdGFuY2Ugd2hlcmUg
+						dGhpcyBtYWNybyBtaXNzZXMgc29t
+						ZXRoaW5nLCBwbGVhc2UgcG9zdCB0
+						aGUgaW5mbyBvbiB0aGUgZm9ydW0u
+						IEknbSBtYWtpbmcgc29tZSBhc3N1
+						bXB0aW9ucyB0aGF0IGNvdWxkIHBv
+						c3NpYmx5IGJlIHdyb25nLiBJIGRv
+						bid0IHRoaW5rIHNvLCBidXQgaXQn
+						cyBwb3NzaWJsZS5cClwKQnkgZGVm
+						YXVsdCwgdGhpcyBkb2VzIGFsc28g
+						aW5jbHVkZXMgIkV4ZWN1dGUgTWFj
+						cm8iIGFjdGlvbnMgdGhhdCBkb24n
+						dCBoYXZlIGEgbWFjcm8gc2VsZWN0
+						ZWQgKHRoZXkgbG9vayB0aGUgc2Ft
+						ZSwgYnV0IHRoZXkncmUgbm90KS4g
+						SWYgeW91IERPTidUIHdhbnQgdG8g
+						aW5jbHVkZSB0aGVtLCBpbiB0aGUg
+						SmF2YVNjcmlwdCwgY2hhbmdlOlwK
+						XAp2YXIgaW5jbHVkZUFjdGlvbnNX
+						aXRoTm9NYWNyb1NlbGVjdGVkID0g
+						dHJ1ZTtcClwKdG9cClwKdmFyIGlu
+						Y2x1ZGVBY3Rpb25zV2l0aE5vTWFj
+						cm9TZWxlY3RlZCA9IGZhbHNlO1wK
+						XApWRVJTSU9OIEhJU1RPUlk6XAox
+						LjAgLSBJbml0aWFsIHZlcnNpb24u
+						fQEAAAAjAAAAAQAAAAcAAABUWFQu
+						cnRmEAAAADfjwFm2AQAAAAAAAAAA
+						AAA=
+						</data>
+						<key>Title</key>
+						<string>Find All Broken Execute Macro Actions v1.0</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>15481206</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteJavaScriptForAutomation</string>
+						<key>NotifyOnFailure</key>
+						<false/>
+						<key>Path</key>
+						<string></string>
+						<key>StopOnFailure</key>
+						<false/>
+						<key>Text</key>
+						<string>(function() {
+	'use strict';
+	
+	function execute() {
+		var includeActionsWithNoMacroSelected = true;
+
+		var allMacrosPlist = readPlistBinaryFile(getMacrosSourceFileName());
+
+		var allMacroUIDs = [];
+		var macrosThatHaveExecuteMacroActions = [];
+		allMacrosPlist.MacroGroups.forEach(function(group) {
+			if (group.Macros) {
+				group.Macros.forEach(function(macro) {
+					allMacroUIDs.push(macro.UID);
+					var macroExecuteMacrosInfo = {
+						macroUID: macro.UID,
+						macroName: macro.Name,
+						groupUID: group.UID,
+						groupName: group.Name,
+						executedMacroUIDs: []
+					};
+					var macroPlistString = convertPlistPartToString(macro);
+					var regex = /&lt;key&gt;MacroActionType&lt;\/key&gt;\s*&lt;string&gt;ExecuteMacro&lt;\/string&gt;\s*&lt;key&gt;MacroUID&lt;\/key&gt;\s*&lt;string&gt;([^&lt;]*)/g;
+					var match = regex.exec(macroPlistString);
+					while (match) {
+						if (includeActionsWithNoMacroSelected || match[1])
+							macroExecuteMacrosInfo.executedMacroUIDs.push(match[1]);
+						match = regex.exec(macroPlistString);
+					}
+					if (macroExecuteMacrosInfo.executedMacroUIDs.length &gt; 0)
+						macrosThatHaveExecuteMacroActions.push(macroExecuteMacrosInfo);
+				});
+			}
+		});
+
+		var result = [];
+		macrosThatHaveExecuteMacroActions.forEach(function(macroExecuteMacrosInfo) {
+			for (var i = 0; i &lt; macroExecuteMacrosInfo.executedMacroUIDs.length; i++) {
+				if (allMacroUIDs.indexOf(macroExecuteMacrosInfo.executedMacroUIDs[i]) &lt; 0) {
+					result.push(macroExecuteMacrosInfo.macroName + " [" + macroExecuteMacrosInfo.groupName + "]");
+					break;
+				}
+			}
+		});
+		if (result.length === 0)
+			return "None found";
+		return result.join("\n");
+	}
+
+	try {
+		return execute();
+	} catch (e) {
+		return "Error: " + e.message;
+	}
+
+	function getMacrosSourceFileName() {
+		var app = Application.currentApplication();
+		app.includeStandardAdditions = true;
+		return app.pathTo('application support', { from: 'user domain' }) + "/Keyboard Maestro/Keyboard Maestro Macros.plist";
+	}
+
+	function readPlistBinaryFile(path) {
+		var data = $.NSData.dataWithContentsOfFile(path);
+		return ObjC.deepUnwrap(
+			$.NSPropertyListSerialization.propertyListWithDataOptionsFormatError(
+				data, $.NSPropertyListBinaryFormat_v1_0, 0, null));
+	}
+
+	function convertPlistPartToString(plistPart) {
+		var data = $.NSPropertyListSerialization.dataWithPropertyListFormatOptionsError(
+			$(plistPart), $.NSPropertyListXMLFormat_v1_0, 0, null);
+		var nsstring = $.NSString.alloc.initWithDataEncoding(data, $.NSUTF8StringEncoding);
+		return $(nsstring).js;
+	}
+
+})();</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseModernSyntax</key>
+						<false/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>bemaResult</string>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Show the Results</string>
+						<key>ActionUID</key>
+						<integer>15481207</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionType</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>bemaResult</string>
+									<key>VariableConditionType</key>
+									<string>Matches</string>
+									<key>VariableValue</key>
+									<string>^Error:</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>DisplayWindow</string>
+								<key>ActionUID</key>
+								<integer>15481209</integer>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>StyledText</key>
+								<data>
+								cnRmZAAAAAAD
+								AAAAAgAAAAcA
+								AABUWFQucnRm
+								AQAAAC5bAQAA
+								KwAAAAEAAABT
+								AQAAe1xydGYx
+								XGFuc2lcYW5z
+								aWNwZzEyNTJc
+								Y29jb2FydGYx
+								NDA0XGNvY29h
+								c3VicnRmNDcw
+								CntcZm9udHRi
+								bFxmMFxmbmls
+								XGZjaGFyc2V0
+								MCBIZWx2ZXRp
+								Y2FOZXVlO30K
+								e1xjb2xvcnRi
+								bDtccmVkMjU1
+								XGdyZWVuMjU1
+								XGJsdWUyNTU7
+								fQpccGFyZFx0
+								eDU2MFx0eDEx
+								MjBcdHgxNjgw
+								XHR4MjI0MFx0
+								eDI4MDBcdHgz
+								MzYwXHR4Mzky
+								MFx0eDQ0ODBc
+								dHg1MDQwXHR4
+								NTYwMFx0eDYx
+								NjBcdHg2NzIw
+								XHBhcmRpcm5h
+								dHVyYWxccGFy
+								dGlnaHRlbmZh
+								Y3RvcjAKClxm
+								MFxmczI2IFxj
+								ZjAgTWFjcm9z
+								IHdpdGggYnJv
+								a2VuICJFeGVj
+								dXRlIE1hY3Jv
+								IiBhY3Rpb25z
+								OlwKXAolVmFy
+								aWFibGUlYmVt
+								YVJlc3VsdCV9
+								AQAAACMAAAAB
+								AAAABwAAAFRY
+								VC5ydGYQAAAA
+								MOPAWbYBAAAA
+								AAAAAAAAAA==
+								</data>
+								<key>Text</key>
+								<string>Macros with broken "Execute Macro" actions:
+
+%Variable%bemaResult%</string>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Notify error 'An error has occurred'</string>
+								<key>ActionUID</key>
+								<integer>15481208</integer>
+								<key>Buttons</key>
+								<array>
+									<dict>
+										<key>Button</key>
+										<string>OK</string>
+										<key>Cancel</key>
+										<false/>
+									</dict>
+								</array>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>PromptForUserInput</string>
+								<key>Prompt</key>
+								<string>An error has occurred: %Variable%bemaResult%</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>Title</key>
+								<string>%ExecutingThisMacro%</string>
+								<key>Variables</key>
+								<array/>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Yellow</string>
+						<key>ActionName</key>
+						<string>Cleanup Variables</string>
+						<key>ActionUID</key>
+						<integer>15481210</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15481211</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>%Delete%</string>
+								<key>Variable</key>
+								<string>bemaResult</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>494780735.60801202</real>
+				<key>ModificationDate</key>
+				<real>568498788.54118001</real>
+				<key>Name</key>
+				<string>Find all broken execute macro actions</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>9ED3D1AC-D5FD-4A99-BE78-C3F488426B70</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.stairways.keyboardmaestro.editor</string>
+					<key>Name</key>
+					<string>Keyboard Maestro</string>
+					<key>NewFile</key>
+					<string>/Applications/Keyboard Maestro.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>FAFC6E75-FB12-4D49-8A67-ABB716F81675</string>
+		<key>UID</key>
+		<string>FDD12D74-6731-4C29-8579-83C6A11C3F6A</string>
+	</dict>
+</array>
+</plist>

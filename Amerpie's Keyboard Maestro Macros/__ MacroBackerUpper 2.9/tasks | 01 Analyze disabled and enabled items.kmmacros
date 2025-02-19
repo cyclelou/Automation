@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>725560211.02260804</real>
+		<key>CustomIconData</key>
+		<string>KMEP-DebuggerContinue</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionColor</key>
+						<string>Teal</string>
+						<key>ActionUID</key>
+						<integer>15603549</integer>
+						<key>MacroActionType</key>
+						<string>Comment</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4YAwAAKwAAAAEA
+						AAAQAwAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYyNzA5
+						Clxjb2NvYXRleHRzY2FsaW5nMFxj
+						b2NvYXBsYXRmb3JtMHtcZm9udHRi
+						bFxmMFxmc3dpc3NcZmNoYXJzZXQw
+						IEhlbHZldGljYS1Cb2xkO1xmMVxm
+						c3dpc3NcZmNoYXJzZXQwIEhlbHZl
+						dGljYTt9CntcY29sb3J0Ymw7XHJl
+						ZDI1NVxncmVlbjI1NVxibHVlMjU1
+						O1xyZWQwXGdyZWVuMFxibHVlMDt9
+						CntcKlxleHBhbmRlZGNvbG9ydGJs
+						OztcY3NzcmdiXGMwXGMwXGMwXGM4
+						NDcwNlxjbmFtZSBjb250cm9sVGV4
+						dENvbG9yO30KXHBhcmRcdHg1NjBc
+						dHgxMTIwXHR4MTY4MFx0eDIyNDBc
+						dHgyODAwXHR4MzM2MFx0eDM5MjBc
+						dHg0NDgwXHR4NTA0MFx0eDU2MDBc
+						dHg2MTYwXHR4NjcyMFxwYXJkaXJu
+						YXR1cmFsXHBhcnRpZ2h0ZW5mYWN0
+						b3IwCgpcZjBcYlxmczI2IFxjZjIg
+						UHVycG9zZQpcZjFcYjAgXAogIFwn
+						OTUgSXQgdHVybnMgb3V0IHRoYXQg
+						ZW5hYmxpbmcgb3IgZGlzYWJsaW5n
+						IGEgbWFjcm8gZ3JvdXAgbWFya3Mg
+						YWxsIG1hY3JvcyBpbnNpZGUgdGhh
+						dCBncm91cCBhcyBtb2RpZmllZC4g
+						VGhhdCBtYWtlcyBmdXJ0aGVyIGFu
+						YWx5emluZyB0aGVtIGZvciBjaGFu
+						Z2VzIHdvcnRobGVzcywgYXMgdGhl
+						eSdsbCBhbHdheXMgc2F5IHRoZXkg
+						aGF2ZSBjaGFuZ2VzLiBUaGlzIHJv
+						dXRpbmUgZmluZHMgYW55IGdyb3Vw
+						cyB0aGF0IHdlcmUgZW5hYmxlZCBv
+						ciBkaXNhYmxlZCBzaW5jZSB0aGUg
+						bGFzdCBiYWNrdXAsIGFuZCBleGNs
+						dWRlcyBhbGwgbWFjcm9zIGluIHRo
+						b3NlIGdyb3VwcyBmcm9tIGZ1cnRo
+						ZXIgYW5hbHlzaXMufQEAAAAjAAAA
+						AQAAAAcAAABUWFQucnRmEAAAAJb5
+						W2W2AQAAAAAAAAAAAAA=
+						</data>
+						<key>Title</key>
+						<string>tasks: Analyze disabled and enabled items</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Extract all newly-disabled macro groups from the database</string>
+						<key>ActionUID</key>
+						<integer>15603550</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>The SQL commands</string>
+								<key>ActionUID</key>
+								<integer>15603551</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>SELECT grn.Group_Name
+FROM groups_new grn
+JOIN groups_old gro
+ON grn.Group_ID = gro.Group_ID
+WHERE grn.Group_Enabled = 0 AND gro.Group_Enabled = 1</string>
+								<key>Variable</key>
+								<string>local_theSQL</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Extract the matching records</string>
+								<key>ActionUID</key>
+								<integer>15603552</integer>
+								<key>MacroActionType</key>
+								<string>ExecuteSubroutine</string>
+								<key>MacroUID</key>
+								<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+								<key>Parameters</key>
+								<array>
+									<string></string>
+									<string>%Variable%local_theSQL%</string>
+									<string>Macros</string>
+									<string>Extract all newly-disabled groups</string>
+								</array>
+								<key>ResultVariable</key>
+								<string>instance_groupsNowDisabled</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>If set, apply Finder labels for newly disabled groups</string>
+						<key>ActionUID</key>
+						<integer>15603553</integer>
+						<key>CaseEntries</key>
+						<array>
+							<dict>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Case Statement</string>
+										<key>ActionUID</key>
+										<integer>15603554</integer>
+										<key>CaseEntries</key>
+										<array>
+											<dict>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15603555</integer>
+														<key>Actions</key>
+														<array>
+															<dict>
+																<key>ActionName</key>
+																<string>Label the folder orange</string>
+																<key>ActionUID</key>
+																<integer>15603556</integer>
+																<key>Attribute</key>
+																<string>TagsAdd</string>
+																<key>MacroActionType</key>
+																<string>SetFileAttribute</string>
+																<key>Path</key>
+																<string>%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%</string>
+																<key>Text</key>
+																<string>Orange</string>
+															</dict>
+														</array>
+														<key>Collections</key>
+														<dict>
+															<key>CollectionList</key>
+															<array>
+																<dict>
+																	<key>CollectionType</key>
+																	<string>LinesIn</string>
+																	<key>IncludeBlankLines</key>
+																	<false/>
+																	<key>Source</key>
+																	<string>Variable</string>
+																	<key>Variable</key>
+																	<string>instance_groupsNowDisabled</string>
+																</dict>
+															</array>
+														</dict>
+														<key>MacroActionType</key>
+														<string>For</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>Variable</key>
+														<string>local_theGroup</string>
+													</dict>
+												</array>
+												<key>ConditionType</key>
+												<string>Matches</string>
+												<key>TestValue</key>
+												<string>[^\s]+</string>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>Switch</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>instance_groupsNowDisabled</string>
+									</dict>
+								</array>
+								<key>ConditionType</key>
+								<string>Is</string>
+								<key>TestValue</key>
+								<string>Yes</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Switch</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>instance_UseLabels</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Extract all newly-enabled macro groups from the database</string>
+						<key>ActionUID</key>
+						<integer>15603557</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>The SQL commands</string>
+								<key>ActionUID</key>
+								<integer>15603558</integer>
+								<key>IsDisclosed</key>
+								<false/>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>SELECT grn.Group_Name
+FROM groups_new grn
+JOIN groups_old gro
+ON grn.Group_ID = gro.Group_ID
+WHERE grn.Group_Enabled = 1 AND gro.Group_Enabled = 0</string>
+								<key>Variable</key>
+								<string>local_theSQL</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Extract the matching records</string>
+								<key>ActionUID</key>
+								<integer>15603559</integer>
+								<key>MacroActionType</key>
+								<string>ExecuteSubroutine</string>
+								<key>MacroUID</key>
+								<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+								<key>Parameters</key>
+								<array>
+									<string></string>
+									<string>%Variable%local_theSQL%</string>
+									<string>Macros</string>
+									<string>Extract all newly-enabled groups</string>
+								</array>
+								<key>ResultVariable</key>
+								<string>instance_groupsNowEnabled</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>If set, apply Finder labels for newly enabled groups</string>
+						<key>ActionUID</key>
+						<integer>15603560</integer>
+						<key>CaseEntries</key>
+						<array>
+							<dict>
+								<key>Actions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Case Statement</string>
+										<key>ActionUID</key>
+										<integer>15603561</integer>
+										<key>CaseEntries</key>
+										<array>
+											<dict>
+												<key>Actions</key>
+												<array>
+													<dict>
+														<key>ActionUID</key>
+														<integer>15603562</integer>
+														<key>Actions</key>
+														<array>
+															<dict>
+																<key>ActionName</key>
+																<string>Label the folder blue</string>
+																<key>ActionUID</key>
+																<integer>15603563</integer>
+																<key>Attribute</key>
+																<string>TagsAdd</string>
+																<key>MacroActionType</key>
+																<string>SetFileAttribute</string>
+																<key>Path</key>
+																<string>%Variable%rg_MBU_tNewestBackup%/%Variable%local_theGroup%</string>
+																<key>Text</key>
+																<string>Blue</string>
+															</dict>
+														</array>
+														<key>Collections</key>
+														<dict>
+															<key>CollectionList</key>
+															<array>
+																<dict>
+																	<key>CollectionType</key>
+																	<string>LinesIn</string>
+																	<key>IncludeBlankLines</key>
+																	<false/>
+																	<key>Source</key>
+																	<string>Variable</string>
+																	<key>Variable</key>
+																	<string>instance_groupsNowEnabled</string>
+																</dict>
+															</array>
+														</dict>
+														<key>MacroActionType</key>
+														<string>For</string>
+														<key>TimeOutAbortsMacro</key>
+														<true/>
+														<key>Variable</key>
+														<string>local_theGroup</string>
+													</dict>
+												</array>
+												<key>ConditionType</key>
+												<string>Matches</string>
+												<key>TestValue</key>
+												<string>[^\s]+</string>
+											</dict>
+										</array>
+										<key>MacroActionType</key>
+										<string>Switch</string>
+										<key>Source</key>
+										<string>Variable</string>
+										<key>Variable</key>
+										<string>instance_groupsNowEnabled</string>
+									</dict>
+								</array>
+								<key>ConditionType</key>
+								<string>Is</string>
+								<key>TestValue</key>
+								<string>Yes</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Switch</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>instance_UseLabels</string>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Aqua</string>
+						<key>ActionName</key>
+						<string>Set status for groups and macros in new states</string>
+						<key>ActionUID</key>
+						<integer>15603564</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>The SQL commands</string>
+								<key>ActionUID</key>
+								<integer>15603565</integer>
+								<key>MacroActionType</key>
+								<string>SetVariableToText</string>
+								<key>Text</key>
+								<string>-- Update status for newly-disabled groups
+UPDATE groups_new
+SET Group_Status = 'Disabled'
+WHERE Group_ID IN (
+    SELECT grn.Group_ID
+    FROM groups_new grn
+    JOIN groups_old gro ON grn.Group_ID = gro.Group_ID
+    WHERE grn.Group_Enabled = 0 AND gro.Group_Enabled = 1
+);
+
+-- Update status for newly-enabled groups
+UPDATE groups_new
+SET Group_Status = 'Enabled'
+WHERE Group_ID IN (
+    SELECT grn.Group_ID
+    FROM groups_new grn
+    JOIN groups_old gro ON grn.Group_ID = gro.Group_ID
+    WHERE grn.Group_Enabled = 1 AND gro.Group_Enabled = 0
+);
+
+-- Update status for macros in newly-disabled groups
+UPDATE macros_new
+SET Macro_Status = 'Disabled'
+WHERE Group_ID IN (
+    SELECT grn.Group_ID
+    FROM groups_new grn
+    WHERE grn.Group_Status = 'Disabled'
+);
+
+-- Update status for macros in newly-enabled groups
+UPDATE macros_new
+SET Macro_Status = 'Enabled'
+WHERE Group_ID IN (
+    SELECT grn.Group_ID
+    FROM groups_new grn
+    WHERE grn.Group_Status = 'Enabled'
+);</string>
+								<key>Variable</key>
+								<string>local_theSQL</string>
+							</dict>
+							<dict>
+								<key>ActionName</key>
+								<string>Write the status to the database</string>
+								<key>ActionUID</key>
+								<integer>15603566</integer>
+								<key>MacroActionType</key>
+								<string>ExecuteSubroutine</string>
+								<key>MacroUID</key>
+								<string>3475EC2D-E7D0-4B24-9D50-A1107D7B6BA1</string>
+								<key>Parameters</key>
+								<array>
+									<string></string>
+									<string>%Variable%local_theSQL%</string>
+									<string>Macros</string>
+									<string>Set status for all newly-enabled or -disabled groups</string>
+								</array>
+								<key>ResultVariable</key>
+								<string></string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionUID</key>
+						<integer>15603567</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+						<key>Parameter</key>
+						<string>Find and label any enabled or disabled groups</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Prepare header for enabled/disabled groups</string>
+						<key>ActionUID</key>
+						<integer>15603568</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>15603569</integer>
+								<key>Conditions</key>
+								<dict>
+									<key>ConditionList</key>
+									<array>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instance_groupsNowDisabled</string>
+											<key>VariableConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>VariableValue</key>
+											<string>[^\s]+</string>
+										</dict>
+										<dict>
+											<key>ConditionType</key>
+											<string>Variable</string>
+											<key>Variable</key>
+											<string>instance_macrosEnabled</string>
+											<key>VariableConditionType</key>
+											<string>DoesNotMatch</string>
+											<key>VariableValue</key>
+											<string>[^\s]+</string>
+										</dict>
+									</array>
+									<key>ConditionListMatch</key>
+									<string>All</string>
+								</dict>
+								<key>ElseActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>Beginning of structural change section</string>
+										<key>ActionUID</key>
+										<integer>15603571</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+┃┃  ENABLED OR DISABLED MACRO GROUPS                                    
+┃┃━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Note: All macros within a newly-enabled or newly-disabled group will show as modified in a
+comparison, so all macros in these groups will be left out of any further analysis.
+</string>
+										<key>Variable</key>
+										<string>instance_Report_EnabledDisabled</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>IfThenElse</string>
+								<key>ThenActions</key>
+								<array>
+									<dict>
+										<key>ActionName</key>
+										<string>No structural changes at all</string>
+										<key>ActionUID</key>
+										<integer>15603570</integer>
+										<key>MacroActionType</key>
+										<string>SetVariableToText</string>
+										<key>Text</key>
+										<string>%Delete%</string>
+										<key>Variable</key>
+										<string>instance_Report_EnabledDisabled</string>
+									</dict>
+								</array>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Newly-enabled macro groups</string>
+						<key>ActionUID</key>
+						<integer>15603572</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Make sure there's data there</string>
+								<key>ActionUID</key>
+								<integer>15603573</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>Sort</string>
+												<key>ActionUID</key>
+												<integer>15603574</integer>
+												<key>MacroActionType</key>
+												<string>Filter</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsNowEnabled</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Search/Replace: string</string>
+												<key>ActionUID</key>
+												<integer>15603575</integer>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>    $1</string>
+												<key>Search</key>
+												<string>(?m)^(.*)$</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsNowEnabled</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15603576</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>
+ ▪️ NEWLY ENABLED MACRO GROUPS
+
+%Variable%instance_groupsNowEnabled%
+</string>
+												<key>Variable</key>
+												<string>instance_Report_EnabledDisabled</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_groupsNowEnabled</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionName</key>
+						<string>Report: Newly-disabled macro groups</string>
+						<key>ActionUID</key>
+						<integer>15603577</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>ActionName</key>
+								<string>Make sure there's data there</string>
+								<key>ActionUID</key>
+								<integer>15603578</integer>
+								<key>CaseEntries</key>
+								<array>
+									<dict>
+										<key>Actions</key>
+										<array>
+											<dict>
+												<key>Action</key>
+												<string>Sort</string>
+												<key>ActionUID</key>
+												<integer>15603579</integer>
+												<key>MacroActionType</key>
+												<string>Filter</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsNowDisabled</string>
+											</dict>
+											<dict>
+												<key>Action</key>
+												<string>IgnoreCaseRegEx</string>
+												<key>ActionName</key>
+												<string>Search/Replace: string</string>
+												<key>ActionUID</key>
+												<integer>15603580</integer>
+												<key>MacroActionType</key>
+												<string>SearchReplace</string>
+												<key>Replace</key>
+												<string>    $1</string>
+												<key>Search</key>
+												<string>(?m)^(.*)$</string>
+												<key>Source</key>
+												<string>Variable</string>
+												<key>Variable</key>
+												<string>instance_groupsNowDisabled</string>
+												<key>Which</key>
+												<string>All</string>
+											</dict>
+											<dict>
+												<key>ActionUID</key>
+												<integer>15603581</integer>
+												<key>MacroActionType</key>
+												<string>SetVariableToText</string>
+												<key>Text</key>
+												<string>
+ ▪️ NEWLY DISABLED MACRO GROUPS
+
+%Variable%instance_groupsNowDisabled%
+</string>
+												<key>Variable</key>
+												<string>instance_Report_EnabledDisabled</string>
+												<key>Where</key>
+												<string>Append</string>
+											</dict>
+										</array>
+										<key>ConditionType</key>
+										<string>Matches</string>
+										<key>TestValue</key>
+										<string>[^\s]+</string>
+									</dict>
+								</array>
+								<key>MacroActionType</key>
+								<string>Switch</string>
+								<key>Source</key>
+								<string>Variable</string>
+								<key>Variable</key>
+								<string>instance_groupsNowDisabled</string>
+							</dict>
+						</array>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Group</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionColor</key>
+						<string>Magenta</string>
+						<key>ActionUID</key>
+						<integer>15603582</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>IsDisclosed</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>9058F81A-48CB-4613-A700-1460E4984301</string>
+						<key>Parameter</key>
+						<string>Report: Prepare enabled/disabled groups report</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>725560211.02542901</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Square=KMCOLOR:255,255,255,0==86=0=0=0=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>723215563.58876896</real>
+				<key>Name</key>
+				<string>tasks | 01 Analyze disabled and enabled items</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>BEE5AF59-9364-4653-8738-F3A35120DA4A</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>__ MacroBackerUpper 2.9</string>
+		<key>ToggleMacroUID</key>
+		<string>240B095D-918C-465D-BECE-A76AC22F9D3D</string>
+		<key>UID</key>
+		<string>B9551CF3-538D-440B-8609-FF0E36E310EB</string>
+	</dict>
+</array>
+</plist>

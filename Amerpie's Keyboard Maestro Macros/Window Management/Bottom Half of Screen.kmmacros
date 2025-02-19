@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>722987158.29532695</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>MoveAndResize</string>
+						<key>ActionUID</key>
+						<integer>15378381</integer>
+						<key>HeightExpression</key>
+						<string>SCREENVISIBLE(Main,Height)*50%</string>
+						<key>HorizontalExpression</key>
+						<string>SCREENVISIBLE(Main,Left)</string>
+						<key>MacroActionType</key>
+						<string>ManipulateWindow</string>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>Targeting</key>
+						<string>FrontWindow</string>
+						<key>TargetingType</key>
+						<string>Front</string>
+						<key>VerticalExpression</key>
+						<string>SCREENVISIBLE(Main,MidY)</string>
+						<key>WidthExpression</key>
+						<string>SCREENVISIBLE(Main,Width)</string>
+						<key>WindowIndexExpression</key>
+						<string>2</string>
+						<key>WindowName</key>
+						<string></string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>722611043.87544894</real>
+				<key>ModificationDate</key>
+				<real>725746499.59852898</real>
+				<key>Name</key>
+				<string>Bottom Half of Screen</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>125</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4608</integer>
+					</dict>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>486545A1-086C-42E3-9137-5239CFD2738D</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Window Management</string>
+		<key>ToggleMacroUID</key>
+		<string>A94B08BC-1A24-4987-AF9C-F3E83A76A4C8</string>
+		<key>UID</key>
+		<string>00891BC0-B064-4778-8714-08E7F5B21421</string>
+	</dict>
+</array>
+</plist>

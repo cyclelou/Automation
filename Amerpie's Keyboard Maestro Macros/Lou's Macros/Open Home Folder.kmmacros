@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>54954</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.cocoatech.PathFinder-setapp</string>
+							<key>Name</key>
+							<string>Path Finder</string>
+							<key>NewFile</key>
+							<string>/Applications/Setapp/Path Finder.app</string>
+						</dict>
+						<key>IsDefaultApplication</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>Open1File</string>
+						<key>Path</key>
+						<string>~</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>721497953.07424295</real>
+				<key>CustomIconData</key>
+				<string>KMEC=Rounded=KMCOLOR:0,0,255,255=🏠=86=0=0=0=KMCOLOR:0,0,0,255</string>
+				<key>ModificationDate</key>
+				<real>727470974.43701899</real>
+				<key>Name</key>
+				<string>Open Home Folder</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>4</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>2048</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>31E2B214-71CA-417C-BD15-9E9D5B305D65</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Lou's Macros</string>
+		<key>ToggleMacroUID</key>
+		<string>9F210EF8-D46D-4D95-A48D-73D449009A37</string>
+		<key>UID</key>
+		<string>0C3AA1CA-7938-4DA1-B48C-714623F875E0</string>
+	</dict>
+</array>
+</plist>
