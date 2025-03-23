@@ -1,0 +1,55 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "Mastodon Post",
+	"behavior": "create",
+	"noteContentFormat": "\n!{{selector:.detailed-status__display-avatar .account__avatar > img?src|link:\"|46\"}} {{selector:.detailed-status .display-name__html}} • [{{selector:.detailed-status .display-name__account}}]({{selector:.detailed-status .display-name__account}})\n\n{{selectorHtml:.detailed-status .status__content__text > p|join:\"\\n\\n\"|replace:(\"<br>\":\"\\n\",\"#\":\"\\\\#\",\"<img draggable=\\\"false\\\" class=\\\"emojione\\\" alt=\\\"\":\"\",\"\\\" title=\\\"\",:\"\",\"\\\" src=\\\"/emoji/1f9e1.svg\\\">\")|strip_attr:(\"href,title\")|strip_tags:(\"a\")}}\n\n{{selectorHtml:.detailed-status .media-gallery__item a?href|image|callout:(\"info\",\"attachments\",false)}}\n{{selectorHtml:.detailed-status video?aria-label|blockquote}}\n{{selectorHtml:.detailed-status video|strip_attr:(\"src,poster,title\")|replace:\"<video src=\":\"<video controls src=\"|blockquote}}\n{{selectorHtml:.detailed-status a.status-card .status-card__image-image|markdown|blockquote}}\n{{selectorHtml:.detailed-status a.status-card :is(.status-card__host,.status-card__title,.status-card__author)|join:\"\\n\"|markdown|blockquote}}\n\n{{selectorHtml:.detailed-status .status__content__text a:not(.mention)|join:\"\\n\\n\"|markdown|callout:\"info\",\"links\",\"false\"}}\n\n> [!info] toot meta\n> {{selectorHtml:.detailed-status .detailed-status__datetime|markdown}} • {{selectorHtml:.detailed-status .detailed-status__link|join:\" • \"|markdown}}\n\n{{highlights|map: item => item.text|join:\"\\n\\n> \"|callout:(\"highlight\", \"highlights\", false)}}\n",
+	"properties": [
+		{
+			"name": "website-name",
+			"value": "{{site}}",
+			"type": "text"
+		},
+		{
+			"name": "title",
+			"value": "{{selector:.detailed-status .status__content__text|split:\\\" \\\"|slice:0,8|join:\\\" \\\"|safe_name}}",
+			"type": "text"
+		},
+		{
+			"name": "Author",
+			"value": "{{selector:.detailed-status .display-name__html}}",
+			"type": "text"
+		},
+		{
+			"name": "publication-datetime",
+			"value": "{{selector:.detailed-status__datetime}}",
+			"type": "datetime"
+		},
+		{
+			"name": "url",
+			"value": "{{url|split:\\\"?\\\"|first}}",
+			"type": "text"
+		},
+		{
+			"name": "Obsidian-Web-Clipper",
+			"value": "true",
+			"type": "checkbox"
+		},
+		{
+			"name": "topic",
+			"value": "{{\\\"topics in this article, separated by commas\\\"}}",
+			"type": "multitext"
+		},
+		{
+			"name": "mastodon",
+			"value": "",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://social.lol",
+		"https://dmv.community"
+	],
+	"noteNameFormat": "{{selector:.detailed-status .display-name__html}} on {{domain|safe_name}} {{selector:.detailed-status__datetime|date:\"YYYY-MM-DD.HHmm\"}}",
+	"path": "Clippings/Mastodon",
+	"context": "{{selectorHtml:.detailed-status|strip_tags:(\"script,h1,h2,h3,h4,h5,h6,meta,a,ol,ul,li,p,em,strong,i,b,img,video,audio,math,tablecite,strong,td,th,tr,caption,u\")|strip_attr:(\"alt,src,href,id,content,property,name,datetime,title\")}}"
+}
