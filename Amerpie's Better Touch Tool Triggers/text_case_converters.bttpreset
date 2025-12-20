@@ -1,0 +1,371 @@
+[
+  {
+    "BTTLastUpdatedAt" : 1764709009.3343349,
+    "BTTTriggerType" : 630,
+    "BTTTriggerTypeDescriptionReadOnly" : "Group",
+    "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+    "BTTUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+    "BTTShortcutKeyboardType" : 0,
+    "BTTTriggerOnDown" : 1,
+    "BTTGroupName" : "Text Case Converters",
+    "BTTShortcutKeyCode" : -1,
+    "BTTOrder" : 10,
+    "BTTAutoAdaptToKeyboardLayout" : 0,
+    "BTTActionsToExecute" : [
+      {
+        "BTTLastUpdatedAt" : 1764707265.6800861,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "6B73E88F-8B2A-4907-8E31-F5F0BD6BAC2E",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "u",
+        "BTTShortcutKeyCode" : 32,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 6,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764698111.3676109,
+            "BTTTriggerParentUUID" : "6B73E88F-8B2A-4907-8E31-F5F0BD6BAC2E",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "33250C02-1310-4207-AF9C-25661102A1FF",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n    \/\/example\n   return clipboardContentString.toUpperCase()\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707267.962327,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "06E8A32B-4BFF-4F21-95EA-D5093CA7AE9D",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "l",
+        "BTTShortcutKeyCode" : 37,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 8,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764698173.4234362,
+            "BTTTriggerParentUUID" : "06E8A32B-4BFF-4F21-95EA-D5093CA7AE9D",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "CCD2C927-9449-49C6-AE8F-34CD4E2CE1A8",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n    \/\/example\n   return clipboardContentString.toLowerCase()\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707269.188894,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "202EEEBC-A0BB-44E0-A093-C88BDE84B038",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "t",
+        "BTTShortcutKeyCode" : 17,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 9,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764704766.6879292,
+            "BTTTriggerParentUUID" : "202EEEBC-A0BB-44E0-A093-C88BDE84B038",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "15A4808D-6116-45E9-9EE0-C5DB7EEE07C4",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const text = clipboardContentString.toLowerCase()\n\n  const transformed = text\n    .split(\/\\s+\/)\n    .map(word => {\n      if (!word) return word\n      return word.charAt(0).toUpperCase() + word.slice(1)\n    })\n    .join(\" \")\n\n  return transformed\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707272.0581861,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "D6912D0E-C355-434D-A5BC-B4E6890C77F8",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "s",
+        "BTTShortcutKeyCode" : 1,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 10,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764698773.4504251,
+            "BTTTriggerParentUUID" : "D6912D0E-C355-434D-A5BC-B4E6890C77F8",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "8BDD38DD-EB39-42CD-90B4-055D32D71E41",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const text = clipboardContentString\n\n  const transformed = text\n    .trim()\n    \/\/ break camelCase \/ PascalCase into words\n    .replace(\/([a-z0-9])([A-Z])\/g, \"$1 $2\")\n    \/\/ replace non-alphanumeric with spaces\n    .replace(\/[^a-zA-Z0-9]+\/g, \" \")\n    .trim()\n    .toLowerCase()\n    .replace(\/\\s+\/g, \"_\")\n\n  return transformed\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707272.0582221,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "CE2BEEF2-82B3-4DAB-9641-0B93368EAA96",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "c",
+        "BTTShortcutKeyCode" : 8,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 11,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764698794.548223,
+            "BTTTriggerParentUUID" : "CE2BEEF2-82B3-4DAB-9641-0B93368EAA96",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "139C2C3C-9FFC-4913-A3E3-CD286F7F0D39",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const text = clipboardContentString\n\n  const words = text\n    .trim()\n    .replace(\/([a-z0-9])([A-Z])\/g, \"$1 $2\")\n    .replace(\/[^a-zA-Z0-9]+\/g, \" \")\n    .trim()\n    .toLowerCase()\n    .split(\/\\s+\/)\n\n  if (words.length === 0) return \"\"\n\n  const first = words[0]\n  const rest = words.slice(1).map(w => w.charAt(0).toUpperCase() + w.slice(1))\n\n  return [first, ...rest].join(\"\")\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707272.058171,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "A03D66E5-08A2-438E-909A-B65CB3E433A8",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "p",
+        "BTTShortcutKeyCode" : 35,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 12,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764699132.465662,
+            "BTTTriggerParentUUID" : "A03D66E5-08A2-438E-909A-B65CB3E433A8",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "FDF62DB4-0F84-426C-BB01-E58934691A39",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const text = clipboardContentString\n\n  const words = text\n    .trim()\n    .replace(\/([a-z0-9])([A-Z])\/g, \"$1 $2\")\n    .replace(\/[^a-zA-Z0-9]+\/g, \" \")\n    .trim()\n    .toLowerCase()\n    .split(\/\\s+\/)\n\n  const transformed = words\n    .filter(Boolean)\n    .map(w => w.charAt(0).toUpperCase() + w.slice(1))\n    .join(\"\")\n\n  return transformed\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707272.058202,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "3C46FA60-98C0-44FD-8BD2-F080A0A108DA",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "k",
+        "BTTShortcutKeyCode" : 40,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 13,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764698818.887358,
+            "BTTTriggerParentUUID" : "3C46FA60-98C0-44FD-8BD2-F080A0A108DA",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "7E508C02-FC46-4714-8D15-F7082742CB5B",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const text = clipboardContentString\n\n  const transformed = text\n    .trim()\n    .replace(\/([a-z0-9])([A-Z])\/g, \"$1 $2\")\n    .replace(\/[^a-zA-Z0-9]+\/g, \" \")\n    .trim()\n    .toLowerCase()\n    .replace(\/\\s+\/g, \"-\")\n\n  return transformed\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707272.058228,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "161711A8-296C-4026-8B8F-B1E58CFF3E68",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "SPACE",
+        "BTTShortcutKeyCode" : 49,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 14,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764707073.6956291,
+            "BTTTriggerParentUUID" : "161711A8-296C-4026-8B8F-B1E58CFF3E68",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "ABBB22C4-85D4-48DB-BFD1-837262EE5302",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const transformed = clipboardContentString\n    \/\/ everything non-alphanumeric becomes a space\n    .replace(\/[^a-zA-Z0-9]+\/g, \" \")\n    \/\/ trim ends\n    .trim()\n    \/\/ collapse multiple spaces\n    .replace(\/\\s+\/g, \" \")\n\n  return transformed\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707272.058192,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "14B844E3-0E26-48ED-BCC0-83B35850B854",
+        "BTTAdditionalConfiguration" : "1835049",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "-",
+        "BTTShortcutKeyCode" : 27,
+        "BTTShortcutAdvancedModifierKeys" : "1835049",
+        "BTTShortcutModifierKeys" : 1835008,
+        "BTTOrder" : 15,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764707081.904182,
+            "BTTTriggerParentUUID" : "14B844E3-0E26-48ED-BCC0-83B35850B854",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "3DB81AE7-FFC2-450D-9CB3-31E6B1E5C448",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const transformed = clipboardContentString\n    \/\/ everything non-alphanumeric becomes a dash\n    .replace(\/[^a-zA-Z0-9]+\/g, \"-\")\n    \/\/ collapse multiple dashes\n    .replace(\/-+\/g, \"-\")\n    \/\/ remove leading\/trailing dashes\n    .replace(\/^-|-$\/g, \"\")\n\n  return transformed\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      },
+      {
+        "BTTLastUpdatedAt" : 1764707272.0581799,
+        "BTTTriggerType" : 0,
+        "BTTTriggerParentUUID" : "051BE7C4-5BAB-4509-AB8C-85EB71B94C1D",
+        "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+        "BTTUUID" : "0CA64841-FC5C-454B-97EF-190111EF131E",
+        "BTTAdditionalConfiguration" : "1966125",
+        "BTTShortcutKeyboardType" : -2052004921,
+        "BTTTriggerOnDown" : 1,
+        "BTTLayoutIndependentChar" : "-",
+        "BTTShortcutKeyCode" : 27,
+        "BTTShortcutAdvancedModifierKeys" : "1966125",
+        "BTTShortcutModifierKeys" : 1966080,
+        "BTTOrder" : 16,
+        "BTTAutoAdaptToKeyboardLayout" : 0,
+        "BTTActionsToExecute" : [
+          {
+            "BTTLastUpdatedAt" : 1764707090.538285,
+            "BTTTriggerParentUUID" : "0CA64841-FC5C-454B-97EF-190111EF131E",
+            "BTTIsPureAction" : true,
+            "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+            "BTTUUID" : "57E4E2CD-A31C-4787-9955-A0669446BACC",
+            "BTTPredefinedActionType" : 284,
+            "BTTPredefinedActionName" : "Transform & Replace Selection With Java Script",
+            "BTTAdditionalActionData" : {
+              "BTTClipboardTransformerExampleInput" : "",
+              "BTTClipboardTransformerJS" : "async (clipboardContentString) => {\n  const transformed = clipboardContentString\n    \/\/ everything non-alphanumeric becomes an underscore\n    .replace(\/[^a-zA-Z0-9]+\/g, \"_\")\n    \/\/ collapse multiple underscores\n    .replace(\/_+\/g, \"_\")\n    \/\/ remove leading\/trailing underscores\n    .replace(\/^_+|_+$\/g, \"\")\n\n  return transformed\n}"
+            },
+            "BTTShortcutKeyboardType" : 0,
+            "BTTShortcutKeyCode" : -1,
+            "BTTOrder" : 1,
+            "BTTAutoAdaptToKeyboardLayout" : 0
+          }
+        ]
+      }
+    ],
+    "BTTAdditionalDataJSON" : {
+      "BTTIconConfigIconHeight" : 25,
+      "BTTIconConfigIconIconWidth" : 25
+    }
+  }
+]

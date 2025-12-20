@@ -1,0 +1,120 @@
+{
+  "BTTPresetRequiredBTTVersion" : "5.600",
+  "BTTPresetCreatorNotes" : "",
+  "BTTPresetInfoURL" : "",
+  "BTTPresetName" : "Space Status",
+  "BTTPresetColor" : "73.637117, 8.096430, 200.941360, 255.000000",
+  "BTTPresetUUID" : "34379A24-B90C-4865-8652-E05FF271D5ED",
+  "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.G",
+      "BTTAppName" : "Global",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppSpecificSettings" : {
+        "BTTDisableGlobalTriggers" : false
+      },
+      "BTTTriggers" : [
+        {
+          "BTTLastUpdatedAt" : 1757429326.117584,
+          "BTTTriggerType" : 630,
+          "BTTTriggerTypeDescriptionReadOnly" : "Group",
+          "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+          "BTTUUID" : "74E54C01-8AF7-4EC6-B7A1-FC7DB1EC962C",
+          "BTTGroupName" : "Space Status",
+          "BTTOrder" : 1,
+          "BTTActionsToExecute" : [
+            {
+              "BTTLastUpdatedAt" : 1757429799.758714,
+              "BTTTriggerType" : 680,
+              "BTTTriggerTypeDescriptionReadOnly" : "Menubar Item: Space #",
+              "BTTTriggerTypeDescription" : "Space #",
+              "BTTTriggerParentUUID" : "74E54C01-8AF7-4EC6-B7A1-FC7DB1EC962C",
+              "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+              "BTTUUID" : "4407AFDA-BC70-4F6E-B985-9067E394AC14",
+              "BTTAlternateModifierKeys" : -1,
+              "BTTNotes" : "",
+              "BTTModifierMode" : 3,
+              "BTTOrder" : 0,
+              "BTTGestureNotes" : "Space #",
+              "BTTTriggerConfig" : {
+                "BTTTouchBarButtonColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+                "BTTTouchBarAppleScriptStringRunOnInit" : false,
+                "BTTTouchBarItemSFSymbolWeight" : 0,
+                "BTTScriptType" : 3,
+                "BTTTouchBarItemSFSymbolAlternateWeight" : 0,
+                "BTTTouchBarButtonMonoSpace" : 1,
+                "BTTTouchBarScriptUpdateInterval" : 5,
+                "BTTTouchBarButtonBaselineOffset" : 0,
+                "BTTTouchBarButtonLineHeight" : 0,
+                "BTTTouchBarItemSFSymbolDefaultIcon" : "",
+                "BTTTouchBarItemIconHeight" : 22,
+                "BTTTouchBarButtonTextAlignment" : 0,
+                "BTTTouchBarAlternateBackgroundColor" : "0.000000, 0.000000, 0.000000, 0.000000",
+                "BTTTouchBarAppleScriptUsePath" : 0,
+                "BTTTouchBarItemIconType" : 2,
+                "BTTTouchBarItemIconWidth" : 22,
+                "BTTTouchBarButtonTopMargin" : 0,
+                "BTTTouchBarButtonFontSize" : 12,
+                "BTTTouchBarAppleScriptString" : "(async ()=> {\n\nconst translated_active_space = await get_number_variable({variable_name:'translated_active_space'});\n\nconst sf_symbol_name = (translated_active_space > 0 ? `${translated_active_space}` : 'f') + '.square.fill';\n\nconst menubarItem = JSON.stringify({'text': '', 'sf_symbol_name': sf_symbol_name, 'sf_symbol_size': 30,  'icon_data': 'base64_icon_data', 'icon_path':'path_to_new_icon', 'font_size': 10});\n\nreturnToBTT(menubarItem);\n})();",
+                "BTTTouchBarOnlyShowIcon" : 1
+              }
+            },
+            {
+              "BTTLastUpdatedAt" : 1757429343.0215459,
+              "BTTTriggerType" : 815,
+              "BTTTriggerTypeDescriptionReadOnly" : "Active Space Did Change",
+              "BTTTriggerParentUUID" : "74E54C01-8AF7-4EC6-B7A1-FC7DB1EC962C",
+              "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+              "BTTUUID" : "4D84B5D6-DD52-401E-B0DE-4428506F84FA",
+              "BTTOrder" : 1,
+              "BTTActionsToExecute" : [
+                {
+                  "BTTLastUpdatedAt" : 1757430088.845082,
+                  "BTTTriggerParentUUID" : "4D84B5D6-DD52-401E-B0DE-4428506F84FA",
+                  "BTTIsPureAction" : true,
+                  "BTTTriggerClass" : "BTTTriggerTypeOtherTriggers",
+                  "BTTUUID" : "C4B3B6FC-ED0F-4762-BB46-7D40E176B268",
+                  "BTTPredefinedActionType" : 281,
+                  "BTTPredefinedActionName" : "Run Real JavaScript",
+                  "BTTAdditionalActionData" : {
+                    "BTTScriptFunctionToCall" : "someJavaScriptFunction",
+                    "BTTJavaScriptUseIsolatedContext" : false,
+                    "BTTAppleScriptRunInBackground" : false,
+                    "BTTScriptType" : 3,
+                    "BTTAppleScriptString" : "async function someJavaScriptFunction() {\n\nconst translated_active_space = await get_number_variable({variable_name:'translated_active_space'});\n\nconst sf_symbol_name = (translated_active_space > 0 ? `${translated_active_space}` : 'f') + '.square.fill';\n\nconst menubarItem = {uuid: '4407AFDA-BC70-4F6E-B985-9067E394AC14', 'sf_symbol_name': sf_symbol_name, 'sf_symbol_size': 30 };\n\n  update_menubar_item(menubarItem);\nreturn menubarItem;\n};",
+                    "BTTActionJSRunInSeparateContext" : false,
+                    "BTTAppleScriptUsePath" : false,
+                    "BTTScriptLocation" : 0
+                  },
+                  "BTTRealJavaScriptString" : "async function someJavaScriptFunction() {\n\nconst translated_active_space = await get_number_variable({variable_name:'translated_active_space'});\n\nconst sf_symbol_name = (translated_active_space > 0 ? `${translated_active_space}` : 'f') + '.square.fill';\n\nconst menubarItem = {uuid: '4407AFDA-BC70-4F6E-B985-9067E394AC14', 'sf_symbol_name': sf_symbol_name, 'sf_symbol_size': 30 };\n\n  update_menubar_item(menubarItem);\nreturn menubarItem;\n};",
+                  "BTTOrder" : 129
+                }
+              ]
+            }
+          ],
+          "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAYAAABxLuKEAAAEDmlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY1JHQgAAOI2NVV1oHFUUPpu5syskzoPUpqaSDv41lLRsUtGE2uj+ZbNt3CyTbLRBkMns3Z1pJjPj_KRpKT4UQRDBqOCT4P9bwSchaqvtiy2itFCiBIMo+ND6R6HSFwnruTOzu5O4a73L3PnmnO9+595z7t4LkLgsW5beJQIsGq4t5dPis8fmxMQ6dMF90A190C0rjpUqlSYBG+PCv9rt7yDG3tf2t_f_Z+uuUEcBiN2F2Kw4yiLiZQD+FcWyXYAEQfvICddi+AnEO2ycIOISw7UAVxieD_Cyz5mRMohfRSwoqoz+xNuIB+cj9loEB3Pw2448NaitKSLLRck2q5pOI9O9g_t_tkXda8Tbg0+PszB9FN8DuPaXKnKW4YcQn1Xk3HSIry5ps8UQ_2W5aQnxIwBdu7yFcgrxPsRjVXu8HOh0qao30cArp9SZZxDfg3h1wTzKxu5E_LUxX5wKdX5SnAzmDx4A4OIqLbB69yMesE1pKojLjVdoNsfyiPi45hZmAn3uLWdpOtfQOaVmikEs7ovj8hFWpz7EV6mel0L9Xy23FMYlPYZenAx0yDB1_PX6dledmQjikjkXCxqMJS9WtfFCyH9XtSekEF+2dH+P4tzITduTygGfv58a5VCTH5PtXD7EFZiNyUDBhHnsFTBgE0SQIA9pfFtgo6cKGuhooeilaKH41eDs38Ip+f4At1Rq_sjr6NEwQqb_I_DQqsLvaFUjvAx+eWirddAJZnAj1DFJL0mSg_gcIpPkMBkhoyCSJ8lTZIxk0TpKDjXHliJzZPO50dR5ASNSnzeLvIvod0HG_mdkmOC0z8VKnzcQ2M_Yz2vKldduXjp9bleLu0ZWn7vWc+l0JGcaai10yNrUnXLP_8Jf59ewX+c3Wgz+B34Df+vbVrc16zTMVgp9um9bxEfzPU5kPqUtVWxhs6OiWTVW+gIfywB9uXi7CGcGW_zk98k_kmvJ95IfJn_j3uQ+4c5zn3Kfcd+AyF3gLnJfcl9xH3OfR2rUee80a+6vo7EK5mmXUdyfQlrYLTwoZIU9wsPCZEtP6BWGhAlhL3p2N6sTjRdduwbHsG9kq32sgBepc+xurLPW4T9URpYGJ3ym4+8zA05u44QjST8ZIoVtu3qE7fWmdn5LPdqvgcZz8Ww8BWJ8X3w0PhQ_wnCDGd+LvlHs8dRy6bLLDuKMaZ20tZrqisPJ5ONiCq8yKhYM5cCgKOu66Lsc0aYOtZdo5QCwezI4wm9J_v0X23mlZXOfBjj8Jzv3WrY5D+CsA9D7aMs2gGfjve8ArD6mePZSeCfEYt8CONWDw8FXTxrPqx_r9Vt4biXeANh8vV7_+_16ffMD1N8AuKD_A_8leAvFY9bLAAAAOGVYSWZNTQAqAAAACAABh2kABAAAAAEAAAAaAAAAAAACoAIABAAAAAEAAABGoAMABAAAAAEAAABGAAAAAE3tIiIAAAHQSURBVHgB7Zs7TgNBEETN_xOQchR+EdwGIQ7F5xxcBgickgACBFXIDmt2jNdiZ_VaKlnqWfd2P5cn68mEgAAEIAABCEAAAm0SWFuw7S09fyDtS+sLfve_Hv_Si1+lF+ljFU3squiZdC89S37h98DlHp+kO+lE8gy9hgteS+_S0GGk_t7U+5XUGxz_feyUlqHMYRmOneOZilFzT_hOuZS2i5XaONyZzeKZilEDZk8VzotV2jq8ULueqRg1YDZU4bBYpa1Dz+KZilEDxgU6CxXfMqzDzZp2asHU1BrVM4AJPydgABMIhDSOAUwgENI4BjCBQEjjGMAEAiGNYwATCIQ0jgFMIBDSOAYwgUBI4xjABAIhjWMAEwiENI4BTCAQ0jgGMIFASOMYwAQCIY1jABMIhDSOAUwgENI4BjCBQEjjGMAEAiGNYwATCIQ0jgFMIBDSOGZJMN7iGEtUrebUOMZQpmOhMpul84euAeMlqIcRgfEsnmnp8ArLqeSVlvl6S6ufnuFY6lzL0TNV4eUnL0G1DMe9e72ot0Uu1foNF_QS1K30KH1KQ3eOe3SvN9KRVA3lr8ui3vdpZSPFF63vlJUti6o2AQEIQAACEIAABAZD4AcNNjPyPqrJpQAAAABJRU5ErkJggg==",
+          "BTTAdditionalData" : "eyJCVFRJY29uQ29uZmlnSWNvbkhlaWdodCI6MjUsIkJUVEljb25Db25maWdJY29uSWNvbldpZHRoIjoyNX0="
+        }
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "BT.L",
+      "BTTAppName" : "Recently Used",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+
+      ]
+    }
+  ],
+  "BTTPresetSnapAreas" : [
+
+  ]
+}
