@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>AlwaysWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>CreationDate</key>
+		<real>792369322.027601</real>
+		<key>KeyCode</key>
+		<integer>122</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100356220</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>-- Quit all open applications except Finder
+tell application "System Events"
+    set openApps to name of every application process whose background only is false
+end tell
+
+repeat with appName in openApps
+    if appName is not "Finder" then
+        try
+            tell application appName to quit
+        end try
+    end if
+end repeat
+
+-- Give apps a few seconds to close gracefully
+delay 5
+
+-- Eject all ejectable disks
+tell application "Finder"
+    try
+        eject (every disk whose ejectable is true)
+    end try
+end tell
+
+-- Small pause to allow ejections to complete
+delay 3
+
+-- Log out current user
+tell application "System Events"
+    log out
+end tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>791738591.54870403</real>
+				<key>ModificationDate</key>
+				<real>791739010.66779196</real>
+				<key>Name</key>
+				<string>zz-log-out</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E6ED4CDA-972E-42A9-A63B-B40D32CF2BA6</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>0</integer>
+		<key>Name</key>
+		<string>System Palette</string>
+		<key>PaletteUnderMouse</key>
+		<false/>
+		<key>Theme</key>
+		<dict>
+			<key>Theme</key>
+			<string>Sungroper</string>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>22DFBFB0-D31F-4513-8650-04B555B5D4E0</string>
+		<key>UID</key>
+		<string>9D634996-3302-47D4-BB69-69704BB8D65F</string>
+	</dict>
+</array>
+</plist>

@@ -329,6 +329,8 @@
 				</array>
 				<key>CreationDate</key>
 				<real>501512833.02778101</real>
+				<key>IsActive</key>
+				<false/>
 				<key>ModificationDate</key>
 				<real>559816491.98148203</real>
 				<key>Name</key>

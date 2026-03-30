@@ -42,26 +42,11 @@
 				<key>CreationDate</key>
 				<real>722986961.019629</real>
 				<key>ModificationDate</key>
-				<real>725746507.96696997</real>
+				<real>790563865.70717204</real>
 				<key>Name</key>
 				<string>Full Screen</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>23</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>256</integer>
-					</dict>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>StatusMenu</string>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
 				<string>4733D0C8-4FB2-45C1-B337-6BC8096690D8</string>
 			</dict>

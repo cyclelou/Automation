@@ -351,6 +351,39 @@
 				<array>
 					<dict>
 						<key>ActionUID</key>
+						<integer>100352566</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.AppStore</string>
+							<key>Name</key>
+							<string>App Store</string>
+							<key>NewFile</key>
+							<string>/System/Applications/App Store.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<true/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100352568</integer>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>3</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
 						<integer>15483922</integer>
 						<key>KeyCode</key>
 						<integer>28</integer>
@@ -369,7 +402,7 @@
 				<key>CreationDate</key>
 				<real>496859093.24576002</real>
 				<key>ModificationDate</key>
-				<real>726931012.25874102</real>
+				<real>791547485.62279797</real>
 				<key>Name</key>
 				<string>Updates</string>
 				<key>Triggers</key>

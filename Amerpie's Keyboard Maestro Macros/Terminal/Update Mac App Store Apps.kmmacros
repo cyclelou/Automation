@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>791836775.04988694</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16278048</integer>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>#!/bin/bash
+
+# Run MAS upgrades
+sudo mas upgrade</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>786202071.76184595</real>
+				<key>ModificationDate</key>
+				<real>792883295.09606194</real>
+				<key>Name</key>
+				<string>Update Mac App Store Apps</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5EA70601-81C9-456B-B8CE-0B6F5028EEC5</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Terminal</string>
+		<key>ToggleMacroUID</key>
+		<string>1B6AF5B0-2D05-4120-A282-E749187FE54A</string>
+		<key>UID</key>
+		<string>7A881115-ACE9-4B61-9E83-EE50DE5B1B79</string>
+	</dict>
+</array>
+</plist>

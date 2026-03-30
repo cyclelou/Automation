@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>791397493.985641</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/ChatGPT.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374901</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.openai.chat</string>
+							<key>Name</key>
+							<string>ChatGPT</string>
+							<key>NewFile</key>
+							<string>/Applications/ChatGPT.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374902</integer>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>2</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374903</integer>
+						<key>KeyCode</key>
+						<integer>45</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374904</integer>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>1</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>100374905</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>Generate my Obsidian AI Daily Log for 2026-03-22. Include summaries as defined below from 00:01 hours until 23:59 and do not include events from days other than than 2026-03-22
+
+  
+
+Requirements:
+
+- Sort everything in true chronological order with timestamps.
+- Use one-line summaries for each discussion.
+- Structure it as a technical journal, not a chat summary.
+- Include these sections:
+
+1) Timeline
+
+2) Signals &amp; Insights (what I learned or realized)
+
+3) Friction &amp; Problems (what broke, confused, or slowed things down)
+
+4) Decisions (explicit or implicit choices made)
+
+5) Open Questions (unresolved issues)
+
+6) Next Actions (concrete follow-ups)
+
+7) Backlinks (Obsidian-style [[topics]])
+
+8) Tags (#macos #automation #clawdbot #health etc.)
+
+  
+
+- Use Obsidian-friendly Markdown.
+- "At the end, include the full log again inside a plain-text block between ===BEGIN OBSIDIAN DAILY LOG=== and ===END OBSIDIAN DAILY LOG=== so I can save it to a file via automation. Do not use any clickable links for this block."</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374906</integer>
+						<key>KeyCode</key>
+						<integer>36</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374907</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>ConditionResult</key>
+									<string>===END OBSIDIAN DAILY LOG===</string>
+									<key>ConditionType</key>
+									<string>OCR</string>
+									<key>ImageScreenArea</key>
+									<dict>
+										<key>ScreenAreaType</key>
+										<string>ScreenFront</string>
+									</dict>
+									<key>ImageSource</key>
+									<string>Screen</string>
+									<key>Language</key>
+									<string></string>
+									<key>OCRConditionType</key>
+									<string>Contains</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>PauseUntil</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374908</integer>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>120</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>MoveAndClick</string>
+						<key>ActionUID</key>
+						<integer>100374909</integer>
+						<key>Button</key>
+						<integer>0</integer>
+						<key>ClickCount</key>
+						<integer>1</integer>
+						<key>DisplayMatches</key>
+						<false/>
+						<key>DragHorizontalPosition</key>
+						<string>0</string>
+						<key>DragVerticalPosition</key>
+						<string>0</string>
+						<key>Fuzz</key>
+						<integer>15</integer>
+						<key>HorizontalPositionExpression</key>
+						<string>573</string>
+						<key>MacroActionType</key>
+						<string>MouseMoveAndClick</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>MouseDrag</key>
+						<string>None</string>
+						<key>Relative</key>
+						<string>Window</string>
+						<key>RelativeCorner</key>
+						<string>TopLeft</string>
+						<key>RestoreMouseLocation</key>
+						<false/>
+						<key>VerticalPositionExpression</key>
+						<string>643</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374910</integer>
+						<key>KeyCode</key>
+						<integer>0</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374911</integer>
+						<key>KeyCode</key>
+						<integer>8</integer>
+						<key>MacroActionType</key>
+						<string>SimulateKeystroke</string>
+						<key>Modifiers</key>
+						<integer>256</integer>
+						<key>ReleaseAll</key>
+						<false/>
+						<key>TargetApplication</key>
+						<dict/>
+						<key>TargetingType</key>
+						<string>Front</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100374912</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>479310BE-E6F4-45B3-AAE7-5031C6B8A8AD</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<false/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>795946741.70457697</real>
+				<key>ModificationDate</key>
+				<real>795946774.02498496</real>
+				<key>Name</key>
+				<string>Get Yesterday's Daily Summary from Chat GPT copy</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>391A9759-2FB0-4E89-909E-26904834CDC0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>ChatGPT</string>
+		<key>ToggleMacroUID</key>
+		<string>295E37F6-B106-41FF-B9BA-5ADAB0BA26EF</string>
+		<key>UID</key>
+		<string>09549150-F990-4877-AEEA-E3DB5D298459</string>
+	</dict>
+</array>
+</plist>

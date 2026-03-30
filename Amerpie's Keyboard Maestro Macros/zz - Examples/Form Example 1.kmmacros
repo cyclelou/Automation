@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360389</integer>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string></string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>What Name?</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string></string>
+								<key>Variable</key>
+								<string>Name</string>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>100360390</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>Hello %Variable%Name%,
+
+Thank you for contacting us.</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>453352025.53381002</real>
+				<key>ModificationDate</key>
+				<real>453346389.026537</real>
+				<key>Name</key>
+				<string>Form Example 1</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<true/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>ty</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>81216938-86B5-40AF-90AB-F269668C1E39</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

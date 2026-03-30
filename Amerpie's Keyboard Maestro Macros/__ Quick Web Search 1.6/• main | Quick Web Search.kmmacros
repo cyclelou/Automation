@@ -9,6 +9,8 @@
 		<real>719152176.82849801</real>
 		<key>CustomIconData</key>
 		<string>KMEP-DebuggerContinue</string>
+		<key>IsActive</key>
+		<false/>
 		<key>Macros</key>
 		<array>
 			<dict>
@@ -754,7 +756,7 @@ Enter search terms only—no shortcut—to search %Variable%instanceDefaultSite%
 							<string>normal</string>
 						</array>
 						<key>ResultVariable</key>
-						<string>VarName</string>
+						<string></string>
 						<key>TimeOutAbortsMacro</key>
 						<true/>
 					</dict>

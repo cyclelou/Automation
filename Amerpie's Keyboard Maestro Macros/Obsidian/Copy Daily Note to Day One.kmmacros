@@ -59,8 +59,6 @@
 							<string>com.bloombuilt.dayone-mac</string>
 							<key>Name</key>
 							<string>Day One</string>
-							<key>NewFile</key>
-							<string>/Applications/Day One.app</string>
 						</dict>
 						<key>MacroActionType</key>
 						<string>ActivateApplication</string>
@@ -83,8 +81,6 @@
 										<string>com.bloombuilt.dayone-mac</string>
 										<key>Name</key>
 										<string>Day One</string>
-										<key>NewFile</key>
-										<string>/Applications/Day One.app</string>
 									</dict>
 									<key>ApplicationConditionType</key>
 									<string>Active</string>
@@ -116,8 +112,6 @@
 							<string>com.bloombuilt.dayone-mac</string>
 							<key>Name</key>
 							<string>Day One</string>
-							<key>NewFile</key>
-							<string>/Applications/Day One.app</string>
 						</dict>
 						<key>TargetingType</key>
 						<string>Specific</string>
@@ -152,26 +146,11 @@
 				<key>CreationDate</key>
 				<real>731799349.94836903</real>
 				<key>ModificationDate</key>
-				<real>731800134.84139001</real>
+				<real>790911770.92930996</real>
 				<key>Name</key>
 				<string>Copy Daily Note to Day One</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>StatusMenu</string>
-					</dict>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>2</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>4608</integer>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
 				<string>453B31A0-878A-4511-8956-70C4D2F4DBAC</string>
 			</dict>
@@ -194,41 +173,19 @@
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>md.obsidian</string>
+					<string>com.vivaldi.Vivaldi</string>
 					<key>Name</key>
-					<string>Obsidian</string>
+					<string>Vivaldi</string>
 					<key>NewFile</key>
-					<string>/Applications/Obsidian.app</string>
+					<string>/Applications/Vivaldi.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>com.apple.finder</string>
+					<string>org.mozilla.firefox</string>
 					<key>Name</key>
-					<string>Finder</string>
+					<string>Firefox</string>
 					<key>NewFile</key>
-					<string>/System/Library/CoreServices/Finder.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.edgemac</string>
-					<key>Name</key>
-					<string>Microsoft Edge</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.Inoreader</string>
-					<key>Name</key>
-					<string>Inoreader</string>
-					<key>NewFile</key>
-					<string>/Applications/Inoreader.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Safari</string>
-					<key>Name</key>
-					<string>Safari</string>
-					<key>NewFile</key>
-					<string>/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app</string>
+					<string>/Applications/Firefox.app</string>
 				</dict>
 			</array>
 		</dict>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>792343117.97454405</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Quit</string>
+						<key>ActionUID</key>
+						<integer>100363054</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.sascha-simon.Scrobbles</string>
+							<key>Name</key>
+							<string>Scrobbles for Last.fm</string>
+							<key>NewFile</key>
+							<string>/Applications/Scrobbles for Last.fm.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>QuitSpecificApp</string>
+						<key>Target</key>
+						<string>Specific</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>792343245.10334802</real>
+				<key>ModificationDate</key>
+				<real>792343323.30669498</real>
+				<key>Name</key>
+				<string>Stop Scrobbling</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Music</string>
+							<key>Name</key>
+							<string>Music</string>
+							<key>NewFile</key>
+							<string>/System/Applications/Music.app</string>
+						</dict>
+						<key>FireType2</key>
+						<string>Quit</string>
+						<key>MacroTriggerType</key>
+						<string>Application</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>Target</key>
+						<string>Specific</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>1670BDDF-A402-4737-8D68-258CD9CFE8DD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Music</string>
+		<key>ToggleMacroUID</key>
+		<string>B94CA819-0AC3-4510-A732-C9033FE1484F</string>
+		<key>UID</key>
+		<string>BED60C83-84FB-4117-ADDD-7C15E5138749</string>
+	</dict>
+</array>
+</plist>

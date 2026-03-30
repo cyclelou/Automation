@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>789962079.07314503</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>QuitRelaunch</string>
+						<key>ActionUID</key>
+						<integer>16317291</integer>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.elgato.StreamDeck</string>
+							<key>Name</key>
+							<string>Elgato Stream Deck</string>
+							<key>NewFile</key>
+							<string>/Applications/Elgato Stream Deck.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>QuitSpecificApp</string>
+						<key>Target</key>
+						<string>Specific</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>790829956.551211</real>
+				<key>ModificationDate</key>
+				<real>790830013.40924001</real>
+				<key>Name</key>
+				<string>Restart StreamDeck</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>A52B7912-CA4F-4F39-B55F-EA748E4E65C6</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Stream Deck</string>
+		<key>ToggleMacroUID</key>
+		<string>ADAC5313-5D2F-4C27-BD30-6BF1C0A890DB</string>
+		<key>UID</key>
+		<string>6B90138D-18E6-4428-B188-9E5037CD92B5</string>
+	</dict>
+</array>
+</plist>

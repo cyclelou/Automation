@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360579</integer>
+						<key>MacroActionType</key>
+						<string>SetNetworkLocation</string>
+						<key>NetworkLocation</key>
+						<string>Home</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>452751498.99209899</real>
+				<key>ModificationDate</key>
+				<real>390198210.59854198</real>
+				<key>Name</key>
+				<string>Set Network Location to Home</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Connected</key>
+						<true/>
+						<key>MacroTriggerType</key>
+						<string>WirelessNetwork</string>
+						<key>MatchType</key>
+						<string>NameIs</string>
+						<key>Name</key>
+						<string>My Home Network</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>0E2E33A2-8DF6-4266-A504-A73480CB4886</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

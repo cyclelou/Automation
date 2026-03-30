@@ -9,6 +9,8 @@
 		<real>719152176.82849801</real>
 		<key>CustomIconData</key>
 		<string>KMEP-DebuggerContinue</string>
+		<key>IsActive</key>
+		<false/>
 		<key>Macros</key>
 		<array>
 			<dict>

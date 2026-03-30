@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>791154489.27838194</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>Move</string>
+						<key>ActionUID</key>
+						<integer>15481018</integer>
+						<key>Button</key>
+						<integer>0</integer>
+						<key>ClickCount</key>
+						<integer>0</integer>
+						<key>DisplayMatches</key>
+						<false/>
+						<key>DragHorizontalPosition</key>
+						<string>0</string>
+						<key>DragVerticalPosition</key>
+						<string>0</string>
+						<key>Fuzz</key>
+						<integer>15</integer>
+						<key>HorizontalPositionExpression</key>
+						<string>0</string>
+						<key>MacroActionType</key>
+						<string>MouseMoveAndClick</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>MouseDrag</key>
+						<string>None</string>
+						<key>Relative</key>
+						<string>Window</string>
+						<key>RelativeCorner</key>
+						<string>Center</string>
+						<key>RestoreMouseLocation</key>
+						<false/>
+						<key>VerticalPositionExpression</key>
+						<string>0</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>527266290.92103302</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>571067217.75889397</real>
+				<key>Name</key>
+				<string>Centre mouse to active app</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>071E35F0-DB30-454C-B93D-9709B4339218</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Unused</string>
+		<key>ToggleMacroUID</key>
+		<string>D90E60A4-41D1-453D-BB64-F1AF00699533</string>
+		<key>UID</key>
+		<string>CD8D7204-E72F-4ED1-9DA2-EE14EBF1892B</string>
+	</dict>
+</array>
+</plist>

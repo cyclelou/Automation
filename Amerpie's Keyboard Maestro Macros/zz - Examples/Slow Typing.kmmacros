@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360587</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>Hello there.</string>
+						<key>Variable</key>
+						<string>Type Text</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>CaseSensitiveRegEx</string>
+						<key>ActionUID</key>
+						<integer>100360589</integer>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string>$1\n</string>
+						<key>Search</key>
+						<string>(.)</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>Type Text</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360590</integer>
+						<key>Actions</key>
+						<array>
+							<dict>
+								<key>Action</key>
+								<string>ByTyping</string>
+								<key>ActionUID</key>
+								<integer>100360591</integer>
+								<key>MacroActionType</key>
+								<string>InsertText</string>
+								<key>TargetApplication</key>
+								<dict/>
+								<key>TargetingType</key>
+								<string>Front</string>
+								<key>Text</key>
+								<string>%Variable%Character%</string>
+							</dict>
+							<dict>
+								<key>ActionUID</key>
+								<integer>100360592</integer>
+								<key>MacroActionType</key>
+								<string>Pause</string>
+								<key>Time</key>
+								<string>0.5</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+							</dict>
+						</array>
+						<key>Collections</key>
+						<dict>
+							<key>CollectionList</key>
+							<array>
+								<dict>
+									<key>CollectionType</key>
+									<string>LinesIn</string>
+									<key>IncludeBlankLines</key>
+									<false/>
+									<key>Source</key>
+									<string>Variable</string>
+									<key>Variable</key>
+									<string>Type Text</string>
+								</dict>
+							</array>
+						</dict>
+						<key>MacroActionType</key>
+						<string>For</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Variable</key>
+						<string>Character</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>452751498.99209899</real>
+				<key>ModificationDate</key>
+				<real>402981582.605358</real>
+				<key>Name</key>
+				<string>Slow Typing</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>BBD247B0-CE7E-4079-8C85-F44EC94C71C9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

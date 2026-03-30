@@ -63,24 +63,11 @@ end tell</string>
 				<key>CreationDate</key>
 				<real>728003810.19726098</real>
 				<key>ModificationDate</key>
-				<real>728004318.45822597</real>
+				<real>794799593.67581999</real>
 				<key>Name</key>
 				<string>Move Tasks to Evening in Things 3</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>ExecuteType</key>
-						<string>Time</string>
-						<key>MacroTriggerType</key>
-						<string>Time</string>
-						<key>TimeHour</key>
-						<integer>3</integer>
-						<key>TimeMinutes</key>
-						<integer>30</integer>
-						<key>WhichDays</key>
-						<integer>127</integer>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
 				<string>B6B08989-E516-4089-B748-D3481D2EB78A</string>
 			</dict>

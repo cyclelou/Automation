@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360391</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%TriggerValue%</string>
+						<key>Variable</key>
+						<string>Name</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseString</string>
+						<key>ActionUID</key>
+						<integer>100360393</integer>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string></string>
+						<key>Search</key>
+						<string>ty-</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>Name</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseString</string>
+						<key>ActionUID</key>
+						<integer>100360395</integer>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string></string>
+						<key>Search</key>
+						<string>-</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>Name</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>ByPasting</string>
+						<key>ActionUID</key>
+						<integer>100360396</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>Text</key>
+						<string>Hello %Variable%Name%,
+
+Thank you for contacting us.</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>453345320.06064099</real>
+				<key>ModificationDate</key>
+				<real>453346391.56621999</real>
+				<key>Name</key>
+				<string>Form Example 2</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>Case</key>
+						<string>Match</string>
+						<key>MacroTriggerType</key>
+						<string>TypedString</string>
+						<key>OnlyAfterWordBreak</key>
+						<true/>
+						<key>SimulateDeletes</key>
+						<true/>
+						<key>TypedString</key>
+						<string>\bty-.*-</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>706D5751-54B8-45B6-A897-7CEC0A0684F0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

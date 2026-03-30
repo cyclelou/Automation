@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16318543</integer>
+						<key>DisplayKind</key>
+						<string>Variable</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>try	tell application "System Events"		set fgApps to name of (processes where background only is false)		set bgApps to name of (processes where background only is true)	end tell		set allFg to {}	set allBg to {}		-- Keyword blacklist (system + helpers + noise + your custom filters)	set blacklistKeywords to {"Notification", "Window", "Menu", "Monitor", "Manager", "Server", "Events", "Runner", "Daemon", "Dispatcher", "Extension", "Helper", "Agent", "Service", "Auxiliary", "Updater", "System", "Control", "Switcher", "Notifier", "Universal", "FinderSync", "Widget", "circled", "studentd", "osascript", "Engine", "Launcher", "SmartDelete", "_client", "storage"}		-- Whitelist: apps you always want to keep	set whitelist to {"Keyboard Maestro", "Stream Deck", "Default Folder X", "Bartender", "BetterTouchTool", "Rectangle", "CleanShot", "Raycast", "TextExpander", "Dropzone", "Hazel", "PopClip", "Supercharge", "Syncthing", "Tailscale", "Dato", "Clop", "MountMate", "Dropover", "AlDente", "NextDNS", "NameQuick", "kDrive"}		-- Process foreground apps	repeat with appName in fgApps		set appName to my normalizeName(appName as text)		if my isAllowed(appName, blacklistKeywords, whitelist) then			set end of allFg to appName		end if	end repeat		-- Process menu bar apps	repeat with appName in bgApps		set appName to my normalizeName(appName as text)		if my isAllowed(appName, blacklistKeywords, whitelist) then			set end of allBg to appName		end if	end repeat		-- Deduplicate	set allFg to my dedupe(allFg)	set allBg to my dedupe(allBg)		-- Sort	set allFg to my simpleSort(allFg)	set allBg to my simpleSort(allBg)		-- Build grouped list (simple + KM-safe)
+set AppleScript's text item delimiters to linefeed
+
+set fgText to allFg as text
+
+set prefixedBg to {}
+repeat with appName in allBg
+	set end of prefixedBg to "• " &amp; appName
+end repeat
+
+set bgText to prefixedBg as text
+
+set outputText to fgText &amp; linefeed &amp; "—" &amp; linefeed &amp; bgText
+
+return outputText	on error errMsg number errNum	return "ERROR: " &amp; errMsg &amp; " (" &amp; errNum &amp; ")"end tryon normalizeName(appName)	-- Remove "Setapp" from names	set appName to my replaceText(" Setapp", "", appName)	set appName to my replaceText(" Setapp ", " ", appName)	return appNameend normalizeNameon isAllowed(appName, blacklistKeywords, whitelist)	-- Always allow whitelisted apps	repeat with w in whitelist		if appName contains (w as text) then return true	end repeat		-- Filter Apple/system processes	if appName starts with "com.apple." then return false		-- Filter by keyword blacklist	repeat with k in blacklistKeywords		if appName contains (k as text) then return false	end repeat		-- Filter cryptic daemon names (node, chronod, etc.)	if (count of characters of appName) &lt; 5 then return false		return trueend isAllowedon dedupe(theList)	set uniqueList to {}	repeat with a in theList		set a to a as text		if uniqueList does not contain a then set end of uniqueList to a	end repeat	return uniqueListend dedupeon simpleSort(theList)	set sortedList to {}	repeat with itemText in theList		set itemText to itemText as text				if (count of sortedList) is 0 then			set end of sortedList to itemText		else			set inserted to false			set i to 1						repeat with existing in sortedList				set existing to existing as text								if itemText comes before existing then					if i is 1 then						set sortedList to {itemText} &amp; sortedList					else						set sortedList to (items 1 thru (i - 1) of sortedList) &amp; {itemText} &amp; (items i thru -1 of sortedList)					end if					set inserted to true					exit repeat				end if								set i to i + 1			end repeat						if inserted is false then set end of sortedList to itemText		end if	end repeat	return sortedListend simpleSorton replaceText(findText, replaceText, sourceText)	set AppleScript's text item delimiters to findText	set textItems to every text item of sourceText	set AppleScript's text item delimiters to replaceText	set newText to textItems as text	set AppleScript's text item delimiters to ""	return newTextend replaceText</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+						<key>Variable</key>
+						<string>AppListRaw</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16318572</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string></string>
+						<key>Variable</key>
+						<string>SelectedApp</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16318579</integer>
+						<key>Destination</key>
+						<string>Variable</string>
+						<key>DestinationVariable</key>
+						<string>SelectedApp</string>
+						<key>MacroActionType</key>
+						<string>PromptWithList</string>
+						<key>PromptUID</key>
+						<string>2E8FB334-2D66-4BA7-92F2-353D9A7EB7F6</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Variable</key>
+						<string>AppListRaw</string>
+						<key>WindowTitle</key>
+						<string>Choose an App to Restart</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>CaseSensitiveRegEx</string>
+						<key>ActionUID</key>
+						<integer>16318588</integer>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string></string>
+						<key>Search</key>
+						<string>^•\s*</string>
+						<key>Source</key>
+						<string>Variable</string>
+						<key>Variable</key>
+						<string>SelectedApp</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16318559</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%Variable%SelectedApp%</string>
+						<key>Variable</key>
+						<string>AppToRestart</string>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>ActionUID</key>
+						<integer>16318566</integer>
+						<key>MacroActionType</key>
+						<string>SearchReplace</string>
+						<key>Replace</key>
+						<string></string>
+						<key>Search</key>
+						<string> \(menu bar\)$</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+						<key>Which</key>
+						<string>All</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16318569</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>tell application "Keyboard Maestro Engine"
+	set appName to getvariable "AppToRestart"
+end tell
+
+-- Step 1: Try graceful quit
+try
+	tell application appName to quit
+end try
+
+delay 0.6
+
+-- Step 2: Check if still running
+tell application "System Events"
+	set isRunning to exists (process appName)
+end tell
+
+set forced to false
+
+-- Step 3: Force quit if needed
+if isRunning then
+	try
+		do shell script "killall -9 " &amp; quoted form of appName
+		set forced to true
+	end try
+end if
+
+delay 0.4
+
+-- Step 4: Relaunch
+try
+	do shell script "open -a " &amp; quoted form of appName
+end try
+
+-- Step 5: Feedback
+if forced then
+	display notification "Force-restarted " &amp; appName with title "App Restart"
+else
+	display notification "Restarted " &amp; appName with title "App Restart"
+end if</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>790876076.16531897</real>
+				<key>ModificationDate</key>
+				<real>791173111.47683096</real>
+				<key>Name</key>
+				<string>restart-an-app</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>F1158C64-25CD-4003-8F23-ECD56B0D3614</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

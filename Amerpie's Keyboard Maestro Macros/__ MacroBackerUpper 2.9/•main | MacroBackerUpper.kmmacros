@@ -1819,7 +1819,7 @@ document.write(window.KeyboardMaestro.GetVariable('local_theHTML'));
 											<string>Initial setup and variable checks</string>
 										</array>
 										<key>ResultVariable</key>
-										<string>VarName</string>
+										<string></string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 									</dict>
@@ -2227,7 +2227,7 @@ document.write(window.KeyboardMaestro.GetVariable('instance_TheFullListHTML'));
 											<string>Initial setup and variable checks</string>
 										</array>
 										<key>ResultVariable</key>
-										<string>VarName</string>
+										<string></string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 									</dict>
@@ -2300,7 +2300,7 @@ document.write(window.KeyboardMaestro.GetVariable('instance_TheFullListHTML'));
 									<string>Create list of macro and group UUIDs</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -2375,7 +2375,7 @@ document.write(window.KeyboardMaestro.GetVariable('instance_TheFullListHTML'));
 									<string>Prepare the database!</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -2426,7 +2426,7 @@ document.write(window.KeyboardMaestro.GetVariable('instance_TheFullListHTML'));
 									<string>Check and warn for duplicates and invisibles</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -2479,7 +2479,7 @@ document.write(window.KeyboardMaestro.GetVariable('instance_TheFullListHTML'));
 									<string>Create the new backup</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -2763,7 +2763,7 @@ The macro will now delete the database, as it's in an unusable state for future 
 									<string>Confirm the backup worked</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -2955,7 +2955,7 @@ The macro will now delete the database, as it's in an unusable state for future 
 									<string>Set some variables and copy some files</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -3086,7 +3086,7 @@ AS counts</string>
 									<string>Count macros and groups</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -3317,7 +3317,7 @@ AS counts</string>
 											<string>Analysis: Enabled and disabled groups</string>
 										</array>
 										<key>ResultVariable</key>
-										<string>VarName</string>
+										<string></string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 									</dict>
@@ -3355,7 +3355,7 @@ AS counts</string>
 											<string>Analysis: Moved and renamed macros and groups</string>
 										</array>
 										<key>ResultVariable</key>
-										<string>VarName</string>
+										<string></string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 									</dict>
@@ -3393,7 +3393,7 @@ AS counts</string>
 											<string>Analysis: New, deleted, and identical macros and groups</string>
 										</array>
 										<key>ResultVariable</key>
-										<string>VarName</string>
+										<string></string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 									</dict>
@@ -3431,7 +3431,7 @@ AS counts</string>
 											<string>Analysis: Macros in modified groups</string>
 										</array>
 										<key>ResultVariable</key>
-										<string>VarName</string>
+										<string></string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 									</dict>
@@ -3721,7 +3721,7 @@ AS counts</string>
 											<string>Check for and remove backups over limit</string>
 										</array>
 										<key>ResultVariable</key>
-										<string>VarName</string>
+										<string></string>
 										<key>TimeOutAbortsMacro</key>
 										<true/>
 									</dict>
@@ -3802,7 +3802,7 @@ AS counts</string>
 									<string>Prepare database for next backup</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -3945,7 +3945,7 @@ AS counts</string>
 									<string>Prepare the final saved backup report</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -4472,7 +4472,7 @@ Total backups: %Variable%instance_BackupCount%
 													<string>Display the onscreen summary dialog</string>
 												</array>
 												<key>ResultVariable</key>
-												<string>VarName</string>
+												<string></string>
 												<key>TimeOutAbortsMacro</key>
 												<true/>
 											</dict>
@@ -4617,7 +4617,7 @@ Total backups: %Variable%instance_BackupCount%
 									<string>Clear leftover variables</string>
 								</array>
 								<key>ResultVariable</key>
-								<string>VarName</string>
+								<string></string>
 								<key>TimeOutAbortsMacro</key>
 								<true/>
 							</dict>
@@ -4939,20 +4939,22 @@ Total backups: %Variable%instance_BackupCount%
 				<key>CustomIconData</key>
 				<string>KMEP-StarRating</string>
 				<key>ModificationDate</key>
-				<real>729458665.81408</real>
+				<real>791306342.75814795</real>
 				<key>Name</key>
 				<string>•main | MacroBackerUpper</string>
 				<key>Triggers</key>
 				<array>
 					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>67</integer>
+						<key>ExecuteType</key>
+						<string>Time</string>
 						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>6144</integer>
+						<string>Time</string>
+						<key>TimeHour</key>
+						<integer>1</integer>
+						<key>TimeMinutes</key>
+						<integer>45</integer>
+						<key>WhichDays</key>
+						<integer>4</integer>
 					</dict>
 				</array>
 				<key>UID</key>

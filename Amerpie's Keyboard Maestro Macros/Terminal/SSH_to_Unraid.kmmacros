@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>791836775.04988694</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16276047</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>/Applications/Ghostty.app/Contents/MacOS/ghostty -e ssh unraid
+
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>779993787.00244498</real>
+				<key>ModificationDate</key>
+				<real>792883280.58321702</real>
+				<key>Name</key>
+				<string>SSH_to_Unraid</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>19C46CA2-2C16-4256-9388-B0FC3152E482</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Terminal</string>
+		<key>ToggleMacroUID</key>
+		<string>1B6AF5B0-2D05-4120-A282-E749187FE54A</string>
+		<key>UID</key>
+		<string>7A881115-ACE9-4B61-9E83-EE50DE5B1B79</string>
+	</dict>
+</array>
+</plist>

@@ -845,16 +845,11 @@
 				AMBs
 				</data>
 				<key>ModificationDate</key>
-				<real>727782061.78670299</real>
+				<real>790563620.26208997</real>
 				<key>Name</key>
 				<string>@Toc for selected text</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>StatusMenu</string>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
 				<string>4C2B7D16-4A62-4ECE-B0D5-8DCF112FF1EB</string>
 			</dict>
@@ -877,41 +872,19 @@
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>md.obsidian</string>
+					<string>com.vivaldi.Vivaldi</string>
 					<key>Name</key>
-					<string>Obsidian</string>
+					<string>Vivaldi</string>
 					<key>NewFile</key>
-					<string>/Applications/Obsidian.app</string>
+					<string>/Applications/Vivaldi.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>com.apple.finder</string>
+					<string>org.mozilla.firefox</string>
 					<key>Name</key>
-					<string>Finder</string>
+					<string>Firefox</string>
 					<key>NewFile</key>
-					<string>/System/Library/CoreServices/Finder.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.edgemac</string>
-					<key>Name</key>
-					<string>Microsoft Edge</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.Inoreader</string>
-					<key>Name</key>
-					<string>Inoreader</string>
-					<key>NewFile</key>
-					<string>/Applications/Inoreader.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Safari</string>
-					<key>Name</key>
-					<string>Safari</string>
-					<key>NewFile</key>
-					<string>/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app</string>
+					<string>/Applications/Firefox.app</string>
 				</dict>
 			</array>
 		</dict>

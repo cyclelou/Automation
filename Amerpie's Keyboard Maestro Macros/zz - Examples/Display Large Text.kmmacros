@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360277</integer>
+						<key>JustDisplay</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>SetClipboardToText</string>
+						<key>TargetNamedClipboardRedundantDisplayName</key>
+						<string>Large Text</string>
+						<key>TargetNamedClipboardUID</key>
+						<string>6ED1C387-264B-41BC-9267-79DBB34F6507</string>
+						<key>TargetUseNamedClipboard</key>
+						<true/>
+						<key>Text</key>
+						<string>1234567812345678</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360278</integer>
+						<key>Attributes</key>
+						<dict>
+							<key>KMFontSize</key>
+							<string>64</string>
+						</dict>
+						<key>First</key>
+						<string>2</string>
+						<key>MacroActionType</key>
+						<string>ApplyStyle</string>
+						<key>Second</key>
+						<string>4</string>
+						<key>StringRangeType</key>
+						<string>All</string>
+						<key>TargetNamedClipboardRedundantDisplayName</key>
+						<string>Large Text</string>
+						<key>TargetNamedClipboardUID</key>
+						<string>6ED1C387-264B-41BC-9267-79DBB34F6507</string>
+						<key>TargetUseNamedClipboard</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>Action</key>
+						<string>DisplayWindow</string>
+						<key>ActionUID</key>
+						<integer>100360279</integer>
+						<key>MacroActionType</key>
+						<string>InsertText</string>
+						<key>StyledText</key>
+						<data>
+						cnRmZAAAAAADAAAAAgAAAAcAAABU
+						WFQucnRmAQAAAC4fAQAAKwAAAAEA
+						AAAXAQAAe1xydGYxXGFuc2lcYW5z
+						aWNwZzEyNTJcY29jb2FydGYxNDA0
+						XGNvY29hc3VicnRmMzQwCntcZm9u
+						dHRibFxmMFxmbmlsXGZjaGFyc2V0
+						MCBMdWNpZGFHcmFuZGU7fQp7XGNv
+						bG9ydGJsO1xyZWQyNTVcZ3JlZW4y
+						NTVcYmx1ZTI1NTt9ClxwYXJkXHR4
+						NTYwXHR4MTEyMFx0eDE2ODBcdHgy
+						MjQwXHR4MjgwMFx0eDMzNjBcdHgz
+						OTIwXHR4NDQ4MFx0eDUwNDBcdHg1
+						NjAwXHR4NjE2MFx0eDY3MjBccGFy
+						ZGlybmF0dXJhbAoKXGYwXGZzMjYg
+						XGNmMCAlTmFtZWRDbGlwYm9hcmQl
+						TGFyZ2UgVGV4dCV9AQAAACMAAAAB
+						AAAABwAAAFRYVC5ydGYQAAAAe3C9
+						VrYBAAAAAAAAAAAAAA==
+						</data>
+						<key>Text</key>
+						<string>%NamedClipboard%Large Text%</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>452751498.99209899</real>
+				<key>CustomIconData</key>
+				<string>KMEP-AlertStop</string>
+				<key>ModificationDate</key>
+				<real>405313932.71478099</real>
+				<key>Name</key>
+				<string>Display Large Text</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>310D8866-8C72-4177-B722-FEB0324226F4</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

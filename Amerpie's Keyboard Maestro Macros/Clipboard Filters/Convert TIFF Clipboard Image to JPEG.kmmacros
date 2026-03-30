@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>509610467.10374999</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100375302</integer>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>.2</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100375303</integer>
+						<key>Conditions</key>
+						<dict>
+							<key>ConditionList</key>
+							<array>
+								<dict>
+									<key>Application</key>
+									<dict>
+										<key>BundleIdentifier</key>
+										<string>com.apple.Safari</string>
+										<key>Name</key>
+										<string>Safari</string>
+										<key>NewFile</key>
+										<string>/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app</string>
+									</dict>
+									<key>ApplicationConditionType</key>
+									<string>Active</string>
+									<key>ConditionType</key>
+									<string>Application</string>
+								</dict>
+								<dict>
+									<key>ClipboardConditionType</key>
+									<string>HasImage</string>
+									<key>ClipboardText</key>
+									<string></string>
+									<key>ConditionType</key>
+									<string>Clipboard</string>
+								</dict>
+								<dict>
+									<key>ClipboardConditionType</key>
+									<string>ConformsTo</string>
+									<key>ClipboardText</key>
+									<string>public.tiff</string>
+									<key>ConditionType</key>
+									<string>Clipboard</string>
+								</dict>
+							</array>
+							<key>ConditionListMatch</key>
+							<string>All</string>
+						</dict>
+						<key>ElseActions</key>
+						<array/>
+						<key>MacroActionType</key>
+						<string>IfThenElse</string>
+						<key>ThenActions</key>
+						<array>
+							<dict>
+								<key>ActionUID</key>
+								<integer>100375304</integer>
+								<key>DisplayKind</key>
+								<string>Window</string>
+								<key>HonourFailureSettings</key>
+								<true/>
+								<key>IncludeStdErr</key>
+								<false/>
+								<key>IncludedVariables</key>
+								<array>
+									<string>9999</string>
+								</array>
+								<key>MacroActionType</key>
+								<string>ExecuteShellScript</string>
+								<key>Path</key>
+								<string></string>
+								<key>Source</key>
+								<string>Nothing</string>
+								<key>Text</key>
+								<string>tmpdir="$(mktemp -d)"
+trap 'rm -rf "$tmpdir"' EXIT
+
+src="$tmpdir/clip.tiff"
+dst="$tmpdir/clip.jpg"
+
+# Try to read TIFF from the clipboard.
+# If there is no TIFF representation, exit quietly.
+if ! pbpaste -Prefer tiff &gt; "$src" 2&gt;/dev/null; then
+  exit 0
+fi
+
+# Make sure it is actually a TIFF image.
+if ! /usr/bin/file "$src" | /usr/bin/grep -q 'TIFF image'; then
+  exit 0
+fi
+
+# Convert to JPEG.
+# formatOptions 85 gives a good quality/size balance.
+if ! /usr/bin/sips -s format jpeg -s formatOptions 85 "$src" --out "$dst" &gt;/dev/null 2&gt;&amp;1; then
+  exit 0
+fi
+
+# Send the JPEG back to Keyboard Maestro, which writes it to the system clipboard.
+cat "$dst"</string>
+								<key>TimeOutAbortsMacro</key>
+								<true/>
+								<key>TrimResults</key>
+								<true/>
+								<key>TrimResultsNew</key>
+								<true/>
+								<key>UseText</key>
+								<true/>
+							</dict>
+						</array>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>796099613.18607903</real>
+				<key>ModificationDate</key>
+				<real>796100017.47598398</real>
+				<key>Name</key>
+				<string>Convert TIFF Clipboard Image to JPEG</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>Clipboard</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B2A228B4-FA57-4161-8FDC-D6383B458068</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Clipboard Filters</string>
+		<key>Theme</key>
+		<dict>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>F33D816E-63C4-4874-AAF9-9ECE69AD0AEE</string>
+		<key>UID</key>
+		<string>52710DBC-9117-4AAC-B910-59C016C4BDEA</string>
+	</dict>
+</array>
+</plist>

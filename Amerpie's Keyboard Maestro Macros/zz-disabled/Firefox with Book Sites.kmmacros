@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16309529</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>set siteList to {¬	"https://www.myanonamouse.net", ¬	"https://www.goodreads.com/?ref=nav_hom", ¬	"https://forum.mobilism.org/viewforum.php?f=1284", ¬	"https://sheet.zoho.com/sheet/open/k2yzsacb8541e52fa417d935ed4ab44428415?sheetid=0&amp;range=B4", ¬	¬		"https://annas-archive.li"}tell application "Firefox"	activate		-- Close all open windows (which closes all tabs)	try		close every window	end try		-- Open the first site in a new window	open location item 1 of siteList		-- Open the rest in new tabs	repeat with i from 2 to count of siteList		open location item i of siteList	end repeatend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>790179901.53000796</real>
+				<key>CustomIconData</key>
+				<string>KMEP-GenericApplication-/Applications/Firefox.app</string>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>790304886.70788205</real>
+				<key>Name</key>
+				<string>Firefox with Book Sites</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>130C4D01-8168-4927-9E83-99D4F92B2AF3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz-disabled</string>
+		<key>ToggleMacroUID</key>
+		<string>D2C24228-B2A8-4385-A47E-22A5F5011A03</string>
+		<key>UID</key>
+		<string>9E75856A-B56B-4EB7-A51E-298BAA4A6DB5</string>
+	</dict>
+</array>
+</plist>

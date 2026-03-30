@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360412</integer>
+						<key>Animate</key>
+						<true/>
+						<key>DisplayTime</key>
+						<string>1</string>
+						<key>Height</key>
+						<string>100</string>
+						<key>Left</key>
+						<string>MOUSEX()</string>
+						<key>MacroActionType</key>
+						<string>HiliteLocation</string>
+						<key>Style</key>
+						<string>Target</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Top</key>
+						<string>MOUSEY()</string>
+						<key>Width</key>
+						<string>100</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>452751498.99209899</real>
+				<key>ModificationDate</key>
+				<real>433743656.39497203</real>
+				<key>Name</key>
+				<string>Highlight Mouse</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>ElementCookie</key>
+						<integer>2</integer>
+						<key>ElementDeviceUsage</key>
+						<integer>6</integer>
+						<key>ElementDeviceUsagePage</key>
+						<integer>1</integer>
+						<key>ElementName</key>
+						<string>USB Keyboard Left Control</string>
+						<key>ElementProductID</key>
+						<integer>617</integer>
+						<key>ElementShortName</key>
+						<string>L⌤</string>
+						<key>ElementUsage</key>
+						<integer>224</integer>
+						<key>ElementUsagePage</key>
+						<integer>7</integer>
+						<key>ElementValue</key>
+						<integer>1</integer>
+						<key>ElementVendorID</key>
+						<integer>1241</integer>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>MacroTriggerType</key>
+						<string>HID</string>
+						<key>Modifiers</key>
+						<integer>0</integer>
+						<key>UseModifiers</key>
+						<true/>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>7CA133D1-A05F-4833-A287-571233C16FA0</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

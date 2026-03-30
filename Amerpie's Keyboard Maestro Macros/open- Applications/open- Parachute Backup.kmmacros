@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>489098266.60678703</real>
+		<key>CustomIconData</key>
+		<string>KMEP-Finder</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100352548</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>net.ericmann.parachute</string>
+							<key>Name</key>
+							<string>Parachute</string>
+							<key>NewFile</key>
+							<string>/Applications/Parachute.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<true/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>791518685.34775698</real>
+				<key>ModificationDate</key>
+				<real>791518722.61444199</real>
+				<key>Name</key>
+				<string>open: Parachute Backup</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>E3B631ED-6FE5-4DFA-A8F5-2495DFA77663</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>open: Applications</string>
+		<key>Theme</key>
+		<dict>
+			<key>Columns</key>
+			<integer>2</integer>
+			<key>Opacity</key>
+			<integer>82</integer>
+			<key>Shrink</key>
+			<true/>
+			<key>Size</key>
+			<integer>14</integer>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>9E9C7E79-6968-4D70-B5E4-FE614A6209DD</string>
+		<key>UID</key>
+		<string>EBA3B8BD-794A-4664-B464-24BF770ACCF6</string>
+	</dict>
+</array>
+</plist>

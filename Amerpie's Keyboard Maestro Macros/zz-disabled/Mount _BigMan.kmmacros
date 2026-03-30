@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721496505.13729596</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100349926</integer>
+						<key>DisplayKind</key>
+						<string>Window</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteShellScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Source</key>
+						<string>Nothing</string>
+						<key>Text</key>
+						<string>#!/bin/zsh
+
+diskutil mount /Volumes/BigMan</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>791304851.01729596</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>791603450.20259404</real>
+				<key>Name</key>
+				<string>Mount _BigMan</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>66B080CA-2DFF-4FE8-8D37-31896D297857</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz-disabled</string>
+		<key>ToggleMacroUID</key>
+		<string>D2C24228-B2A8-4385-A47E-22A5F5011A03</string>
+		<key>UID</key>
+		<string>9E75856A-B56B-4EB7-A51E-298BAA4A6DB5</string>
+	</dict>
+</array>
+</plist>

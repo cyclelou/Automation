@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>791397493.985641</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/ChatGPT.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100361873</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.openai.chat</string>
+							<key>Name</key>
+							<string>ChatGPT</string>
+							<key>NewFile</key>
+							<string>/Applications/ChatGPT.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100361874</integer>
+						<key>MacroActionType</key>
+						<string>Pause</string>
+						<key>Time</key>
+						<string>2</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>792106660.31838799</real>
+				<key>ModificationDate</key>
+				<real>792106981.90066099</real>
+				<key>Name</key>
+				<string>Open Chaptr GPT in Dictation Mode</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5EDB7B55-EFD4-43AF-BDE9-8829C39208CB</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>ChatGPT</string>
+		<key>ToggleMacroUID</key>
+		<string>295E37F6-B106-41FF-B9BA-5ADAB0BA26EF</string>
+		<key>UID</key>
+		<string>09549150-F990-4877-AEEA-E3DB5D298459</string>
+	</dict>
+</array>
+</plist>

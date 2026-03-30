@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>790309980.92630804</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16294587</integer>
+						<key>MacroActionType</key>
+						<string>SystemPrefPane</string>
+						<key>NewFile</key>
+						<string>/System/Library/PreferencePanes/Security.prefPane</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>790310001.23740304</real>
+				<key>ModificationDate</key>
+				<real>790310089.52595103</real>
+				<key>Name</key>
+				<string>Security</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>BD36AADD-B391-4083-855A-3CF2B513A9F9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>System Settings</string>
+		<key>ToggleMacroUID</key>
+		<string>F0E9F5AF-E4BC-466E-AE2F-07016FBE5E70</string>
+		<key>UID</key>
+		<string>2F341938-BEED-4435-AC4F-4D087BC9CE58</string>
+	</dict>
+</array>
+</plist>

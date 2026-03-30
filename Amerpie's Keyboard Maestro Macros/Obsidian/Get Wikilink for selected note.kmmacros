@@ -106,22 +106,11 @@
 				<key>CreationDate</key>
 				<real>728043953.80954003</real>
 				<key>ModificationDate</key>
-				<real>728044156.04708397</real>
+				<real>790563701.28974903</real>
 				<key>Name</key>
 				<string>Get Wikilink for selected note</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>FireType</key>
-						<string>Pressed</string>
-						<key>KeyCode</key>
-						<integer>8</integer>
-						<key>MacroTriggerType</key>
-						<string>HotKey</string>
-						<key>Modifiers</key>
-						<integer>2304</integer>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
 				<string>2EE537C9-0516-448C-B18D-22D5598E3A04</string>
 			</dict>
@@ -144,41 +133,19 @@
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>md.obsidian</string>
+					<string>com.vivaldi.Vivaldi</string>
 					<key>Name</key>
-					<string>Obsidian</string>
+					<string>Vivaldi</string>
 					<key>NewFile</key>
-					<string>/Applications/Obsidian.app</string>
+					<string>/Applications/Vivaldi.app</string>
 				</dict>
 				<dict>
 					<key>BundleIdentifier</key>
-					<string>com.apple.finder</string>
+					<string>org.mozilla.firefox</string>
 					<key>Name</key>
-					<string>Finder</string>
+					<string>Firefox</string>
 					<key>NewFile</key>
-					<string>/System/Library/CoreServices/Finder.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.microsoft.edgemac</string>
-					<key>Name</key>
-					<string>Microsoft Edge</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.Inoreader</string>
-					<key>Name</key>
-					<string>Inoreader</string>
-					<key>NewFile</key>
-					<string>/Applications/Inoreader.app</string>
-				</dict>
-				<dict>
-					<key>BundleIdentifier</key>
-					<string>com.apple.Safari</string>
-					<key>Name</key>
-					<string>Safari</string>
-					<key>NewFile</key>
-					<string>/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app</string>
+					<string>/Applications/Firefox.app</string>
 				</dict>
 			</array>
 		</dict>

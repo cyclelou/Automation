@@ -25,7 +25,7 @@
 										<key>BundleIdentifier</key>
 										<string>com.flexibits.fantastical2.mac</string>
 										<key>Name</key>
-										<string>Fantastical 2</string>
+										<string>Fantastical</string>
 										<key>NewFile</key>
 										<string>/Applications/Fantastical.app</string>
 									</dict>
@@ -67,7 +67,7 @@
 									<key>BundleIdentifier</key>
 									<string>com.flexibits.fantastical2.mac</string>
 									<key>Name</key>
-									<string>Fantastical 2</string>
+									<string>Fantastical</string>
 									<key>NewFile</key>
 									<string>/Applications/Fantastical.app</string>
 								</dict>
@@ -101,10 +101,8 @@
 				</array>
 				<key>CreationDate</key>
 				<real>575298773.16378903</real>
-				<key>IsActive</key>
-				<false/>
 				<key>ModificationDate</key>
-				<real>584369976.64824605</real>
+				<real>790279750.95894003</real>
 				<key>Name</key>
 				<string>New Fantastical event</string>
 				<key>Triggers</key>

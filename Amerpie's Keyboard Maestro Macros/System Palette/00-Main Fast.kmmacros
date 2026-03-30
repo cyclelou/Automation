@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>AlwaysWithPalette</string>
+		<key>AddToMacroPalette</key>
+		<false/>
+		<key>AddToStatusMenu</key>
+		<false/>
+		<key>CreationDate</key>
+		<real>792369322.027601</real>
+		<key>KeyCode</key>
+		<integer>122</integer>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100359612</integer>
+						<key>Asynchronously</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteMacro</string>
+						<key>MacroUID</key>
+						<string>FA1CF08B-E223-49AE-92A1-C886FFE6D446</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>UseParameter</key>
+						<false/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>791838019.25916803</real>
+				<key>ModificationDate</key>
+				<real>794146439.03769302</real>
+				<key>Name</key>
+				<string>00-Main Fast</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>3B6E78BE-95DA-4E49-A6FB-2517EA3ABAB0</string>
+			</dict>
+		</array>
+		<key>Modifiers</key>
+		<integer>0</integer>
+		<key>Name</key>
+		<string>System Palette</string>
+		<key>PaletteUnderMouse</key>
+		<false/>
+		<key>Theme</key>
+		<dict>
+			<key>Theme</key>
+			<string>Sungroper</string>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>22DFBFB0-D31F-4513-8650-04B555B5D4E0</string>
+		<key>UID</key>
+		<string>9D634996-3302-47D4-BB69-69704BB8D65F</string>
+	</dict>
+</array>
+</plist>

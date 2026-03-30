@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>489098266.60678703</real>
+		<key>CustomIconData</key>
+		<string>KMEP-Finder</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100352535</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.agiletortoise.Drafts-OSX</string>
+							<key>Name</key>
+							<string>Drafts</string>
+							<key>NewFile</key>
+							<string>/Applications/Drafts.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<true/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>791518253.97495306</real>
+				<key>ModificationDate</key>
+				<real>792535257.17192101</real>
+				<key>Name</key>
+				<string>open: Drafts</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>2</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>6912</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>474CA31D-287A-4161-AC41-06083DF34190</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>open: Applications</string>
+		<key>Theme</key>
+		<dict>
+			<key>Columns</key>
+			<integer>2</integer>
+			<key>Opacity</key>
+			<integer>82</integer>
+			<key>Shrink</key>
+			<true/>
+			<key>Size</key>
+			<integer>14</integer>
+			<key>UseDefaultInstead</key>
+			<false/>
+		</dict>
+		<key>ToggleMacroUID</key>
+		<string>9E9C7E79-6968-4D70-B5E4-FE614A6209DD</string>
+		<key>UID</key>
+		<string>EBA3B8BD-794A-4664-B464-24BF770ACCF6</string>
+	</dict>
+</array>
+</plist>

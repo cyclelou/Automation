@@ -36,24 +36,11 @@
 				<key>CreationDate</key>
 				<real>759320827.046085</real>
 				<key>ModificationDate</key>
-				<real>759320861.94265795</real>
+				<real>794800168.80252695</real>
 				<key>Name</key>
 				<string>Copy Current Daily Note to Day One</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>ExecuteType</key>
-						<string>Time</string>
-						<key>MacroTriggerType</key>
-						<string>Time</string>
-						<key>TimeHour</key>
-						<integer>23</integer>
-						<key>TimeMinutes</key>
-						<integer>59</integer>
-						<key>WhichDays</key>
-						<integer>127</integer>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
 				<string>10A709A5-360C-4986-9C07-A99A844D5CDE</string>
 			</dict>

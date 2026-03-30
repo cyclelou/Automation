@@ -9,6 +9,8 @@
 		<real>719152176.82849801</real>
 		<key>CustomIconData</key>
 		<string>KMEP-DebuggerContinue</string>
+		<key>IsActive</key>
+		<false/>
 		<key>Macros</key>
 		<array>
 			<dict>
@@ -2392,7 +2394,7 @@ Incorrect or missing {SEARCH}:
 															<string>addmany</string>
 														</array>
 														<key>ResultVariable</key>
-														<string>VarName</string>
+														<string></string>
 														<key>TimeOutAbortsMacro</key>
 														<true/>
 													</dict>
@@ -2826,7 +2828,7 @@ WHERE
 															<string>USER</string>
 														</array>
 														<key>ResultVariable</key>
-														<string>VarName</string>
+														<string></string>
 														<key>TimeOutAbortsMacro</key>
 														<true/>
 													</dict>
@@ -2950,7 +2952,7 @@ WHERE
 															<string>OPTIONAL</string>
 														</array>
 														<key>ResultVariable</key>
-														<string>VarName</string>
+														<string></string>
 														<key>TimeOutAbortsMacro</key>
 														<true/>
 													</dict>
@@ -3074,7 +3076,7 @@ WHERE
 															<string>DEFAULT</string>
 														</array>
 														<key>ResultVariable</key>
-														<string>VarName</string>
+														<string></string>
 														<key>TimeOutAbortsMacro</key>
 														<true/>
 													</dict>
@@ -3843,7 +3845,7 @@ WHERE
 															<string>USER</string>
 														</array>
 														<key>ResultVariable</key>
-														<string>VarName</string>
+														<string></string>
 														<key>TimeOutAbortsMacro</key>
 														<true/>
 													</dict>
@@ -3969,7 +3971,7 @@ WHERE
 															<string>OPTIONAL</string>
 														</array>
 														<key>ResultVariable</key>
-														<string>VarName</string>
+														<string></string>
 														<key>TimeOutAbortsMacro</key>
 														<true/>
 													</dict>
@@ -4093,7 +4095,7 @@ WHERE
 															<string>DEFAULT</string>
 														</array>
 														<key>ResultVariable</key>
-														<string>VarName</string>
+														<string></string>
 														<key>TimeOutAbortsMacro</key>
 														<true/>
 													</dict>
@@ -4852,28 +4854,25 @@ WHERE
 								cnRmZAAAAAAD
 								AAAAAgAAAAcA
 								AABUWFQucnRm
-								AQAAAC6GAAAA
-								KwAAAAEAAAB+
+								AQAAAC5uAAAA
+								KwAAAAEAAABm
 								AAAAe1xydGYx
 								XGFuc2lcYW5z
 								aWNwZzEyNTJc
 								Y29jb2FydGYx
-								NTA0XGNvY29h
-								c3VicnRmODMw
+								NDA0XGNvY29h
+								c3VicnRmNDcw
 								CntcZm9udHRi
 								bH0Ke1xjb2xv
 								cnRibDtccmVk
 								MjU1XGdyZWVu
 								MjU1XGJsdWUy
-								NTU7fQp7XCpc
-								ZXhwYW5kZWRj
-								b2xvcnRibDs7
-								fQp9AQAAACMA
-								AAABAAAABwAA
-								AFRYVC5ydGYQ
-								AAAAnl3CWbYB
-								AAAAAAAAAAAA
-								AA==
+								NTU7fQp9AQAA
+								ACMAAAABAAAA
+								BwAAAFRYVC5y
+								dGYQAAAAd3Kj
+								V7YBAAAAAAAA
+								AAAAAA==
 																</data>
 																<key>Title</key>
 																<string></string>
@@ -5080,28 +5079,25 @@ WHERE
 								cnRmZAAAAAAD
 								AAAAAgAAAAcA
 								AABUWFQucnRm
-								AQAAAC6GAAAA
-								KwAAAAEAAAB+
+								AQAAAC5uAAAA
+								KwAAAAEAAABm
 								AAAAe1xydGYx
 								XGFuc2lcYW5z
 								aWNwZzEyNTJc
 								Y29jb2FydGYx
-								NTA0XGNvY29h
-								c3VicnRmODMw
+								NDA0XGNvY29h
+								c3VicnRmNDcw
 								CntcZm9udHRi
 								bH0Ke1xjb2xv
 								cnRibDtccmVk
 								MjU1XGdyZWVu
 								MjU1XGJsdWUy
-								NTU7fQp7XCpc
-								ZXhwYW5kZWRj
-								b2xvcnRibDs7
-								fQp9AQAAACMA
-								AAABAAAABwAA
-								AFRYVC5ydGYQ
-								AAAAnl3CWbYB
-								AAAAAAAAAAAA
-								AA==
+								NTU7fQp9AQAA
+								ACMAAAABAAAA
+								BwAAAFRYVC5y
+								dGYQAAAAd3Kj
+								V7YBAAAAAAAA
+								AAAAAA==
 																</data>
 																<key>Title</key>
 																<string></string>
@@ -6639,28 +6635,25 @@ Please choose another shortcut.</string>
 								cnRmZAAAAAAD
 								AAAAAgAAAAcA
 								AABUWFQucnRm
-								AQAAAC6GAAAA
-								KwAAAAEAAAB+
+								AQAAAC5uAAAA
+								KwAAAAEAAABm
 								AAAAe1xydGYx
 								XGFuc2lcYW5z
 								aWNwZzEyNTJc
 								Y29jb2FydGYx
-								NTA0XGNvY29h
-								c3VicnRmODMw
+								NDA0XGNvY29h
+								c3VicnRmNDcw
 								CntcZm9udHRi
 								bH0Ke1xjb2xv
 								cnRibDtccmVk
 								MjU1XGdyZWVu
 								MjU1XGJsdWUy
-								NTU7fQp7XCpc
-								ZXhwYW5kZWRj
-								b2xvcnRibDs7
-								fQp9AQAAACMA
-								AAABAAAABwAA
-								AFRYVC5ydGYQ
-								AAAAnl3CWbYB
-								AAAAAAAAAAAA
-								AA==
+								NTU7fQp9AQAA
+								ACMAAAABAAAA
+								BwAAAFRYVC5y
+								dGYQAAAAd3Kj
+								V7YBAAAAAAAA
+								AAAAAA==
 																</data>
 																<key>Title</key>
 																<string></string>
@@ -7097,7 +7090,7 @@ WHERE
 																	<string>modify</string>
 																</array>
 																<key>ResultVariable</key>
-																<string>VarName</string>
+																<string></string>
 																<key>TimeOutAbortsMacro</key>
 																<true/>
 															</dict>
@@ -7136,7 +7129,7 @@ WHERE
 																	<string>modify</string>
 																</array>
 																<key>ResultVariable</key>
-																<string>VarName</string>
+																<string></string>
 																<key>TimeOutAbortsMacro</key>
 																<true/>
 															</dict>
@@ -7295,7 +7288,7 @@ exit__⋅ Exit preferences and tools</string>
 																			<string></string>
 																		</array>
 																		<key>ResultVariable</key>
-																		<string>VarName</string>
+																		<string></string>
 																		<key>TimeOutAbortsMacro</key>
 																		<true/>
 																	</dict>
@@ -7325,7 +7318,7 @@ exit__⋅ Exit preferences and tools</string>
 																			<string></string>
 																		</array>
 																		<key>ResultVariable</key>
-																		<string>VarName</string>
+																		<string></string>
 																		<key>TimeOutAbortsMacro</key>
 																		<true/>
 																	</dict>
@@ -7355,7 +7348,7 @@ exit__⋅ Exit preferences and tools</string>
 																			<string>change_options</string>
 																		</array>
 																		<key>ResultVariable</key>
-																		<string>VarName</string>
+																		<string></string>
 																		<key>TimeOutAbortsMacro</key>
 																		<true/>
 																	</dict>

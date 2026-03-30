@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>791397493.985641</real>
+		<key>CustomIconData</key>
+		<string>KMEP-GenericApplication-/Applications/ChatGPT.app</string>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Action</key>
+						<string>IgnoreCaseRegEx</string>
+						<key>ActionUID</key>
+						<integer>100350816</integer>
+						<key>Captures</key>
+						<array>
+							<string></string>
+							<string>Local__DailyLog</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>SearchRegEx</string>
+						<key>Search</key>
+						<string>(?s)===BEGIN OBSIDIAN DAILY LOG===\n(.*?)\n===END OBSIDIAN DAILY LOG===</string>
+						<key>Source</key>
+						<string>Clipboard</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100350817</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>%ICUDateTime%yyyy-MM-dd% - Topics discussed with ChatGPT.md</string>
+						<key>Variable</key>
+						<string>Local__FileName</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100350818</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>/Users/lou/Obsidian/Data/ChatGPT Logs/%Variable%Local__FileName%</string>
+						<key>Variable</key>
+						<string>Local__FullPath</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100350819</integer>
+						<key>Append</key>
+						<true/>
+						<key>Destination</key>
+						<string>%Variable%Local__FullPath%</string>
+						<key>Encoding</key>
+						<string>UTF8</string>
+						<key>Format</key>
+						<string>PlainText</string>
+						<key>Format2</key>
+						<string>PlainText</string>
+						<key>MacroActionType</key>
+						<string>WriteFile</string>
+						<key>Source</key>
+						<string>Text</string>
+						<key>Text</key>
+						<string>## 🤖 AI Daily Log (%ICUDateTime%HH:mm%)
+
+%Variable%Local__DailyLog%
+
+---</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>791406254.93134999</real>
+				<key>ModificationDate</key>
+				<real>791407783.92333305</real>
+				<key>Name</key>
+				<string>Append2DailyNote</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>479310BE-E6F4-45B3-AAE7-5031C6B8A8AD</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>ChatGPT</string>
+		<key>ToggleMacroUID</key>
+		<string>295E37F6-B106-41FF-B9BA-5ADAB0BA26EF</string>
+		<key>UID</key>
+		<string>09549150-F990-4877-AEEA-E3DB5D298459</string>
+	</dict>
+</array>
+</plist>

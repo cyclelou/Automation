@@ -24,37 +24,9 @@
 						<key>HideOthers</key>
 						<false/>
 						<key>IconSize</key>
-						<integer>64</integer>
+						<integer>80</integer>
 						<key>IncludedApplications</key>
 						<array>
-							<dict>
-								<key>BundleIdentifier</key>
-								<string>com.microsoft.edgemac</string>
-								<key>Name</key>
-								<string>Microsoft Edge</string>
-							</dict>
-							<dict>
-								<key>BundleIdentifier</key>
-								<string>net.freemacsoft.AppCleaner</string>
-								<key>Name</key>
-								<string>AppCleaner</string>
-								<key>NewFile</key>
-								<string>/Applications/AppCleaner.app</string>
-							</dict>
-							<dict>
-								<key>BundleIdentifier</key>
-								<string>company.thebrowser.Browser</string>
-								<key>Name</key>
-								<string>Arc</string>
-							</dict>
-							<dict>
-								<key>BundleIdentifier</key>
-								<string>com.corecode.MacUpdater</string>
-								<key>Name</key>
-								<string>MacUpdater</string>
-								<key>NewFile</key>
-								<string>/Applications/MacUpdater.app</string>
-							</dict>
 							<dict>
 								<key>BundleIdentifier</key>
 								<string>com.apple.systempreferences</string>
@@ -65,41 +37,11 @@
 							</dict>
 							<dict>
 								<key>BundleIdentifier</key>
-								<string>com.evernote.Evernote</string>
-								<key>Name</key>
-								<string>Evernote</string>
-								<key>NewFile</key>
-								<string>/Applications/Evernote.app</string>
-							</dict>
-							<dict>
-								<key>BundleIdentifier</key>
-								<string>com.apple.ActivityMonitor</string>
-								<key>Name</key>
-								<string>Activity Monitor</string>
-								<key>NewFile</key>
-								<string>/System/Applications/Utilities/Activity Monitor.app</string>
-							</dict>
-							<dict>
-								<key>BundleIdentifier</key>
 								<string>com.apple.finder</string>
 								<key>Name</key>
 								<string>Finder</string>
 								<key>NewFile</key>
 								<string>/System/Library/CoreServices/Finder.app</string>
-							</dict>
-							<dict>
-								<key>BundleIdentifier</key>
-								<string>com.apple.AppStore</string>
-								<key>Name</key>
-								<string>App Store</string>
-								<key>NewFile</key>
-								<string>/System/Applications/App Store.app</string>
-							</dict>
-							<dict>
-								<key>BundleIdentifier</key>
-								<string>com.lastpass.LastPass</string>
-								<key>Name</key>
-								<string>LastPass</string>
 							</dict>
 							<dict>
 								<key>BundleIdentifier</key>
@@ -119,11 +61,105 @@
 							</dict>
 							<dict>
 								<key>BundleIdentifier</key>
+								<string>com.itone.ProcessSpy</string>
+								<key>Name</key>
+								<string>ProcessSpy</string>
+								<key>NewFile</key>
+								<string>/Applications/ProcessSpy.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.jinghaoshe.qspace.pro</string>
+								<key>Name</key>
+								<string>QSpace Pro</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.vivaldi.Vivaldi</string>
+								<key>Name</key>
+								<string>Vivaldi</string>
+								<key>NewFile</key>
+								<string>/Applications/Vivaldi.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.jonny.supermona</string>
+								<key>Name</key>
+								<string>Mona</string>
+								<key>NewFile</key>
+								<string>/Applications/Mona.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.apple.MobileSMS</string>
+								<key>Name</key>
+								<string>Messages</string>
+								<key>NewFile</key>
+								<string>/System/Applications/Messages.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.fastmail.mac.Fastmail</string>
+								<key>Name</key>
+								<string>Fastmail</string>
+								<key>NewFile</key>
+								<string>/Applications/Fastmail.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.culturedcode.ThingsMac</string>
+								<key>Name</key>
+								<string>Things</string>
+								<key>NewFile</key>
+								<string>/Applications/Things3.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>org.mozilla.firefox</string>
+								<key>Name</key>
+								<string>Firefox</string>
+								<key>NewFile</key>
+								<string>/Applications/Firefox.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>net.kovidgoyal.calibre</string>
+								<key>Name</key>
+								<string>calibre</string>
+								<key>NewFile</key>
+								<string>/Applications/calibre.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.openai.chat</string>
+								<key>Name</key>
+								<string>ChatGPT</string>
+								<key>NewFile</key>
+								<string>/Applications/ChatGPT.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.stairways.keyboardmaestro.editor</string>
+								<key>Name</key>
+								<string>Keyboard Maestro</string>
+								<key>NewFile</key>
+								<string>/Applications/Keyboard Maestro.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
 								<string>com.apple.shortcuts</string>
 								<key>Name</key>
 								<string>Shortcuts</string>
 								<key>NewFile</key>
 								<string>/System/Applications/Shortcuts.app</string>
+							</dict>
+							<dict>
+								<key>BundleIdentifier</key>
+								<string>com.elgato.StreamDeck</string>
+								<key>Name</key>
+								<string>Elgato Stream Deck</string>
+								<key>NewFile</key>
+								<string>/Applications/Elgato Stream Deck.app</string>
 							</dict>
 						</array>
 						<key>MacroActionType</key>
@@ -142,21 +178,19 @@
 				</array>
 				<key>CreationDate</key>
 				<real>721485507.85561502</real>
-				<key>IsActive</key>
-				<false/>
 				<key>ModificationDate</key>
-				<real>726264952.63959897</real>
+				<real>791944613.58175898</real>
 				<key>Triggers</key>
 				<array>
 					<dict>
 						<key>FireType</key>
 						<string>Pressed</string>
 						<key>KeyCode</key>
-						<integer>48</integer>
+						<integer>80</integer>
 						<key>MacroTriggerType</key>
 						<string>HotKey</string>
 						<key>Modifiers</key>
-						<integer>256</integer>
+						<integer>0</integer>
 					</dict>
 					<dict>
 						<key>FireType</key>

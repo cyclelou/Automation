@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>721485507.87663996</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>16269493</integer>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>IncludedVariables</key>
+						<array>
+							<string>9999</string>
+						</array>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>-- Define the list of URLs to open
+property urlList : {¬
+    "http://192.168.1.229/Main", ¬
+    "http://192.168.1.229:8112", ¬
+    "http://192.168.1.229:7878", ¬
+    "http://192.168.1.229:8989", ¬
+    "http://192.168.1.229:9705", ¬
+    "http://192.168.1.229:6080/vnc.html?resize=remote&amp;host=192.168.1.229&amp;port=6080&amp;autoconnect=1", ¬
+    "https://plex.plummers.link/web/index.html#!/", ¬
+    "https://trakt.tv/users/lou-linkage-lol" ¬
+}
+
+-- Check if Vivaldi is running. If not, launch it.
+tell application "System Events"
+    set vivaldiRunning to (name of processes) contains "Vivaldi"
+end tell
+
+if not vivaldiRunning then
+    tell application "Vivaldi"
+        activate
+        -- Give Vivaldi a moment to launch
+        delay 2
+    end tell
+end if
+
+-- Open the URLs in Vivaldi
+tell application "Vivaldi"
+    activate
+    set firstURL to item 1 of urlList
+    -- Open the first URL in a new window (or a new tab in an existing window if one is already open)
+    open location firstURL
+
+    -- Iterate through the rest of the URLs and open them in new tabs
+    repeat with i from 2 to count of urlList
+        set currentURL to item i of urlList
+        -- Create a new tab and set its URL
+        tell front window
+            make new tab with properties {URL:currentURL}
+        end tell
+        -- Optional: Add a small delay between opening tabs to prevent overwhelming the browser
+        delay 0.5
+    end repeat
+end tell
+</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>772031615.59764397</real>
+				<key>ModificationDate</key>
+				<real>787047449.10851097</real>
+				<key>Name</key>
+				<string>Unraid Media URLs</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>A4894472-BE79-4674-BFEB-19D5029CC8F1</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>67BE4F0A-461C-46D0-ACB9-8F22AAE6F03B</string>
+		<key>UID</key>
+		<string>804D32AF-0B39-439F-8EF3-493A833B14CA</string>
+	</dict>
+</array>
+</plist>

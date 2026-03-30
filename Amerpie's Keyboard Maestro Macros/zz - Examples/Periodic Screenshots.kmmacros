@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360475</integer>
+						<key>Destination</key>
+						<string>~/Periodic Screenshots</string>
+						<key>MacroActionType</key>
+						<string>NewFolder</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360476</integer>
+						<key>AlwaysNominalResolution</key>
+						<false/>
+						<key>DestinationNamedClipboardRedundantDisplayName</key>
+						<string>Periodic Screenshot</string>
+						<key>DestinationNamedClipboardUID</key>
+						<string>03E39C85-F954-4918-913C-E6178BBC9E2B</string>
+						<key>DestinationUseNamedClipboard</key>
+						<true/>
+						<key>IncludeShadows</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>ScreenCapture</string>
+						<key>ScreenArea</key>
+						<dict>
+							<key>ScreenAreaType</key>
+							<string>ScreenAll</string>
+						</dict>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360477</integer>
+						<key>Append</key>
+						<false/>
+						<key>Destination</key>
+						<string>~/Periodic Screenshots/%ICUDateTime%yyyy-MM-dd-HH-mm-ss%.png</string>
+						<key>Encoding</key>
+						<string>UTF8</string>
+						<key>Format</key>
+						<string>PNG</string>
+						<key>Format2</key>
+						<string>PNG</string>
+						<key>MacroActionType</key>
+						<string>WriteFile</string>
+						<key>Name</key>
+						<string>03E39C85-F954-4918-913C-E6178BBC9E2B</string>
+						<key>RedundandDisplayName</key>
+						<string>Periodic Screenshot</string>
+						<key>Source</key>
+						<string>NamedClipboard</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>452751498.99209899</real>
+				<key>IsActive</key>
+				<false/>
+				<key>ModificationDate</key>
+				<real>430736576.76057899</real>
+				<key>Name</key>
+				<string>Periodic Screenshots</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>ExecuteType</key>
+						<string>While</string>
+						<key>MacroTriggerType</key>
+						<string>Time</string>
+						<key>RepeatTime</key>
+						<integer>60</integer>
+						<key>TimeFinishHour</key>
+						<integer>17</integer>
+						<key>TimeFinishMinutes</key>
+						<integer>30</integer>
+						<key>TimeHour</key>
+						<integer>8</integer>
+						<key>TimeMinutes</key>
+						<integer>30</integer>
+						<key>WhichDays</key>
+						<integer>127</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>84F367CE-844E-4DDA-8CE7-411E5CA1E524</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

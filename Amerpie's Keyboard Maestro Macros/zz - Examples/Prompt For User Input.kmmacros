@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>453018705.83122802</real>
+		<key>IsActive</key>
+		<false/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360483</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>Test | Entry</string>
+						<key>Variable</key>
+						<string>One Entry</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360484</integer>
+						<key>MacroActionType</key>
+						<string>SetVariableToText</string>
+						<key>Text</key>
+						<string>Good|Better|Best</string>
+						<key>Variable</key>
+						<string>Multiple Entries</string>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>100360485</integer>
+						<key>Buttons</key>
+						<array>
+							<dict>
+								<key>Button</key>
+								<string>OK</string>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Cancel</string>
+								<key>Cancel</key>
+								<true/>
+							</dict>
+							<dict>
+								<key>Button</key>
+								<string>Help/H</string>
+								<key>Cancel</key>
+								<false/>
+							</dict>
+						</array>
+						<key>MacroActionType</key>
+						<string>PromptForUserInput</string>
+						<key>Prompt</key>
+						<string>Please enter the details for these variables.</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>Title</key>
+						<string>Example</string>
+						<key>Variables</key>
+						<array>
+							<dict>
+								<key>Default</key>
+								<string>default value</string>
+								<key>Variable</key>
+								<string>Normal Text</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>default password</string>
+								<key>Variable</key>
+								<string>Password Variable</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>Better|Good|Better|Best</string>
+								<key>Variable</key>
+								<string>Popup Menu Default</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>Good|Better|Best|-|Terrible</string>
+								<key>Variable</key>
+								<string>Popup Menu Separator</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>F__Fail|C__OK|B__Good|A__Excellent</string>
+								<key>Variable</key>
+								<string>Popup Menu Values</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>This|That|%Variable%One Entry%</string>
+								<key>Variable</key>
+								<string>With Variable</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>|This|%Variable%Multiple Entries%</string>
+								<key>Variable</key>
+								<string>Variable List</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>1|0</string>
+								<key>Variable</key>
+								<string>Check Box On</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>0|1</string>
+								<key>Variable</key>
+								<string>Check Box Off</string>
+							</dict>
+							<dict>
+								<key>Default</key>
+								<string>Note MM is not shown</string>
+								<key>Variable</key>
+								<string>MM__This Variable</string>
+							</dict>
+						</array>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>452751498.99209899</real>
+				<key>ModificationDate</key>
+				<real>421816338.64865398</real>
+				<key>Name</key>
+				<string>Prompt For User Input</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>MacroTriggerType</key>
+						<string>StatusMenu</string>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>AFABDD87-9F69-489A-A5F9-096218C62712</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>zz - Examples</string>
+		<key>ToggleMacroUID</key>
+		<string>09E10DB2-A690-4960-800E-8756FF36E4C7</string>
+		<key>UID</key>
+		<string>1447A520-04F3-4ABC-B509-2C39D3AAB7E0</string>
+	</dict>
+</array>
+</plist>

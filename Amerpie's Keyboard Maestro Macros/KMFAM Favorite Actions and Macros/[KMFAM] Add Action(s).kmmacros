@@ -306,6 +306,8 @@
 		AAAoGgAAFZ8AALg2Y3VydgAAAAAAAAABAc0AAHNmMzIAAAAAAAEMQgAABd7/
 		//MmAAAHkgAA/ZH///ui///9owAAA9wAAMBs
 		</data>
+		<key>IsActive</key>
+		<false/>
 		<key>Macros</key>
 		<array>
 			<dict>
@@ -475,16 +477,11 @@
 				<key>CreationDate</key>
 				<real>490050776.03960901</real>
 				<key>ModificationDate</key>
-				<real>747266359.37648594</real>
+				<real>790563219.27124405</real>
 				<key>Name</key>
 				<string>[KMFAM] Add Action(s)</string>
 				<key>Triggers</key>
-				<array>
-					<dict>
-						<key>MacroTriggerType</key>
-						<string>StatusMenu</string>
-					</dict>
-				</array>
+				<array/>
 				<key>UID</key>
 				<string>9F59147A-7BEB-42B4-A0B4-408662C4C4C1</string>
 			</dict>

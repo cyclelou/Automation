@@ -306,6 +306,8 @@
 		AAAoGgAAFZ8AALg2Y3VydgAAAAAAAAABAc0AAHNmMzIAAAAAAAEMQgAABd7/
 		//MmAAAHkgAA/ZH///ui///9owAAA9wAAMBs
 		</data>
+		<key>IsActive</key>
+		<false/>
 		<key>Macros</key>
 		<array>
 			<dict>

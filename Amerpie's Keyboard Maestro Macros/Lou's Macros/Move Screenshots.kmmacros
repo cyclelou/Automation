@@ -35,8 +35,10 @@
 				</array>
 				<key>CreationDate</key>
 				<real>752089594.66220105</real>
+				<key>IsActive</key>
+				<false/>
 				<key>ModificationDate</key>
-				<real>752925996.87232006</real>
+				<real>771208993.02724099</real>
 				<key>Name</key>
 				<string>Move Screenshots</string>
 				<key>Triggers</key>
@@ -51,7 +53,7 @@
 						<key>TimeMinutes</key>
 						<integer>35</integer>
 						<key>WhichDays</key>
-						<integer>127</integer>
+						<integer>16</integer>
 					</dict>
 				</array>
 				<key>UID</key>
